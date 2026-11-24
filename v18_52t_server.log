@@ -1,0 +1,26 @@
+SOURCE_MANIFEST_PASS 19
+SYNTHETIC_PASS 160 signed energy identities, 40 independent historical RHS checks
+SYMBOLIC SYMPY_EXACT_PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+{
+  "decision": "AUTHENTIC_EXTERNAL_NEGATIVE_CLOCK_WITH_INTERNAL_POSITIVE_CLOCK_DISCORDANCE_AND_SIGNED_ENERGY_LEDGER",
+  "native": "AUTHENTIC_20D_SERIES_AND_EXTERNAL_PHASE",
+  "clock": {
+    "original": -1,
+    "autonomous": -1
+  },
+  "phase_residual": {
+    "original": -1.609379296496627e-11,
+    "autonomous": -1.5923262708383845e-11
+  },
+  "max_energy_closure": 3.8614470562053915e-11,
+  "engine_last_component": [
+    {
+      "seed": "original",
+      "x": 0.5,
+      "normalized_engine_theta_rate": 0.5,
+      "engine_theta_rate_over_x": 1.0
+    }
+  ]
+}
+SENDBACK /root/elab1/hysteresis/q550_phase_clock_orientation_rotating_frame_energy_signed_drive_certification_v18_52t_bundle_server_sendback.zip 444612

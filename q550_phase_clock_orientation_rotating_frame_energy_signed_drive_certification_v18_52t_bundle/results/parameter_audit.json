@@ -1,0 +1,30 @@
+{
+  "status": "MATCH",
+  "authenticated_parameters": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "expected_parameters": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "differences": {
+    "phi0": 0.0,
+    "e_reserve": 0.0,
+    "gamma_rho": 0.0,
+    "barrier_B": 0.0,
+    "mu_x": 0.0,
+    "gamma_x": 0.0,
+    "m_x": 0.0
+  }
+}

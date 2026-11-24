@@ -1,0 +1,4 @@
+numpy
+scipy
+matplotlib
+sympy  # optional for exact symbolic check

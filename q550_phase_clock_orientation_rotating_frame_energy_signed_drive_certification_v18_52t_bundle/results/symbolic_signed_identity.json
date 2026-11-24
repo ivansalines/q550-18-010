@@ -1,0 +1,7 @@
+{
+  "status": "SYMPY_EXACT_PASS",
+  "residual_dE": "0",
+  "residual_dJsum": "0",
+  "residual_dH_signed": "0",
+  "scope": "arbitrary external phase rate; signed frame requires phase_rate=sigma*x"
+}
