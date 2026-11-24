@@ -1,0 +1,55 @@
+{
+  "status": "HISTORICAL_ZERO_LINE_NEGATIVE_CONTROL",
+  "n_crossings": 4,
+  "note": "These roots are all Q2\u22480; they cannot reconstruct nonzero user-observed slope. They are not the four user points.",
+  "events": [
+    {
+      "tau": 23.10908241460799,
+      "Q1": 0.0001841611868950517,
+      "Q2": 0.0
+    },
+    {
+      "tau": 29.50828270939554,
+      "Q1": -0.00023330832688399613,
+      "Q2": 8.271806125530277e-25
+    },
+    {
+      "tau": 35.964403651303044,
+      "Q1": 0.0002859316396610261,
+      "Q2": 0.0
+    },
+    {
+      "tau": 42.45276005441001,
+      "Q1": -0.0003391727556566699,
+      "Q2": 0.0
+    }
+  ],
+  "four_point_fit": {
+    "n": 4,
+    "through_origin_slope": -6.768112970340702e-22,
+    "through_origin_angle_deg": -3.877843084682735e-20,
+    "affine_slope": -6.081456410790551e-22,
+    "affine_intercept": 1.9122841024457847e-25,
+    "affine_angle_deg": -3.4844178563107644e-20,
+    "tls_angle_deg": -3.484417856310764e-20,
+    "affine_rmse": 3.196413792893047e-25,
+    "affine_max_abs_residual": 4.940667602864996e-25,
+    "through_origin_rmse": 3.7202527560716293e-25,
+    "normalized_affine_rmse": 9.424146661498485e-22,
+    "per_point_affine_residuals": [
+      -7.923158717840758e-26,
+      4.940667602864996e-25,
+      -1.7340329938138368e-26,
+      -3.974948431699537e-25
+    ],
+    "leave_one_out_affine_slopes": [
+      -5.091572601084618e-22,
+      0.0,
+      -5.611068548205541e-22,
+      -1.7057370509974543e-21
+    ],
+    "x_span": 0.0006251043953176959,
+    "y_span": 8.271806125530277e-25,
+    "angle_difference_ols_tls_deg": 6.018531076210112e-36
+  }
+}

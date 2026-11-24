@@ -1,0 +1,38 @@
+{
+  "version": "v18.52n",
+  "parent_v18_52l_vectors_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+  "parent_v18_52m_server_report_sha256": "1c92da5d2dad507b4f16f5b66c6a3e8036ecff39d30055b1f7971971375cebeb",
+  "physical_data_in_bundle": false,
+  "source_declarations": {
+    "nodal_slope": {
+      "value": -0.308,
+      "status": "user_proposed_from_four_unprovided_observational_coordinates"
+    },
+    "nodal_intercept": {
+      "value": 0.0,
+      "status": "assumed_zero_not_empirically_fitted"
+    },
+    "tilt_magnitude_degrees": {
+      "value": 17.04,
+      "status": "user_proposed_around_seam"
+    },
+    "PCA_hidden_axis": {
+      "value": [
+        -0.4105034129634594,
+        0.9094294538464419,
+        -0.06652079691279893
+      ],
+      "status": "authenticated_v18.52m_server_report_and_recomputed_on_full_v18.52l_trace"
+    }
+  },
+  "actual_python_sources": [
+    "scripts/pack_sendback.py",
+    "scripts/run_audit.py",
+    "scripts/verify_lineage.py",
+    "scripts/write_manifest.py",
+    "tests/test_synthetic.py"
+  ],
+  "expected_trajectories": 8,
+  "expected_samples_per_trajectory": 65537,
+  "no_new_nonlinear_integration": true
+}

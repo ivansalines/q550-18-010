@@ -1,0 +1,6 @@
+PARENT LINEAGE PASS: v18.52l physical vectors and v18.52m server report pinned
+v18.52n SYNTHETIC TESTS PASS {'slope_hinge_basis': 'PASS', 'sloped_affine_hinge': 'PASS', 'four_point_fits': 'PASS', 'planar_null_and_nonplanar_control': 'PASS', 'single_path_two_views': 'PASS', 'five_d_crossing_interpolation': 'PASS', 'window_integration': 'PASS'}
+PREFLIGHT PASS 8 65537 NO_USER_FOUR_POINT_COORDINATES_SUPPLIED
+v18.52n AUDIT PASS 8 trajectories; 65537 samples each; m= -0.308 b= 0.0 angle= 17.04 four_point= NO_USER_FOUR_POINT_COORDINATES_SUPPLIED output= /root/elab1/hysteresis/q550_four_point_nodal_axis_reconstruction_and_paired_hinge_observer_audit_v18_52n_bundle/results
+OUTPUT MANIFEST PASS 29
+SENDBACK ZIP PASS /root/elab1/hysteresis/q550_four_point_nodal_axis_reconstruction_and_paired_hinge_observer_audit_v18_52n_bundle_server_sendback.zip 642412 bytes
