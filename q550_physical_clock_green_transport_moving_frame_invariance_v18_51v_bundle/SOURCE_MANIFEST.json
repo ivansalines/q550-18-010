@@ -1,0 +1,22 @@
+{
+  "root": "q550_physical_clock_green_transport_moving_frame_invariance_v18_51v_bundle",
+  "version": "v18.51v",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "857b02d66ad87a5877ff8fb9241b44480764b52b07f84563ae16fb70d2e44e9f",
+    "README.md": "ed74179496cf0b31c9cb29bed20a558a0fd9d4b1051bf783e42fd32c6553686e",
+    "SCIENTIFIC_DECISION_RULES.md": "937897bc0d154a2b55aa3a9650ad4d75f1e6e254da813fdf29aa6818d083286e",
+    "SCIENTIFIC_REPORT.md": "b5bc43cbf40ae3c1b07410bb54197287938d4eee12c82919cb4b32eb4b1f6438",
+    "inputs/authenticated_extended_paired_kappa_nonlinear_states_v18_51r.npz": "b33157879081d1c8a00e20b90ff64ea8904f371ac8ea7e3a659a6f7fc3ffbaf4",
+    "inputs/authenticated_green_channel_transport_states_v18_51t.npz": "def1fd342a2429e31a8a1bddb8c45f186176431dd5ab28dd769141f12866a026",
+    "inputs/q550_time_resolved_green_kernel_compensation_birth_v18_51u_bundle_server_sendback.zip": "a213f70d0302eafe83110b45e2f6550b34488219b9f3c2efc0224b44d81fc1f8",
+    "requirements.txt": "b4d4671879d33d90228042687b851af90add9dc1d9433d2a161ac674b52c7dfb",
+    "run_on_server.sh": "0fcacc6ed001f57d085892df06289d804c64aec11fbe8d82f2ba6e198ce18501",
+    "scripts/pack_sendback.py": "baf1e371c3d7d5b2da22f6d01fcfde5bfa58a3f28a7671eb1bad778c545a8fe0",
+    "scripts/run_audit.py": "c0eee5d944de28b877ccca9043a34d99c5921ae3885b9a8347fa4bfbbc4751c2",
+    "scripts/verify_source_manifest.py": "17045d9b03f0a7b86c20091448556223ea3c170054e956656a12c2945ccbf33a",
+    "scripts/write_output_manifest.py": "c7ce7f7d18456977d6fa21ba0bc739e3dccf720e08ca0a5e47b188f80f7731c1",
+    "tests/test_clock_frame_synthetic.py": "5edec7a2f2ce21f690a32afff469e1b132206beb41067cd547a95056fbeb2cd7",
+    "tests/test_results.py": "d2a44270730e549d5762fca0b02be367ca050df7ce52107a678b161ec3e2e577"
+  },
+  "protocol": "Full U ancestor plus cached T/R arrays; check nested byte identity at server run"
+}

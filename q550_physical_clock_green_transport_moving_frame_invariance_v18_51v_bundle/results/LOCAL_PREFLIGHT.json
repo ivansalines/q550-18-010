@@ -1,0 +1,27 @@
+{
+  "version": "v18.51v",
+  "mode": "preflight",
+  "lineage": {
+    "u": {
+      "sha256": "a213f70d0302eafe83110b45e2f6550b34488219b9f3c2efc0224b44d81fc1f8",
+      "source_entries": 14,
+      "output_entries": 9
+    },
+    "t": {
+      "sha256": "3eb0406e5edf08ab8c3b0702431bd0ded476487267b135138e52ec8775960f02",
+      "source_entries": 13
+    },
+    "s": {
+      "sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+      "source_entries": 13
+    },
+    "r": {
+      "sha256": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+      "source_entries": 13
+    }
+  },
+  "checks": {
+    "full_u_parent_source_crc_and_manifest": true,
+    "nested_t_s_r_genealogy_matched_to_cached_states": true
+  }
+}

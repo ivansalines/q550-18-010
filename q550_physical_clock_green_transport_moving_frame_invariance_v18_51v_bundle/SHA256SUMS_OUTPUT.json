@@ -1,0 +1,13 @@
+{
+  "version": "v18.51v",
+  "root": "q550_physical_clock_green_transport_moving_frame_invariance_v18_51v_bundle",
+  "file_sha256": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "d1b48a075b800c274aed807d1eb7d1ff46fb9d75bf4650f6d8de864ca9ea6e40",
+    "results/moving_frame_components_vs_physical_vectors.png": "a471c4e86a7d664c37a6b449a1863fd86b5763746b1242f358f4f6c45c4dbcfb",
+    "results/physical_clock_causal_green_density.png": "2a25dbac3641674fb05565d3e642cfcb34e331f3d2dc11d9043f3e2980c14f75",
+    "results/physical_clock_frame_green_tensors.npz": "b472b7bc994e9339a0c4835df4963d26f0994843b85957f783ded9d3ea937e68",
+    "results/physical_clock_frame_section_ledger.csv": "932b123b57e240fb70eff2755f8c97d636d8e9eaeb1528c020b6b99e0f2fe4e2",
+    "results/physical_clock_vs_fixed_tau_sensitivity.png": "e4b875285dda3ff301c6ae1998fec729ba7a7ad20dd316da26b6682d465ded82",
+    "results/report.json": "55a5ae3fd15ddb4171756a428e28d42d84eedd34f125b08d415774dc9041747a"
+  }
+}

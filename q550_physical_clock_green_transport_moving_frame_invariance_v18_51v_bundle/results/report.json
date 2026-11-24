@@ -1,0 +1,349 @@
+{
+  "version": "v18.51v",
+  "title": "Physical-Clock Green Transport & Moving-Frame Invariance Audit",
+  "mode": "full",
+  "classification": "CLOCK_REPARAMETERIZED_GREEN_AND_FRAME_COVARIANCE_NUMERICAL_DIAGNOSTIC_NOT_MATERIAL_MEMORY_CERTIFICATE",
+  "all_passed": true,
+  "scientific_checks": {
+    "authenticated_nested_model_genealogy": true,
+    "historical_midpoint_and_distinct_kappas": true,
+    "physical_clock_monotone_and_integral_identity": true,
+    "physical_time_green_density_causal": true,
+    "physical_time_green_density_scaling": true,
+    "independent_nonuniform_tau_quadrature": true,
+    "fixed_history_total_response_unchanged": true,
+    "model_tangent_matches_nonlinear_secant": true,
+    "matched_tau_nonlinear_secant_matches_clock_corrected": true,
+    "model_tangent_clock_corrected_matches_nonlinear": true,
+    "physical_vectors_invariant_under_both_observer_families": true,
+    "moving_frame_source_additivity": true,
+    "covariant_connection_restores_derivative": true,
+    "source_age_maps_increasing_physical_clock": true,
+    "noninvariant_component_cancellation_not_confused_with_material_memory": true,
+    "source_channel_causality_is_linearized_not_physical_actuator_certificate": true
+  },
+  "historical_kappa_original": 0.16666666666666666,
+  "historical_kappa_autonomous": 0.16659961041764054,
+  "source_channels": [
+    "v2",
+    "omega2",
+    "other",
+    "total"
+  ],
+  "sections_per_seed": 513,
+  "physical_model_lineage": {
+    "u": {
+      "sha256": "a213f70d0302eafe83110b45e2f6550b34488219b9f3c2efc0224b44d81fc1f8",
+      "source_entries": 14,
+      "output_entries": 9
+    },
+    "t": {
+      "sha256": "3eb0406e5edf08ab8c3b0702431bd0ded476487267b135138e52ec8775960f02",
+      "source_entries": 13
+    },
+    "s": {
+      "sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+      "source_entries": 13
+    },
+    "r": {
+      "sha256": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+      "source_entries": 13
+    }
+  },
+  "seeds": {
+    "original": {
+      "physical_tau_final": 0.33481856382894365,
+      "clock_start": 1.6736334194327467,
+      "clock_final": 1.6749373788512554,
+      "max_clock_identity_error": 3.1812330547609236e-12,
+      "max_frozen_history_green_density_error": 2.7755575615628914e-17,
+      "max_causal_future_kernel_abs": 0.0,
+      "max_nonlinear_tau_quadrature_response_error": 7.924878201587271e-14,
+      "max_physical_fixed_history_total_error": 7.924878201587271e-14,
+      "max_tangent_vs_kappa_secant_error": 1.7703992406196273e-10,
+      "max_matched_tau_vs_clock_corrected_secant_error": 6.064260530368182e-12,
+      "max_matched_tau_vs_clock_corrected_model_error": 1.7701804887367e-10,
+      "terminal_fixed_xi_sensitivity_norm": 0.04648223190083042,
+      "terminal_clock_correction_norm": 1.0234480273608302e-07,
+      "terminal_clock_correction_ratio": 2.201804830594948e-06,
+      "terminal_clock_correction_second_plane": [
+        -6.221885799915473e-09,
+        -1.4259164684966059e-08
+      ],
+      "terminal_fixed_tau_sensitivity_norm": 0.04648221603353319,
+      "terminal_radial_cancel_fraction": 0.12045557125872186,
+      "source_ages": {
+        "radial_v2": {
+          "mass": 0.04249067110924558,
+          "median_xi": 0.058984375000000006,
+          "median_tau": 0.09872087206134052,
+          "mean_lag_xi": 0.13291422007808862,
+          "mean_lag_tau": 0.22253178202812843,
+          "first_half_xi_mass_fraction": 0.7482554160547139,
+          "first_half_tau_mass_fraction": 0.7482554160547139
+        },
+        "radial_omega2": {
+          "mass": 0.0027233045337023347,
+          "median_xi": 0.055859375,
+          "median_tau": 0.0934903743865276,
+          "mean_lag_xi": 0.13792457228278054,
+          "mean_lag_tau": 0.23091967711526717,
+          "first_half_xi_mass_fraction": 0.8024869006703055,
+          "first_half_tau_mass_fraction": 0.8024869006703055
+        },
+        "radial_other": {
+          "mass": 2.771166595970952e-06,
+          "median_xi": 0.031640625,
+          "median_tau": 0.05295522657535388,
+          "mean_lag_xi": 0.16028510652617706,
+          "mean_lag_tau": 0.26834759077147724,
+          "first_half_xi_mass_fraction": 0.9394663603012926,
+          "first_half_tau_mass_fraction": 0.9394663603012926
+        },
+        "radial_total": {
+          "mass": 0.03977013774213922,
+          "median_xi": 0.059375000000000004,
+          "median_tau": 0.09937468720917972,
+          "mean_lag_xi": 0.13257303781525023,
+          "mean_lag_tau": 0.2219606039842516,
+          "first_half_xi_mass_fraction": 0.7445551781652774,
+          "first_half_tau_mass_fraction": 0.7445551781652774
+        },
+        "azimuthal_v2": {
+          "mass": 0.009465045330690706,
+          "median_xi": 0.041796875000000004,
+          "median_tau": 0.06995360438210789,
+          "mean_lag_xi": 0.1494168139937425,
+          "mean_lag_tau": 0.2501558242736471,
+          "first_half_xi_mass_fraction": 0.8725925357448296,
+          "first_half_tau_mass_fraction": 0.8725925357448296
+        },
+        "azimuthal_omega2": {
+          "mass": 0.014322927189472938,
+          "median_xi": 0.07734375,
+          "median_tau": 0.12945096692726252,
+          "mean_lag_xi": 0.11916919967021683,
+          "mean_lag_tau": 0.19952381843901423,
+          "first_half_xi_mass_fraction": 0.6474839216925165,
+          "first_half_tau_mass_fraction": 0.6474839216925165
+        },
+        "azimuthal_other": {
+          "mass": 6.083528273068938e-07,
+          "median_xi": 0.02421875,
+          "median_tau": 0.040533498604326555,
+          "mean_lag_xi": 0.16825841296348465,
+          "mean_lag_tau": 0.28169316029741803,
+          "first_half_xi_mass_fraction": 0.9731852669445269,
+          "first_half_tau_mass_fraction": 0.9731852669445269
+        },
+        "azimuthal_total": {
+          "mass": 0.02378858087299095,
+          "median_xi": 0.061328125000000004,
+          "median_tau": 0.10264377301923637,
+          "mean_lag_xi": 0.13120543276069951,
+          "mean_lag_tau": 0.21967147755827693,
+          "first_half_xi_mass_fraction": 0.737058889995383,
+          "first_half_tau_mass_fraction": 0.737058889995383
+        }
+      },
+      "observer_families": {
+        "rotating_sine": {
+          "final_angle_relative_to_radial": 0.2699999999999999,
+          "max_physical_vector_reconstruction_error": 1.3877787807814457e-17,
+          "max_kernel_reconstruction_error": 1.6653345369377348e-16,
+          "max_response_norm_error": 1.3877787807814457e-17,
+          "max_channel_additivity_error": 9.71445146547012e-17,
+          "max_covariant_derivative_reconstruction_error": 3.6023574828680793e-07,
+          "end_rotated_radial_channel_components": [
+            0.04347589732152587,
+            0.0011957332953140458,
+            2.8330365378194177e-06,
+            0.04467446365337781
+          ],
+          "end_rotated_azimuthal_channel_components": [
+            -0.002211462528338105,
+            0.014530411306797355,
+            -1.5284449776714047e-07,
+            0.012318795933961459
+          ]
+        },
+        "rotating_crest": {
+          "final_angle_relative_to_radial": -0.059999999999999984,
+          "max_physical_vector_reconstruction_error": 1.3877787807814457e-17,
+          "max_kernel_reconstruction_error": 1.3877787807814457e-16,
+          "max_response_norm_error": 6.938893903907228e-18,
+          "max_channel_additivity_error": 9.71445146547012e-17,
+          "max_covariant_derivative_reconstruction_error": 5.454539713234396e-07,
+          "end_rotated_radial_channel_components": [
+            0.041846648803920306,
+            -0.0035772641547438294,
+            2.7297007194701868e-06,
+            0.03827211434989603
+          ],
+          "end_rotated_azimuthal_channel_components": [
+            0.011995924237317391,
+            0.014133853403280081,
+            7.734283724052719e-07,
+            0.02613055106896988
+          ]
+        }
+      },
+      "clock_interpretation": "frozen-history Green density and actual fixed-tau kappa sensitivity are distinct"
+    },
+    "autonomous": {
+      "physical_tau_final": 0.33481849555805815,
+      "clock_start": 1.6736330640059707,
+      "clock_final": 1.6749370670219463,
+      "max_clock_identity_error": 3.1799007871313734e-12,
+      "max_frozen_history_green_density_error": 2.7755575615628914e-17,
+      "max_causal_future_kernel_abs": 0.0,
+      "max_nonlinear_tau_quadrature_response_error": 7.924837544005803e-14,
+      "max_physical_fixed_history_total_error": 7.924837544005803e-14,
+      "max_tangent_vs_kappa_secant_error": 2.2120017395457076e-10,
+      "max_matched_tau_vs_clock_corrected_secant_error": 6.625052992708107e-12,
+      "max_matched_tau_vs_clock_corrected_model_error": 2.2120733033943046e-10,
+      "terminal_fixed_xi_sensitivity_norm": 0.046481774499773296,
+      "terminal_clock_correction_norm": 1.023742639647838e-07,
+      "terminal_clock_correction_ratio": 2.2024603205560303e-06,
+      "terminal_clock_correction_second_plane": [
+        -6.218689038377563e-09,
+        -1.4260701463100838e-08
+      ],
+      "terminal_fixed_tau_sensitivity_norm": 0.046481758633117466,
+      "terminal_radial_cancel_fraction": 0.12049631256681415,
+      "source_ages": {
+        "radial_v2": {
+          "mass": 0.04248876399119214,
+          "median_xi": 0.058984375000000006,
+          "median_tau": 0.09872085116178582,
+          "mean_lag_xi": 0.13291442178531784,
+          "mean_lag_tau": 0.22253207498518918,
+          "first_half_xi_mass_fraction": 0.7482572433494888,
+          "first_half_tau_mass_fraction": 0.7482572433494888
+        },
+        "radial_omega2": {
+          "mass": 0.002724162368311101,
+          "median_xi": 0.055859375,
+          "median_tau": 0.09349035458762876,
+          "mean_lag_xi": 0.13792578614335532,
+          "mean_lag_tau": 0.2309216625689108,
+          "first_half_xi_mass_fraction": 0.8024958472955942,
+          "first_half_tau_mass_fraction": 0.8024958472955942
+        },
+        "radial_other": {
+          "mass": 2.770457784280271e-06,
+          "median_xi": 0.031640625,
+          "median_tau": 0.05295521533902355,
+          "mean_lag_xi": 0.16028477441627004,
+          "mean_lag_tau": 0.26834698065969426,
+          "first_half_xi_mass_fraction": 0.939464811338583,
+          "first_half_tau_mass_fraction": 0.939464811338583
+        },
+        "radial_total": {
+          "mass": 0.03976737208066532,
+          "median_xi": 0.059375000000000004,
+          "median_tau": 0.09937466617212444,
+          "mean_lag_xi": 0.13257303785469207,
+          "mean_lag_tau": 0.22196055946052592,
+          "first_half_xi_mass_fraction": 0.7445550869438323,
+          "first_half_tau_mass_fraction": 0.7445550869438323
+        },
+        "azimuthal_v2": {
+          "mass": 0.009465543813969645,
+          "median_xi": 0.041796875000000004,
+          "median_tau": 0.06995358954891552,
+          "mean_lag_xi": 0.14941771629595604,
+          "mean_lag_tau": 0.25015728416875815,
+          "first_half_xi_mass_fraction": 0.8725986169604726,
+          "first_half_tau_mass_fraction": 0.8725986169604726
+        },
+        "azimuthal_omega2": {
+          "mass": 0.014326287185324015,
+          "median_xi": 0.07734375,
+          "median_tau": 0.12945093958739212,
+          "mean_lag_xi": 0.11917007179930213,
+          "mean_lag_tau": 0.19952523843559436,
+          "first_half_xi_mass_fraction": 0.6474907403056644,
+          "first_half_tau_mass_fraction": 0.6474907403056644
+        },
+        "azimuthal_other": {
+          "mass": 6.083069817462813e-07,
+          "median_xi": 0.02421875,
+          "median_tau": 0.040533490000572485,
+          "mean_lag_xi": 0.16825877623932364,
+          "mean_lag_tau": 0.2816937113121943,
+          "first_half_xi_mass_fraction": 0.9731869424554764,
+          "first_half_tau_mass_fraction": 0.9731869424554764
+        },
+        "azimuthal_total": {
+          "mass": 0.023792439306275406,
+          "median_xi": 0.061328125000000004,
+          "median_tau": 0.10264375129495901,
+          "mean_lag_xi": 0.13120499859130055,
+          "mean_lag_tau": 0.2196707066981733,
+          "first_half_xi_mass_fraction": 0.7370556043865576,
+          "first_half_tau_mass_fraction": 0.7370556043865576
+        }
+      },
+      "observer_families": {
+        "rotating_sine": {
+          "final_angle_relative_to_radial": 0.2699999999999999,
+          "max_physical_vector_reconstruction_error": 1.3877787807814457e-17,
+          "max_kernel_reconstruction_error": 1.6653345369377348e-16,
+          "max_response_norm_error": 6.938893903907228e-18,
+          "max_channel_additivity_error": 9.020562075079397e-17,
+          "max_covariant_derivative_reconstruction_error": 3.602280551073811e-07,
+          "end_rotated_radial_channel_components": [
+            0.04347419225781126,
+            0.0011958027558048477,
+            2.832341177288691e-06,
+            0.04467282735479341
+          ],
+          "end_rotated_azimuthal_channel_components": [
+            -0.0022104734163232234,
+            0.014533878384468167,
+            -1.5269962002359107e-07,
+            0.012323252268524898
+          ]
+        },
+        "rotating_crest": {
+          "final_angle_relative_to_radial": -0.059999999999999984,
+          "max_physical_vector_reconstruction_error": 1.3877787807814457e-17,
+          "max_kernel_reconstruction_error": 1.6653345369377348e-16,
+          "max_response_norm_error": 1.3877787807814457e-17,
+          "max_channel_additivity_error": 9.020562075079397e-17,
+          "max_covariant_derivative_reconstruction_error": 5.454445429209365e-07,
+          "end_rotated_radial_channel_components": [
+            0.04184471522659514,
+            -0.0035783219245264586,
+            2.728995932341334e-06,
+            0.03826912229800105
+          ],
+          "end_rotated_azimuthal_channel_components": [
+            0.011996307465156272,
+            0.014137155913752765,
+            7.733401061531015e-07,
+            0.026134236719015172
+          ]
+        }
+      },
+      "clock_interpretation": "frozen-history Green density and actual fixed-tau kappa sensitivity are distinct"
+    }
+  },
+  "limitations": [
+    "The frozen-history Green density K_tau=K_xi/c(source) is a reparameterization of the same fixed-xi tangent response; alone it does not imply invariance of full kappa sensitivity at fixed physical tau.",
+    "The parameter-dependent physical clock requires a separate clock-shift correction. This is measured using already-integrated distinct-kappa trajectories and checked with direct tau-matched interpolation.",
+    "Clock-shift attribution to individual source channels is not unique without an additional physically justified clock-source decomposition; it is retained as a separate term.",
+    "The full 2D Cartesian response and its Euclidean norm survive a passive rotating-frame change. Radial and azimuthal component magnitudes and cancellation percentages are chart dependent.",
+    "The observer rotation is a known passive O(2) coordinate transformation and does not establish arbitrary state-dependent gauge invariance of physical laws.",
+    "All source forcing is an on-trajectory first variation at a single midpoint kappa0; not independently controlled physical actuators.",
+    "No complete physical return section, interval certificate, persistent shadowing law, or constitutive material memory is certified.",
+    "Time conversions are tied to the actual positive physical clock of the two seed trajectories over xi in [0,0.2]."
+  ],
+  "environment": {
+    "python": "3.13.16 (main, Oct  1 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

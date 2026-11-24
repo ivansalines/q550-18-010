@@ -1,0 +1,24 @@
+Q550 v18.51v verified 15 source files
+Q550 v18.51v fast synthetic 11 / 11 PASS
+PASS clock_exact_derivative
+PASS positive_clock_kernel_reparametrization
+PASS causal_future_support
+PASS two_coordinate_frames_return_same_physical_vector
+PASS rotation_preserves_euclidean_norm
+PASS moving_frame_connection_cancels_passive_rotation
+PASS fixed_tau_is_not_fixed_xi
+PASS fixed_tau_clock_shift_predicts_direct_matching
+PASS composite_simpson_mass
+PASS channel_additivity_after_rotation
+PASS impulse_axes_observation_x_source
+Q550 v18.51v provenance preflight PASS
+v18.51v physical-clock and moving-frame: original
+   clock range: 1.6736334194327467 1.6749373788512554
+   fixed-tau correction ratio: 2.201804830594948e-06
+v18.51v physical-clock and moving-frame: autonomous
+   clock range: 1.6736330640059707 1.6749370670219463
+   fixed-tau correction ratio: 2.2024603205560303e-06
+Q550 v18.51v full 16 / 16 PASS
+Q550 v18.51v independent server output tests PASS
+Q550 v18.51v hashed 7 server outputs
+Q550 v18.51v sendback: /root/elab1/hysteresis/q550_physical_clock_green_transport_moving_frame_invariance_v18_51v_bundle_server_sendback.zip
