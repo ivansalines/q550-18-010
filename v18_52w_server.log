@@ -1,0 +1,5 @@
+SOURCE_MANIFEST_PASS 18
+SYNTHETIC_PASS projection, gauge invariance, hidden-drift falsifier, one-turn alignment
+SYNTHETIC_DRIVE_ZERO_PASS nonzero material tangent, signed command, pre/post sampling
+AUTHENTICATED MODEL: staging 10D physical solver
+SENDBACK /root/elab1/hysteresis/q550_drive_zero_crossing_posture_persistence_and_relative_cycle_discrimination_v18_52w_bundle_server_sendback.zip outputs 10

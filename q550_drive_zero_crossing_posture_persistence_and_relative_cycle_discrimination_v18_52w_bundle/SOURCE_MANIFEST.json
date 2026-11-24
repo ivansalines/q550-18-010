@@ -1,0 +1,24 @@
+{
+  "version": "v18.52w",
+  "root": "q550_drive_zero_crossing_posture_persistence_and_relative_cycle_discrimination_v18_52w_bundle",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "73fe6f955423c60cf577f679e67d190547d8cf964628972dc1c124310ce4a638",
+    "README.md": "94b0b119c0a4e21d4ac9cfd9dd84091319b9be164d75303f8539b721b851c020",
+    "SCIENTIFIC_DECISION_RULES.md": "c5cb620109393cafb1d84e81c6d265b4e91fc0ba50da2df87eca886cfe828752",
+    "SOURCE_PROVENANCE.md": "d7157f60ff662c442e135fde77547a67f11e54950d359aa365a063cbc632b9a1",
+    "inputs_config.json": "3bb4823e905dfc290e354f73b90450e5fbc4b6f8770ca1a70f6da9f3225b4659",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52j_long_horizon_scientific_report.md": "826fcf3e3b0f622838139e7ca722f211b0799781c108302ff954f7c68dd9e5db",
+    "reference/v18_52v_r1_authenticated_report.json": "d9489958624d03fcac981e2e65c41919e6a84440f414899d539cb87df42da273",
+    "reference/v18_52v_r1_run_audit.py": "dd1d3d441d191f3791c0524b1a6ae54cd596c5a7e395a43289e8604f22cd81b6",
+    "requirements.txt": "bd8d90b458820d3a49c4025023b6abb5a7ee338ef795e5a260caa72c6372925f",
+    "run_on_server.sh": "a3711bb3af85498c856da7f62e6ec65e31cb028e522a6ffe8e400158be591e35",
+    "scripts/energy_math.py": "23b49ac82e9acd11002cb45696858e6091113221646d2737cd6e2eeca2e2b4a2",
+    "scripts/package_sendback.py": "3d661c9115a187fdf4bef8b9c7d20acfe731107003516c338c0bbc6e4159a277",
+    "scripts/phase_energy.py": "fabf92d8a886526d97be2166dfce7feed540cbcc47e83a7dc89d29cd865a33bb",
+    "scripts/run_audit.py": "19e02e1dbfefd0a70cb85660fb32362dae6fc20342bb024018379b2cd7ee83f4",
+    "scripts/verify_manifest.py": "95d8cddc2df66771c950da09ba7763f92f3cb11c2326c8d1a246d2e3d6447d82",
+    "tests/test_synthetic.py": "8a5d5980be6607b8992f466091fbf6402b92c8768f7ce805da6da5357d7ee86a"
+  }
+}

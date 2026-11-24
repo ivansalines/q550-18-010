@@ -1,0 +1,16 @@
+{
+  "version": "v18.52w",
+  "root": "q550_drive_zero_crossing_posture_persistence_and_relative_cycle_discrimination_v18_52w_bundle",
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "de58ce351b8abf981a6b49393a93f59450e2ceb6214f3a7963efa31adaa43b9a",
+    "results/actual_drive_zero_posture_events.csv": "efbf93c674c257a0718231009e729d5bf4f7b691b185be925a8cd1dd88fbdc34",
+    "results/authenticated_source_genealogy.json": "afde30e972005fcb45eb0775af0671d1ec772dc0e89b3a710e06f3ae502b61f8",
+    "results/autonomous_drive_zero_posture.png": "6c2b2e0c8ce4aec4698e0345df906242605f463797ca8b079013870c32ad5d50",
+    "results/autonomous_relative_phase_turn_recurrence.png": "628147631f2d31407feddc1f528d0de970739f9f112b0ed67def3a9f94546660",
+    "results/drive_zero_local_curves.csv": "0fa725685f3117ca835f13991d54debe13e6c1c53429168b5ec587d4451fa7a9",
+    "results/one_turn_full_quotient_recurrence_scout.csv": "c7b64a4166c28e2e240560b32c2861640c7e1fa757917107ceb93a937b12e73a",
+    "results/original_drive_zero_posture.png": "40c66d20420653ec54f47e5e79bd4d0e96ec44a3e59b30e867ca5cee66fc134c",
+    "results/original_relative_phase_turn_recurrence.png": "22032a03226bc9e53d12736b78bfcd4b1ae00767e5bafc3d0a32a0f30207f68d",
+    "results/report.json": "954154ec5505da9482cea8cc8b55508838687752e969ebcaaed2600c70d50342"
+  }
+}
