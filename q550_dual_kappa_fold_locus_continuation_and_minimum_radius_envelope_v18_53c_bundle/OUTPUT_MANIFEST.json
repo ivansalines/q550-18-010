@@ -1,0 +1,14 @@
+{
+  "version": "v18.53c",
+  "root": "q550_dual_kappa_fold_locus_continuation_and_minimum_radius_envelope_v18_53c_bundle",
+  "files": {
+    "results/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "66dc4680019bba41b5f5b91e4c61bb3b9981953dcaa9df20ac53edaa8ed76c27",
+    "results/continuation_stops_not_proven_fold_termination.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "results/dual_kappa_fold_radius_envelope.png": "86da658d15ec50b2a3213c7f137d056900dce5eb58987ece15b0fd899155dcf5",
+    "results/dual_kappa_minimum_radius_zoom.png": "5c78939fa5a6452f57e72caf7f7277e2b192c85a7a3b32dd97cb93fb02cefad2",
+    "results/fold_locus_continuation.csv": "112279263d0c0b3855155f06c653613b3e4343902d1d7294f648ecf9451e30fa",
+    "results/fold_locus_selected_states.json": "8fc5b57cc1bd954a98c5722daf6345a73bba93687ee7a03d82452d1adc76bd47",
+    "results/report.json": "a3c8025da36324740608ebaeacb558125a277f05a14e5ebd71bb8d3ab33af592"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": "v18.53c",
+  "root": "q550_dual_kappa_fold_locus_continuation_and_minimum_radius_envelope_v18_53c_bundle",
+  "n_files": 24,
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "097d1234554f49f3a0007a5d3b8af2e90a0bc38a4f4199eab3a58dd56d297704",
+    "README.md": "bdbe3025a5da2a2f08d423643d3205f32d3f831a06d0fd18797d5c418e9024d4",
+    "SCIENTIFIC_DECISION_RULES.md": "967b631d035e8c9a624315fbc6bc41b909cfadf5fa4d12c5ec246d2c89fc95f7",
+    "SOURCE_PROVENANCE.md": "8b2f608fff26851303931ea1b6b797d46c1ed44cac446563908fe2c8484ce97c",
+    "inputs_config.json": "73ed69ad21d7de8b788fd246d761cd00a786998ff2a7605474f2f091dc71fb45",
+    "reference/OFFLINE_SCREENING_PREVIEW_NOT_CERTIFICATION.json": "17f220983fb5adef99bb052880d6b61e81d245848dc4c9e27f0b664f18d217bd",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52v_r1_run_audit.py": "dd1d3d441d191f3791c0524b1a6ae54cd596c5a7e395a43289e8604f22cd81b6",
+    "reference/v18_53a_authenticated_report.json": "a2f9c080b523bc3fdad67216164660bcc76402bb9e514116d96dabd0f21d12e8",
+    "reference/v18_53a_run_audit.py": "a1dd67109233fc0b154401e48ba32dfc7d0778e4dec70f3f33152f63737cec23",
+    "reference/v18_53b_authenticated_fold.json": "c230f371169f16880b5ecf08a15583cfc255e99044a7f04617bcc9eeb17a585b",
+    "reference/v18_53b_authenticated_report.json": "9d4fb4d2bc784e55954481600989e6953fbb4d56e18880300f2a90fb9c15354c",
+    "reference/v18_53b_run_audit.py": "dfd221f25985f651da7c2c73e02cb423a677505e5b02eaa0a312b664721034eb",
+    "requirements.txt": "4ccb85e8121d63167d6259d2f51f396f89cdc30aa005ef4713afe21725e96a5d",
+    "run_on_server.sh": "1ff1e0ae10482fce19a70805414874f5cc477dd9c92287345969c5363d64985f",
+    "scripts/energy_math.py": "23b49ac82e9acd11002cb45696858e6091113221646d2737cd6e2eeca2e2b4a2",
+    "scripts/package_sendback.py": "dbfcfcdf68cc4a5a39a12507d3cbe28b3b46ed54c90535b871d6aa1e0cf57cac",
+    "scripts/phase_energy.py": "fabf92d8a886526d97be2166dfce7feed540cbcc47e83a7dc89d29cd865a33bb",
+    "scripts/return_map.py": "9e087f54de33830389014b43b14c4b572a21a38a476c340953830d0edcff2b75",
+    "scripts/run_audit.py": "1a80319e13f1d2dca9314abd17beb968d89fbd374238260e471e7ee296a0aec9",
+    "scripts/verify_manifest.py": "579306042b1f9a2ff46930e7d94f541ddab1d964352d825ec4da40f62a1f43b8",
+    "tests/test_archived_rhs_crosscheck.py": "39bbb70ba5118b9e5a22290cdc983c67fcf1cbc937ad595bdcd67bbb3d4542a4",
+    "tests/test_synthetic.py": "6f61a29662f1cd56415878ae92964ba4b288356973d793830dafc21779b986be"
+  }
+}
