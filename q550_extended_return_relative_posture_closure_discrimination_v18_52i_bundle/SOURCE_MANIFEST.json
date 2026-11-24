@@ -1,0 +1,28 @@
+{
+  "version": "v18.52i",
+  "title": "Extended Return, Relative Posture & Closure Discrimination Audit",
+  "root": "q550_extended_return_relative_posture_closure_discrimination_v18_52i_bundle",
+  "parent_h_archive_sha256": "b986e954d912593cd2400fcef5469618db46ae4a192138258bdeba25ee3604a7",
+  "external_v18_51s_archive_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "2837b04a50187c7fde45ecc8646edcf3f6d0c47d4e5248aed0f17cd9291a57a2",
+    "PATCH_NOTES.md": "7abedab0552fad115f7ec180ce86abd51f6814c368db69880b2527bc33a5462b",
+    "README.md": "876e3db5d194a77d0eee2996e345e0bae6b6750b44d1b4f309b853260da5cec2",
+    "SCIENTIFIC_DECISION_RULES.md": "5ad4fe11c65b6dd24fbbf6d04d05073bae491964f6c28d115a1c140f0843af42",
+    "SCIENTIFIC_REPORT.md": "3975d7332132667fe4cadadc7e81cf83ec0b3582b5fb704f0008fe2bbc1a8953",
+    "SOURCE_PROVENANCE.md": "6be5ff3097d9c5168b71ac70fe6fb95c1d838810b8a3de72013694d764345155",
+    "inputs/q550_post_crest_competition_separation_rate_arrest_v18_52h_bundle_server_sendback.zip": "b986e954d912593cd2400fcef5469618db46ae4a192138258bdeba25ee3604a7",
+    "reference/parent_v18_52h_run_audit.py": "405c7375766b2dfe52da9b8e85009acf81a39269a95ccd18b90b9222bb29e21b",
+    "requirements.txt": "b6a329f45697a122c45574f01803cab5174f35374012711aea6a9a9edee7b256",
+    "run_on_server.sh": "cdbf5621f587b87a0290dec21db9cc7bd47ffce81c10cc01d042aa81b3227df5",
+    "scripts/pack_sendback.py": "bce120a510f3121cb9e54f76533e194cb5620761cb71e5cf3d023fa0c8e42541",
+    "scripts/run_audit.py": "35186db24b905df4e37990a797cae0fe3612f87cddc34502f4021c49c0a9b843",
+    "scripts/verify_source_manifest.py": "b331d9372ce918643281042e82873912f95a8c7001dee9ae3c97ad9d19fff544",
+    "scripts/write_output_manifest.py": "7a1a8ccb0dcadd2106821c175b43f262da5cf270872001208949574900f99e53",
+    "tests/test_ledger_hotfix.py": "e59df079ce145a71bd8c6794f5ef935be1dfa684558828d6527d208d3cff0569",
+    "tests/test_mock_restart.py": "d4418a026a57564346cd117aa5391f23ad0f25ca3c48a9db54fe3e37443e9a0c",
+    "tests/test_results.py": "d271947c1d8bd7cf3784a7ba607d67ac006a961666f879c2084e25d87d8fae5c",
+    "tests/test_synthetic.py": "952501553419717cfb2f3d12d6879ab6e63d0bf25f3bb43f6a80c199c3e02666"
+  },
+  "patch": "v18.52i-p1-ledger-h-seam-alias"
+}

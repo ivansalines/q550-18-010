@@ -1,0 +1,31 @@
+SOURCE MANIFEST PASS 18 files
+SYNTHETIC EVENT AND 5D POSTURE TEST PASS
+LEDGER H-SEAM ANGLE ALIAS REGRESSION PASS
+MOCK GLOBAL-XI + 11D CLOCK SEAM PASS
+Parent h authenticated 16 source and 9 output entries, SHA b986e954d912593cd2400fcef5469618db46ae4a192138258bdeba25ee3604a7
+PREFLIGHT PASS: genuine physical extension not executed
+Parent h authenticated 16 source and 9 output entries, SHA b986e954d912593cd2400fcef5469618db46ae4a192138258bdeba25ee3604a7
+Restaging archived nonlinear 10D model and kinetic 5D embedding...
+AUTHENTICATED MODEL: staging 10D physical solver
+Continuing physical reference original global xi 1.6 to 3.2
+ Continuing kick original_negative_1.0e-04
+   original_negative_1.0e-04 C zeros 2 G zeros 3 D minima 2 terminal D 9.251022e-10 angle 118.21deg
+ Continuing kick original_positive_1.0e-04
+   original_positive_1.0e-04 C zeros 2 G zeros 3 D minima 2 terminal D 9.249431e-10 angle 118.16deg
+ Continuing kick original_negative_3.0e-04
+   original_negative_3.0e-04 C zeros 2 G zeros 3 D minima 2 terminal D 8.327368e-09 angle 118.26deg
+ Continuing kick original_positive_3.0e-04
+   original_positive_3.0e-04 C zeros 2 G zeros 3 D minima 2 terminal D 8.323071e-09 angle 118.11deg
+Continuing physical reference autonomous global xi 1.6 to 3.2
+ Continuing kick autonomous_negative_1.0e-04
+   autonomous_negative_1.0e-04 C zeros 2 G zeros 3 D minima 2 terminal D 9.245094e-10 angle 118.16deg
+ Continuing kick autonomous_positive_1.0e-04
+   autonomous_positive_1.0e-04 C zeros 2 G zeros 3 D minima 2 terminal D 9.243538e-10 angle 118.11deg
+ Continuing kick autonomous_negative_3.0e-04
+   autonomous_negative_3.0e-04 C zeros 2 G zeros 3 D minima 2 terminal D 8.322001e-09 angle 118.21deg
+ Continuing kick autonomous_positive_3.0e-04
+   autonomous_positive_3.0e-04 C zeros 2 G zeros 3 D minima 2 terminal D 8.317798e-09 angle 118.06deg
+Q550 v18.52i completed: 48 / 48 checks; D minima 16
+SERVER RESULTS TEST PASS 8 kicks
+OUTPUT MANIFEST WRITTEN 9 files
+PACKED SERVER SENDBACK /root/elab1/hysteresis/q550_extended_return_relative_posture_closure_discrimination_v18_52i_bundle_server_sendback.zip
