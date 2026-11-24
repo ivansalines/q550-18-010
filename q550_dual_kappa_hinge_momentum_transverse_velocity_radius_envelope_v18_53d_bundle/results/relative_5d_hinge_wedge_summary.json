@@ -1,0 +1,114 @@
+[
+  {
+    "label": "autonomous_negative_1.0e-04",
+    "source_is_relative_dQ_dV": true,
+    "n_samples": 4097,
+    "relative_q_rms": 0.00026509299538182485,
+    "kinematic_hinge_wedge_span": 1.688338943166843e-08,
+    "kinematic_hinge_wedge_min": -7.939871695186865e-09,
+    "kinematic_hinge_wedge_max": 8.943517736481564e-09,
+    "hinge_plane_radius_range": [
+      2.689805247450958e-07,
+      0.0003171218630032901
+    ],
+    "hinge_plane_transverse_speed_finite_fraction": 1.0
+  },
+  {
+    "label": "autonomous_negative_3.0e-04",
+    "source_is_relative_dQ_dV": true,
+    "n_samples": 4097,
+    "relative_q_rms": 0.0007953273072165562,
+    "kinematic_hinge_wedge_span": 1.525236043352858e-07,
+    "kinematic_hinge_wedge_min": -7.173144915328024e-08,
+    "kinematic_hinge_wedge_max": 8.079215518200558e-08,
+    "hinge_plane_radius_range": [
+      7.951628437887547e-07,
+      0.0009514009580577278
+    ],
+    "hinge_plane_transverse_speed_finite_fraction": 1.0
+  },
+  {
+    "label": "autonomous_positive_1.0e-04",
+    "source_is_relative_dQ_dV": true,
+    "n_samples": 4097,
+    "relative_q_rms": 0.00026507702701461397,
+    "kinematic_hinge_wedge_span": 1.6820015893081138e-08,
+    "kinematic_hinge_wedge_min": -7.909774144824779e-09,
+    "kinematic_hinge_wedge_max": 8.91024174825636e-09,
+    "hinge_plane_radius_range": [
+      2.1021171368492156e-07,
+      0.0003171102270744234
+    ],
+    "hinge_plane_transverse_speed_finite_fraction": 1.0
+  },
+  {
+    "label": "autonomous_positive_3.0e-04",
+    "source_is_relative_dQ_dV": true,
+    "n_samples": 4097,
+    "relative_q_rms": 0.0007951835840024896,
+    "kinematic_hinge_wedge_span": 1.5081193558860408e-07,
+    "kinematic_hinge_wedge_min": -7.091823089131779e-08,
+    "kinematic_hinge_wedge_max": 7.98937046972863e-08,
+    "hinge_plane_radius_range": [
+      5.967428962056677e-07,
+      0.0009512962223362184
+    ],
+    "hinge_plane_transverse_speed_finite_fraction": 1.0
+  },
+  {
+    "label": "original_negative_1.0e-04",
+    "source_is_relative_dQ_dV": true,
+    "n_samples": 4097,
+    "relative_q_rms": 0.0002651549523689671,
+    "kinematic_hinge_wedge_span": 1.6940598500503348e-08,
+    "kinematic_hinge_wedge_min": -7.968924731625028e-09,
+    "kinematic_hinge_wedge_max": 8.97167376887832e-09,
+    "hinge_plane_radius_range": [
+      2.843380731413172e-07,
+      0.00031719055143601536
+    ],
+    "hinge_plane_transverse_speed_finite_fraction": 1.0
+  },
+  {
+    "label": "original_negative_3.0e-04",
+    "source_is_relative_dQ_dV": true,
+    "n_samples": 4097,
+    "relative_q_rms": 0.0007955134778606781,
+    "kinematic_hinge_wedge_span": 1.5304008305300934e-07,
+    "kinematic_hinge_wedge_min": -7.199387450987541e-08,
+    "kinematic_hinge_wedge_max": 8.104620854313393e-08,
+    "hinge_plane_radius_range": [
+      9.956607020109303e-07,
+      0.000951607442467279
+    ],
+    "hinge_plane_transverse_speed_finite_fraction": 1.0
+  },
+  {
+    "label": "original_positive_1.0e-04",
+    "source_is_relative_dQ_dV": true,
+    "n_samples": 4097,
+    "relative_q_rms": 0.00026513888426442226,
+    "kinematic_hinge_wedge_span": 1.6876980407689802e-08,
+    "kinematic_hinge_wedge_min": -7.938654947050836e-09,
+    "kinematic_hinge_wedge_max": 8.938325460638968e-09,
+    "hinge_plane_radius_range": [
+      2.651832983866495e-07,
+      0.00031717877634868346
+    ],
+    "hinge_plane_transverse_speed_finite_fraction": 1.0
+  },
+  {
+    "label": "original_positive_3.0e-04",
+    "source_is_relative_dQ_dV": true,
+    "n_samples": 4097,
+    "relative_q_rms": 0.00079536886090927,
+    "kinematic_hinge_wedge_span": 1.5132287834990276e-07,
+    "kinematic_hinge_wedge_min": -7.117707178177142e-08,
+    "kinematic_hinge_wedge_max": 8.014580656813134e-08,
+    "hinge_plane_radius_range": [
+      5.591363472182291e-07,
+      0.0009515014601352644
+    ],
+    "hinge_plane_transverse_speed_finite_fraction": 1.0
+  }
+]

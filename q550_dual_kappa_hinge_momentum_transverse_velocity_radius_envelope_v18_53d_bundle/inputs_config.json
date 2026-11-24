@@ -1,0 +1,23 @@
+{
+  "version": "v18.53d",
+  "kappa_original": 0.16666666666666666,
+  "kappa_autonomous": 0.1665996104,
+  "charge_reference": -1.441016445824766,
+  "v18_53c_sendback_sha256": "c3c56fab0f41fb1c6b29beba716426d5443477566bda8770e8423acaae03f3b0",
+  "v18_52n_sendback_sha256": "7c19dc617a9d85396522d96db18d6cc38c7bf409d82d3846f4ad6e0a819e0f77",
+  "v18_52l_5d_expected_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+  "v18_52l_expected_kicks": 8,
+  "observer_slope_hypothesis": -0.308,
+  "observer_tilts_degrees": [
+    -35.0,
+    -17.04,
+    0.0,
+    17.04,
+    35.0
+  ],
+  "observer_stride": 16,
+  "early_late_fraction": 0.28,
+  "min_separation_material_time": 3.0,
+  "approximate_shadow_closure_threshold": 0.03,
+  "min_hidden_residual_threshold": 0.05
+}

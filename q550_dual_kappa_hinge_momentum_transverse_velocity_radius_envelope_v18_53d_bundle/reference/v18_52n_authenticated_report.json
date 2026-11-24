@@ -1,0 +1,313 @@
+{
+  "version": "v18.52n",
+  "title": "Four-Point Nodal-Axis Reconstruction & Paired-Hinge Observer Audit",
+  "stage": "AUTHENTIC_FULL_POSTPROCESS",
+  "source": {
+    "version": "v18.52l",
+    "path": "/root/elab1/hysteresis/q550_near_tangency_breathing_envelope_drift_five_dimensional_section_audit_v18_52l_bundle/results/extended_horizon_5d_vectors_and_traces.npz",
+    "sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+    "observed_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+    "trajectories": 8,
+    "samples_per_trajectory": 65537
+  },
+  "theta_deg": 17.04,
+  "observed_m_reference": -0.308,
+  "observed_m_angle_deg": -17.118832335551648,
+  "tan_of_tilt_deg": -0.30649423149828975,
+  "difference_tilt_vs_slope_angle_deg": -0.07883233555164892,
+  "used_nodal_slope": -0.308,
+  "used_nodal_intercept": 0.0,
+  "used_nodal_slope_angle_deg": -17.118832335551648,
+  "axis_source": "USER_PRESPECIFIED_SLOPE_FIXED_INTERCEPT",
+  "four_point_reconstruction": {
+    "status": "NO_USER_FOUR_POINT_COORDINATES_SUPPLIED",
+    "message": "The historical four Q2=0 crossings are not the visually observed four off-axis points; slope -0.308 is a prespecified hypothesis, not a fitted result."
+  },
+  "historical_four_zero_negative_control": {
+    "status": "HISTORICAL_ZERO_LINE_NEGATIVE_CONTROL",
+    "n_crossings": 4,
+    "note": "These roots are all Q2\u22480; they cannot reconstruct nonzero user-observed slope. They are not the four user points.",
+    "events": [
+      {
+        "tau": 23.10908241460799,
+        "Q1": 0.0001841611868950517,
+        "Q2": 0.0
+      },
+      {
+        "tau": 29.50828270939554,
+        "Q1": -0.00023330832688399613,
+        "Q2": 8.271806125530277e-25
+      },
+      {
+        "tau": 35.964403651303044,
+        "Q1": 0.0002859316396610261,
+        "Q2": 0.0
+      },
+      {
+        "tau": 42.45276005441001,
+        "Q1": -0.0003391727556566699,
+        "Q2": 0.0
+      }
+    ],
+    "four_point_fit": {
+      "n": 4,
+      "through_origin_slope": -6.768112970340702e-22,
+      "through_origin_angle_deg": -3.877843084682735e-20,
+      "affine_slope": -6.081456410790551e-22,
+      "affine_intercept": 1.9122841024457847e-25,
+      "affine_angle_deg": -3.4844178563107644e-20,
+      "tls_angle_deg": -3.484417856310764e-20,
+      "affine_rmse": 3.196413792893047e-25,
+      "affine_max_abs_residual": 4.940667602864996e-25,
+      "through_origin_rmse": 3.7202527560716293e-25,
+      "normalized_affine_rmse": 9.424146661498485e-22,
+      "per_point_affine_residuals": [
+        -7.923158717840758e-26,
+        4.940667602864996e-25,
+        -1.7340329938138368e-26,
+        -3.974948431699537e-25
+      ],
+      "leave_one_out_affine_slopes": [
+        -5.091572601084618e-22,
+        0.0,
+        -5.611068548205541e-22,
+        -1.7057370509974543e-21
+      ],
+      "x_span": 0.0006251043953176959,
+      "y_span": 8.271806125530277e-25,
+      "angle_difference_ols_tls_deg": 6.018531076210112e-36
+    }
+  },
+  "pca_hidden": [
+    -0.4105034129634594,
+    0.9094294538464419,
+    -0.06652079691279893
+  ],
+  "pca_first_half_eigenvalues": [
+    4.0901235532934596e-10,
+    1.5792492753523173e-11,
+    5.977720822346994e-14
+  ],
+  "pca_heldout_angle_deg": 10.035319562804949,
+  "lineage_v18_52m_pca_angle_mismatch_deg": 0.0,
+  "primary": "original_negative_1.0e-04",
+  "trajectories": [
+    {
+      "label": "original_negative_1.0e-04",
+      "plus_crossings": 4,
+      "minus_crossings": 4,
+      "cross_view_pairs": 4,
+      "opposite_side_duration_fraction": 0.021995640918219678,
+      "gate_windows": 4,
+      "original_planar_axis_ratio": 1.1101728674697284,
+      "sloped_untilted_axis_ratio": 1.110172867469729,
+      "plus_ellipse_axis_ratio": 1.1449349996968294,
+      "minus_ellipse_axis_ratio": 1.1426805782527283,
+      "intrinsic_hinge_transverse_radius_cv": 0.5096064636692498,
+      "transverse_2d_radius_cv": 0.5108553071367218,
+      "cone_linear_radius_vs_axis_R2": 0.004962569988125039,
+      "axial_positive_step_fraction": 0.402008056640625,
+      "transverse_reduced_net_phase_turns": 0.8397161683836184,
+      "phase_turns_topological_invariant": false
+    },
+    {
+      "label": "original_positive_1.0e-04",
+      "plus_crossings": 4,
+      "minus_crossings": 4,
+      "cross_view_pairs": 4,
+      "opposite_side_duration_fraction": 0.02192574661814552,
+      "gate_windows": 4,
+      "original_planar_axis_ratio": 1.1102709074398573,
+      "sloped_untilted_axis_ratio": 1.1102709074398578,
+      "plus_ellipse_axis_ratio": 1.1450386845904454,
+      "minus_ellipse_axis_ratio": 1.142809359527093,
+      "intrinsic_hinge_transverse_radius_cv": 0.5097549242774022,
+      "transverse_2d_radius_cv": 0.5109942240455974,
+      "cone_linear_radius_vs_axis_R2": 0.00495496817479055,
+      "axial_positive_step_fraction": 0.5979766845703125,
+      "transverse_reduced_net_phase_turns": 0.8400344121903178,
+      "phase_turns_topological_invariant": false
+    },
+    {
+      "label": "original_negative_3.0e-04",
+      "plus_crossings": 4,
+      "minus_crossings": 4,
+      "cross_view_pairs": 4,
+      "opposite_side_duration_fraction": 0.022065807640027513,
+      "gate_windows": 4,
+      "original_planar_axis_ratio": 1.110074314533361,
+      "sloped_untilted_axis_ratio": 1.1100743145333607,
+      "plus_ellipse_axis_ratio": 1.1448306617574375,
+      "minus_ellipse_axis_ratio": 1.1425510221032387,
+      "intrinsic_hinge_transverse_radius_cv": 0.509456889022329,
+      "transverse_2d_radius_cv": 0.5107150091343255,
+      "cone_linear_radius_vs_axis_R2": 0.004970246164039588,
+      "axial_positive_step_fraction": 0.402008056640625,
+      "transverse_reduced_net_phase_turns": 0.8393949442133495,
+      "phase_turns_topological_invariant": false
+    },
+    {
+      "label": "original_positive_3.0e-04",
+      "plus_crossings": 4,
+      "minus_crossings": 4,
+      "cross_view_pairs": 4,
+      "opposite_side_duration_fraction": 0.021874195678913688,
+      "gate_windows": 4,
+      "original_planar_axis_ratio": 1.1103684363706634,
+      "sloped_untilted_axis_ratio": 1.110368436370663,
+      "plus_ellipse_axis_ratio": 1.1451417199386127,
+      "minus_ellipse_axis_ratio": 1.142937369818693,
+      "intrinsic_hinge_transverse_radius_cv": 0.5099022711706335,
+      "transverse_2d_radius_cv": 0.5111315942988073,
+      "cone_linear_radius_vs_axis_R2": 0.004947440673704645,
+      "axial_positive_step_fraction": 0.59796142578125,
+      "transverse_reduced_net_phase_turns": -0.15965033131440506,
+      "phase_turns_topological_invariant": false
+    },
+    {
+      "label": "autonomous_negative_1.0e-04",
+      "plus_crossings": 4,
+      "minus_crossings": 4,
+      "cross_view_pairs": 4,
+      "opposite_side_duration_fraction": 0.021938709141718176,
+      "gate_windows": 4,
+      "original_planar_axis_ratio": 1.110255220216302,
+      "sloped_untilted_axis_ratio": 1.1102552202163019,
+      "plus_ellipse_axis_ratio": 1.1450150548046878,
+      "minus_ellipse_axis_ratio": 1.1427814206944904,
+      "intrinsic_hinge_transverse_radius_cv": 0.5096939238806268,
+      "transverse_2d_radius_cv": 0.5109347053234887,
+      "cone_linear_radius_vs_axis_R2": 0.004964531792522169,
+      "axial_positive_step_fraction": 0.4020233154296875,
+      "transverse_reduced_net_phase_turns": 0.8397615326257466,
+      "phase_turns_topological_invariant": false
+    },
+    {
+      "label": "autonomous_positive_1.0e-04",
+      "plus_crossings": 4,
+      "minus_crossings": 4,
+      "cross_view_pairs": 4,
+      "opposite_side_duration_fraction": 0.02188981747675967,
+      "gate_windows": 4,
+      "original_planar_axis_ratio": 1.1103529853591685,
+      "sloped_untilted_axis_ratio": 1.1103529853591692,
+      "plus_ellipse_axis_ratio": 1.1451184113629154,
+      "minus_ellipse_axis_ratio": 1.1429097811449627,
+      "intrinsic_hinge_transverse_radius_cv": 0.5098416260874468,
+      "transverse_2d_radius_cv": 0.5110723747417408,
+      "cone_linear_radius_vs_axis_R2": 0.004956876242573167,
+      "axial_positive_step_fraction": 0.59796142578125,
+      "transverse_reduced_net_phase_turns": -0.1599193844464725,
+      "phase_turns_topological_invariant": false
+    },
+    {
+      "label": "autonomous_negative_3.0e-04",
+      "plus_crossings": 4,
+      "minus_crossings": 4,
+      "cross_view_pairs": 4,
+      "opposite_side_duration_fraction": 0.022008707920605098,
+      "gate_windows": 4,
+      "original_planar_axis_ratio": 1.1101569435681338,
+      "sloped_untilted_axis_ratio": 1.1101569435681333,
+      "plus_ellipse_axis_ratio": 1.1449110476299962,
+      "minus_ellipse_axis_ratio": 1.1426522881980234,
+      "intrinsic_hinge_transverse_radius_cv": 0.5095451085805447,
+      "transverse_2d_radius_cv": 0.5107954777186196,
+      "cone_linear_radius_vs_axis_R2": 0.00497226208527354,
+      "axial_positive_step_fraction": 0.402008056640625,
+      "transverse_reduced_net_phase_turns": 0.8394394558176079,
+      "phase_turns_topological_invariant": false
+    },
+    {
+      "label": "autonomous_positive_3.0e-04",
+      "plus_crossings": 4,
+      "minus_crossings": 4,
+      "cross_view_pairs": 4,
+      "opposite_side_duration_fraction": 0.021886626767320314,
+      "gate_windows": 4,
+      "original_planar_axis_ratio": 1.1104502398713667,
+      "sloped_untilted_axis_ratio": 1.110450239871366,
+      "plus_ellipse_axis_ratio": 1.1452211196764734,
+      "minus_ellipse_axis_ratio": 1.1430373723847087,
+      "intrinsic_hinge_transverse_radius_cv": 0.5099882148821189,
+      "transverse_2d_radius_cv": 0.5112083994960731,
+      "cone_linear_radius_vs_axis_R2": 0.004949295313585088,
+      "axial_positive_step_fraction": 0.5979461669921875,
+      "transverse_reduced_net_phase_turns": -0.15960330301862363,
+      "phase_turns_topological_invariant": false
+    }
+  ],
+  "controls": {
+    "slope_cases": [
+      {
+        "name": "historical_Q1_axis",
+        "m": 0.0
+      },
+      {
+        "name": "observed_cartesian_m",
+        "m": -0.308
+      },
+      {
+        "name": "17p04_geometry_m",
+        "m": -0.30649423149828975
+      },
+      {
+        "name": "opposite_slope_control",
+        "m": 0.308
+      }
+    ],
+    "theta_grid_deg": [
+      0.0,
+      10.0,
+      17.04,
+      25.0,
+      35.0
+    ],
+    "hidden_directions": {
+      "Q3": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "Q4": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "Q5": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "PCA_train": [
+        -0.4105034129634594,
+        0.9094294538464419,
+        -0.06652079691279893
+      ]
+    },
+    "basis_orthogonality_and_synthetic": {
+      "slope_hinge_basis": "PASS",
+      "sloped_affine_hinge": "PASS",
+      "four_point_fits": "PASS",
+      "planar_null_and_nonplanar_control": "PASS",
+      "single_path_two_views": "PASS",
+      "five_d_crossing_interpolation": "PASS",
+      "window_integration": "PASS"
+    },
+    "physical_D_G_identities": true,
+    "parent_l_source_sha_checked": true,
+    "m_server_pca_genealogy_checked": true
+  },
+  "interpretive_limits": [
+    "Four user-observed point coordinates are absent unless supplied with --four-points; m=-0.308 is not independently re-fitted.",
+    "The four Q2=0 roots are NOT the same four visually observed points and cannot generate a nonzero Q2/Q1 slope.",
+    "A line Q2=mQ1+b in the 2D projection is a one-dimensional *candidate hinge in R5*, not necessarily material or observer-invariant.",
+    "Synchronous +/- observer projections algebraically generate sum/difference identities: complementary signs do not certify physical lobes.",
+    "Apparent eccentricity/axis ratio of a projection is view-dependent; true in-plane rigid rotation leaves ellipse eigenvalues unchanged.",
+    "No observer-derived single path winding in R5 is a topological invariant.",
+    "Four-point line fit uses only four observations, thus is sensitive to how those points were chosen and to coordinate uncertainty.",
+    "Cross-view event pairs occur at different times, so never establish exact recurrence; crossings are piecewise-linear interpolants.",
+    "Cone/tube character would need independent geometry in full R5 and robust sections across observer changes.",
+    "No new numerical integration, no physical two-filament model, and no topology certificate."
+  ]
+}
