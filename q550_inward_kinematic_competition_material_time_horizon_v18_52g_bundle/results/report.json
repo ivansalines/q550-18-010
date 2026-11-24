@@ -1,0 +1,679 @@
+{
+  "version": "v18.52g",
+  "title": "Inward\u2013Kinematic Competition & Material-Time Horizon Audit",
+  "stage": "SERVER_AUTHENTIC_NONLINEAR_EXTENSION",
+  "settings": {
+    "mode": "server",
+    "source_s_path": null,
+    "xi_end": 0.8,
+    "samples": 2049,
+    "max_step": 0.00125,
+    "rtol": 2e-10,
+    "atol": 2e-11,
+    "refine": true
+  },
+  "source_lineage": {
+    "f_sha256": "232ffeafb260906b9c210b9561eb48573ee7930a640350ca627761a17a1a701c",
+    "e_sha256": "a884d79bc1e9b62c826bde3d80f38af6bf1714bf6b067eb72633e2982e4b74f4",
+    "d_sha256": "94c16162f42197be51bae7d662baf0baed7fa48681a5095a64c759a695875e9f",
+    "f_checks": 48,
+    "historical_xi_end": 0.2,
+    "historical_state_sha256": "b33157879081d1c8a00e20b90ff64ea8904f371ac8ea7e3a659a6f7fc3ffbaf4",
+    "parent_r_archive_sha256": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+    "v18_51s": {
+      "path": "/root/elab1/hysteresis/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip",
+      "sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b"
+    },
+    "model_kappa_midpoint": 0.1666331385421536
+  },
+  "results": {
+    "original_negative_1.0e-04": {
+      "label": "original_negative_1.0e-04",
+      "seed": "original",
+      "relative_kick": -0.0001,
+      "xi_end_requested": 0.8,
+      "tau_end": 1.3422577485914193,
+      "n_samples": 2049,
+      "nfev_reference": 9617,
+      "nfev_kick": 9617,
+      "terminal_R": 3.8933084374137743,
+      "maximum_R_sampled": 4.289521949824008,
+      "minimum_C_over_P_sampled": -3.289521949824007,
+      "minimum_C_sampled": -5.448641928066473e-09,
+      "maximum_D_sampled": 3.2915602585170654e-09,
+      "terminal_G": 1.4548374641425784e-09,
+      "terminal_D": 3.2915602585170654e-09,
+      "terminal_distance": 8.11364315029576e-05,
+      "terminal_drive_phase_mismatch": 5.842316339599307e-07,
+      "convexity_zero_detected": true,
+      "rate_zero_detected": false,
+      "genuine_position_separation_maximum_detected": false,
+      "D_sample_steps_decreasing": 0,
+      "historical_comparison": {
+        "D_max_abs": 2.237342611196944e-20,
+        "G_max_abs": 1.3674246783205983e-19,
+        "C_max_abs": 3.5750084330051814e-19,
+        "dQ_max_abs": 1.0353166877294555e-14,
+        "dV_max_abs": 5.272115009205712e-15,
+        "da_max_abs": 3.589211308458062e-15
+      },
+      "refinement": {
+        "deltaQ_norm_max": 1.6723040941373118e-14,
+        "deltaV_norm_max": 9.187086421245214e-15,
+        "deltaa_norm_max": 4.038807322780019e-15,
+        "D_abs_max": 2.3101210634166563e-19,
+        "G_abs_max": 1.1205981194378377e-19,
+        "C_abs_max": 2.401363220884318e-19,
+        "events": [
+          {
+            "category": "convexity_zero",
+            "coarse_tau": 0.7880980095191079,
+            "fine_tau": 0.7880980095230127,
+            "passed": true,
+            "abs_difference": 3.904765399909138e-12
+          }
+        ]
+      },
+      "event_search_certified_exhaustive": false,
+      "classification": "CONVEXITY_REVERSAL_DETECTED_WITHOUT_RETURN"
+    },
+    "original_positive_1.0e-04": {
+      "label": "original_positive_1.0e-04",
+      "seed": "original",
+      "relative_kick": 0.0001,
+      "xi_end_requested": 0.8,
+      "tau_end": 1.342258731526871,
+      "n_samples": 2049,
+      "nfev_reference": 9617,
+      "nfev_kick": 9617,
+      "terminal_R": 3.89252272649495,
+      "maximum_R_sampled": 4.286182731577615,
+      "minimum_C_over_P_sampled": -3.2861827315776146,
+      "minimum_C_sampled": -5.443096055186488e-09,
+      "maximum_D_sampled": 3.2925688964510813e-09,
+      "terminal_G": 1.4583852155899382e-09,
+      "terminal_D": 3.2925688964510813e-09,
+      "terminal_distance": 8.114886193226718e-05,
+      "terminal_drive_phase_mismatch": -5.842567448732794e-07,
+      "convexity_zero_detected": true,
+      "rate_zero_detected": false,
+      "genuine_position_separation_maximum_detected": false,
+      "D_sample_steps_decreasing": 0,
+      "historical_comparison": {
+        "D_max_abs": 2.7670070369299613e-20,
+        "G_max_abs": 1.3272319723566467e-19,
+        "C_max_abs": 2.798575351032282e-19,
+        "dQ_max_abs": 2.194342011086485e-14,
+        "dV_max_abs": 1.1024907421871844e-14,
+        "da_max_abs": 6.709962933178558e-15
+      },
+      "refinement": {
+        "deltaQ_norm_max": 1.6115447765916533e-14,
+        "deltaV_norm_max": 9.479193738385673e-15,
+        "deltaa_norm_max": 4.4681473416244834e-15,
+        "D_abs_max": 2.471309613481802e-19,
+        "G_abs_max": 1.5530522795836233e-19,
+        "C_abs_max": 3.100355653910003e-19,
+        "events": [
+          {
+            "category": "convexity_zero",
+            "coarse_tau": 0.7883374374360987,
+            "fine_tau": 0.7883374374302093,
+            "passed": true,
+            "abs_difference": 5.889400078729068e-12
+          }
+        ]
+      },
+      "event_search_certified_exhaustive": false,
+      "classification": "CONVEXITY_REVERSAL_DETECTED_WITHOUT_RETURN"
+    },
+    "original_negative_3.0e-04": {
+      "label": "original_negative_3.0e-04",
+      "seed": "original",
+      "relative_kick": -0.0003,
+      "xi_end_requested": 0.8,
+      "tau_end": 1.3422557828549477,
+      "n_samples": 2049,
+      "nfev_reference": 9617,
+      "nfev_kick": 9617,
+      "terminal_R": 3.8941097780689495,
+      "maximum_R_sampled": 4.292866419544842,
+      "minimum_C_over_P_sampled": -3.2928664195448416,
+      "minimum_C_sampled": -4.9087610629115415e-08,
+      "maximum_D_sampled": 2.961493649534602e-08,
+      "terminal_G": 1.3061646933276568e-08,
+      "terminal_D": 2.961493649534602e-08,
+      "terminal_distance": 0.00024337188208725354,
+      "terminal_drive_phase_mismatch": 1.7526150022373344e-06,
+      "convexity_zero_detected": true,
+      "rate_zero_detected": false,
+      "genuine_position_separation_maximum_detected": false,
+      "D_sample_steps_decreasing": 0,
+      "historical_comparison": {
+        "D_max_abs": 1.0428886367915435e-19,
+        "G_max_abs": 4.20191207564687e-19,
+        "C_max_abs": 3.554957574956896e-19,
+        "dQ_max_abs": 1.0433847046256788e-14,
+        "dV_max_abs": 5.3151700528619455e-15,
+        "da_max_abs": 2.776975877724213e-15
+      },
+      "refinement": {
+        "deltaQ_norm_max": 8.846860139377991e-15,
+        "deltaV_norm_max": 5.313766091217736e-15,
+        "deltaa_norm_max": 5.297097845052876e-15,
+        "D_abs_max": 2.531007238289754e-19,
+        "G_abs_max": 3.221157110567247e-19,
+        "C_abs_max": 4.861505896096654e-19,
+        "events": [
+          {
+            "category": "convexity_zero",
+            "coarse_tau": 0.7878586033562752,
+            "fine_tau": 0.7878586033585407,
+            "passed": true,
+            "abs_difference": 2.2655211040500944e-12
+          }
+        ]
+      },
+      "event_search_certified_exhaustive": false,
+      "classification": "CONVEXITY_REVERSAL_DETECTED_WITHOUT_RETURN"
+    },
+    "original_positive_3.0e-04": {
+      "label": "original_positive_3.0e-04",
+      "seed": "original",
+      "relative_kick": 0.0003,
+      "xi_end_requested": 0.8,
+      "tau_end": 1.342258731526871,
+      "n_samples": 2049,
+      "nfev_reference": 9617,
+      "nfev_kick": 9617,
+      "terminal_R": 3.891752612090734,
+      "maximum_R_sampled": 4.282855751881108,
+      "minimum_C_over_P_sampled": -3.282855751881108,
+      "minimum_C_sampled": -4.893791606675167e-08,
+      "maximum_D_sampled": 2.9642169502226642e-08,
+      "terminal_G": 1.3157435731445825e-08,
+      "terminal_D": 2.9642169502226642e-08,
+      "terminal_distance": 0.00024348375511408,
+      "terminal_drive_phase_mismatch": -1.7528410137801487e-06,
+      "convexity_zero_detected": true,
+      "rate_zero_detected": false,
+      "genuine_position_separation_maximum_detected": false,
+      "D_sample_steps_decreasing": 0,
+      "historical_comparison": {
+        "D_max_abs": 8.600114110652573e-20,
+        "G_max_abs": 4.1277801491498676e-19,
+        "C_max_abs": 3.2534667852935685e-19,
+        "dQ_max_abs": 1.0112558860511014e-14,
+        "dV_max_abs": 5.139255902495782e-15,
+        "da_max_abs": 2.5956315566318574e-15
+      },
+      "refinement": {
+        "deltaQ_norm_max": 2.2322701011573482e-14,
+        "deltaV_norm_max": 1.06719008954232e-14,
+        "deltaa_norm_max": 5.74079706029028e-15,
+        "D_abs_max": 1.108577530776217e-18,
+        "G_abs_max": 6.259176433515254e-19,
+        "C_abs_max": 9.243908781402595e-19,
+        "events": [
+          {
+            "category": "convexity_zero",
+            "coarse_tau": 0.7885768850889915,
+            "fine_tau": 0.7885768850881756,
+            "passed": true,
+            "abs_difference": 8.159029007970275e-13
+          }
+        ]
+      },
+      "event_search_certified_exhaustive": false,
+      "classification": "CONVEXITY_REVERSAL_DETECTED_WITHOUT_RETURN"
+    },
+    "autonomous_negative_1.0e-04": {
+      "label": "autonomous_negative_1.0e-04",
+      "seed": "autonomous",
+      "relative_kick": -0.0001,
+      "xi_end_requested": 0.8,
+      "tau_end": 1.3422576826356452,
+      "n_samples": 2049,
+      "nfev_reference": 9617,
+      "nfev_kick": 9617,
+      "terminal_R": 3.8946688723760183,
+      "maximum_R_sampled": 4.289578388165153,
+      "minimum_C_over_P_sampled": -3.2895783881651535,
+      "minimum_C_sampled": -5.44791634120249e-09,
+      "maximum_D_sampled": 3.2918748469279348e-09,
+      "terminal_G": 1.4554608234856357e-09,
+      "terminal_D": 3.2918748469279348e-09,
+      "terminal_distance": 8.114030868721088e-05,
+      "terminal_drive_phase_mismatch": 5.842451100690482e-07,
+      "convexity_zero_detected": true,
+      "rate_zero_detected": false,
+      "genuine_position_separation_maximum_detected": false,
+      "D_sample_steps_decreasing": 0,
+      "historical_comparison": {
+        "D_max_abs": 1.0897846076444717e-20,
+        "G_max_abs": 6.49737963451215e-20,
+        "C_max_abs": 2.85742925161543e-19,
+        "dQ_max_abs": 1.1060692651338161e-14,
+        "dV_max_abs": 5.190233501485374e-15,
+        "da_max_abs": 3.4969361995135993e-15
+      },
+      "refinement": {
+        "deltaQ_norm_max": 8.959584609861646e-15,
+        "deltaV_norm_max": 6.295965331522328e-15,
+        "deltaa_norm_max": 5.218978431813171e-15,
+        "D_abs_max": 1.265925481257279e-19,
+        "G_abs_max": 8.15922684416181e-20,
+        "C_abs_max": 1.7221900353354036e-19,
+        "events": [
+          {
+            "category": "convexity_zero",
+            "coarse_tau": 0.7881220344857051,
+            "fine_tau": 0.788122034489441,
+            "passed": true,
+            "abs_difference": 3.735900477863652e-12
+          }
+        ]
+      },
+      "event_search_certified_exhaustive": false,
+      "classification": "CONVEXITY_REVERSAL_DETECTED_WITHOUT_RETURN"
+    },
+    "autonomous_positive_1.0e-04": {
+      "label": "autonomous_positive_1.0e-04",
+      "seed": "autonomous",
+      "relative_kick": 0.0001,
+      "xi_end_requested": 0.8,
+      "tau_end": 1.34225866559403,
+      "n_samples": 2049,
+      "nfev_reference": 9617,
+      "nfev_kick": 9617,
+      "terminal_R": 3.893887887548741,
+      "maximum_R_sampled": 4.28624211597016,
+      "minimum_C_over_P_sampled": -3.2862421159701602,
+      "minimum_C_sampled": -5.442373953234288e-09,
+      "maximum_D_sampled": 3.292883434727042e-09,
+      "terminal_G": 1.4590077090647096e-09,
+      "terminal_D": 3.292883434727042e-09,
+      "terminal_distance": 8.115273790485496e-05,
+      "terminal_drive_phase_mismatch": -5.842702377467646e-07,
+      "convexity_zero_detected": true,
+      "rate_zero_detected": false,
+      "genuine_position_separation_maximum_detected": false,
+      "D_sample_steps_decreasing": 0,
+      "historical_comparison": {
+        "D_max_abs": 1.7892330239828265e-20,
+        "G_max_abs": 9.935059542221277e-20,
+        "C_max_abs": 3.531622809876775e-19,
+        "dQ_max_abs": 1.9700442431836097e-14,
+        "dV_max_abs": 9.850440420948107e-15,
+        "da_max_abs": 6.8853139354812075e-15
+      },
+      "refinement": {
+        "deltaQ_norm_max": 1.4125715112640979e-14,
+        "deltaV_norm_max": 7.906245360550256e-15,
+        "deltaa_norm_max": 5.862363498895563e-15,
+        "D_abs_max": 2.0569086702049863e-19,
+        "G_abs_max": 1.398282651071889e-19,
+        "C_abs_max": 2.441059618480738e-19,
+        "events": [
+          {
+            "category": "convexity_zero",
+            "coarse_tau": 0.7883615159434703,
+            "fine_tau": 0.7883615159394175,
+            "passed": true,
+            "abs_difference": 4.0527581290916714e-12
+          }
+        ]
+      },
+      "event_search_certified_exhaustive": false,
+      "classification": "CONVEXITY_REVERSAL_DETECTED_WITHOUT_RETURN"
+    },
+    "autonomous_negative_3.0e-04": {
+      "label": "autonomous_negative_3.0e-04",
+      "seed": "autonomous",
+      "relative_kick": -0.0003,
+      "xi_end_requested": 0.8,
+      "tau_end": 1.3422557168533868,
+      "n_samples": 2049,
+      "nfev_reference": 9617,
+      "nfev_kick": 9617,
+      "terminal_R": 3.8954654942589215,
+      "maximum_R_sampled": 4.292919776722774,
+      "minimum_C_over_P_sampled": -3.292919776722774,
+      "minimum_C_sampled": -4.9081049155421216e-08,
+      "maximum_D_sampled": 2.961776821924624e-08,
+      "terminal_G": 1.3067264887823573e-08,
+      "terminal_D": 2.961776821924624e-08,
+      "terminal_distance": 0.00024338351718736518,
+      "terminal_drive_phase_mismatch": 1.752655383269186e-06,
+      "convexity_zero_detected": true,
+      "rate_zero_detected": false,
+      "genuine_position_separation_maximum_detected": false,
+      "D_sample_steps_decreasing": 0,
+      "historical_comparison": {
+        "D_max_abs": 3.3559441234312317e-20,
+        "G_max_abs": 2.0130267387090481e-19,
+        "C_max_abs": 2.0345334346354269e-19,
+        "dQ_max_abs": 4.165116944343448e-15,
+        "dV_max_abs": 2.540595994553309e-15,
+        "da_max_abs": 2.563591614283729e-15
+      },
+      "refinement": {
+        "deltaQ_norm_max": 2.2054285046948533e-14,
+        "deltaV_norm_max": 9.015033211859865e-15,
+        "deltaa_norm_max": 5.524598409210869e-15,
+        "D_abs_max": 1.0774159827401194e-18,
+        "G_abs_max": 7.175096982182971e-19,
+        "C_abs_max": 6.708170070009037e-19,
+        "events": [
+          {
+            "category": "convexity_zero",
+            "coarse_tau": 0.7878825746904659,
+            "fine_tau": 0.7878825746904212,
+            "passed": true,
+            "abs_difference": 4.463096558993129e-14
+          }
+        ]
+      },
+      "event_search_certified_exhaustive": false,
+      "classification": "CONVEXITY_REVERSAL_DETECTED_WITHOUT_RETURN"
+    },
+    "autonomous_positive_3.0e-04": {
+      "label": "autonomous_positive_3.0e-04",
+      "seed": "autonomous",
+      "relative_kick": 0.0003,
+      "xi_end_requested": 0.8,
+      "tau_end": 1.34225866559403,
+      "n_samples": 2049,
+      "nfev_reference": 9617,
+      "nfev_kick": 9617,
+      "terminal_R": 3.8931225059194006,
+      "maximum_R_sampled": 4.282925193681043,
+      "minimum_C_over_P_sampled": -3.2829251936810437,
+      "minimum_C_sampled": -4.893147091613873e-08,
+      "maximum_D_sampled": 2.9644999868994415e-08,
+      "terminal_G": 1.3163030306623278e-08,
+      "terminal_D": 2.9644999868994415e-08,
+      "terminal_distance": 0.0002434953792949444,
+      "terminal_drive_phase_mismatch": -1.7528815414724619e-06,
+      "convexity_zero_detected": true,
+      "rate_zero_detected": false,
+      "genuine_position_separation_maximum_detected": false,
+      "D_sample_steps_decreasing": 0,
+      "historical_comparison": {
+        "D_max_abs": 3.793450289168185e-20,
+        "G_max_abs": 1.986474241046096e-19,
+        "C_max_abs": 2.1587428754163895e-19,
+        "dQ_max_abs": 4.113260188154038e-15,
+        "dV_max_abs": 1.8765591698792187e-15,
+        "da_max_abs": 2.49378099422335e-15
+      },
+      "refinement": {
+        "deltaQ_norm_max": 1.3144609560873905e-14,
+        "deltaV_norm_max": 6.554281171139104e-15,
+        "deltaa_norm_max": 4.005012652881225e-15,
+        "D_abs_max": 2.5999444705399234e-19,
+        "G_abs_max": 5.970738553918013e-19,
+        "C_abs_max": 2.237887516425463e-19,
+        "events": [
+          {
+            "category": "convexity_zero",
+            "coarse_tau": 0.7886010170565166,
+            "fine_tau": 0.7886010170566218,
+            "passed": true,
+            "abs_difference": 1.0513812043200232e-13
+          }
+        ]
+      },
+      "event_search_certified_exhaustive": false,
+      "classification": "CONVEXITY_REVERSAL_DETECTED_WITHOUT_RETURN"
+    }
+  },
+  "events": {
+    "original_negative_1.0e-04": {
+      "convexity_zero": [
+        {
+          "tau": 0.7880980095191079,
+          "crossing": "positive_to_negative",
+          "bracket": [
+            0.7877899481478936,
+            0.788445347439198
+          ],
+          "xi_reference": 0.4703220331865465,
+          "xi_kick": 0.47032211499426124,
+          "drive_phase_delta_xi": 8.180771476906656e-08,
+          "D": 1.7659644287910442e-09,
+          "G": 3.5339091435088825e-09,
+          "C": 3.2797711287727547e-21,
+          "R": 0.9999999999990802
+        }
+      ],
+      "rate_zero": [],
+      "position_separation_maxima": [],
+      "n_grid_brackets": 2048,
+      "continuous_sign_certified": false,
+      "root_method": "Brent on two true DOP853 dense flows inverted to common material tau"
+    },
+    "original_positive_1.0e-04": {
+      "convexity_zero": [
+        {
+          "tau": 0.7883374374360987,
+          "crossing": "positive_to_negative",
+          "bracket": [
+            0.7877905250465327,
+            0.7884459248177861
+          ],
+          "xi_reference": 0.4704646483160901,
+          "xi_kick": 0.4704645664134239,
+          "drive_phase_delta_xi": -8.190266620466957e-08,
+          "D": 1.766762819586635e-09,
+          "G": 3.534132355553637e-09,
+          "C": -1.1394412937917956e-21,
+          "R": 1.0000000000003197
+        }
+      ],
+      "rate_zero": [],
+      "position_separation_maxima": [],
+      "n_grid_brackets": 2048,
+      "continuous_sign_certified": false,
+      "root_method": "Brent on two true DOP853 dense flows inverted to common material tau"
+    },
+    "original_negative_3.0e-04": {
+      "convexity_zero": [
+        {
+          "tau": 0.7878586033562752,
+          "crossing": "positive_to_negative",
+          "bracket": [
+            0.7877887944295152,
+            0.7884441927609873
+          ],
+          "xi_reference": 0.4701794308330831,
+          "xi_kick": 0.47017967597163446,
+          "drive_phase_delta_xi": 2.4513855134689067e-07,
+          "D": 1.588649272851542e-08,
+          "G": 3.180316021345998e-08,
+          "C": 1.4260593760414197e-20,
+          "R": 0.9999999999995558
+        }
+      ],
+      "rate_zero": [],
+      "position_separation_maxima": [],
+      "n_grid_brackets": 2048,
+      "continuous_sign_certified": false,
+      "root_method": "Brent on two true DOP853 dense flows inverted to common material tau"
+    },
+    "original_positive_3.0e-04": {
+      "convexity_zero": [
+        {
+          "tau": 0.7885768850889915,
+          "crossing": "positive_to_negative",
+          "bracket": [
+            0.7884459248177861,
+            0.7891013245890394
+          ],
+          "xi_reference": 0.4706072750195133,
+          "xi_kick": 0.47060702902639967,
+          "drive_phase_delta_xi": -2.4599311365669507e-07,
+          "D": 1.5908049208881053e-08,
+          "G": 3.180918688432945e-08,
+          "C": 3.458276704961698e-20,
+          "R": 0.9999999999989216
+        }
+      ],
+      "rate_zero": [],
+      "position_separation_maxima": [],
+      "n_grid_brackets": 2048,
+      "continuous_sign_certified": false,
+      "root_method": "Brent on two true DOP853 dense flows inverted to common material tau"
+    },
+    "autonomous_negative_1.0e-04": {
+      "convexity_zero": [
+        {
+          "tau": 0.7881220344857051,
+          "crossing": "positive_to_negative",
+          "bracket": [
+            0.7877899094375223,
+            0.7884453086966217
+          ],
+          "xi_reference": 0.4703364181359844,
+          "xi_kick": 0.4703364999544891,
+          "drive_phase_delta_xi": 8.181850469357599e-08,
+          "D": 1.766117782539766e-09,
+          "G": 3.534199412857567e-09,
+          "C": -6.258034924269931e-21,
+          "R": 1.000000000001755
+        }
+      ],
+      "rate_zero": [],
+      "position_separation_maxima": [],
+      "n_grid_brackets": 2048,
+      "continuous_sign_certified": false,
+      "root_method": "Brent on two true DOP853 dense flows inverted to common material tau"
+    },
+    "autonomous_positive_1.0e-04": {
+      "convexity_zero": [
+        {
+          "tau": 0.7883615159434703,
+          "crossing": "positive_to_negative",
+          "bracket": [
+            0.7877904863496211,
+            0.7884458860886807
+          ],
+          "xi_reference": 0.470479065144578,
+          "xi_kick": 0.4704789832310906,
+          "drive_phase_delta_xi": -8.191348738195714e-08,
+          "D": 1.766916441142876e-09,
+          "G": 3.5344229068149686e-09,
+          "C": 7.647284763052741e-22,
+          "R": 0.9999999999997855
+        }
+      ],
+      "rate_zero": [],
+      "position_separation_maxima": [],
+      "n_grid_brackets": 2048,
+      "continuous_sign_certified": false,
+      "root_method": "Brent on two true DOP853 dense flows inverted to common material tau"
+    },
+    "autonomous_negative_3.0e-04": {
+      "convexity_zero": [
+        {
+          "tau": 0.7878825746904659,
+          "crossing": "positive_to_negative",
+          "bracket": [
+            0.787788755692271,
+            0.7884441539915158
+          ],
+          "xi_reference": 0.47019378384879407,
+          "xi_kick": 0.47019402901962065,
+          "drive_phase_delta_xi": 2.451708265849284e-07,
+          "D": 1.5887870501171188e-08,
+          "G": 3.1805770096689095e-08,
+          "C": -2.2929446579969927e-20,
+          "R": 1.000000000000714
+        }
+      ],
+      "rate_zero": [],
+      "position_separation_maxima": [],
+      "n_grid_brackets": 2048,
+      "continuous_sign_certified": false,
+      "root_method": "Brent on two true DOP853 dense flows inverted to common material tau"
+    },
+    "autonomous_positive_3.0e-04": {
+      "convexity_zero": [
+        {
+          "tau": 0.7886010170565166,
+          "crossing": "positive_to_negative",
+          "bracket": [
+            0.7884458860886807,
+            0.7891012858277403
+          ],
+          "xi_reference": 0.47062172367893335,
+          "xi_kick": 0.47062147765326284,
+          "drive_phase_delta_xi": -2.46025670502803e-07,
+          "D": 1.5909434206086898e-08,
+          "G": 3.181180437245771e-08,
+          "C": 1.394957385009426e-20,
+          "R": 0.999999999999565
+        }
+      ],
+      "rate_zero": [],
+      "position_separation_maxima": [],
+      "n_grid_brackets": 2048,
+      "continuous_sign_certified": false,
+      "root_method": "Brent on two true DOP853 dense flows inverted to common material tau"
+    }
+  },
+  "all_numerical_checks_passed": true,
+  "refinement_performed": true,
+  "numerical_checks": {
+    "original.historical_reference_replay": true,
+    "original_negative_1.0e-04.historical_full_kick_replay": true,
+    "original_negative_1.0e-04.identities_and_embedding": true,
+    "original_negative_1.0e-04.refinement_QV": true,
+    "original_negative_1.0e-04.event_roots_survive_refinement": true,
+    "original_positive_1.0e-04.historical_full_kick_replay": true,
+    "original_positive_1.0e-04.identities_and_embedding": true,
+    "original_positive_1.0e-04.refinement_QV": true,
+    "original_positive_1.0e-04.event_roots_survive_refinement": true,
+    "original_negative_3.0e-04.historical_full_kick_replay": true,
+    "original_negative_3.0e-04.identities_and_embedding": true,
+    "original_negative_3.0e-04.refinement_QV": true,
+    "original_negative_3.0e-04.event_roots_survive_refinement": true,
+    "original_positive_3.0e-04.historical_full_kick_replay": true,
+    "original_positive_3.0e-04.identities_and_embedding": true,
+    "original_positive_3.0e-04.refinement_QV": true,
+    "original_positive_3.0e-04.event_roots_survive_refinement": true,
+    "autonomous.historical_reference_replay": true,
+    "autonomous_negative_1.0e-04.historical_full_kick_replay": true,
+    "autonomous_negative_1.0e-04.identities_and_embedding": true,
+    "autonomous_negative_1.0e-04.refinement_QV": true,
+    "autonomous_negative_1.0e-04.event_roots_survive_refinement": true,
+    "autonomous_positive_1.0e-04.historical_full_kick_replay": true,
+    "autonomous_positive_1.0e-04.identities_and_embedding": true,
+    "autonomous_positive_1.0e-04.refinement_QV": true,
+    "autonomous_positive_1.0e-04.event_roots_survive_refinement": true,
+    "autonomous_negative_3.0e-04.historical_full_kick_replay": true,
+    "autonomous_negative_3.0e-04.identities_and_embedding": true,
+    "autonomous_negative_3.0e-04.refinement_QV": true,
+    "autonomous_negative_3.0e-04.event_roots_survive_refinement": true,
+    "autonomous_positive_3.0e-04.historical_full_kick_replay": true,
+    "autonomous_positive_3.0e-04.identities_and_embedding": true,
+    "autonomous_positive_3.0e-04.refinement_QV": true,
+    "autonomous_positive_3.0e-04.event_roots_survive_refinement": true
+  },
+  "n_nontrivial_separation_maxima": 0,
+  "n_convexity_zeros": 8,
+  "n_rate_zeros": 0,
+  "mathematical_interpretation": "D=0.5|dq|^2; G=dD/dtau=dq.dv; C=dG/dtau=|dv|^2+dq.da=P-I. C=0 is not return; true maximum in position separation requires G positive-to-negative. I>0 alone is inward acceleration, not sufficiency for convergence.",
+  "limitations": [
+    "Numerical dense ODE root finding, not certified continuous-time enclosure",
+    "Sign-sampling may miss even-multiplicity or rapidly oscillating roots between search sections",
+    "Model parameter kappa fixed at historical midpoint; no change in force",
+    "Physical Euclidean five-dimensional Cartesian kinetic embedding specified, not gauge-independent",
+    "Material-clock coincidence does not force common external drive phase",
+    "No conclusion about long-time asymptotic recovery or physical dissipation",
+    "Extension beyond previously authenticated xi<=0.2 is newly simulated, not historically validated"
+  ],
+  "python": "3.13.16",
+  "numpy": "2.4.1",
+  "scipy": "1.17.1"
+}

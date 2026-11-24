@@ -1,0 +1,29 @@
+{
+  "version": "v18.52g",
+  "root": "q550_inward_kinematic_competition_material_time_horizon_v18_52g_bundle",
+  "title": "Inward\u2013Kinematic Competition & Material-Time Horizon Audit",
+  "parent_f_archive_sha256": "232ffeafb260906b9c210b9561eb48573ee7930a640350ca627761a17a1a701c",
+  "required_external_v18_51s_archive_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "67ee4820839cc911450ef6d8ce5876c014b3f53c30c5cf45360dd3e87e9517ae",
+    "README.md": "4c7d0a06e3003df70a78a8896ff82ff1fe661e406d9599164edaf341ea965278",
+    "SCIENTIFIC_DECISION_RULES.md": "5df6fc3cacc6eaf4bcc7b99042d5523d57c8b97159514eabf067b65d705db321",
+    "SCIENTIFIC_REPORT.md": "c4c12313f03f0b5f9d16fd8676fe32fd8dcb3c3fb31d9f6eda49392e261061a5",
+    "SCIENTIFIC_REPORT_SERVER.md": "f8d5d8fc35d665175f35ae558fb294ed31f10772dadc2624bb45b224b5651291",
+    "SOURCE_PROVENANCE.md": "c1c4891f705d974f268f2c5e986e6011d237b9d13834c6d17df19bde08efb230",
+    "inputs/q550_relative_separation_convexity_inward_acceleration_sufficiency_v18_52f_bundle_server_sendback.zip": "232ffeafb260906b9c210b9561eb48573ee7930a640350ca627761a17a1a701c",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/parent_v18_52d_run_audit.py": "3c6c9eed6744c04f9ac63db5ce2ddc0b0836b350631b34242cf7809ce554777b",
+    "reference/parent_v18_52e_run_audit.py": "4710ddae040073dfb43279a5c2238779117e8c4ecabd0374e3c6be8648b9fdbd",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "run_on_server.sh": "b1451810763485db467b7a19c31ec2956c376bce272ee5c69ad1b48b82e19b2f",
+    "scripts/pack_sendback.py": "050f100139feda7093849fd859aeceade92bce0fab50c5983389f42a25251c81",
+    "scripts/run_audit.py": "8924eca42df09593de0d36b09985a6722ed2b9ad6ed2e1d54c63e8d675fb02b1",
+    "scripts/verify_source_manifest.py": "3e59147f77edf0ce9f0100ee775a39f2d4152694cbf684590e3ee2e3a771a163",
+    "scripts/write_output_manifest.py": "f2505a3c6f290ee3f38ae56f8928565c830e8b0fc7be607c7bb6dac6ac447902",
+    "tests/test_mock_clock_ivp.py": "a644e11abd3c85f3680090713b61e123dee5168c0cc08f761b730d5128cdb765",
+    "tests/test_results.py": "8ea74d094a302d947dddd3f3e184dcce47b7c310790fa8cdd4d165b826199988",
+    "tests/test_synthetic.py": "a1e0593ff32b13534ad0c620b89c7983140857116c634687055f8cbc58e0c435"
+  }
+}

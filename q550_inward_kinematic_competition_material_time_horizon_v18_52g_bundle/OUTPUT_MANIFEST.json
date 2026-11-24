@@ -1,0 +1,14 @@
+{
+  "version": "v18.52g",
+  "file_sha256": {
+    "results/PREFLIGHT.json": "29a1a7e665d87f01f66ded4db39c57bbd2bbd04a36320c2217cf99cb61b6313d",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "9e439df855a99b2d4c7b6d24d37209812d00989eff1712a51cacff0a9c81f85a",
+    "results/extended_10d_nonlinear_states.npz": "98c309d6c989b1e5ac49e50d8dd21cc3d0851e8c242b73d9ad31ad4e5dee27e1",
+    "results/inward_kinematic_material_horizon.png": "091e9176ed8be1ff27320279c9ec924fef68173174f1194373e6ce31620fb9fb",
+    "results/kick_horizon_summary.csv": "8d86c504c964935d10b7b88d023f13a79f23a13a7a6fe9e9ddaef5e98be43ddd",
+    "results/material_horizon_events.csv": "585663dc4dd993168a7b1a29b0506a8fb21a700e7f48da4a4ab9bc8996479e31",
+    "results/material_horizon_ledger.csv": "232d983da678c5d6d58cec4f3ac5b07b64dd0ddf8fa592b13f91a01c4262c2f0",
+    "results/material_horizon_traces.npz": "e7fe79544a6f12ee750d3b5f00576dd044c4fbd74025feb4fff02d3153a13c24",
+    "results/report.json": "8ff2d274ea0ea7aa54d251de22c39d6201d8d21f3a36b3f444771e5687e61bc4"
+  }
+}

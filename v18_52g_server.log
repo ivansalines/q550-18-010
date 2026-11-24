@@ -1,0 +1,32 @@
+PASS: source provenance hashes 20
+PASS: synthetic exact convexity/rate/maxima order and absence-of-return tests
+PASS: mock authentic-style 10D+material-clock IVP, dense roots C/G/Dmax
+v18.52g f/e/d lineage source and result SHA/CRC authenticated.
+PREFLIGHT PASS — no nonlinear integration, no horizon result claimed
+v18.52g f/e/d lineage source and result SHA/CRC authenticated.
+Staging the authenticated v18.51s->r->q->19 ancestors field...
+AUTHENTICATED MODEL: staging 10D physical solver
+Integrating genuine base nonlinear 10D, seed original
+ Historical 0.2 replay: {'max_Y_abs': 6.106226635438361e-15, 'max_Q_abs': 9.978129433818594e-15, 'max_V_abs': 5.079270337660091e-15, 'max_tau_abs': 2.1094237467877974e-15}
+ Integrating 10D kick original_negative_1.0e-04
+  Event counts C/G/Dmax: 1 0 0 R final 3.8933084
+ Integrating 10D kick original_positive_1.0e-04
+  Event counts C/G/Dmax: 1 0 0 R final 3.8925227
+ Integrating 10D kick original_negative_3.0e-04
+  Event counts C/G/Dmax: 1 0 0 R final 3.8941098
+ Integrating 10D kick original_positive_3.0e-04
+  Event counts C/G/Dmax: 1 0 0 R final 3.8917526
+Integrating genuine base nonlinear 10D, seed autonomous
+ Historical 0.2 replay: {'max_Y_abs': 7.993605777301127e-15, 'max_Q_abs': 4.593547764386585e-15, 'max_V_abs': 2.546574062733953e-15, 'max_tau_abs': 1.7763568394002505e-15}
+ Integrating 10D kick autonomous_negative_1.0e-04
+  Event counts C/G/Dmax: 1 0 0 R final 3.8946689
+ Integrating 10D kick autonomous_positive_1.0e-04
+  Event counts C/G/Dmax: 1 0 0 R final 3.8938879
+ Integrating 10D kick autonomous_negative_3.0e-04
+  Event counts C/G/Dmax: 1 0 0 R final 3.8954655
+ Integrating 10D kick autonomous_positive_3.0e-04
+  Event counts C/G/Dmax: 1 0 0 R final 3.8931225
+NUMERICAL VALIDATION 34 / 34 PASS
+PASS: v18.52g authenticated-source server results and event/report consistency
+OUTPUT_MANIFEST 9 files
+PACKED /root/elab1/hysteresis/q550_inward_kinematic_competition_material_time_horizon_v18_52g_bundle_server_sendback.zip
