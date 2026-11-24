@@ -1,0 +1,23 @@
+{
+  "version": "v18.52s",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "8e3045bed4d096ae320bb477dd0cb0273d57aa621b0b7a89d0b4dbc75e173246",
+    "README.md": "4515f0a9af337374fde78602f82bcfb0a94a32efb0eaeae0f09a1dd0beead94e",
+    "SCIENTIFIC_DECISION_RULES.md": "faf4fe6957592a3b1c14c43e3f7bd9acba33651e34c3e292c57382e1eeda95f5",
+    "SOURCE_MANIFEST.json": "55549631f4463441469d759a794e06224135ad534bd608fac6cd19e9404634aa",
+    "SOURCE_PROVENANCE.md": "1e9256bc1470ff00e8920a36f3123547681b969183216c0b6061948e9e8b11a2",
+    "inputs_config.json": "c93da22bf49471d0af622c38ad76434b23a5e603bcaef7158cdeab321a05c406",
+    "requirements.txt": "5c1c782e9300c70abe64309c5d18cc0e5d7d5b68f6f0f9bc98f46ed78adee2ce",
+    "run_on_server.sh": "c0e91cf56e575d9cdffeca1a2aa853e2ae751c5e8935f33c25f780652b24e126",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52r_clock_audit.py": "ade8cf65343b3f730b662e3baa70decd21f0768d02ceaf8a7fc5339ce0a86b2e",
+    "scripts/energy_math.py": "0ccc280af480e9099398cdf5702ea503b035851bbfe0ea66ac9178f3c47c47b5",
+    "scripts/package_sendback.py": "f5d80ea62c6794c2b2768f25290c9996dd18e7a3f7a9e2e2c929159e2faef79f",
+    "scripts/run_audit.py": "4e72f6944e95653e066b35e0bcf54ac4141a28a641e72e1a18f41dc57683b47a",
+    "scripts/symbolic_energy.py": "571a2d4b04ada3057fdf8b6e38cc6085816880038f832eca127288daf21bc75f",
+    "scripts/verify_manifest.py": "9c4095d919476ba1973fb4eefe2e11bd5842097e17e041dc5653fefb4298681b",
+    "tests/test_synthetic.py": "f6ff1c95f1f160336c3b60af2c2707b962721988a814f437cca4a25e1134ead0",
+    "results/symbolic_energy_identity.json": "40f4bdd03ce13a54320c1f8e785a7fd4e37c65ebf5fcbf13fc46110f6a08ed95"
+  }
+}

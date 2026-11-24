@@ -1,0 +1,107 @@
+{
+  "version": "v18.52s-r2",
+  "model": "Q550 archived physical-time RHS",
+  "proof_scope": "Exact parameter-dependent model energy identity; verified parameter lineage required for authentic native ledger; finite-time bound only",
+  "parameter_audit_file": "results/parameter_audit.json",
+  "model_parameters": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "off_orbit": {
+    "n": 160,
+    "max_abs_E_balance": 3.4416913763379853e-15,
+    "max_abs_H_balance": 3.552713678800501e-15,
+    "max_lower_bound_violation": 0.0,
+    "max_dJdiff": 1.5543122344752192e-15,
+    "pass_all": true
+  },
+  "native": {
+    "status": "AUTHENTIC_NATIVE_AND_PHASE_VERIFIED",
+    "file_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+    "phase_source_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "n_series": 20,
+    "min_count": 65537,
+    "max_energy_ledger_relative_error": 2.3009612010876923e-11,
+    "max_phase_rate_minus_x": 1.0058303739589887,
+    "max_charge_range": 3.197442310920451e-14,
+    "max_energy_upper_bound_violation": 0.0,
+    "ledger_pass": true,
+    "phase_clock_pass": false,
+    "bound_pass": true,
+    "plots_generated": [
+      "original",
+      "autonomous"
+    ]
+  },
+  "phase_context": {
+    "status": "AUTHENTIC_ORIGINAL_PHASE_RECONSTRUCTED",
+    "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "original_engine_slope": 0.1343837359721647,
+    "kappa_original": 0.16666666666666666,
+    "kappa_autonomous": 0.16659961041764054,
+    "kappa_shared": 0.1666331385421536,
+    "xi_interval": [
+      12.8,
+      25.6
+    ],
+    "phase_interval": {
+      "original": [
+        -9.837654285725517,
+        -20.645435602643357
+      ],
+      "autonomous": [
+        -9.83763325546736,
+        -20.6454145723852
+      ]
+    },
+    "theta_is_external": true,
+    "Y_tau_column_11_is_material_time": true,
+    "parameter_authentication": "SHA256_SOURCE_AND_EXACT_SEVEN_PARAM_MATCH",
+    "authenticated_model_parameters": {
+      "phi0": 0.0,
+      "e_reserve": 0.01,
+      "gamma_rho": 0.3,
+      "barrier_B": 0.3,
+      "mu_x": 0.05,
+      "gamma_x": 0.3,
+      "m_x": 1.0
+    }
+  },
+  "finite_time_bounds": {
+    "original": {
+      "status": "FINITE_TIME_GRONWALL_BOUND",
+      "energy_shift": 86.4,
+      "quadratic_coefficient": 0.9166666666666666,
+      "K": 0.6999269705955397,
+      "source_norm": 0.1740051084818425,
+      "proof": "G(t)<=G(0)*exp(K*(t-t0)), G=E+86.4",
+      "radial_bound": "r_i(t)>=e_reserve/sqrt(2*G(0)*exp(K*t))",
+      "charge_bound": "r1^2+r2^2>=Jdiff^2/(2*G(0)*exp(K*t))",
+      "uniform_all_time_bound_proved": false
+    },
+    "autonomous": {
+      "status": "FINITE_TIME_GRONWALL_BOUND",
+      "energy_shift": 86.4,
+      "quadratic_coefficient": 0.9167001948,
+      "K": 0.6996622756488745,
+      "source_norm": 0.1739408812942828,
+      "proof": "G(t)<=G(0)*exp(K*(t-t0)), G=E+86.4",
+      "radial_bound": "r_i(t)>=e_reserve/sqrt(2*G(0)*exp(K*t))",
+      "charge_bound": "r1^2+r2^2>=Jdiff^2/(2*G(0)*exp(K*t))",
+      "uniform_all_time_bound_proved": false
+    }
+  },
+  "scientific_decision": "ANALYTIC_PROOF_WITH_PARTIAL_OR_FAILED_TRACE_SUPPORT",
+  "no_global_uniform_bound_certified": true,
+  "not_proved": [
+    "global uniform energy upper bound",
+    "uniform-in-time radius lower bound",
+    "no collapse of 5D perturbation separation",
+    "topological charge interpretation"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "version": "v18.52s-r2",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "a427744e7a1f8a018ce3c91da1647969dcd5c5c502ce081acf95002964da1ad8",
+    "README.md": "5f2ac97c2d41b2785eb3e7f04bf3eb505f224c9f7a2c23ee0bf4d4ff4b397fb1",
+    "REPAIR_NOTES.md": "28e8b0bdb16b5a8f09ca2ab83bd9baf454e4ff2ddd2382796de8be8314fed8d9",
+    "SCIENTIFIC_DECISION_RULES.md": "2c0b53a05edbfec7a41bfb4a2eee3a814da074a3f5f6b7165f8f2f4e6248b2cb",
+    "SOURCE_MANIFEST.json": "743f9b6925cd058a84713dc34d175d78e71901e68b97cc27ecc6f250f48ec6e2",
+    "SOURCE_PROVENANCE.md": "eaf4b022bfb3ec7aa26864f93084ff5ad2247835d8766d9cd275050e4a5b08d3",
+    "inputs_config.json": "c6e0d5b0a30468a4ea6cfae84fa7d93bd83ddf50ca258db3e2a559334bba848e",
+    "requirements.txt": "5c1c782e9300c70abe64309c5d18cc0e5d7d5b68f6f0f9bc98f46ed78adee2ce",
+    "run_on_server.sh": "7fac0e46107f54a79df1d7a4a67218a54545e0255b1c3eea825d105fa0b8710d",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52r_clock_audit.py": "ade8cf65343b3f730b662e3baa70decd21f0768d02ceaf8a7fc5339ce0a86b2e",
+    "scripts/energy_math.py": "23b49ac82e9acd11002cb45696858e6091113221646d2737cd6e2eeca2e2b4a2",
+    "scripts/package_sendback.py": "23a4611d1b6e3f27ad3808750bf338b84431a96577884a73d5ebbd4ce933e477",
+    "scripts/run_audit.py": "6606f0d5cf5457d17e50d7c493ab2b99249b98faaabac84e1ac6c6c30aae1099",
+    "scripts/symbolic_energy.py": "571a2d4b04ada3057fdf8b6e38cc6085816880038f832eca127288daf21bc75f",
+    "scripts/verify_manifest.py": "9c4095d919476ba1973fb4eefe2e11bd5842097e17e041dc5653fefb4298681b",
+    "tests/test_parameter_lineage.py": "dcd16f62dd1b286d3e225ed5e156278df9ca9375ce1cf8044298d65b083112de",
+    "tests/test_synthetic.py": "3eb374c2f05b992d08ad7c4c1e3544ef69846f3b8bc0fa40c8cd63a9ebc5a2e2",
+    "results/symbolic_energy_identity.json": "e61660b2ca514cef230f5f0c21e265dbd7838178bef7b70abd6234eec99ef7b9",
+    "results/parameter_audit.json": "010e366d2f8c949d97ca7001606236211ba9844e0d97f98094b182571ab6afda",
+    "results/native_20_series_energy_ledger.csv": "53c05c831d7bf4c4e6775294088b9a14d45896d9c6e940b36f07a89b137774a1",
+    "results/original_energy_work_dissipation_ledger.png": "9c4deb92a2bb99243d91b76e8cd05ac88e515f34e0c019758d2c0402053ca262",
+    "results/autonomous_energy_work_dissipation_ledger.png": "4412bad2200717c9b9660e7e53841691fdfc629bfb8ad9469b0a5f0111c6f623",
+    "results/report.json": "fbbb69da520ee9823e638c5dc0899a9305e5a9166a63d41f2ea5597fb74b7493",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "ae29411f42eb141ee81a90ae3a8036fd2d4983be053cb5c177d31cd3f9892872"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "MATCH",
+  "parent_v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "engine_authenticated_parameters": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "audit_declared_parameters": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "original_v1852s_unverified_parameters": {
+    "phi0": 0.28,
+    "e_reserve": 0.26,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.48,
+    "mu_x": 0.5,
+    "gamma_x": 0.02,
+    "m_x": 1.2
+  },
+  "differences": {
+    "phi0": 0.0,
+    "e_reserve": 0.0,
+    "gamma_rho": 0.0,
+    "barrier_B": 0.0,
+    "mu_x": 0.0,
+    "gamma_x": 0.0,
+    "m_x": 0.0
+  },
+  "note": "Never substitute parameters merely to force an energy ledger match"
+}

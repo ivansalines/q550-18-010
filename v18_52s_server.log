@@ -1,0 +1,18 @@
+SOURCE_MANIFEST_PASS 16
+SYNTHETIC_PASS
+{
+  "status": "SYMPY_NOT_INSTALLED",
+  "exact_model_identity": "see MATHEMATICAL_PROTOCOL.md"
+}
+AUTHENTICATED MODEL: staging 10D physical solver
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_energy_work_dissipation_global_noncollapse_bound_v18_52s_bundle/scripts/run_audit.py", line 270, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/root/elab1/hysteresis/q550_energy_work_dissipation_global_noncollapse_bound_v18_52s_bundle/scripts/run_audit.py", line 219, in main
+    phase_by_seed,k_shared,clock_meta=recover_authenticated_global_phase(parent_source,xi)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/root/elab1/hysteresis/q550_energy_work_dissipation_global_noncollapse_bound_v18_52s_bundle/scripts/run_audit.py", line 114, in recover_authenticated_global_phase
+    raise RuntimeError('Original model parameters differ from historical config: '+str(differences))
+RuntimeError: Original model parameters differ from historical config: {'phi0': -0.28, 'e_reserve': -0.25, 'gamma_rho': 0.0, 'barrier_B': -0.18, 'mu_x': -0.45, 'gamma_x': 0.27999999999999997, 'm_x': -0.19999999999999996}
+SENDBACK /root/elab1/hysteresis/q550_energy_work_dissipation_global_noncollapse_bound_v18_52s_bundle_server_sendback.zip 46705

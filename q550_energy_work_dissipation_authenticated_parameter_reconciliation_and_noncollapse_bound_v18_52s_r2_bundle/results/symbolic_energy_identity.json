@@ -1,0 +1,6 @@
+{
+  "status": "SYMPY_EXACT_PASS",
+  "energy_residual": "0",
+  "rotating_frame_residual": "0",
+  "individual_angular_moment_transfer": "2*k*r1*r2*x*sin(d)"
+}

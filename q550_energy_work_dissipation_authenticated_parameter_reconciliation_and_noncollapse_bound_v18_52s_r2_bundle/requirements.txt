@@ -1,0 +1,3 @@
+numpy>=1.24
+matplotlib>=3.7  # optional for PNGs
+sympy>=1.11  # optional exact symbolic cross-check

@@ -1,0 +1,25 @@
+{
+  "version": "v18.52s",
+  "lineage": "v18.52r-r1 (clock equivalence) -> v18.52s energy audit",
+  "v1852l_10d_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "model_params": {
+    "phi0": 0.28,
+    "e_reserve": 0.26,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.48,
+    "mu_x": 0.5,
+    "gamma_x": 0.02,
+    "m_x": 1.2
+  },
+  "kappa_seeds": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.1665996104
+  },
+  "reference_model_source": "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py",
+  "finite_time_bound_uses_shift": 86.4,
+  "file_rationale": "No original IVP rerun; known authentic v18.52l 10D NPZ used on server.",
+  "v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "native_state_warning": "native 11th column is material time tau, NOT phase Theta. Native E ledger is forbidden without v18.51s phase lineage.",
+  "v1852l_fixed_model_kappa": 0.1666331385421536,
+  "v1852l_report_source_lineage": "authenticated v18.52l report.json source_lineage.fixed_model_kappa"
+}

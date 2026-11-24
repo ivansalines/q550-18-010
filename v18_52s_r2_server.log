@@ -1,0 +1,44 @@
+SOURCE_MANIFEST_PASS 18
+SYNTHETIC_PASS
+PARAMETER_LINEAGE_PRECHECK_PASS {'phi0': 0.0, 'e_reserve': 0.01, 'gamma_rho': 0.3, 'barrier_B': 0.3, 'mu_x': 0.05, 'gamma_x': 0.3, 'm_x': 1.0} K 0.699794621858176
+{
+  "status": "SYMPY_EXACT_PASS",
+  "energy_residual": "0",
+  "rotating_frame_residual": "0",
+  "individual_angular_moment_transfer": "2*k*r1*r2*x*sin(d)"
+}
+AUTHENTICATED MODEL: staging 10D physical solver
+{
+  "decision": "ANALYTIC_PROOF_WITH_PARTIAL_OR_FAILED_TRACE_SUPPORT",
+  "off_orbit": {
+    "n": 160,
+    "max_abs_E_balance": 3.4416913763379853e-15,
+    "max_abs_H_balance": 3.552713678800501e-15,
+    "max_lower_bound_violation": 0.0,
+    "max_dJdiff": 1.5543122344752192e-15,
+    "pass_all": true
+  },
+  "native": {
+    "status": "AUTHENTIC_NATIVE_AND_PHASE_VERIFIED",
+    "file_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+    "phase_source_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "n_series": 20,
+    "min_count": 65537,
+    "max_energy_ledger_relative_error": 2.3009612010876923e-11,
+    "max_phase_rate_minus_x": 1.0058303739589887,
+    "max_charge_range": 3.197442310920451e-14,
+    "max_energy_upper_bound_violation": 0.0,
+    "ledger_pass": true,
+    "phase_clock_pass": false,
+    "bound_pass": true,
+    "plots_generated": [
+      "original",
+      "autonomous"
+    ]
+  },
+  "K": {
+    "original": 0.6999269705955397,
+    "autonomous": 0.6996622756488745
+  }
+}
+SENDBACK /root/elab1/hysteresis/q550_energy_work_dissipation_authenticated_parameter_reconciliation_and_noncollapse_bound_v18_52s_r2_bundle_server_sendback.zip 505361
