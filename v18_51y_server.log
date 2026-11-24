@@ -1,0 +1,8 @@
+Q550 v18.51y SOURCE VERIFIED 23 optional full parent False
+Q550 v18.51y synthetic 29 / 29 PASS
+Model-constrained source subspaces: original
+Model-constrained source subspaces: autonomous
+Q550 v18.51y REAL scientific checks 18 / 18 PASS
+Q550 v18.51y REAL results 21 / 21 PASS
+Q550 v18.51y OUTPUT SHA256 6
+Q550 v18.51y SENDBACK /root/elab1/hysteresis/q550_model_constrained_source_subspaces_physical_attribution_admissibility_v18_51y_bundle_server_sendback.zip

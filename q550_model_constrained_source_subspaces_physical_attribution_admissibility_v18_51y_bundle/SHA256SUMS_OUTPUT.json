@@ -1,0 +1,12 @@
+{
+  "root": "q550_model_constrained_source_subspaces_physical_attribution_admissibility_v18_51y_bundle",
+  "version": "v18.51y",
+  "file_sha256": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "73c3d8696f6214b4cc0847813b7107bac84a1a437b065f740941cc9bb7f818fa",
+    "results/coordinate_covariance_seed_summary.csv": "20c7bdb54fd96fb1460a1c50270bc704bc7218702c631a68e89c4b43be34d865",
+    "results/model_constrained_source_covariance_arrays.npz": "3bcad37f4a919072d5171ce6081174144cc88546355c7b2cb3b4df3807de8b65",
+    "results/physical_source_admissibility_and_covariance.png": "484d9de551eead069d3784763993c4d5b8cfe465488c47bc27df11d8f8712200",
+    "results/report.json": "9ca3a5e328dafdf319d801e3a44eba54a3e92144f47b5cde46383adba8c4c780",
+    "results/source_support_admissibility_ledger.csv": "0cf906984cb64e5b471a60d91ee412e0036a9084d2d9ab17d05b75a43b02f198"
+  }
+}
