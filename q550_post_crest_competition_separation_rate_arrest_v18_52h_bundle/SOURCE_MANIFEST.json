@@ -1,0 +1,25 @@
+{
+  "version": "v18.52h",
+  "title": "Post-Crest Competition & Separation-Rate Arrest Audit",
+  "root": "q550_post_crest_competition_separation_rate_arrest_v18_52h_bundle",
+  "parent_g_archive_sha256": "3a22ed6254608dba1b623653a9879a16381c17141f7054e54976ea5b4a42535e",
+  "external_v18_51s_archive_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "47c5b928a0b2a056fcf46dfcc5ccf73bb0c59ab6f61567847147c4a7d2742bf4",
+    "README.md": "cb2679c1a0bfee49bb331f628a4c698eba70e85507dc986a31b58ed628ce6e04",
+    "SCIENTIFIC_DECISION_RULES.md": "44caff3f0045fd5e059d6ad288c01c94b3c0b2105e0e6d8fec3d557d00387181",
+    "SCIENTIFIC_REPORT.md": "d3e4b88817623c853697397db79b88b7a20b2d9badcf17eec3f1ca910dbf8fca",
+    "SOURCE_PROVENANCE.md": "070d9aab2f20b2be78417377cd62fe3b1567c6218d65e19ff9f4837a4e790e19",
+    "inputs/q550_inward_kinematic_competition_material_time_horizon_v18_52g_bundle_server_sendback.zip": "3a22ed6254608dba1b623653a9879a16381c17141f7054e54976ea5b4a42535e",
+    "reference/parent_v18_52g_run_audit.py": "8924eca42df09593de0d36b09985a6722ed2b9ad6ed2e1d54c63e8d675fb02b1",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "run_on_server.sh": "ee77ad248eccb20cf5a53a210708bd48e02782573300d4921aac803e2272dac6",
+    "scripts/pack_sendback.py": "5e3722daf5db74b870baa2604648a32b5b8247976f35b79c06d9a6b158205e92",
+    "scripts/run_audit.py": "405c7375766b2dfe52da9b8e85009acf81a39269a95ccd18b90b9222bb29e21b",
+    "scripts/verify_source_manifest.py": "ce9227cf805002d1e1328e63c446631ef4500e82ad3928238d3b4819c2e870f9",
+    "scripts/write_output_manifest.py": "6c46896de5ccaa10c3c1b3eb279be53fdec64b6d5fbdca926733e44166103735",
+    "tests/test_mock_restart.py": "620b295fd049af821584fb3c07920780bf9fd73aadc56884c25a2dd4c8c75eb3",
+    "tests/test_results.py": "f31802bd7a04f3750494649fd5f1364bf72724795e69d04cb470786b9d1789a0",
+    "tests/test_synthetic.py": "a00be03e0999dc4e2ce5dde2bd852eb8a6950cace77777b40924ca5bc3f6ce26"
+  }
+}

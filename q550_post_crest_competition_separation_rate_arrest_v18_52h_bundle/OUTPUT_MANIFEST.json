@@ -1,0 +1,14 @@
+{
+  "version": "v18.52h",
+  "file_sha256": {
+    "results/PREFLIGHT.json": "48f05468a352f1c91d47e599d8ae76de0aec4839f4420977fae7c3af19c5d321",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "bb8f5595e5ef3316b3bd20ae8f4214b8ced8aac767aa29e149344f02993cde54",
+    "results/post_crest_competition_rate_arrest.png": "9ce3b0e2c9b1045cae0b09f5e6a87cc4daeb24fc94937e535fb14a435d1821b2",
+    "results/post_crest_continued_10d_states.npz": "b9c208d47177090a4a3352e6db228efcff337fd32b08464a9d62e07d869c4b95",
+    "results/post_crest_events.csv": "d23a11b974f51b92c0726eadc65a668467b0844f0f3f82426a5e57d73aef0d66",
+    "results/post_crest_ledger.csv": "1c5eca62af463f0a78985858913d5d262674ac87c771572f4df37c89435856bc",
+    "results/post_crest_summary.csv": "f55a24b4f24dd8f4958d809ce4de0525197583d464a61ea75f6fd251252ec5ca",
+    "results/post_crest_traces.npz": "3938a6bba72f508dce093138c699ac9e7609439a1b5125cb8b650efddbfd2209",
+    "results/report.json": "d58d42cd5fb2104f4190bc23487c79e9b834abd0f5c6c222829cf49f6a158de7"
+  }
+}

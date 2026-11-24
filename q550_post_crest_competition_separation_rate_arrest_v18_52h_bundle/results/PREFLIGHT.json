@@ -1,0 +1,7 @@
+{
+  "version": "v18.52h",
+  "stage": "AUTHENTICATED_G_PARENT_ONLY",
+  "nonlinear_extension_executed": false,
+  "parent_zip_sha256": "3a22ed6254608dba1b623653a9879a16381c17141f7054e54976ea5b4a42535e",
+  "parent_g_passed": true
+}

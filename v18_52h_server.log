@@ -1,0 +1,30 @@
+SOURCE MANIFEST PASS 16 files
+SYNTHETIC PASS: convexity first, rate arrest second, independent ratio crest
+MOCK RESTART PASS: xi global, 11D material clock continuous
+Authenticated v18.52g source+results 20 9 files
+PREFLIGHT PASS; no physical horizon extension calculated
+Authenticated v18.52g source+results 20 9 files
+Restaging authentic v18.51s->r->q->19 nonlinear engine...
+AUTHENTICATED MODEL: staging 10D physical solver
+Continuing reference original from xi=0.8 with original clock
+ Continuing kick original_negative_1.0e-04
+  original_negative_1.0e-04 C/G/Dmax/R-crest 1 1 1 1 terminal G -3.67186296e-09
+ Continuing kick original_positive_1.0e-04
+  original_positive_1.0e-04 C/G/Dmax/R-crest 1 1 1 1 terminal G -3.67475709e-09
+ Continuing kick original_negative_3.0e-04
+  original_negative_3.0e-04 C/G/Dmax/R-crest 1 1 1 1 terminal G -3.30210110e-08
+ Continuing kick original_positive_3.0e-04
+  original_positive_3.0e-04 C/G/Dmax/R-crest 1 1 1 1 terminal G -3.30991515e-08
+Continuing reference autonomous from xi=0.8 with original clock
+ Continuing kick autonomous_negative_1.0e-04
+  autonomous_negative_1.0e-04 C/G/Dmax/R-crest 1 1 1 1 terminal G -3.67035399e-09
+ Continuing kick autonomous_positive_1.0e-04
+  autonomous_positive_1.0e-04 C/G/Dmax/R-crest 1 1 1 1 terminal G -3.67324482e-09
+ Continuing kick autonomous_negative_3.0e-04
+  autonomous_negative_3.0e-04 C/G/Dmax/R-crest 1 1 1 1 terminal G -3.30074604e-08
+ Continuing kick autonomous_positive_3.0e-04
+  autonomous_positive_3.0e-04 C/G/Dmax/R-crest 1 1 1 1 terminal G -3.30855117e-08
+Q550 v18.52h completed; checks 40 / 40 event counts C/G/Dmax 8 8 8
+RESULTS PASS: 8 continuations, independent checks, event consistency
+OUTPUT MANIFEST 9 files
+PACKED SERVER SENDBACK /root/elab1/hysteresis/q550_post_crest_competition_separation_rate_arrest_v18_52h_bundle_server_sendback.zip
