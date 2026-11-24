@@ -1,0 +1,541 @@
+{
+  "version": "v18.52f",
+  "title": "Relative-Separation Convexity & Inward-Acceleration Sufficiency Audit",
+  "stage": "AUTHENTIC_PARENT_VECTOR_DIAGNOSTIC_NO_NEW_NONLINEAR_INTEGRATIONS",
+  "parent_archive": "q550_lateral_curvature_relative_acceleration_work_restoring_tendency_v18_52e_bundle_server_sendback.zip",
+  "all_numerical_checks_passed": true,
+  "check_count": 48,
+  "checks_passed": 48,
+  "checks": [
+    {
+      "name": "autonomous_negative_1.0e-04.rate_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "autonomous_negative_1.0e-04.convexity_matches_parent",
+      "passed": true,
+      "residual": 1.6543612251060553e-24
+    },
+    {
+      "name": "autonomous_negative_1.0e-04.inward_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "autonomous_negative_1.0e-04.spline_derivative_closure",
+      "passed": true,
+      "residual": 5.5577316140253755e-09
+    },
+    {
+      "name": "autonomous_negative_1.0e-04.quadrature_rate_closure",
+      "passed": true,
+      "residual": 1.024421184782557e-07
+    },
+    {
+      "name": "autonomous_negative_1.0e-04.quadrature_distance_closure",
+      "passed": true,
+      "residual": 1.8996580534288535e-07
+    },
+    {
+      "name": "autonomous_negative_3.0e-04.rate_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "autonomous_negative_3.0e-04.convexity_matches_parent",
+      "passed": true,
+      "residual": 2.6469779601696886e-23
+    },
+    {
+      "name": "autonomous_negative_3.0e-04.inward_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "autonomous_negative_3.0e-04.spline_derivative_closure",
+      "passed": true,
+      "residual": 1.408880803034197e-09
+    },
+    {
+      "name": "autonomous_negative_3.0e-04.quadrature_rate_closure",
+      "passed": true,
+      "residual": 1.0244382882525075e-07
+    },
+    {
+      "name": "autonomous_negative_3.0e-04.quadrature_distance_closure",
+      "passed": true,
+      "residual": 1.8998678983328774e-07
+    },
+    {
+      "name": "autonomous_positive_1.0e-04.rate_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "autonomous_positive_1.0e-04.convexity_matches_parent",
+      "passed": true,
+      "residual": 1.6543612251060553e-24
+    },
+    {
+      "name": "autonomous_positive_1.0e-04.inward_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "autonomous_positive_1.0e-04.spline_derivative_closure",
+      "passed": true,
+      "residual": 4.23547665548879e-09
+    },
+    {
+      "name": "autonomous_positive_1.0e-04.quadrature_rate_closure",
+      "passed": true,
+      "residual": 1.0259214900197529e-07
+    },
+    {
+      "name": "autonomous_positive_1.0e-04.quadrature_distance_closure",
+      "passed": true,
+      "residual": 1.901740024364964e-07
+    },
+    {
+      "name": "autonomous_positive_3.0e-04.rate_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "autonomous_positive_3.0e-04.convexity_matches_parent",
+      "passed": true,
+      "residual": 2.6469779601696886e-23
+    },
+    {
+      "name": "autonomous_positive_3.0e-04.inward_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "autonomous_positive_3.0e-04.spline_derivative_closure",
+      "passed": true,
+      "residual": 1.556545197212881e-09
+    },
+    {
+      "name": "autonomous_positive_3.0e-04.quadrature_rate_closure",
+      "passed": true,
+      "residual": 1.0261123717599049e-07
+    },
+    {
+      "name": "autonomous_positive_3.0e-04.quadrature_distance_closure",
+      "passed": true,
+      "residual": 1.9017795220415816e-07
+    },
+    {
+      "name": "original_negative_1.0e-04.rate_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "original_negative_1.0e-04.convexity_matches_parent",
+      "passed": true,
+      "residual": 1.6543612251060553e-24
+    },
+    {
+      "name": "original_negative_1.0e-04.inward_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "original_negative_1.0e-04.spline_derivative_closure",
+      "passed": true,
+      "residual": 3.972462819432198e-09
+    },
+    {
+      "name": "original_negative_1.0e-04.quadrature_rate_closure",
+      "passed": true,
+      "residual": 1.0254322434819265e-07
+    },
+    {
+      "name": "original_negative_1.0e-04.quadrature_distance_closure",
+      "passed": true,
+      "residual": 1.901053127357564e-07
+    },
+    {
+      "name": "original_negative_3.0e-04.rate_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "original_negative_3.0e-04.convexity_matches_parent",
+      "passed": true,
+      "residual": 2.6469779601696886e-23
+    },
+    {
+      "name": "original_negative_3.0e-04.inward_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "original_negative_3.0e-04.spline_derivative_closure",
+      "passed": true,
+      "residual": 1.2506384627600874e-09
+    },
+    {
+      "name": "original_negative_3.0e-04.quadrature_rate_closure",
+      "passed": true,
+      "residual": 1.0249135645196475e-07
+    },
+    {
+      "name": "original_negative_3.0e-04.quadrature_distance_closure",
+      "passed": true,
+      "residual": 1.9004811870160362e-07
+    },
+    {
+      "name": "original_positive_1.0e-04.rate_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "original_positive_1.0e-04.convexity_matches_parent",
+      "passed": true,
+      "residual": 1.6543612251060553e-24
+    },
+    {
+      "name": "original_positive_1.0e-04.inward_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "original_positive_1.0e-04.spline_derivative_closure",
+      "passed": true,
+      "residual": 3.5717253792346074e-09
+    },
+    {
+      "name": "original_positive_1.0e-04.quadrature_rate_closure",
+      "passed": true,
+      "residual": 1.0258440424963295e-07
+    },
+    {
+      "name": "original_positive_1.0e-04.quadrature_distance_closure",
+      "passed": true,
+      "residual": 1.9012435588271927e-07
+    },
+    {
+      "name": "original_positive_3.0e-04.rate_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "original_positive_3.0e-04.convexity_matches_parent",
+      "passed": true,
+      "residual": 2.6469779601696886e-23
+    },
+    {
+      "name": "original_positive_3.0e-04.inward_matches_parent",
+      "passed": true,
+      "residual": 0.0
+    },
+    {
+      "name": "original_positive_3.0e-04.spline_derivative_closure",
+      "passed": true,
+      "residual": 1.5153466861852274e-09
+    },
+    {
+      "name": "original_positive_3.0e-04.quadrature_rate_closure",
+      "passed": true,
+      "residual": 1.0263613579148833e-07
+    },
+    {
+      "name": "original_positive_3.0e-04.quadrature_distance_closure",
+      "passed": true,
+      "residual": 1.902009488671366e-07
+    }
+  ],
+  "physical_kicks": [
+    {
+      "label": "autonomous_negative_1.0e-04",
+      "n_samples": 513,
+      "tau_end": 0.3348184907026365,
+      "ratio_initial": -0.0,
+      "ratio_final": 0.1412571905410291,
+      "ratio_max_sampled": 0.1412571905410291,
+      "ratio_min_sampled": -0.0,
+      "min_convexity": 5.295169661989315e-09,
+      "min_normalized_convexity": 0.8587428094589709,
+      "final_normalized_convexity": 0.8587428094589709,
+      "final_sufficiency_factor_shortfall": 7.079285636149923,
+      "min_positive_needed_factor": 7.079285636149923,
+      "first_sampled_convexity_reversal_tau": null,
+      "first_sampled_separation_rate_reversal_tau": null,
+      "fraction_sampled_strict_convexity": 1.0,
+      "fraction_sampled_outward_rate_after_initial": 1.0,
+      "first_sampled_ratio_above_25pct_tau": null,
+      "first_sampled_ratio_above_50pct_tau": null,
+      "inward_ratio_non_decreasing_on_samples": true,
+      "sampled_convexity_all_positive": true,
+      "sampled_position_rate_all_positive_after_initial": true,
+      "pchip_interpolant_min_convexity": 5.295169661989315e-09,
+      "pchip_interpolant_min_rate_after_initial": 1.20012217621253e-12,
+      "spline_rate_derivative_vs_C_rel": 5.5577316140253755e-09,
+      "integral_C_predicts_rate_abs": 2.2270544117076115e-16,
+      "integral_C_predicts_rate_rel": 1.024421184782557e-07,
+      "integral_rate_predicts_D_abs": 7.287278415526194e-17,
+      "integral_rate_predicts_D_rel": 1.8996580534288535e-07,
+      "scientific_classification": "SAMPLED_INWARD_ACCELERATION_INSUFFICIENT_FOR_CONVEXITY_REVERSAL",
+      "continuous_time_flow_certified": false,
+      "physical_position_return_certified": false
+    },
+    {
+      "label": "autonomous_negative_3.0e-04",
+      "n_samples": 513,
+      "tau_end": 0.3348184809917534,
+      "ratio_initial": -0.0,
+      "ratio_final": 0.14120558587987264,
+      "ratio_max_sampled": 0.14120558587987264,
+      "ratio_min_sampled": -0.0,
+      "min_convexity": 4.7661381948301524e-08,
+      "min_normalized_convexity": 0.8587944141201274,
+      "final_normalized_convexity": 0.8587944141201274,
+      "final_sufficiency_factor_shortfall": 7.0818728152208275,
+      "min_positive_needed_factor": 7.0818728152208275,
+      "first_sampled_convexity_reversal_tau": null,
+      "first_sampled_separation_rate_reversal_tau": null,
+      "fraction_sampled_strict_convexity": 1.0,
+      "fraction_sampled_outward_rate_after_initial": 1.0,
+      "first_sampled_ratio_above_25pct_tau": null,
+      "first_sampled_ratio_above_50pct_tau": null,
+      "inward_ratio_non_decreasing_on_samples": true,
+      "sampled_convexity_all_positive": true,
+      "sampled_position_rate_all_positive_after_initial": true,
+      "pchip_interpolant_min_convexity": 4.766138194830152e-08,
+      "pchip_interpolant_min_rate_after_initial": 1.08010992865421e-11,
+      "spline_rate_derivative_vs_C_rel": 1.408880803034197e-09,
+      "integral_C_predicts_rate_abs": 2.004438320932257e-15,
+      "integral_C_predicts_rate_rel": 1.0244382882525075e-07,
+      "integral_rate_predicts_D_abs": 6.559359690512513e-16,
+      "integral_rate_predicts_D_rel": 1.8998678983328774e-07,
+      "scientific_classification": "SAMPLED_INWARD_ACCELERATION_INSUFFICIENT_FOR_CONVEXITY_REVERSAL",
+      "continuous_time_flow_certified": false,
+      "physical_position_return_certified": false
+    },
+    {
+      "label": "autonomous_positive_1.0e-04",
+      "n_samples": 513,
+      "tau_end": 0.33481849555805815,
+      "ratio_initial": -0.0,
+      "ratio_final": 0.14130884531125468,
+      "ratio_max_sampled": 0.14130884531125468,
+      "ratio_min_sampled": -0.0,
+      "min_convexity": 5.294629888153295e-09,
+      "min_normalized_convexity": 0.8586911546887454,
+      "final_normalized_convexity": 0.8586911546887454,
+      "final_sufficiency_factor_shortfall": 7.076697837260964,
+      "min_positive_needed_factor": 7.076697837260964,
+      "first_sampled_convexity_reversal_tau": null,
+      "first_sampled_separation_rate_reversal_tau": null,
+      "fraction_sampled_strict_convexity": 1.0,
+      "fraction_sampled_outward_rate_after_initial": 1.0,
+      "first_sampled_ratio_above_25pct_tau": null,
+      "first_sampled_ratio_above_50pct_tau": null,
+      "inward_ratio_non_decreasing_on_samples": true,
+      "sampled_convexity_all_positive": true,
+      "sampled_position_rate_all_positive_after_initial": true,
+      "pchip_interpolant_min_convexity": 5.2946298881532945e-09,
+      "pchip_interpolant_min_rate_after_initial": 1.2001221994997433e-12,
+      "spline_rate_derivative_vs_C_rel": 4.23547665548879e-09,
+      "integral_C_predicts_rate_abs": 2.2302537932885533e-16,
+      "integral_C_predicts_rate_rel": 1.0259214900197529e-07,
+      "integral_rate_predicts_D_abs": 7.2951707318662e-17,
+      "integral_rate_predicts_D_rel": 1.901740024364964e-07,
+      "scientific_classification": "SAMPLED_INWARD_ACCELERATION_INSUFFICIENT_FOR_CONVEXITY_REVERSAL",
+      "continuous_time_flow_certified": false,
+      "physical_position_return_certified": false
+    },
+    {
+      "label": "autonomous_positive_3.0e-04",
+      "n_samples": 513,
+      "tau_end": 0.33481849555805815,
+      "ratio_initial": -0.0,
+      "ratio_final": 0.1413605500569297,
+      "ratio_max_sampled": 0.1413605500569297,
+      "ratio_min_sampled": -0.0,
+      "min_convexity": 4.764680806839878e-08,
+      "min_normalized_convexity": 0.8586394499430704,
+      "final_normalized_convexity": 0.8586394499430704,
+      "final_sufficiency_factor_shortfall": 7.074109428672094,
+      "min_positive_needed_factor": 7.074109428672094,
+      "first_sampled_convexity_reversal_tau": null,
+      "first_sampled_separation_rate_reversal_tau": null,
+      "fraction_sampled_strict_convexity": 1.0,
+      "fraction_sampled_outward_rate_after_initial": 1.0,
+      "first_sampled_ratio_above_25pct_tau": null,
+      "first_sampled_ratio_above_50pct_tau": null,
+      "inward_ratio_non_decreasing_on_samples": true,
+      "sampled_convexity_all_positive": true,
+      "sampled_position_rate_all_positive_after_initial": true,
+      "pchip_interpolant_min_convexity": 4.7646808068398785e-08,
+      "pchip_interpolant_min_rate_after_initial": 1.080109978605344e-11,
+      "spline_rate_derivative_vs_C_rel": 1.556545197212881e-09,
+      "integral_C_predicts_rate_abs": 2.0075458234266595e-15,
+      "integral_C_predicts_rate_rel": 1.0261123717599049e-07,
+      "integral_rate_predicts_D_abs": 6.565704930952861e-16,
+      "integral_rate_predicts_D_rel": 1.9017795220415816e-07,
+      "scientific_classification": "SAMPLED_INWARD_ACCELERATION_INSUFFICIENT_FOR_CONVEXITY_REVERSAL",
+      "continuous_time_flow_certified": false,
+      "physical_position_return_certified": false
+    },
+    {
+      "label": "original_negative_1.0e-04",
+      "n_samples": 513,
+      "tau_end": 0.33481855897359014,
+      "ratio_initial": -0.0,
+      "ratio_final": 0.14129610983498722,
+      "ratio_max_sampled": 0.14129610983498722,
+      "ratio_min_sampled": -0.0,
+      "min_convexity": 5.294833703278421e-09,
+      "min_normalized_convexity": 0.8587038901650127,
+      "final_normalized_convexity": 0.8587038901650127,
+      "final_sufficiency_factor_shortfall": 7.077335682969976,
+      "min_positive_needed_factor": 7.077335682969976,
+      "first_sampled_convexity_reversal_tau": null,
+      "first_sampled_separation_rate_reversal_tau": null,
+      "fraction_sampled_strict_convexity": 1.0,
+      "fraction_sampled_outward_rate_after_initial": 1.0,
+      "first_sampled_ratio_above_25pct_tau": null,
+      "first_sampled_ratio_above_50pct_tau": null,
+      "inward_ratio_non_decreasing_on_samples": true,
+      "sampled_convexity_all_positive": true,
+      "sampled_position_rate_all_positive_after_initial": true,
+      "pchip_interpolant_min_convexity": 5.294833703278421e-09,
+      "pchip_interpolant_min_rate_after_initial": 1.2001366581972773e-12,
+      "spline_rate_derivative_vs_C_rel": 3.972462819432198e-09,
+      "integral_C_predicts_rate_abs": 2.2292359434089037e-16,
+      "integral_C_predicts_rate_rel": 1.0254322434819265e-07,
+      "integral_rate_predicts_D_abs": 7.29265080367824e-17,
+      "integral_rate_predicts_D_rel": 1.901053127357564e-07,
+      "scientific_classification": "SAMPLED_INWARD_ACCELERATION_INSUFFICIENT_FOR_CONVEXITY_REVERSAL",
+      "continuous_time_flow_certified": false,
+      "physical_position_return_certified": false
+    },
+    {
+      "label": "original_negative_3.0e-04",
+      "n_samples": 513,
+      "tau_end": 0.33481854926284293,
+      "ratio_initial": -0.0,
+      "ratio_final": 0.1412445259888889,
+      "ratio_max_sampled": 0.1412445259888889,
+      "ratio_min_sampled": -0.0,
+      "min_convexity": 4.7658356050684225e-08,
+      "min_normalized_convexity": 0.8587554740111111,
+      "final_normalized_convexity": 0.8587554740111111,
+      "final_sufficiency_factor_shortfall": 7.079920393365656,
+      "min_positive_needed_factor": 7.079920393365656,
+      "first_sampled_convexity_reversal_tau": null,
+      "first_sampled_separation_rate_reversal_tau": null,
+      "fraction_sampled_strict_convexity": 1.0,
+      "fraction_sampled_outward_rate_after_initial": 1.0,
+      "first_sampled_ratio_above_25pct_tau": null,
+      "first_sampled_ratio_above_50pct_tau": null,
+      "inward_ratio_non_decreasing_on_samples": true,
+      "sampled_convexity_all_positive": true,
+      "sampled_position_rate_all_positive_after_initial": true,
+      "pchip_interpolant_min_convexity": 4.7658356050684225e-08,
+      "pchip_interpolant_min_rate_after_initial": 1.0801229590336574e-11,
+      "spline_rate_derivative_vs_C_rel": 1.2506384627600874e-09,
+      "integral_C_predicts_rate_abs": 2.0053534109915898e-15,
+      "integral_C_predicts_rate_rel": 1.0249135645196475e-07,
+      "integral_rate_predicts_D_abs": 6.5614957148724055e-16,
+      "integral_rate_predicts_D_rel": 1.9004811870160362e-07,
+      "scientific_classification": "SAMPLED_INWARD_ACCELERATION_INSUFFICIENT_FOR_CONVEXITY_REVERSAL",
+      "continuous_time_flow_certified": false,
+      "physical_position_return_certified": false
+    },
+    {
+      "label": "original_positive_1.0e-04",
+      "n_samples": 513,
+      "tau_end": 0.33481856382894365,
+      "ratio_initial": -0.0,
+      "ratio_final": 0.14134774371803124,
+      "ratio_max_sampled": 0.14134774371803124,
+      "ratio_min_sampled": -0.0,
+      "min_convexity": 5.294294182240718e-09,
+      "min_normalized_convexity": 0.8586522562819687,
+      "final_normalized_convexity": 0.8586522562819687,
+      "final_sufficiency_factor_shortfall": 7.074750354663308,
+      "min_positive_needed_factor": 7.074750354663308,
+      "first_sampled_convexity_reversal_tau": null,
+      "first_sampled_separation_rate_reversal_tau": null,
+      "fraction_sampled_strict_convexity": 1.0,
+      "fraction_sampled_outward_rate_after_initial": 1.0,
+      "first_sampled_ratio_above_25pct_tau": null,
+      "first_sampled_ratio_above_50pct_tau": null,
+      "inward_ratio_non_decreasing_on_samples": true,
+      "sampled_convexity_all_positive": true,
+      "sampled_position_rate_all_positive_after_initial": true,
+      "pchip_interpolant_min_convexity": 5.294294182240718e-09,
+      "pchip_interpolant_min_rate_after_initial": 1.2001366654400334e-12,
+      "spline_rate_derivative_vs_C_rel": 3.5717253792346074e-09,
+      "integral_C_predicts_rate_abs": 2.2300689804601936e-16,
+      "integral_C_predicts_rate_rel": 1.0258440424963295e-07,
+      "integral_rate_predicts_D_abs": 7.293287055495779e-17,
+      "integral_rate_predicts_D_rel": 1.9012435588271927e-07,
+      "scientific_classification": "SAMPLED_INWARD_ACCELERATION_INSUFFICIENT_FOR_CONVEXITY_REVERSAL",
+      "continuous_time_flow_certified": false,
+      "physical_position_return_certified": false
+    },
+    {
+      "label": "original_positive_3.0e-04",
+      "n_samples": 513,
+      "tau_end": 0.33481856382894365,
+      "ratio_initial": -0.0,
+      "ratio_final": 0.14139942751044446,
+      "ratio_max_sampled": 0.14139942751044446,
+      "ratio_min_sampled": -0.0,
+      "min_convexity": 4.764378899388197e-08,
+      "min_normalized_convexity": 0.8586005724895555,
+      "final_normalized_convexity": 0.8586005724895555,
+      "final_sufficiency_factor_shortfall": 7.07216441824798,
+      "min_positive_needed_factor": 7.07216441824798,
+      "first_sampled_convexity_reversal_tau": null,
+      "first_sampled_separation_rate_reversal_tau": null,
+      "fraction_sampled_strict_convexity": 1.0,
+      "fraction_sampled_outward_rate_after_initial": 1.0,
+      "first_sampled_ratio_above_25pct_tau": null,
+      "first_sampled_ratio_above_50pct_tau": null,
+      "inward_ratio_non_decreasing_on_samples": true,
+      "sampled_convexity_all_positive": true,
+      "sampled_position_rate_all_positive_after_initial": true,
+      "pchip_interpolant_min_convexity": 4.764378899388197e-08,
+      "pchip_interpolant_min_rate_after_initial": 1.080123003195371e-11,
+      "spline_rate_derivative_vs_C_rel": 1.5153466861852274e-09,
+      "integral_C_predicts_rate_abs": 2.008018170026207e-15,
+      "integral_C_predicts_rate_rel": 1.0263613579148833e-07,
+      "integral_rate_predicts_D_abs": 6.566517627632888e-16,
+      "integral_rate_predicts_D_rel": 1.902009488671366e-07,
+      "scientific_classification": "SAMPLED_INWARD_ACCELERATION_INSUFFICIENT_FOR_CONVEXITY_REVERSAL",
+      "continuous_time_flow_certified": false,
+      "physical_position_return_certified": false
+    }
+  ],
+  "global_summary": {
+    "kick_count": 8,
+    "samples_total": 4104,
+    "maximum_inward_fraction": 0.14139942751044446,
+    "terminal_inward_ratio_range": [
+      0.14120558587987264,
+      0.14139942751044446
+    ],
+    "terminal_required_inward_factor_range": [
+      7.07216441824798,
+      7.0818728152208275
+    ],
+    "min_normalized_convexity": 0.8586005724895555,
+    "sampled_convexity_reversals": 0,
+    "sampled_position_rate_reversals": 0,
+    "scientific_classification": "NO_SAMPLED_CONVEXITY_REVERSAL_OR_POSITION_RETURN",
+    "certified_continuous_bound": false,
+    "physical_recovery_certified": false
+  },
+  "caveats": [
+    "True ODE behavior between samples is not certified by PCHIP or cubic spline.",
+    "The amplification factor is an instantaneous arithmetic ratio, not an admissible physical force change.",
+    "No extension beyond the authenticated time horizon has been performed."
+  ]
+}

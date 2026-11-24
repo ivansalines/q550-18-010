@@ -1,0 +1,9 @@
+Q550 v18.52f authenticated sources 14
+Q550 v18.52f synthetic 16 / 16 PASS
+Q550 v18.52f checks 48 / 48
+Inward max ratio 0.14139942751044446
+Terminal frozen-state factor range [7.07216441824798, 7.0818728152208275]
+Scientific result NO_SAMPLED_CONVEXITY_REVERSAL_OR_POSITION_RETURN
+Q550 v18.52f result test 8/8 PASS
+Q550 v18.52f output hashes 4
+Q550 v18.52f sendback /root/elab1/hysteresis/q550_relative_separation_convexity_inward_acceleration_sufficiency_v18_52f_bundle_server_sendback.zip
