@@ -1,0 +1,527 @@
+{
+  "version": "v18.52z",
+  "title": "Relative Fixed-Point Refinement, Three-Turn Closure & Conditional Floquet Audit",
+  "v1852y_candidate_sha256": "dd8c6884de14140414840d2f1e7f0a186b6e191c3bbb02891a6c05fdd49d2d1e",
+  "v1851s_available": true,
+  "v1852l_available": true,
+  "source_authorization_required": true,
+  "global_conservative_system_certified": false,
+  "full_historical_forward_return_cycle_certified": false,
+  "no_unclosed_floquet_claim": true,
+  "seeds": "both",
+  "configuration": {
+    "parent_v1851s": null,
+    "native_v1852l": "/root/elab1/hysteresis/q550_near_tangency_breathing_envelope_drift_five_dimensional_section_audit_v18_52l_bundle/results/extended_horizon_10d_states.npz",
+    "require_parent": true,
+    "require_native": true,
+    "seeds": "both",
+    "max_newton": 10,
+    "rtol": 5e-10,
+    "atol": 5e-12,
+    "maxstep": 0.08,
+    "verify_rtol": 2e-11,
+    "verify_atol": 2e-13,
+    "verify_maxstep": 0.04,
+    "closure_tol": 1e-08,
+    "two_turn_tol": 3e-08,
+    "three_turn_tol": 5e-08,
+    "composition_tol": 1e-07,
+    "solver_agree_tol": 1e-07,
+    "charge_tol": 1e-08,
+    "gauge_tol": 2e-07,
+    "newton_fd": 5e-05,
+    "jac_steps": [
+      0.0001,
+      3e-05,
+      1e-05
+    ],
+    "jac_tol": 0.005,
+    "attraction_margin": 0.001,
+    "max_backtracks": 10,
+    "max_weighted_step": 0.12
+  },
+  "v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "v1852l_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "authenticated_source_provenance": {
+    "make_context": {
+      "module": "q550_v18_50q_auth_p",
+      "qualname": "make_context",
+      "source": "def make_context(o,kind,engine,unit,drpt,creport):\n    a=o.make_engine_args();ramp=.24;shape='beta:2:2';kappa=float(engine.ks[kind])\n    des=engine.original_ramp.Design('v18_50p',shape,ramp)\n    entries=[z for z in creport['cases'] if z['kind']==kind and abs(float(z['ramp_xi'])-ramp)<1e-9 and z['shape']==shape and z['metric']=='common']\n    if len(entries)!=1: raise RuntimeError('Could not identify the natural turning section')\n    event=float(entries[0]['turn_xi'])\n    back,turn_ledger=engine.original.integrate(engine.physical,engine.clock,engine.support,engine.audit,kappa,engine.params,engine.slope,engine.omega,engine.turning[kind],a,design=des)\n    seed=np.asarray(back(event)[:11],float)\n    theta0=float(seed[10]);phase0=engine.clock.cubic_phase_excursion(event,des)\n    def theta(t):return theta0-engine.omega*(engine.clock.cubic_phase_excursion(t,des)-phase0)\n    def ode(t,z):\n        y=np.r_[z,theta(t)]\n        return np.asarray(engine.physical.rhs_from_original(y,kappa,engine.params,engine.slope,engine.clock.cubic_clock_sign(t,des),engine.support,engine.audit)[:10],float)\n    def hidden(y):\n        f,j,_=engine.jet.structural_jet(y,kappa,engine.params,engine.slope)\n        return np.asarray([f[2],f[6],(j@f)[2],(j@f)[6]],float)\n    cscale=np.asarray(drpt['common_metric_scale_4d'],float)\n    direction=lambda y:unit(hidden(y),cscale)\n    scale=np.maximum(1.,np.abs(seed[:10]))\n    sol=solve_ivp(ode,(event,event+0.001092),seed[:10],method='DOP853',rtol=a.rtol,atol=a.atol,max_step=a.max_step,dense_output=True)\n    if not sol.success:raise RuntimeError('10D natural IVP failed: '+sol.message)\n    return {'kind':kind,'kappa0':kappa,'event':event,'turn_ledger':turn_ledger,'seed':seed.tolist(),\n            'sol':sol,'theta':theta,'ode':ode,'direction':direction,'scale':scale,'nfev':sol.nfev}\n",
+      "filename": "/tmp/q550_v1852v_original_mkmeohhl/engine_staging/historical_engine/stage/q550_near_null_tangent_direction_stencil_order_transport_v18_50p_bundle/scripts/run_audit.py",
+      "line": 69
+    },
+    "rhs_from_original": {
+      "module": "o_original_phys",
+      "qualname": "rhs_from_original",
+      "source": "def rhs_from_original(y,kappa,p,slope,clock_sign,support,audit):\n    \"\"\"Original original-support source function; change ONLY drive clock.\"\"\"\n    f=slope*np.asarray(support.support_rhs_float(y,kappa0=kappa,params=p,audit=audit),float)\n    f[10]=clock_sign*(2*math.pi*slope)\n    return f\n",
+      "filename": "/tmp/q550_v1852v_original_mkmeohhl/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/runtime/authenticated_o/q550_dominance_boundary_continuation_ramp_shape_stress_v18_49o_bundle/runtime/authenticated_n/q550_ramp_shape_perturbation_pairwise_dominance_persistence_v18_49n_bundle/runtime/authenticated_parent_m/q550_pairwise_eigenprojector_coupling_spectral_gap_attribution_v18_49m_bundle/runtime/authenticated_parent_l/q550_kappa_projector_generator_v18_49l_bundle/runtime/authenticated_parent_k/q550_kappa_source_projector_v18_49k_bundle/runtime/verified_j/q550_kappa_liouville_projection_v18_49j_bundle/runtime/verified_i/q550_kappa_volume_strain_v18_49i_bundle/runtime/verified_h/q550_kappa_kinetic_pullback_v18_49h_bundle/runtime/verified_g/q550_kappa_clockmatched_full10d_v18_49g_bundle/runtime/verified_f/q550_kappa_threshold_clock_v18_49f_bundle/runtime/verified_e/q550_kappa_common_frame_passage_v18_49e_bundle/runtime/verified_d/q550_kappa_rank_complement_v18_49d_bundle/runtime/verified_c/q550_kappa_observer_family_v18_49c_bundle/reference/physical_math.py",
+      "line": 53
+    },
+    "cubic_clock_sign": {
+      "module": "ramp_stress",
+      "qualname": "ShapeClock.cubic_clock_sign",
+      "source": "    def cubic_clock_sign(self,t,d):\n        if d.ramp<=0:raise ValueError('Positive ramp duration required')\n        if t<=0:return 1.\n        if t>=d.ramp:return -1.\n        return float(1-2*h(t/d.ramp,d.kind))\n",
+      "filename": "/tmp/q550_v1852v_original_mkmeohhl/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/scripts/ramp_stress.py",
+      "line": 68
+    },
+    "cubic_phase_excursion": {
+      "module": "ramp_stress",
+      "qualname": "ShapeClock.cubic_phase_excursion",
+      "source": "    def cubic_phase_excursion(self,t,d):\n        if d.ramp<=0:raise ValueError('Positive ramp duration required')\n        if t<=0:return 0.\n        if t>=d.ramp:return float(t-d.ramp)\n        return float(-t+2*d.ramp*area(t/d.ramp,d.kind))\n",
+      "filename": "/tmp/q550_v1852v_original_mkmeohhl/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/scripts/ramp_stress.py",
+      "line": 73
+    }
+  },
+  "fixed_kappa": 0.1666331385421536,
+  "results": {
+    "original": {
+      "seed": "original",
+      "J_reference": -1.441016445824766,
+      "fixed_kappa": 0.1666331385421536,
+      "late_source_period_xi": 7.441376687184325,
+      "authenticated_source_phase_three_turns": [
+        -6.28318530717959,
+        -12.566370614359172,
+        -18.84955592153876
+      ],
+      "native_replay": {
+        "native_replay_error": 9.212550019153996e-10,
+        "previous_v1852y_replay_error": 9.212550019153996e-10
+      },
+      "v1852y_candidate_report_sha256": "dd8c6884de14140414840d2f1e7f0a186b6e191c3bbb02891a6c05fdd49d2d1e",
+      "initial_candidate": [
+        0.5451077174860354,
+        -6.29121561484725e-08,
+        -0.48446210138438495,
+        -2.1351149438378916,
+        7.438368789910305e-06,
+        -2.2212156540969135e-07,
+        -4.22392486780737e-07,
+        -0.4128705399378787
+      ],
+      "initial_candidate_residual_absolute": 1.50180328164762e-05,
+      "initial_historical_chart_distance": 0.3175898760952748,
+      "newton_history": [
+        {
+          "iteration": 0,
+          "residual_absolute": 1.50180328164762e-05,
+          "residual_scaled": 1.0001835990849647e-05,
+          "chart": [
+            0.5451077174860354,
+            -6.29121561484725e-08,
+            -0.48446210138438495,
+            -2.1351149438378916,
+            7.438368789910305e-06,
+            -2.2212156540969135e-07,
+            -4.22392486780737e-07,
+            -0.4128705399378787
+          ],
+          "min_singular_DP_minus_I": 0.005636994354471083,
+          "max_singular_DP_minus_I": 237.91521195999522,
+          "jacobian_cond": 42206.040488809165,
+          "accepted_backtrack": 0,
+          "accepted_residual_absolute": 5.757061013488601e-10
+        },
+        {
+          "iteration": 1,
+          "residual_absolute": 5.757061013488601e-10,
+          "residual_scaled": 5.75483284567124e-10,
+          "chart": [
+            0.545107828008253,
+            6.890640225491628e-12,
+            -0.4844620357104887,
+            -2.1351038387955814,
+            6.89513998079484e-11,
+            -2.563222826692701e-11,
+            -3.0913612423731015e-11,
+            -0.4128763235660494
+          ],
+          "stop_reason": "CLOSURE_THRESHOLD_REACHED"
+        }
+      ],
+      "newton_final_candidate": [
+        0.545107828008253,
+        6.890640225491628e-12,
+        -0.4844620357104887,
+        -2.1351038387955814,
+        6.89513998079484e-11,
+        -2.563222826692701e-11,
+        -3.0913612423731015e-11,
+        -0.4128763235660494
+      ],
+      "newton_smallest_residual": 5.757061013488601e-10,
+      "one_two_three_turns": {
+        "one_turn_residual_absolute": 5.757061013488601e-10,
+        "two_turn_residual_absolute": 2.1230034887474677e-09,
+        "three_turn_residual_absolute": 2.436028246921641e-09,
+        "P_squared_vs_direct_two_turn": 5.59808701765466e-14,
+        "P_cubed_vs_direct_three_turn": 6.306287746785074e-14,
+        "P_of_direct_two_turn_vs_direct_three_turn": 1.0718223467434399e-13,
+        "one_turn_residual_relative": 2.5099637794999505e-10,
+        "two_turn_residual_relative": 9.255871786009038e-10,
+        "three_turn_residual_relative": 1.062059730005706e-09,
+        "charge_J": -1.441016445824766,
+        "max_integration_charge_drift": 2.4424906541753444e-15,
+        "phase_three_turns": -18.84955592153876,
+        "pass": true
+      },
+      "independent_tight_solver_validation": {
+        "one_turn_residual_absolute": 5.756848000662684e-10,
+        "two_turn_residual_absolute": 2.1229680257293503e-09,
+        "three_turn_residual_absolute": 2.436028147149266e-09,
+        "P_squared_vs_direct_two_turn": 5.678459820984123e-14,
+        "P_cubed_vs_direct_three_turn": 1.6159691122107007e-13,
+        "P_of_direct_two_turn_vs_direct_three_turn": 1.2223953532209295e-13,
+        "one_turn_residual_relative": 2.50987091015631e-10,
+        "two_turn_residual_relative": 9.255717174323009e-10,
+        "three_turn_residual_relative": 1.0620596865069406e-09,
+        "charge_J": -1.441016445824766,
+        "max_integration_charge_drift": 3.9968028886505635e-15,
+        "phase_three_turns": -18.84955592153876,
+        "pass": true,
+        "independent_solve_one_turn_difference": 2.15659176054708e-14,
+        "independent_solve_three_turn_difference": 3.293825068777045e-15,
+        "candidate_counterrotation_gauge_equivariance_error": 4.903454122743616e-15
+      },
+      "relative_fixed_point_accepted": true,
+      "conditional_floquet": {
+        "finite_difference_steps": [
+          0.0001,
+          3e-05,
+          1e-05
+        ],
+        "jacobian_disagreement_large_mid": 0.00043745707890573615,
+        "jacobian_disagreement_mid_small": 3.8502712022265175e-05,
+        "independent_solver_jacobian_disagreement": 2.5210917700096003e-12,
+        "eigenvalues": [
+          {
+            "real": 0.2570597455829696,
+            "imag": 0.8667474645434807,
+            "modulus": 0.9040635376408748
+          },
+          {
+            "real": 0.2570597455829696,
+            "imag": -0.8667474645434807,
+            "modulus": 0.9040635376408748
+          },
+          {
+            "real": 0.1399843283521647,
+            "imag": 0.0783936245278418,
+            "modulus": 0.1604405576866987
+          },
+          {
+            "real": 0.1399843283521647,
+            "imag": -0.0783936245278418,
+            "modulus": 0.1604405576866987
+          },
+          {
+            "real": -0.15884024274890782,
+            "imag": 0.013880092724241814,
+            "modulus": 0.1594455383212886
+          },
+          {
+            "real": -0.15884024274890782,
+            "imag": -0.013880092724241814,
+            "modulus": 0.1594455383212886
+          },
+          {
+            "real": -0.1454584559257009,
+            "imag": 0.04182483217722168,
+            "modulus": 0.15135216875532978
+          },
+          {
+            "real": -0.1454584559257009,
+            "imag": -0.04182483217722168,
+            "modulus": 0.15135216875532978
+          }
+        ],
+        "spectral_radius": 0.9040635376408748,
+        "singular_values_descriptive_coordinate_dependent": [
+          237.92710523174674,
+          0.38190599809831544,
+          0.3572188745041802,
+          0.15869322979414247,
+          0.14360879661619594,
+          0.06915517985516849,
+          0.06601420385147763,
+          0.003628205917870005
+        ],
+        "jacobian_numerically_converged": true,
+        "conditional_leaf_attractor": true,
+        "attraction_decision_margin": 0.001,
+        "no_global_conservative_claim": true
+      },
+      "energy_ledger": {
+        "quadrature_replicates": [
+          {
+            "grid_points": 1025,
+            "delta_energy": 1.2612355604346703e-11,
+            "work_drive": 1.2547547766391394e-11,
+            "work_x": 6.627035089500597e-14,
+            "dissipation_rho": 1.1835896904979203e-21,
+            "dissipation_x": 3.434719413115266e-22,
+            "net_signed_work_minus_dissipation": 1.2613818115759338e-11,
+            "energy_balance_residual": -1.4625114126344435e-15,
+            "material_time_per_turn": 12.566370614383857,
+            "energy_initial": 1.4043464598350255,
+            "energy_final": 1.4043464598476378
+          },
+          {
+            "grid_points": 2049,
+            "delta_energy": 1.2612355604346703e-11,
+            "work_drive": 1.2547546439204104e-11,
+            "work_x": 6.627036995137411e-14,
+            "dissipation_rho": 1.1835897433091041e-21,
+            "dissipation_x": 3.434719436560811e-22,
+            "net_signed_work_minus_dissipation": 1.2613816807628415e-11,
+            "energy_balance_residual": -1.4612032817116124e-15,
+            "material_time_per_turn": 12.566370614383857,
+            "energy_initial": 1.4043464598350255,
+            "energy_final": 1.4043464598476378
+          }
+        ],
+        "ledger_two_grid_difference": 1.3081309228311382e-18,
+        "not_global_energy_conservation": true,
+        "no_historical_forward_branch_claim": true
+      },
+      "solver_effort": {
+        "coarse_ivps": 23,
+        "tight_ivps": 10,
+        "coarse_nfev": 29407,
+        "tight_nfev": 33650
+      },
+      "conditional_floquet_certified": true
+    },
+    "autonomous": {
+      "seed": "autonomous",
+      "J_reference": -1.4410164458247814,
+      "fixed_kappa": 0.1666331385421536,
+      "late_source_period_xi": 7.441376687184325,
+      "authenticated_source_phase_three_turns": [
+        -6.283185307179586,
+        -12.566370614359172,
+        -18.84955592153876
+      ],
+      "native_replay": {
+        "native_replay_error": 9.240868975338372e-10,
+        "previous_v1852y_replay_error": 9.240868975338372e-10
+      },
+      "v1852y_candidate_report_sha256": "dd8c6884de14140414840d2f1e7f0a186b6e191c3bbb02891a6c05fdd49d2d1e",
+      "initial_candidate": [
+        0.5451077165808565,
+        -6.304755158499005e-08,
+        -0.48446210201956413,
+        -2.135115015988954,
+        7.531062691711922e-06,
+        -2.2466801583702638e-07,
+        -4.2499106561600243e-07,
+        -0.4128494426282892
+      ],
+      "initial_candidate_residual_absolute": 1.513736192292143e-05,
+      "initial_historical_chart_distance": 0.31759278431749477,
+      "newton_history": [
+        {
+          "iteration": 0,
+          "residual_absolute": 1.513736192292143e-05,
+          "residual_scaled": 1.0098061866914358e-05,
+          "chart": [
+            0.5451077165808565,
+            -6.304755158499005e-08,
+            -0.48446210201956413,
+            -2.135115015988954,
+            7.531062691711922e-06,
+            -2.2466801583702638e-07,
+            -4.2499106561600243e-07,
+            -0.4128494426282892
+          ],
+          "min_singular_DP_minus_I": 0.005636993637514114,
+          "max_singular_DP_minus_I": 237.91523756223424,
+          "jacobian_cond": 42206.05039872879,
+          "accepted_backtrack": 0,
+          "accepted_residual_absolute": 5.774882393680575e-10
+        },
+        {
+          "iteration": 1,
+          "residual_absolute": 5.774882393680575e-10,
+          "residual_scaled": 5.772626352315907e-10,
+          "chart": [
+            0.5451078280082221,
+            6.914976185169765e-12,
+            -0.48446203571050594,
+            -2.1351038387956924,
+            6.978954289878171e-11,
+            -2.5716970755693323e-11,
+            -3.1090660565173e-11,
+            -0.4128552933016856
+          ],
+          "stop_reason": "CLOSURE_THRESHOLD_REACHED"
+        }
+      ],
+      "newton_final_candidate": [
+        0.5451078280082221,
+        6.914976185169765e-12,
+        -0.48446203571050594,
+        -2.1351038387956924,
+        6.978954289878171e-11,
+        -2.5716970755693323e-11,
+        -3.1090660565173e-11,
+        -0.4128552933016856
+      ],
+      "newton_smallest_residual": 5.774882393680575e-10,
+      "one_two_three_turns": {
+        "one_turn_residual_absolute": 5.774882393680575e-10,
+        "two_turn_residual_absolute": 2.132094461121675e-09,
+        "three_turn_residual_absolute": 2.447415356581029e-09,
+        "P_squared_vs_direct_two_turn": 5.049203874308743e-15,
+        "P_cubed_vs_direct_three_turn": 4.993524956083264e-15,
+        "P_of_direct_two_turn_vs_direct_three_turn": 3.6385270801527723e-14,
+        "one_turn_residual_relative": 2.5177377010784573e-10,
+        "two_turn_residual_relative": 9.295521953660621e-10,
+        "three_turn_residual_relative": 1.0670260437174313e-09,
+        "charge_J": -1.4410164458247814,
+        "max_integration_charge_drift": 1.9984014443252818e-15,
+        "phase_three_turns": -18.84955592153876,
+        "pass": true
+      },
+      "independent_tight_solver_validation": {
+        "one_turn_residual_absolute": 5.774755839409446e-10,
+        "two_turn_residual_absolute": 2.1320695722765475e-09,
+        "three_turn_residual_absolute": 2.447369079592199e-09,
+        "P_squared_vs_direct_two_turn": 7.647548640244217e-14,
+        "P_cubed_vs_direct_three_turn": 4.587860119312083e-15,
+        "P_of_direct_two_turn_vs_direct_three_turn": 5.992752979179234e-14,
+        "one_turn_residual_relative": 2.517682525849261e-10,
+        "two_turn_residual_relative": 9.295413443080765e-10,
+        "three_turn_residual_relative": 1.0670058678399802e-09,
+        "charge_J": -1.4410164458247814,
+        "max_integration_charge_drift": 2.220446049250313e-15,
+        "phase_three_turns": -18.84955592153876,
+        "pass": true,
+        "independent_solve_one_turn_difference": 1.2786089164137505e-14,
+        "independent_solve_three_turn_difference": 4.653493739245829e-14,
+        "candidate_counterrotation_gauge_equivariance_error": 7.793654889042876e-15
+      },
+      "relative_fixed_point_accepted": true,
+      "conditional_floquet": {
+        "finite_difference_steps": [
+          0.0001,
+          3e-05,
+          1e-05
+        ],
+        "jacobian_disagreement_large_mid": 0.00043745707996665936,
+        "jacobian_disagreement_mid_small": 3.850271074393902e-05,
+        "independent_solver_jacobian_disagreement": 3.515252615873045e-12,
+        "eigenvalues": [
+          {
+            "real": 0.2570597457218504,
+            "imag": 0.8667474623472914,
+            "modulus": 0.9040635355748243
+          },
+          {
+            "real": 0.2570597457218504,
+            "imag": -0.8667474623472914,
+            "modulus": 0.9040635355748243
+          },
+          {
+            "real": 0.13998432830624047,
+            "imag": 0.07839362450730165,
+            "modulus": 0.16044055763659362
+          },
+          {
+            "real": 0.13998432830624047,
+            "imag": -0.07839362450730165,
+            "modulus": 0.16044055763659362
+          },
+          {
+            "real": -0.15884024276143915,
+            "imag": 0.013880092725549,
+            "modulus": 0.15944553833388617
+          },
+          {
+            "real": -0.15884024276143915,
+            "imag": -0.013880092725549,
+            "modulus": 0.15944553833388617
+          },
+          {
+            "real": -0.14545845593104445,
+            "imag": 0.04182483219907018,
+            "modulus": 0.1513521687665029
+          },
+          {
+            "real": -0.14545845593104445,
+            "imag": -0.04182483219907018,
+            "modulus": 0.1513521687665029
+          }
+        ],
+        "spectral_radius": 0.9040635355748244,
+        "singular_values_descriptive_coordinate_dependent": [
+          237.9271052319387,
+          0.38190599817304904,
+          0.3572188745107134,
+          0.15869322975041283,
+          0.1436087966676772,
+          0.06915517979322915,
+          0.06601420385360438,
+          0.0036282059021822606
+        ],
+        "jacobian_numerically_converged": true,
+        "conditional_leaf_attractor": true,
+        "attraction_decision_margin": 0.001,
+        "no_global_conservative_claim": true
+      },
+      "energy_ledger": {
+        "quadrature_replicates": [
+          {
+            "grid_points": 1025,
+            "delta_energy": 1.2674972182935562e-11,
+            "work_drive": 1.2609087527428293e-11,
+            "work_x": 6.699979371949378e-14,
+            "dissipation_rho": 1.194488302194844e-21,
+            "dissipation_x": 3.468248375870542e-22,
+            "net_signed_work_minus_dissipation": 1.2676087319606475e-11,
+            "energy_balance_residual": -1.1151366709125093e-15,
+            "material_time_per_turn": 12.566370614383972,
+            "energy_initial": 1.404346459835007,
+            "energy_final": 1.404346459847682
+          },
+          {
+            "grid_points": 2049,
+            "delta_energy": 1.2674972182935562e-11,
+            "work_drive": 1.2609087743482039e-11,
+            "work_x": 6.699978402987958e-14,
+            "dissipation_rho": 1.194488291560262e-21,
+            "dissipation_x": 3.468248414112551e-22,
+            "net_signed_work_minus_dissipation": 1.2676087525970607e-11,
+            "energy_balance_residual": -1.1153430350447717e-15,
+            "material_time_per_turn": 12.566370614383972,
+            "energy_initial": 1.404346459835007,
+            "energy_final": 1.404346459847682
+          }
+        ],
+        "ledger_two_grid_difference": 2.0636413226239284e-19,
+        "not_global_energy_conservation": true,
+        "no_historical_forward_branch_claim": true
+      },
+      "solver_effort": {
+        "coarse_ivps": 23,
+        "tight_ivps": 10,
+        "coarse_nfev": 29407,
+        "tight_nfev": 33650
+      },
+      "conditional_floquet_certified": true
+    }
+  },
+  "scientific_decision": "TWO_AUTHENTIC_RELATIVE_FIXED_POINTS_THREE_TURN_AND_CONDITIONAL_FLOQUET_CERTIFIED",
+  "plots": [
+    "original_three_turn_fixed_charge_closure.png",
+    "autonomous_three_turn_fixed_charge_closure.png"
+  ],
+  "relative_fixed_points_certified": {
+    "original": true,
+    "autonomous": true
+  },
+  "conditional_floquet_certified": {
+    "original": true,
+    "autonomous": true
+  }
+}

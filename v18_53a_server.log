@@ -1,0 +1,9 @@
+SOURCE_MANIFEST_PASS 21
+original root 2.4424906541753444e-15 local_spectrum_vs_parent 4.378819257412464e-05
+autonomous root 1.3322676295501878e-15 local_spectrum_vs_parent 4.37890465832139e-05
+SYNTHETIC_AND_ARCHIVED_ALGEBRA_PASS
+ARCHIVED_RHS_INDEPENDENT_RANDOM_STATES_PASS 64 max_error 1.2732925824820995e-11
+AUTHENTICATED MODEL: staging 10D physical solver
+original native root residual 4.107825191113079e-15 local eig error 4.378821176219862e-05
+autonomous native root residual 2.6978419498391304e-14 local eig error 4.3789048527466046e-05
+SENDBACK /root/elab1/hysteresis/q550_phase_locked_relative_equilibrium_cross_seed_equivalence_instantaneous_rhs_v18_53a_bundle_server_sendback.zip results 3

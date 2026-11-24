@@ -1,0 +1,27 @@
+{
+  "version": "v18.53a",
+  "root": "q550_phase_locked_relative_equilibrium_cross_seed_equivalence_instantaneous_rhs_v18_53a_bundle",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "bc0ec249a8dc0a7d4c7ce79ac9f2ae4a931fae9ac197d86f80374642f575b480",
+    "README.md": "10f4879a273d442eb4f461af01b2dd5e6c10546aa001f86e5d80d4b35a43de99",
+    "SCIENTIFIC_DECISION_RULES.md": "a688bbf68db97debb9d6a854d446831afe01da8bddd31190e08a17ad59998345",
+    "SOURCE_PROVENANCE.md": "fbcd333d666454bcdc170b7db7cc7bdb5cf2a6ab214dc0608f77e0e9a9d366a4",
+    "inputs_config.json": "4c9f1199017f35ed26ae13baae8e75ec103ac5095c6265a8447ded2553296bcd",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52v_r1_run_audit.py": "dd1d3d441d191f3791c0524b1a6ae54cd596c5a7e395a43289e8604f22cd81b6",
+    "reference/v18_52y_run_audit.py": "2fb826da285608db56f64cf9f4db406324f0a5f8ea5f2d693c69da0c1eb4a42b",
+    "reference/v18_52z_authenticated_report.json": "06ca2eb5b103b8097e053eaa2a4af22984554299c7dc001f94c582242e9d7373",
+    "reference/v18_52z_inputs_config.json": "bfadd59eb945b11a133faa244a0407a804eb8c74cea741d527d36146d35c6351",
+    "requirements.txt": "a7fed8ea14a4cbbeee4cf35d8a629db98848215503ced218f9a3cdbd55f560f8",
+    "run_on_server.sh": "ff03c0b4302224ad2caa2f3ec563afd24ead1c09c1dae74394bca1944cbf9dd4",
+    "scripts/energy_math.py": "23b49ac82e9acd11002cb45696858e6091113221646d2737cd6e2eeca2e2b4a2",
+    "scripts/package_sendback.py": "30ed9209b98a8a522a1bdfd513c013a462b0e482a516ced1121944d6f6df8d19",
+    "scripts/phase_energy.py": "fabf92d8a886526d97be2166dfce7feed540cbcc47e83a7dc89d29cd865a33bb",
+    "scripts/return_map.py": "9e087f54de33830389014b43b14c4b572a21a38a476c340953830d0edcff2b75",
+    "scripts/run_audit.py": "a1dd67109233fc0b154401e48ba32dfc7d0778e4dec70f3f33152f63737cec23",
+    "scripts/verify_manifest.py": "579306042b1f9a2ff46930e7d94f541ddab1d964352d825ec4da40f62a1f43b8",
+    "tests/test_archived_rhs_crosscheck.py": "2976d209bd45147c4516c2598ee206a71d5bfb33ff98f0da8a4bafb9dcd3e0a7",
+    "tests/test_synthetic.py": "bc6468db83923aea1b9b86c53999cfc4a19d0af1c9d2ef83a5e1d153cb65565c"
+  }
+}

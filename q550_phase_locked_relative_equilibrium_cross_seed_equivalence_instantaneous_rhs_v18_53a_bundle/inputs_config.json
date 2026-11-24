@@ -1,0 +1,40 @@
+{
+  "version": "v18.53a",
+  "title": "Phase-Locked Relative Equilibrium, Cross-Seed Equivalence & Instantaneous RHS Audit",
+  "v1852z_report_sha256": "06ca2eb5b103b8097e053eaa2a4af22984554299c7dc001f94c582242e9d7373",
+  "v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "v1852l_10d_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "v1852l_fixed_model_kappa": 0.1666331385421536,
+  "model_params": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "alpha_phase_alignment_tol": 1e-06,
+  "instantaneous_candidate_rhs_tol": 2e-07,
+  "instantaneous_algebraic_root_rhs_tol": 5e-09,
+  "root_residual_tol": 5e-10,
+  "root_change_tol": 5e-05,
+  "cross_seed_equivalence_tol": 5e-07,
+  "jacobian_steps": [
+    2e-05,
+    6e-06,
+    2e-06
+  ],
+  "jacobian_rel_convergence_tol": 0.003,
+  "monodromy_match_tol": 0.007,
+  "charge_tol": 1e-09,
+  "gauge_tol": 2e-09,
+  "parent_archived_v1852z_status": "TWO_AUTHENTIC_RELATIVE_FIXED_POINTS_THREE_TURN_AND_CONDITIONAL_FLOQUET_CERTIFIED",
+  "banned_claims": [
+    "global conservative Hamiltonian system",
+    "full historical forward-return periodic orbit",
+    "topological quantization of J",
+    "global radial noncollapse bound",
+    "equivalence of genuinely different forcing protocols"
+  ]
+}

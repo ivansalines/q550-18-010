@@ -1,0 +1,9 @@
+{
+  "version": "v18.53a",
+  "root": "q550_phase_locked_relative_equilibrium_cross_seed_equivalence_instantaneous_rhs_v18_53a_bundle",
+  "files": {
+    "results/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "8ce56fb782a4524c166cf740d39cdc20d8fb528147e3129b3ea567e5c53b07aa",
+    "results/report.json": "a2f9c080b523bc3fdad67216164660bcc76402bb9e514116d96dabd0f21d12e8"
+  }
+}

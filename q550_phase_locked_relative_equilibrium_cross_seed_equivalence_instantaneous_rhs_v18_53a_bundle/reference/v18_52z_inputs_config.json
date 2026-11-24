@@ -1,0 +1,61 @@
+{
+  "version": "v18.52z",
+  "title": "Relative Fixed-Point Refinement, Three-Turn Closure & Conditional Floquet Audit",
+  "parent": "Authenticated Q550 v18.52y server sendback; SHA-256 verified candidate states",
+  "v1852y_report_sha256": "dd8c6884de14140414840d2f1e7f0a186b6e191c3bbb02891a6c05fdd49d2d1e",
+  "v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "v1852l_10d_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "v1852l_fixed_model_kappa": 0.1666331385421536,
+  "model_params": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "native_10d_file": "q550_near_tangency_breathing_envelope_drift_five_dimensional_section_audit_v18_52l_bundle/results/extended_horizon_10d_states.npz",
+  "seeds": [
+    "original",
+    "autonomous"
+  ],
+  "initial_anchor_xi": 12.8,
+  "solver_rtol": 5e-10,
+  "solver_atol": 5e-12,
+  "solver_max_step_xi": 0.08,
+  "independent_solver_rtol": 2e-11,
+  "independent_solver_atol": 2e-13,
+  "independent_max_step_xi": 0.04,
+  "newton_fd_epsilon": 5e-05,
+  "jacobian_fd_epsilon": [
+    0.0001,
+    3e-05,
+    1e-05
+  ],
+  "max_newton_steps": 10,
+  "max_backtracks": 10,
+  "max_weighted_step": 0.12,
+  "closure_chart_abs_tol": 1e-08,
+  "closure_chart_normalized_tol": 1e-08,
+  "two_turn_chart_abs_tol": 3e-08,
+  "three_turn_chart_abs_tol": 5e-08,
+  "composed_vs_direct_three_turn_tol": 1e-07,
+  "independent_solver_one_turn_tol": 1e-07,
+  "gauge_equivariance_tol": 2e-07,
+  "maximum_charge_drift": 1e-08,
+  "jacobian_rel_step_convergence_tol": 0.005,
+  "jacobian_independent_solver_rel_tol": 0.005,
+  "leaf_attraction_radius_margin": 0.001,
+  "energy_ledger_quadrature_n": [
+    1025,
+    2049
+  ],
+  "banned_claims": [
+    "global conservative Hamiltonian dynamics",
+    "full historical forward-return limit cycle",
+    "stability from unclosed DP",
+    "same charge for historical kicks",
+    "globally uniform radial noncollapse"
+  ]
+}
