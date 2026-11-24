@@ -1,0 +1,17 @@
+Q550 v18.51u source verified 13
+Q550 v18.51u synthetic causal Green 10/10 PASS
+Time-resolved Green kernel: original
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_time_resolved_green_kernel_compensation_birth_v18_51u_bundle/scripts/run_audit.py", line 402, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/root/elab1/hysteresis/q550_time_resolved_green_kernel_compensation_birth_v18_51u_bundle/scripts/run_audit.py", line 328, in main
+    summary,K,I,fraction,windows=analysis(seed,xi,a,mid)
+                                 ~~~~~~~~^^^^^^^^^^^^^^^
+  File "/root/elab1/hysteresis/q550_time_resolved_green_kernel_compensation_birth_v18_51u_bundle/scripts/run_audit.py", line 247, in analysis
+    restart_err,restarts=restart_impulse_checks(xi,Jx,source_xi,bs,L,K)
+                         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/elab1/hysteresis/q550_time_resolved_green_kernel_compensation_birth_v18_51u_bundle/scripts/run_audit.py", line 232, in restart_impulse_checks
+    errors.append(float(np.max(np.abs(actual-expected))))
+                                      ~~~~~~^~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (2,3) (3,2) 

@@ -1,0 +1,17 @@
+{
+  "version": "v18.51u",
+  "mode": "preflight",
+  "checks": {
+    "authenticated_complete_parent_t": true,
+    "parent_t_numerical_audit_passed": true,
+    "two_seed_midpoint_physical_states": true,
+    "matched_stored_model_jacobian_and_sources": true,
+    "causal_uniform_513_section_grid": true
+  },
+  "provenance": {
+    "parent_sha256": "3eb0406e5edf08ab8c3b0702431bd0ded476487267b135138e52ec8775960f02",
+    "source_hashes": 13,
+    "output_hashes": 5,
+    "t_report_classification": "MODEL_GENERATED_GREEN_TRANSPORT_NUMERICAL_SOURCE_ATTRIBUTION"
+  }
+}

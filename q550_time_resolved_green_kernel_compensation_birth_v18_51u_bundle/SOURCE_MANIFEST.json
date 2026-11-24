@@ -1,0 +1,20 @@
+{
+  "root": "q550_time_resolved_green_kernel_compensation_birth_v18_51u_bundle",
+  "version": "v18.51u",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "ff969ff6fb102c80726aebc42da24928da23225f61e1332015e064a7ac0f6de1",
+    "README.md": "37888aafdcba285cc5dcb6987f55ed06175395d892a26e3e55100241e0fccc2b",
+    "SCIENTIFIC_DECISION_RULES.md": "a8f8a49035c5e2010ff86ce5ba9e8ba06a6c56b882c907df36cfc6df8d5524e5",
+    "SCIENTIFIC_REPORT.md": "c76582c46042438e6038ecf162da17fea2088b473c7bbb89d0f1ad931cb4f41f",
+    "inputs/q550_source_to_response_green_transport_radial_azimuthal_causality_v18_51t_bundle_server_sendback.zip": "3eb0406e5edf08ab8c3b0702431bd0ded476487267b135138e52ec8775960f02",
+    "requirements.txt": "25412683eb8f0b0049e66b26009838e23bc6cb4d4979f9da0f289599b0dab630",
+    "run_on_server.sh": "7eb9df8ccca3870f7c5554124a6a75f207f7d403f1c666f65bb5cf8895059254",
+    "scripts/pack_sendback.py": "2f00fa830910d4ba309f405d4ea95361791d1c0b6a3ac7ffbe2835a66dd9c847",
+    "scripts/run_audit.py": "a52589cb6ecf2ee0c53ee6011623cdaef95d7a632c6bcc744226e17b45dbeb33",
+    "scripts/verify_source_manifest.py": "58cac411557a187631583f3d7060154ad06ce4a1cce6a1afa48e4572a0661a4a",
+    "scripts/write_output_manifest.py": "40160116af656568ea9ad0782016cccc95432b8796c68f95e9f6fc508d37b299",
+    "tests/test_green_kernel_synthetic.py": "f1ab6666a2cac922e088096831617749f5b2cf0879beaac067788e50c5596a83",
+    "tests/test_results.py": "477d2e637954bb6ba98535882f3897d30580f708e2131d02f111e8eb6e63fbf4",
+    "PATCH_NOTES_v18_51u_restart_axes.md": "a4825e834466d60a1326b1913ca531a3bbbaf49c510b01c67ebf88a017ec23b2"
+  }
+}

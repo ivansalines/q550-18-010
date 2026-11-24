@@ -1,0 +1,15 @@
+{
+  "version": "v18.51u",
+  "root": "q550_time_resolved_green_kernel_compensation_birth_v18_51u_bundle",
+  "file_sha256": {
+    "results/LOCAL_PREFLIGHT.json": "ca25c2abcf6e103470fbcf34c3799c30e705b1d978adf93f4c98f037fa690a1b",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "0c8737a3cc35952da207ed963e1429fbeca6d4b70b71e2ee9216eb80c6662d43",
+    "results/causal_source_window_contributions.csv": "47d726bc54370317f33f4ca83c2cc8af06d142a748cfa874784a904536bfb7be",
+    "results/compensation_birth_and_channel_history.png": "a1c839e57f1e0b4063c19b0aea12ad73acec69fda5fc5845c418b3cd2bc4af49",
+    "results/compensation_birth_section_ledger.csv": "e4f327c44ec3cd52c464414601b3576fd08423223742007e5e0f379365858154",
+    "results/green_causal_two_time_kernels.npz": "232424e40f442933b67898ee2219299f379e6b6c7f9d9383398e23d6e73343e8",
+    "results/green_kernel_causal_map_autonomous.png": "297227b24e07cda9b10a86d1e3143fbc73a43ac3fc0a6b6ed54ffecbce836796",
+    "results/green_kernel_causal_map_original.png": "fa2e653b1f274625b7bd49c9d99c54737e01ec11a695aaae1886a60677065842",
+    "results/report.json": "80c7099fa72f4c7129ae2e4b7f7528eaa0dda5b0bd4e9fa646d1a179afcf0b36"
+  }
+}
