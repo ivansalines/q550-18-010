@@ -1,0 +1,65 @@
+{
+  "version": "v18.52r",
+  "status": "CLOCK_NORMALIZED_ORIGINAL_FIELD_MATCH_AND_ANGULAR_NOETHER_DALEMBERT_CHARGE_CERTIFIED_CONDITIONALLY",
+  "archived_analytic": {
+    "status": "EXACT_FORMAL_MONOMIAL_PASS",
+    "method": "exact Fraction-valued symbolic Laurent-monomial cancellation",
+    "phase_counterrotation_derivative": "0",
+    "angular_noether_dC_dt": "0",
+    "direct_angular_ode_dC_dt": "0",
+    "scope": "angular-sector Noether-dAlembert, zero angular nonconservative virtual work required",
+    "sympy": "NOT_INSTALLED; independent exact Fraction formal cancellation passed"
+  },
+  "archived_field_checks": {
+    "n_probes": 160,
+    "max_dC_support": 1.970645868709653e-14,
+    "max_anti_rotation_equivariance": 4.5298320854005024e-15,
+    "max_support_to_physical_clock_residual": 2.0650342641204855e-16,
+    "pass": true
+  },
+  "native_traces": {
+    "status": "VERIFIED",
+    "n_series": 20,
+    "max_drift": 3.175237850427948e-14,
+    "pass": true,
+    "sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12"
+  },
+  "original_engine": {
+    "status": "AUTHENTIC_ENGINE_PROBED",
+    "sha256_parent": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "n_probes": 96,
+    "engine_to_support_fit": 0.1343837359721647,
+    "inverse_fit": 7.441376687184326,
+    "field_scale_relative_spread": 8.881784197001252e-16,
+    "max_holdout_relative_scale_mismatch": 7.771561172376096e-16,
+    "max_scale_fit_residual": 9.269583771000293e-16,
+    "max_anti_rotation_equivariance": 4.40495732984957e-16,
+    "max_native_charge_derivative": 7.716050021144838e-15,
+    "max_common_torque_residual": 7.66053886991358e-15,
+    "clock_source_metadata": {
+      "engine.slope": "0.1343837359721647"
+    },
+    "field_source": {
+      "structural_jet_excerpt_sha256": "96d2e5c06cd5c0c2271f78252a7110e2816bfcc446e1c382abffad1c4eedbb81"
+    },
+    "clock_normalized_field_match": true,
+    "off_orbit_charge_pass": true,
+    "warning": "Numerical fit identifies constant field ratio, not by itself an independent documented clock transformation."
+  },
+  "model_scope": {
+    "claim": "angular-sector Noether-dAlembert charge conditional on stated Lagrangian and angular virtual forces zero",
+    "topological_charge": "NOT_CERTIFIED",
+    "global_noncollapse": "NOT_CERTIFIED",
+    "absolute_configuration": "r1,r2 > 0; 0 < x < 1",
+    "canonical_momentum": "p_theta_i = r_i^2 omega_i under documented flat kinetic immersion",
+    "time_reparameterization": "Clock-normalized field equality evaluated off orbit; source clock provenance separately recorded"
+  },
+  "sources_sha256": {
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/parent_v18_52g_run_audit.py": "8924eca42df09593de0d36b09985a6722ed2b9ad6ed2e1d54c63e8d675fb02b1",
+    "reference/parent_v18_52q_r1_run_audit.py": "429c5778f0dec8b629b221ac71938647669dd816a1091d1a45280843ec36489c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/test_support_q550_support_ode_interval_residual_pilot_v1.py": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "EXACT_FORMAL_MONOMIAL_PASS",
+  "method": "exact Fraction-valued symbolic Laurent-monomial cancellation",
+  "phase_counterrotation_derivative": "0",
+  "angular_noether_dC_dt": "0",
+  "direct_angular_ode_dC_dt": "0",
+  "scope": "angular-sector Noether-dAlembert, zero angular nonconservative virtual work required",
+  "sympy": "NOT_INSTALLED; independent exact Fraction formal cancellation passed"
+}

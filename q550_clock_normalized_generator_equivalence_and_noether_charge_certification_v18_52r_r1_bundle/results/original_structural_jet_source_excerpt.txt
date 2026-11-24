@@ -1,0 +1,4 @@
+def structural_jet(y,kappa0,params,slope=1.0):
+    f0,j0,h0=base_jet(y,params)
+    fk,jk,hk=coupling_jet(y,params)
+    return slope*(f0+kappa0*fk),slope*(j0+kappa0*jk),slope*(h0+kappa0*hk)

@@ -1,0 +1,16 @@
+SOURCE MANIFEST VERIFIED 18
+SYNTHETIC PASS: constant clock, mismatch rejected, charge and archived ODE
+EXACT_FORMAL_MONOMIAL_PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+{
+  "version": "v18.52r",
+  "status": "CLOCK_NORMALIZED_ORIGINAL_FIELD_MATCH_AND_ANGULAR_NOETHER_DALEMBERT_CHARGE_CERTIFIED_CONDITIONALLY",
+  "engine_to_support_fit": 0.1343837359721647,
+  "checks": {
+    "archived": true,
+    "native": true,
+    "original_engine": true,
+    "charge": true
+  }
+}
+SENDBACK: /root/elab1/hysteresis/q550_clock_normalized_generator_equivalence_and_noether_charge_certification_v18_52r_r1_bundle_server_sendback.zip bytes: 76404

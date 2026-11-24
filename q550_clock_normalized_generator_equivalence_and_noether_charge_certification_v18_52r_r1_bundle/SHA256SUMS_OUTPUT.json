@@ -1,0 +1,12 @@
+{
+  "version": "v18.52r",
+  "root": "q550_clock_normalized_generator_equivalence_and_noether_charge_certification_v18_52r_r1_bundle",
+  "file_sha256": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "5d46c76e24c1780eb104c1210dfed03c2427f1f796fadb54272746bd1b535071",
+    "results/clock_normalized_off_orbit_engine_comparison.csv": "14a801241a6bc51b2995e907c27fd0205d36b584a4487d9e0e4134c086932278",
+    "results/exact_symbolic_noether.json": "5ce8321919b35a6e3448db3eb5875865c4b6bf3a5efadb60a6c82796927e62dd",
+    "results/native_charge_per_series.csv": "dbf5eb47b8dcf21a0f7444405a824bb9b4b2f5143e4e3329b31e16a4e37b9acd",
+    "results/original_structural_jet_source_excerpt.txt": "96d2e5c06cd5c0c2271f78252a7110e2816bfcc446e1c382abffad1c4eedbb81",
+    "results/report.json": "7ef99d7032ddcc0f236aa26de3f6c1a0c1b492271b0dee99784ce1c601e65e0c"
+  }
+}
