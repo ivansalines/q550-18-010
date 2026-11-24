@@ -1,0 +1,48 @@
+Q550 v18.52a authenticated source files: 19 locked parents: 2
+Synthetic checks: 13 / 13
+PASS total_vector_closure
+PASS wedge_antisymmetric
+PASS wedge_formula
+PASS turning_budget
+PASS same_total_under_explicit_recombination
+PASS mixing_changes_cross_wedge
+PASS angle_wedge_positive
+PASS finite_rates
+PASS passive_angle_invariance
+PASS passive_dot_invariance
+PASS passive_norm_invariance
+PASS sum_of_rates
+PASS qualified_nonzero
+Smoke tests: 9 / 9
+PASS source_v2_kinematic_double_integral
+PASS source_omega2_kinematic_double_integral
+PASS other_channel_is_retained
+PASS total_recomposes
+PASS correct_cartesian_projection
+PASS correct_azimuthal_projection
+PASS exact_orthogonality
+PASS budget_closes
+PASS no_forced_false_robustness
+Historical physical kappa band: {'autonomous': 0.16659961041764054, 'midpoint': 0.1666331385421536, 'original': 0.16666666666666666}
+AUTHENTICATED PHYSICAL FIELD: recovering historical 19-ancestor engine
+AUTHENTICATED MODEL: staging 10D physical solver
+  physical branch original/autonomous: kappa=0.166599610418, jets=257
+    endpoint rates mixed +0.711137 self -0.480108 total +0.230813
+  physical branch original/midpoint: kappa=0.166633138542, jets=257
+    midpoint replay vs Z 5.171e-11; grid-refine 2.433e-11
+    endpoint rates mixed +0.711125 self -0.480100 total +0.230808
+  physical branch original/original: kappa=0.166666666667, jets=257
+    endpoint rates mixed +0.711113 self -0.480092 total +0.230804
+  physical branch autonomous/autonomous: kappa=0.166599610418, jets=257
+    endpoint rates mixed +0.711302 self -0.480139 total +0.230946
+  physical branch autonomous/midpoint: kappa=0.166633138542, jets=257
+    midpoint replay vs Z 5.173e-11; grid-refine 2.439e-11
+    endpoint rates mixed +0.711290 self -0.480131 total +0.230942
+  physical branch autonomous/original: kappa=0.166666666667, jets=257
+    endpoint rates mixed +0.711278 self -0.480123 total +0.230937
+WRITING RESULTS
+NUMERICAL CHECKS 36 / 36 PASS
+SCIENTIFIC DECISION: SUPPORTED_IN_AUTHENTIC_THREE_KAPPA_BRANCH_BAND
+Q550 v18.52a result tests PASS 2922 qualified sectional rows
+Q550 v18.52a wrote 5 output digests
+Created sendback /root/elab1/hysteresis/q550_dynamically_admissible_cross_channel_turning_robustness_v18_52a_bundle_server_sendback.zip

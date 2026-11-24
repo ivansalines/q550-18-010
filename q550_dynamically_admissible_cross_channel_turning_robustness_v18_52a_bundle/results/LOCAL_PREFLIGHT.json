@@ -1,0 +1,11 @@
+{
+  "title": "Q550 v18.52a preflight",
+  "status": "MODEL_BRANCH_RUN_PENDING_USER_SERVER",
+  "synthetic_checks_passed": 13,
+  "synthetic_checks_total": 13,
+  "forced_tangent_smoke_checks_passed": 9,
+  "forced_tangent_smoke_checks_total": 9,
+  "physics_executed_here": false,
+  "lineage": "SHA256-locked physical v18.51s engine, v18.51r three-kappa trajectories and v18.51z midpoint turning baseline",
+  "scientific_robustness_claim": "NOT_YET_EVALUATED"
+}

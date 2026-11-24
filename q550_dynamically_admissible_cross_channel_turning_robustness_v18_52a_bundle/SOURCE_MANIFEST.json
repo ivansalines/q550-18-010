@@ -1,0 +1,29 @@
+{
+  "root": "q550_dynamically_admissible_cross_channel_turning_robustness_v18_52a_bundle",
+  "version": "v18.52a",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "95c2fae7459833bd7e22dea35a3ed7257b3ee5def22c97c2c061103380b195d4",
+    "README.md": "559941cddc0e1c3643fe6635397476592aa106e773a4686130df885da7e2fa0a",
+    "SCIENTIFIC_DECISION_RULES.md": "8a571f180b660ec49ddf78c70e667fd40f216b6821e903a717cdba30e4795f72",
+    "SCIENTIFIC_REPORT.md": "c671077f00c6764712eb10a020bb8eab415bff0e6947cf7b931ec12efea35adb",
+    "SOURCE_PROVENANCE.md": "0f6bb90a5828402ee78aeb5eb98016635eab72b78d000d5f969afb45f0d2866e",
+    "inputs/q550_posture_elegance_observer_induced_catwalk_v18_51z_bundle_server_sendback.zip": "acf4b9f0ec39684aacd316796d3a32ef96be6cb6aec7ae38b7746660fcd8d880",
+    "reference/parent_v18_51s_run_audit.py": "d65655eb60290d52808be81e5af3ab8fa6d71d46bf1f8eb9ac247275ce2179a5",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/parent_v18_51z_run_audit.py": "ec94961237435cb1d45163ac9b8fa9ed407456637672c85da802cac290fbc65b",
+    "requirements.txt": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+    "results/LOCAL_PREFLIGHT.json": "6f38f00a3486c525a9c1b1b840c9f55efad908c49d27bd8601a461744e765abc",
+    "run_on_server.sh": "f962d42191b77dfd8a1dccd6d0ef4ac55d28f2c9abcafa0c4c8e8042413e31d3",
+    "scripts/pack_sendback.py": "055ca2e5f0f5cf1b73503763277054b13ab49ceecb61faab0be473bc13f2ee5c",
+    "scripts/run_audit.py": "a0a2e801f3adadd5a784820c71016dc8e20620e1b799fabdf8e91c3c9fb8601a",
+    "scripts/verify_source_manifest.py": "5686d148cc816138ab1fe79728c672d80df79a1f617a4893109fd1dc8e194c78",
+    "scripts/write_output_manifest.py": "ca43e69286cd8c54ac461913352a702a917e50da5367d18f35bfa48ca8c70c77",
+    "tests/test_forced_transport_smoke.py": "e19be65ba0dfe4e9a4fdc86167d908fa892e066cf295b97b841a85a50b72537e",
+    "tests/test_results.py": "32cadf82953e9c38a73bb6803af837d076e12858057a4f7325ac2d27e9b21cce",
+    "tests/test_synthetic.py": "083ee0999e47f32330888cd2db9c52b4a43f314ad9a4c07c24d9e2e1d7bc3b6f"
+  },
+  "parents": {
+    "v18_51s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "v18_51z_sha256": "acf4b9f0ec39684aacd316796d3a32ef96be6cb6aec7ae38b7746660fcd8d880"
+  }
+}

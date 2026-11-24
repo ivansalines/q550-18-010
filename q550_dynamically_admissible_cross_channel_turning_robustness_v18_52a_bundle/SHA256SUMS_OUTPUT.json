@@ -1,0 +1,11 @@
+{
+  "root": "q550_dynamically_admissible_cross_channel_turning_robustness_v18_52a_bundle",
+  "version": "v18.52a",
+  "file_sha256": {
+    "results/report.json": "468298fba660f5b9b9e037278e102d979407b2ccc9a8e6edd82f82034201d84a",
+    "results/physical_parameter_robustness_sections.csv": "90eb091cd78677d5b50a226c27ef8902e418efdcde45958f515b57a251deafae",
+    "results/physical_branch_turning_arrays.npz": "bad8d7a653e714bc7147964f47d74584476936ec3561317c615302bb5a8c756f",
+    "results/physical_kappa_branch_cross_channel_turning_robustness.png": "43e9c8b15a6907a5a4171986724106e438c3522ad527a60f6b27ab66f10d9944",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "174a8ee7542e5b1686e4f58ec5e5fb8ba0597e34964494470d337d3c41c15c85"
+  }
+}
