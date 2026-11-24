@@ -1,0 +1,109 @@
+# Q550 v18.52v-r1 — Forward–Return Drive Reversal & Signed-Work Attribution Audit
+
+## Decision
+AUTHENTICATED_CLOCK_SIGN_AND_FIXED_KAPPA_SIGNED_ENERGY_FULL_RESOLUTION
+
+## Exactly what was tested
+
+1. Authenticated cubic_excursion_prime=-cubic_clock_sign and theta_prime=+omega*cubic_clock_sign.
+2. Staged source comparison of signed RHS and power channels at matched physical states.
+3. On-path archived return-drive work and frozen-state sign-switched work (not a forward orbit).
+4. All 20 native series; fixed native kappa for BOTH seed families; quadrature convergence and kappa falsification.
+
+## Numerical checkpoints
+
+```json
+{
+  "version": "v18.52v-r1",
+  "historical_parent_status": "SHA256_AUTHENTICATED",
+  "native_status": "SHA256_AUTHENTICATED",
+  "forward_trajectory_not_generated": true,
+  "full_forward_return_work_difference_measured": false,
+  "global_noncollapse_certified": false,
+  "native_total_series": 20,
+  "protocol_source": {
+    "original": {
+      "design": "v18_50p beta:2:2 ramp=0.24",
+      "turn_event": 0.09104762622982329,
+      "clock_sign_min": -1.0,
+      "clock_sign_max": 1.0,
+      "excursion_derivative_plus_sign_max_abs_finite_difference": 8.22666379463044e-11,
+      "excursion_derivative_plus_sign_grid_max_abs": 3.327546296261197e-05,
+      "phase_rate_source_return": "PLUS engine.omega*cubic_clock_sign",
+      "phase_rate_source_forward": "PLUS engine.omega",
+      "source_sign_certification": "TWO_MINUS_SIGNS_CANCEL_AND_MATCH_SIGNED_RHS"
+    },
+    "autonomous": {
+      "design": "v18_50p beta:2:2 ramp=0.24",
+      "turn_event": 0.09102271942457762,
+      "clock_sign_min": -1.0,
+      "clock_sign_max": 1.0,
+      "excursion_derivative_plus_sign_max_abs_finite_difference": 8.22666379463044e-11,
+      "excursion_derivative_plus_sign_grid_max_abs": 3.327546296261197e-05,
+      "phase_rate_source_return": "PLUS engine.omega*cubic_clock_sign",
+      "phase_rate_source_forward": "PLUS engine.omega",
+      "source_sign_certification": "TWO_MINUS_SIGNS_CANCEL_AND_MATCH_SIGNED_RHS"
+    }
+  },
+  "source_rate_crosscheck": {
+    "original": {
+      "source_theta_prime_minus_omega_sign_max_abs": 1.1287870638199138e-10,
+      "n_probes": 128,
+      "source_clock_sign_min": -1.0,
+      "max": -1.0
+    },
+    "autonomous": {
+      "source_theta_prime_minus_omega_sign_max_abs": 1.1287870638199138e-10,
+      "n_probes": 128,
+      "source_clock_sign_min": -1.0,
+      "max": -1.0
+    }
+  },
+  "max_full_resolution_energy_ledger_residual": 3.7893958804158245e-11,
+  "max_stride4_energy_ledger_residual": 6.062726510061567e-10,
+  "max_phase_rate_source_vs_finite_difference": 1.7219753400965487e-10,
+  "max_tau_xi_analytical_vs_gradient_relative": 3.425770585257275e-10,
+  "max_v18_52t_baseline_vs_r1_full_closure_difference": 0.0,
+  "v18_52t_baseline_series_matched": 20,
+  "clock_source_probes_pass": true,
+  "omega_vs_2pi_slope_abs": 0.0,
+  "signed_rhs_last_rate_vs_source_max_abs": 0.0,
+  "kappa_falsification": [
+    {
+      "seed": "original",
+      "true_native_kappa": 0.1666331385421536,
+      "historical_seed_kappa_wrong_for_native": 0.16666666666666666,
+      "absolute_kappa_mismatch": 3.3528124513043656e-05,
+      "correct_fixed_kappa_energy_max_error": 3.776376043471141e-11,
+      "wrong_seed_kappa_energy_max_error": 7.398417770088095e-07,
+      "falsification_not_parameter_fitting": true
+    },
+    {
+      "seed": "autonomous",
+      "true_native_kappa": 0.1666331385421536,
+      "historical_seed_kappa_wrong_for_native": 0.1665996104,
+      "absolute_kappa_mismatch": 3.3528142153627094e-05,
+      "correct_fixed_kappa_energy_max_error": 3.782490640147351e-11,
+      "wrong_seed_kappa_energy_max_error": 7.40830272146116e-07,
+      "falsification_not_parameter_fitting": true
+    }
+  ],
+  "max_counterrotation_charge_drift": 2.7755575615628914e-14,
+  "signed_rhs_probes": 40,
+  "signed_rhs_max_first10_difference": 0.0,
+  "plots": [
+    "original_signed_drive_work.png",
+    "autonomous_signed_drive_work.png"
+  ],
+  "native_ledger_series": 20,
+  "native_ledger_stride_rows": 120,
+  "native_fixed_kappa": 0.1666331385421536,
+  "all_20_native_series_included": true,
+  "scientific_decision": "AUTHENTICATED_CLOCK_SIGN_AND_FIXED_KAPPA_SIGNED_ENERGY_FULL_RESOLUTION",
+  "cannot_claim": "No actual forward branch comparison without independently authenticated forward physical states"
+}
+```
+
+## Limitations
+
+The long native v18.52l interval contains RETURN protocol only. A real forward-vs-return work comparison requires authentic forward physical states at phase-matched conditions. A frozen-state counterfactual measures a local effect of changing the control, not the evolution of a new trajectory. No global noncollapse or topology theorem follows from this audit.

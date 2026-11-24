@@ -1,0 +1,3 @@
+seed,true_native_kappa,historical_seed_kappa_wrong_for_native,absolute_kappa_mismatch,correct_fixed_kappa_energy_max_error,wrong_seed_kappa_energy_max_error,falsification_not_parameter_fitting
+original,0.1666331385421536,0.16666666666666666,3.3528124513043656e-05,3.776376043471141e-11,7.398417770088095e-07,True
+autonomous,0.1666331385421536,0.1665996104,3.3528142153627094e-05,3.782490640147351e-11,7.40830272146116e-07,True

@@ -1,0 +1,21 @@
+series,v18_52t_fixed_kappa_full_E_max_error,v18_52v_r1_fixed_kappa_full_E_max_error,v18_52t_vs_r1_abs_difference,old_v18_52v_seed_kappa_stride4_E_max_error,source
+original__reference,3.776376043471141e-11,3.776376043471141e-11,0.0,7.392641394395223e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original__reference_refined,3.776437452682191e-11,3.776437452682191e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original_negative_1.0e-04__kick,3.774047394045077e-11,3.774047394045077e-11,0.0,7.388664408974552e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original_negative_1.0e-04__kick_refined,3.774151390717462e-11,3.774151390717462e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original_positive_1.0e-04__kick,3.778996386649691e-11,3.778996386649691e-11,0.0,7.396595811254292e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original_positive_1.0e-04__kick_refined,3.7790492957157085e-11,3.7790492957157085e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original_negative_3.0e-04__kick,3.769606285106142e-11,3.769606285106142e-11,0.0,7.380647412025439e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original_negative_3.0e-04__kick_refined,3.7687678498821153e-11,3.7687678498821153e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original_positive_3.0e-04__kick,3.78332820800964e-11,3.78332820800964e-11,0.0,7.404440327219916e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+original_positive_3.0e-04__kick_refined,3.783548301050654e-11,3.783548301050654e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous__reference,3.782490640147351e-11,3.782490640147351e-11,0.0,7.414080102361234e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous__reference_refined,3.782230821938737e-11,3.782230821938737e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous_negative_1.0e-04__kick,3.7799258948562064e-11,3.7799258948562064e-11,0.0,7.410117160750081e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous_negative_1.0e-04__kick_refined,3.779866567313328e-11,3.779866567313328e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous_positive_1.0e-04__kick,3.784412540286386e-11,3.784412540286386e-11,0.0,7.418023403502581e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous_positive_1.0e-04__kick_refined,3.7846818561060314e-11,3.7846818561060314e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous_negative_3.0e-04__kick,3.774816050017282e-11,3.774816050017282e-11,0.0,7.402123537005381e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous_negative_3.0e-04__kick_refined,3.7748927681630073e-11,3.7748927681630073e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous_positive_3.0e-04__kick,3.7893958804158245e-11,3.7893958804158245e-11,0.0,7.425842903220452e-07,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
+autonomous_positive_3.0e-04__kick_refined,3.788711315164117e-11,3.788711315164117e-11,0.0,,v18.52t authenticated 20-series historical baseline and original v18.52v server ledger
