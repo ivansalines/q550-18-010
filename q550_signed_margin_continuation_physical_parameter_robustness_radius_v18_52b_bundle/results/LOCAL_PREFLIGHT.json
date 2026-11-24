@@ -1,0 +1,21 @@
+{
+  "version": "v18.52b",
+  "mode": "lightweight_preflight",
+  "checks": {
+    "three_authentic_branch_values": true,
+    "symmetric_historical_half_width": true,
+    "both_seed_families_present": true,
+    "all_historical_min_margins_positive": true,
+    "all_historical_total_rates_positive": true,
+    "all_historical_areas_positive": true,
+    "parent_is_not_interpolated_extra_branch": true,
+    "historical_midpoint_balanced": true,
+    "finite_historical_measurements": true
+  },
+  "all_passed": true,
+  "n_checks": 9,
+  "kappa_midpoint": 0.1666331385421536,
+  "half_historical_band": 3.352812451305753e-05,
+  "min_historical_signed_margin": 0.23033656363096655,
+  "classification": "AUTHENTIC_THREE_BRANCH_ANCHOR_ONLY__NO_EXTENDED_RADIUS_TESTED"
+}

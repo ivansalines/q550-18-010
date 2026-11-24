@@ -1,0 +1,25 @@
+{
+  "root": "q550_signed_margin_continuation_physical_parameter_robustness_radius_v18_52b_bundle",
+  "version": "v18.52b",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "176aa0f7a011d8d89e00952a8b0a1a35bb6a6dee63f4bf1f15415f9fa0814cd2",
+    "README.md": "6ccfa9ddb3495992466d08ffd5be1f7edf427a4e11abc477e5403cb4739e498e",
+    "SCIENTIFIC_DECISION_RULES.md": "3427b410aa938a2ea608953e4c8507428fede62ab3e52363ab2f17757a5dc772",
+    "SCIENTIFIC_REPORT.md": "e0d0661cc7fcc61280a712678fe2a932e997895f2c8cd8f6b10e7b3d33d2c305",
+    "SOURCE_PROVENANCE.md": "ef7aa0ef52887e529e673c14867a0c6af41ca48af87352dce422b43e5c6aaab0",
+    "inputs/q550_dynamically_admissible_cross_channel_turning_robustness_v18_52a_bundle_server_sendback.zip": "17f33a6b959e43cbe69d9b9157c4b8b7bfcc47b7712a51821c7541bb9f48bc80",
+    "requirements.txt": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+    "run_on_server.sh": "b4d0276812313a2b5d3bb996d210a3c883df40bae25774c33cba8fcae9a9452d",
+    "scripts/pack_sendback.py": "a6360ef23e345b82aa6763454dc84c58b427d4d1ea93312e1bc1cc5a0202c83c",
+    "scripts/plot_preflight.py": "6ba916581bb80e7dda642b1cbb2d520c8022be8e2e6a822955d6b524ec7a850e",
+    "scripts/run_audit.py": "b9a438cfa49a66e9373773209d40e320b6375e111ea524e5f093423e498309ee",
+    "scripts/verify_source_manifest.py": "aa141a6248e0905988a90e97970640ff0fb2800280239e71b4634fa0c879926c",
+    "scripts/write_output_manifest.py": "016ed6b5ccb13a991a5e107dfdf9508a879f31db3471ff24f53bd24e9ef28bce",
+    "tests/test_results.py": "092b8ebc80de528e21958895ef012e13d4dbde1602f14351078b70b372c54d47",
+    "tests/test_synthetic.py": "93fa0f8b2657cb42b8022dc0c06d98c99f61cbadf09f134577efa526efc0e81a"
+  },
+  "parents": {
+    "v18_52a_sha256": "17f33a6b959e43cbe69d9b9157c4b8b7bfcc47b7712a51821c7541bb9f48bc80",
+    "v18_51s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b"
+  }
+}

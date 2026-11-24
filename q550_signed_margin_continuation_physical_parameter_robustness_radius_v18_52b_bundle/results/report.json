@@ -1,0 +1,96 @@
+{
+  "version": "v18.52b",
+  "title": "Signed-Margin Continuation & Physical Parameter Robustness Radius Audit",
+  "all_passed": true,
+  "numeric_checks": {
+    "preflight_52a_verified": true,
+    "both_seed_families": true,
+    "anchors_are_actual_52a_rows": true,
+    "all_new_rows_finite": true,
+    "new_recompositions_small": true,
+    "new_turning_budgets_small": true,
+    "all_new_sources_consistent": true,
+    "radius_assessment_never_claims_interval_proof": true
+  },
+  "numerical_audit_status": "PASS",
+  "scientific_decision": "SAMPLED_STABILITY_UP_TO_TESTED_LIMIT__NO_RADIUS_BOUNDARY_FOUND",
+  "classification": "PHYSICAL_PARAMETER_KAPPA_DISCRETE_CONTINUATION_NUMERICAL_DIAGNOSTIC_ONLY",
+  "kappa_midpoint": 0.1666331385421536,
+  "historical_half_width": 3.352812451305753e-05,
+  "historical_interval": [
+    0.16659961041764054,
+    0.16666666666666669
+  ],
+  "levels_requested": [
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "new_physical_branches_completed": 20,
+  "total_branch_records": 26,
+  "boundary_search": {
+    "original_lower": {
+      "seed": "original",
+      "side": "lower",
+      "last_sampled_positive_radius": 0.001072899984417841,
+      "last_sampled_positive_kappa": 0.16556023855773577,
+      "first_detected_failure_radius": null,
+      "first_detected_failure_kappa": null,
+      "failure_type": "NONE_WITHIN_TESTED_RADIUS",
+      "bisection_bracket": null,
+      "coverage": "DISCRETE_SAMPLED_ONLY"
+    },
+    "original_upper": {
+      "seed": "original",
+      "side": "upper",
+      "last_sampled_positive_radius": 0.001072899984417841,
+      "last_sampled_positive_kappa": 0.16770603852657145,
+      "first_detected_failure_radius": null,
+      "first_detected_failure_kappa": null,
+      "failure_type": "NONE_WITHIN_TESTED_RADIUS",
+      "bisection_bracket": null,
+      "coverage": "DISCRETE_SAMPLED_ONLY"
+    },
+    "autonomous_lower": {
+      "seed": "autonomous",
+      "side": "lower",
+      "last_sampled_positive_radius": 0.001072899984417841,
+      "last_sampled_positive_kappa": 0.16556023855773577,
+      "first_detected_failure_radius": null,
+      "first_detected_failure_kappa": null,
+      "failure_type": "NONE_WITHIN_TESTED_RADIUS",
+      "bisection_bracket": null,
+      "coverage": "DISCRETE_SAMPLED_ONLY"
+    },
+    "autonomous_upper": {
+      "seed": "autonomous",
+      "side": "upper",
+      "last_sampled_positive_radius": 0.001072899984417841,
+      "last_sampled_positive_kappa": 0.16770603852657145,
+      "first_detected_failure_radius": null,
+      "first_detected_failure_kappa": null,
+      "failure_type": "NONE_WITHIN_TESTED_RADIUS",
+      "bisection_bracket": null,
+      "coverage": "DISCRETE_SAMPLED_ONLY"
+    }
+  },
+  "execution_failures": [],
+  "sources": {
+    "v18_52a_parent_sha256": "17f33a6b959e43cbe69d9b9157c4b8b7bfcc47b7712a51821c7541bb9f48bc80",
+    "v18_51s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b"
+  },
+  "qualified_xi_interval": [
+    0.01,
+    0.2
+  ],
+  "limitations": [
+    "A grid of sampled parameter values is not a continuous robustness certificate.",
+    "No rigorous interval bounds in kappa0 or xi are computed.",
+    "Solver breakdown is never classified as physical loss of dominance.",
+    "Only the model kappa0 is varied; neither other physical parameters nor seed preparations are scanned.",
+    "Signed channel decomposition is model-coordinate-specific.",
+    "The observed radius is a tested sampling extent, not a proven maximal stability radius."
+  ]
+}

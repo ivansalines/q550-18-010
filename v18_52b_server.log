@@ -1,0 +1,48 @@
+Q550 v18.52b sources 15 / 15 verified
+Q550 v18.52b synthetic 12 / 12 PASS
+AUTHENTICATED v18.52a and v18.51s parents. Staging historical 10D physical generator...
+AUTHENTICATED MODEL: staging 10D physical solver
+PHYSICAL BRANCH original lower_r2 kappa=0.166566082293
+    signed margin minimum +0.23034746 status=SAMPLED_PASS
+PHYSICAL BRANCH original lower_r4 kappa=0.166499026044
+    signed margin minimum +0.23035473 status=SAMPLED_PASS
+PHYSICAL BRANCH original lower_r8 kappa=0.166364913546
+    signed margin minimum +0.23036926 status=SAMPLED_PASS
+PHYSICAL BRANCH original lower_r16 kappa=0.166096688550
+    signed margin minimum +0.23039833 status=SAMPLED_PASS
+PHYSICAL BRANCH original lower_r32 kappa=0.165560238558
+    signed margin minimum +0.23045649 status=SAMPLED_PASS
+PHYSICAL BRANCH original upper_r2 kappa=0.166700194791
+    signed margin minimum +0.23033293 status=SAMPLED_PASS
+PHYSICAL BRANCH original upper_r4 kappa=0.166767251040
+    signed margin minimum +0.23032567 status=SAMPLED_PASS
+PHYSICAL BRANCH original upper_r8 kappa=0.166901363538
+    signed margin minimum +0.23031114 status=SAMPLED_PASS
+PHYSICAL BRANCH original upper_r16 kappa=0.167169588534
+    signed margin minimum +0.23028210 status=SAMPLED_PASS
+PHYSICAL BRANCH original upper_r32 kappa=0.167706038527
+    signed margin minimum +0.23022369 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous lower_r2 kappa=0.166566082293
+    signed margin minimum +0.23047912 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous lower_r4 kappa=0.166499026044
+    signed margin minimum +0.23048639 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous lower_r8 kappa=0.166364913546
+    signed margin minimum +0.23050093 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous lower_r16 kappa=0.166096688550
+    signed margin minimum +0.23053002 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous lower_r32 kappa=0.165560238558
+    signed margin minimum +0.23058824 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous upper_r2 kappa=0.166700194791
+    signed margin minimum +0.23046458 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous upper_r4 kappa=0.166767251040
+    signed margin minimum +0.23045731 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous upper_r8 kappa=0.166901363538
+    signed margin minimum +0.23044277 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous upper_r16 kappa=0.167169588534
+    signed margin minimum +0.23041370 status=SAMPLED_PASS
+PHYSICAL BRANCH autonomous upper_r32 kappa=0.167706038527
+    signed margin minimum +0.23035531 status=SAMPLED_PASS
+Q550 v18.52b numerical: 8 / 8
+Q550 v18.52b scientific: SAMPLED_STABILITY_UP_TO_TESTED_LIMIT__NO_RADIUS_BOUNDARY_FOUND
+Q550 v18.52b output validation 11 / 12
+FAIL no_spurious_interval_claim

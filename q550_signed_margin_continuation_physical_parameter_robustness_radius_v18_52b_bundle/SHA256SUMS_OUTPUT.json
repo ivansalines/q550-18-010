@@ -1,0 +1,8 @@
+{
+  "root": "q550_signed_margin_continuation_physical_parameter_robustness_radius_v18_52b_bundle",
+  "version": "v18.52b",
+  "file_sha256": {
+    "results/LOCAL_PREFLIGHT.json": "8ed85903d95efbdb19ef698f99a70d575255928c1121a1893bb7ee382496c7b7",
+    "results/historical_52a_signed_margin_anchor.png": "f3deb0fbb1fd1ebaa8f69a58970474168738a525587e318eaed382c855623822"
+  }
+}
