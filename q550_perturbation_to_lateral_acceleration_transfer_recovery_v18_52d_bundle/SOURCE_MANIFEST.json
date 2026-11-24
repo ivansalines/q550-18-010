@@ -1,0 +1,30 @@
+{
+  "version": "v18.52d",
+  "root": "q550_perturbation_to_lateral_acceleration_transfer_recovery_v18_52d_bundle",
+  "title": "Perturbation-to-Lateral-Acceleration Transfer & Recovery Audit",
+  "parent_archives": {
+    "v18_51r_sha256": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+    "v18_51s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "v18_52c_sha256": "800bf3133d8784d4ae53a7235eba52bcef156264621bb822cbf2ce636bd869bd"
+  },
+  "source_archive_lineage": "v18.51s embeds exact v18.51r, which embeds q and 19 historical physical ancestors; v18.52c is independent parameter-margin source",
+  "file_sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "2c42daecef9aa48b71e660c54237c44573b5ceaca18d01294d0a03b2cb159e8a",
+    "README.md": "269e96a867fa3c7f898e8bbda314d8d6ea98f2d7505056d45f8da3c6a93ec709",
+    "SCIENTIFIC_DECISION_RULES.md": "4fb9f38239a0481efd0ea182c39dfcb727166bce786c30c2953a2e60893f5348",
+    "SCIENTIFIC_REPORT.md": "96c5d78928e1aff16fa681b670e710152b485613dc67a30263ffd14f5eb0afe5",
+    "SOURCE_PROVENANCE.md": "c19dd657f65dfd5a273636cafa4990415fac79ce572019b93ceadbadd36682aa",
+    "inputs/historical_v18_51r_physical_states.npz": "b33157879081d1c8a00e20b90ff64ea8904f371ac8ea7e3a659a6f7fc3ffbaf4",
+    "inputs/q550_signed_margin_parameter_derivative_continuous_robustness_bound_v18_52c_bundle_server_sendback.zip": "800bf3133d8784d4ae53a7235eba52bcef156264621bb822cbf2ce636bd869bd",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "requirements.txt": "a1af278876b19b3d6f60bc62066b6597a41d7378f09e45fbdebdedf4a8fc72f7",
+    "run_on_server.sh": "9fbedd7db7e11c674becb0ef4b2074c57e31c51100d8ddcf125191b3767f664a",
+    "scripts/pack_sendback.py": "db975e41896c0fc42c0a6eb10f704cae831ac17f313c18d91db06f60d60252cf",
+    "scripts/run_audit.py": "3c6c9eed6744c04f9ac63db5ce2ddc0b0836b350631b34242cf7809ce554777b",
+    "scripts/verify_source_manifest.py": "5471cd1170ed1003694c349fa0bfb9c35b48f216d1ac760bf418687b185639ac",
+    "scripts/write_output_manifest.py": "02934612ab4918deb1343478cdfb488101dc80183afebbc1cbf89fe0d31f57d7",
+    "tests/test_results.py": "d5f9ae37f2524c3229087600d5c0bfe15c713695414151b4e97c7975469965a1",
+    "tests/test_synthetic.py": "11117ba6fcb93b8ea03eb2440f16ebc66dbf563881df6d31dfa71e942ab52e9c"
+  }
+}

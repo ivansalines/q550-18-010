@@ -1,0 +1,48 @@
+{
+  "version": "v18.52d",
+  "source": "v18.51r physical states",
+  "prior_52c_midpoints_used_as_robustness_context_only": true,
+  "summary": {
+    "original": {
+      "seed": "original",
+      "kind": "fixed_kappa_difference",
+      "acceleration_source": "archived_velocity_spline_d_dtau",
+      "terminal_tau": 0.33481856382492503,
+      "max_abs_drive_clock_delta_at_matched_tau": 4.7984671791567735e-12,
+      "terminal_delta_acceleration": 4.729384507594662e-05,
+      "terminal_lateral_acceleration": 4.657042353018285e-05,
+      "terminal_parallel_acceleration": 8.240354014666637e-06,
+      "terminal_lateral_fraction": 0.9847036851285391,
+      "median_lateral_fraction_after_xi_approx_005": 0.9865742446338692,
+      "terminal_delta_position": 3.116923053561758e-06,
+      "terminal_delta_velocity": 1.7977808158329954e-05,
+      "max_delta_position": 3.116923053561758e-06,
+      "max_delta_velocity": 1.7977808158329954e-05,
+      "last_quarter_deltaQ_increasing_fraction": 1.0,
+      "last_quarter_deltaV_increasing_fraction": 1.0,
+      "recovery_status": "NOT_APPLICABLE_TO_PERMANENT_KAPPA_SHIFT",
+      "stride_two_vs_one_derivative_discrepancy_max": 1.2648304788929434e-12
+    },
+    "autonomous": {
+      "seed": "autonomous",
+      "kind": "fixed_kappa_difference",
+      "acceleration_source": "archived_velocity_spline_d_dtau",
+      "terminal_tau": 0.3348184955540382,
+      "max_abs_drive_clock_delta_at_matched_tau": 4.799938224664402e-12,
+      "terminal_delta_acceleration": 4.729239823307501e-05,
+      "terminal_lateral_acceleration": 4.656933921158623e-05,
+      "terminal_parallel_acceleration": 8.238177955833068e-06,
+      "terminal_lateral_fraction": 0.9847108827527572,
+      "median_lateral_fraction_after_xi_approx_005": 0.9865799143410869,
+      "terminal_delta_position": 3.1168923820119612e-06,
+      "terminal_delta_velocity": 1.797753751551374e-05,
+      "max_delta_position": 3.1168923820119612e-06,
+      "max_delta_velocity": 1.797753751551374e-05,
+      "last_quarter_deltaQ_increasing_fraction": 1.0,
+      "last_quarter_deltaV_increasing_fraction": 1.0,
+      "recovery_status": "NOT_APPLICABLE_TO_PERMANENT_KAPPA_SHIFT",
+      "stride_two_vs_one_derivative_discrepancy_max": 2.7589857763722197e-12
+    }
+  },
+  "recovery_claim_for_permanent_kappa_change": false
+}

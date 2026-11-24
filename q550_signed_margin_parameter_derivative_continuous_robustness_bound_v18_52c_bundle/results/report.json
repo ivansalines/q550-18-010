@@ -1,0 +1,110 @@
+{
+  "version": "v18.52c",
+  "title": "Signed-Margin Parameter Derivative & Continuous-Robustness Bound Audit",
+  "mode": "server_physical_midpoint_probe",
+  "all_numerical_checks_passed": true,
+  "numerical_checks": {
+    "authenticated_52b_26_physical_branches": true,
+    "historical_52b_computation_passed": true,
+    "valid_two_seed_parameter_grid": true,
+    "parameter_interpolant_positive_on_qualified_grid": true,
+    "sampled_margins_all_positive": true,
+    "interpolant_has_finite_derivative": true,
+    "derivative_assumption_is_explicit_not_certified": true,
+    "hypothetical_2d_lower_positive": true,
+    "new_midpoint_count_completed": true,
+    "new_midpoint_recompositions_small": true,
+    "new_midpoint_angular_budget_small": true,
+    "hypothetical_lipschitz_not_falsified_by_new_secants": true
+  },
+  "scientific_decision": "PHYSICAL_MIDPOINTS_POSITIVE__CONDITIONAL_CONTINUUM_BOUND_ONLY",
+  "classification": "CONDITIONAL_DERIVATIVE_BOUND_NUMERICAL_DIAGNOSTIC_ONLY",
+  "historical_52b_branches": 26,
+  "new_physical_midpoints_completed": 24,
+  "requested_new_physical_midpoints": 24,
+  "new_physical_midpoint_failures": [],
+  "differentiation": {
+    "original": {
+      "kappa_count": 13,
+      "xi_count": 487,
+      "kappa_interval": [
+        0.16556023855773577,
+        0.16770603852657145
+      ],
+      "xi_grid_interval": [
+        0.01015625,
+        0.2
+      ],
+      "min_sampled_margin": 0.23022368971013846,
+      "max_sampled_margin": 0.38848970493014395,
+      "min_pchip_parameter_surrogate": 0.23022368971013846,
+      "max_pchip_parameter_surrogate": 0.38848970493014395,
+      "max_abs_kappa_secant": 0.1308963838562177,
+      "max_abs_parameter_pchip_derivative": 0.13093556878097926,
+      "max_abs_xi_secant": 1.3832082522142728,
+      "max_kappa_spacing": 0.0005364499922089205,
+      "max_xi_spacing": 0.00039062500000000555,
+      "assumed_derivative_inflation_factor": 64.0,
+      "assumed_parameter_lipschitz": 8.379876401982672,
+      "assumed_time_lipschitz": 88.52532814171346,
+      "assumed_absolute_numerical_allowance": 1e-07,
+      "conditional_2d_lower_bound": 0.21068579424218215,
+      "empirical_headroom_factor": 754.1439240478493,
+      "is_2d_conditional_bound_positive": true,
+      "derivative_bound_is_rigorous": false,
+      "continuous_physical_positivity_certified": false,
+      "physical_midpoint_probes_completed": 12,
+      "minimum_physical_midpoint_margin": 0.23025291405118037,
+      "maximum_physical_midpoint_pchip_defect": 4.396335517853345e-10,
+      "maximum_observed_midpoint_subsecant": 0.13091598429059803,
+      "hypothetical_Lk_exceeded_by_midpoint_secants": false
+    },
+    "autonomous": {
+      "kappa_count": 13,
+      "xi_count": 487,
+      "kappa_interval": [
+        0.16556023855773577,
+        0.16770603852657145
+      ],
+      "xi_grid_interval": [
+        0.01015625,
+        0.2
+      ],
+      "min_sampled_margin": 0.2303553068296556,
+      "max_sampled_margin": 0.3885832116029452,
+      "min_pchip_parameter_surrogate": 0.2303553068296556,
+      "max_pchip_parameter_surrogate": 0.3885832116029452,
+      "max_abs_kappa_secant": 0.13100583988486236,
+      "max_abs_parameter_pchip_derivative": 0.1310450639877659,
+      "max_abs_xi_secant": 1.3829202946757833,
+      "max_kappa_spacing": 0.0005364499922089205,
+      "max_xi_spacing": 0.00039062500000000555,
+      "assumed_derivative_inflation_factor": 64.0,
+      "assumed_parameter_lipschitz": 8.386884095217017,
+      "assumed_time_lipschitz": 88.50689885925013,
+      "assumed_absolute_numerical_allowance": 1e-07,
+      "conditional_2d_lower_bound": 0.21081913119243992,
+      "empirical_headroom_factor": 754.6414904850933,
+      "is_2d_conditional_bound_positive": true,
+      "derivative_bound_is_rigorous": false,
+      "continuous_physical_positivity_certified": false,
+      "physical_midpoint_probes_completed": 12,
+      "minimum_physical_midpoint_margin": 0.23038455592365725,
+      "maximum_physical_midpoint_pchip_defect": 4.3847192543466917e-10,
+      "maximum_observed_midpoint_subsecant": 0.13102545394697437,
+      "hypothetical_Lk_exceeded_by_midpoint_secants": false
+    }
+  },
+  "max_physical_vs_surrogate_midpoint_defect": 4.396335517853345e-10,
+  "physical_continuous_certificate": false,
+  "sufficiency_condition": "If abs(dm/dkappa)<=Lk, abs(dm/dxi)<=Lxi everywhere in the rectangle, and uniform absolute numerical uncertainty <=epsilon, then m >= min_grid_margin - Lk*max_gap_kappa/2 - Lxi*max_gap_xi/2 - epsilon.",
+  "limitations": [
+    "No rigorous enclosure of the exact model parameter derivative between kappa samples.",
+    "No rigorous enclosure of the exact model time derivative between xi samples.",
+    "A safety-factor inflated secant is a hypothesis, not a mathematical derivative bound.",
+    "PCHIP positivity is a property of an interpolant, not of the original nonlinear dynamics.",
+    "New physical midpoint probes cannot exclude narrow sub-grid negative pockets.",
+    "The signed angular margin depends on the original model channel attribution.",
+    "Parameter interval is limited to the tested 52b band and xi to the qualified grid."
+  ]
+}

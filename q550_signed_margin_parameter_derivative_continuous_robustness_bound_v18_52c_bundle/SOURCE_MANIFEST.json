@@ -1,0 +1,24 @@
+{
+  "root": "q550_signed_margin_parameter_derivative_continuous_robustness_bound_v18_52c_bundle",
+  "version": "v18.52c",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "eaa9cc9dd5bf7fbc38d028fbcb5d9c9f07ad4495a1a6f0b1717c3f9c90527f1b",
+    "README.md": "0d5c01b29e1ebf4940b358dd1f573599dee5f14889fbff3a36a91f830167dac4",
+    "SCIENTIFIC_DECISION_RULES.md": "1014ea2db12feaed3dd41fc8e68b03b0d3343d87f16e6779bdc79ee9d8560254",
+    "SCIENTIFIC_REPORT.md": "be910409d736cf933b448f20219e0e2b26a211f3bd8cbdc1a3b13a9d9cf8808d",
+    "SOURCE_PROVENANCE.md": "7f568063c0f5cc5e3b3fa85dd3ad8cbe3b20dda5f2f13075c702d319dae20e20",
+    "requirements.txt": "eeea8e85eb1d3cf45b57026fbabb719e0cd5af92fffd391d6ed0de2f3f34f3f7",
+    "run_on_server.sh": "2e6119b2a85becedde785e6bdc024841fcfac8bb5a3191cba3d4bce4c032202d",
+    "scripts/run_audit.py": "fca5063e56856fc83a4a097b653f5589f23831381b601003c794c65501256db7",
+    "scripts/verify_source_manifest.py": "4622f484f7ff257688e61e97a5b354f4ab4491f21ca61ba2208f6c023df5716c",
+    "scripts/write_output_manifest.py": "b548a645a9c6ca5164eb73cafdecc3f76657f955bca5350272d1d06e2ac905b6",
+    "scripts/pack_sendback.py": "3ba76b9ea4bcc9d911da91f3f65bff377b95a6212f4c2838dded5f4bc0b27e71",
+    "tests/test_synthetic.py": "247149991e8f97ce56fb4a62d5250431448174be22fa91fa577546eeb98fb3a6",
+    "tests/test_results.py": "b9098e557e3f350e63844bf668e6f967d46800faa84a26eaf3c26a9221321ce7",
+    "inputs/q550_signed_margin_continuation_physical_parameter_robustness_radius_v18_52b_bundle_server_sendback.zip": "fec087deaf3c3dc216d73591c69c627b4bc61098e2576252568980ab6568e206"
+  },
+  "parents": {
+    "v18_52b_sha256": "fec087deaf3c3dc216d73591c69c627b4bc61098e2576252568980ab6568e206",
+    "v18_51s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b"
+  }
+}

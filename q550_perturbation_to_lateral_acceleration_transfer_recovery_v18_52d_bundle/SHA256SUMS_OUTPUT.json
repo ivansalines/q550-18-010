@@ -1,0 +1,13 @@
+{
+  "version": "v18.52d",
+  "root": "q550_perturbation_to_lateral_acceleration_transfer_recovery_v18_52d_bundle",
+  "file_sha256": {
+    "results/LOCAL_PREFLIGHT.json": "62bbce13c4c2198cf06082bc6a9f68cc6b78664cc9011e1df0331084d37e7243",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "547c3b1290cdc10814970bd36a3e3ef129c7497ea77b5ccbd9da6866bb384c7d",
+    "results/fixed_tau_lateral_acceleration_ledger.csv": "003dddbd19f86a7a67497129bd12c8b35f124aae367c96b5549c973a5808a5d6",
+    "results/lateral_acceleration_vs_recovery.png": "c57ed143c857365bc16d3c142ff7f6a4fb0b0c5bd0c882e5f40aa348b97829d9",
+    "results/physical_kick_trajectories_and_diagnostics.npz": "f959f4148894f12c06ad377575aa844dcea0f9c3ba610c8add9e28c98b67b24c",
+    "results/report.json": "916fd71d62b0c259be7f379b3b4836cefddf357d8b94a4a90d3ba01971975749",
+    "results/transverse_kick_recovery_ledger.csv": "a76a62c0d6e4cb560c8e322f5453157b21a87b1239a5eabb53f3935b30eef16a"
+  }
+}

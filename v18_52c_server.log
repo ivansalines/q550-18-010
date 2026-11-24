@@ -1,0 +1,35 @@
+Q550 v18.52c: source manifest verified; B physical rows 26 B exact result hashes 5
+Q550 v18.52c synthetic: 14 / 14 PASS
+Q550 v18.52c: authenticated 26 physical branches; surrogate and conditional bounds computed.
+  original: min margin=0.230223690, max secant kappa=0.130896, conditional lower=0.210686, critical inflation=754.1
+  autonomous: min margin=0.230355307, max secant kappa=0.131006, conditional lower=0.210819, critical inflation=754.6
+Physical model genealogy authenticated. Staging original 10D generator...
+AUTHENTICATED MODEL: staging 10D physical solver
+Q550 v18.52c physical probe original gap 0/11 kappa=0.165828463554
+Q550 v18.52c physical probe original gap 1/11 kappa=0.166230801048
+Q550 v18.52c physical probe original gap 2/11 kappa=0.166431969795
+Q550 v18.52c physical probe original gap 3/11 kappa=0.166532554169
+Q550 v18.52c physical probe original gap 4/11 kappa=0.166582846355
+Q550 v18.52c physical probe original gap 5/11 kappa=0.166616374480
+Q550 v18.52c physical probe original gap 6/11 kappa=0.166649902604
+Q550 v18.52c physical probe original gap 7/11 kappa=0.166683430729
+Q550 v18.52c physical probe original gap 8/11 kappa=0.166733722916
+Q550 v18.52c physical probe original gap 9/11 kappa=0.166834307289
+Q550 v18.52c physical probe original gap 10/11 kappa=0.167035476036
+Q550 v18.52c physical probe original gap 11/11 kappa=0.167437813530
+Q550 v18.52c physical probe autonomous gap 0/11 kappa=0.165828463554
+Q550 v18.52c physical probe autonomous gap 1/11 kappa=0.166230801048
+Q550 v18.52c physical probe autonomous gap 2/11 kappa=0.166431969795
+Q550 v18.52c physical probe autonomous gap 3/11 kappa=0.166532554169
+Q550 v18.52c physical probe autonomous gap 4/11 kappa=0.166582846355
+Q550 v18.52c physical probe autonomous gap 5/11 kappa=0.166616374480
+Q550 v18.52c physical probe autonomous gap 6/11 kappa=0.166649902604
+Q550 v18.52c physical probe autonomous gap 7/11 kappa=0.166683430729
+Q550 v18.52c physical probe autonomous gap 8/11 kappa=0.166733722916
+Q550 v18.52c physical probe autonomous gap 9/11 kappa=0.166834307289
+Q550 v18.52c physical probe autonomous gap 10/11 kappa=0.167035476036
+Q550 v18.52c physical probe autonomous gap 11/11 kappa=0.167437813530
+Q550 v18.52c: PHYSICAL_MIDPOINTS_POSITIVE__CONDITIONAL_CONTINUUM_BOUND_ONLY checks 12 / 12
+Q550 v18.52c result structure: 8 / 8
+Q550 v18.52c output hashes: 8
+Q550 v18.52c sendback: /root/elab1/hysteresis/q550_signed_margin_parameter_derivative_continuous_robustness_bound_v18_52c_bundle_server_sendback.zip

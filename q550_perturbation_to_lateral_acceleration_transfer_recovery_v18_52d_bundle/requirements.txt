@@ -1,0 +1,6 @@
+# Recommended runtime: Python 3.13 (matching historical Q550 server)
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.0
+mpmath>=1.3

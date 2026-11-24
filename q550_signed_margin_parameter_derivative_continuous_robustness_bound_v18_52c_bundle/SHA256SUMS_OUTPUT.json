@@ -1,0 +1,14 @@
+{
+  "root": "q550_signed_margin_parameter_derivative_continuous_robustness_bound_v18_52c_bundle",
+  "version": "v18.52c",
+  "file_sha256": {
+    "results/LOCAL_PREFLIGHT.json": "e65d50af41bc3129996079b2dd0d1dcf5d567bd82d0a2e538cdf319e506fcd61",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "05aaf96b319ca18b94eba3b79df1f2e50652bb185573df75ced1cfc88c84850f",
+    "results/parameter_gap_derivative_ledger.csv": "0ebcd04bde57c7dd522bf2abb32431be3c0b78f11da057c01efd6dec5dd2ea3d",
+    "results/physical_midpoint_interpolation_defects.png": "d6409566654ee3171f0d882535c335cd8833b1937504066177de6d9d4b999b6b",
+    "results/physical_midpoint_margin_curves.npz": "0ca7019603fc6e229a366dcf2e9ce83735496d4164446238ad08c939e45051a2",
+    "results/physical_midpoint_probe_ledger.csv": "4ad9dd0990af7615eda169536d58e15a5e60a1f7f8c427e651917ce883b43552",
+    "results/report.json": "65e5c9a74d1cd9d1b51f98245786185c9aeaa8c552da102f30c0429038e43462",
+    "results/signed_margin_parameter_derivative_conditional_bound.png": "5c7e68f3640001224809a176fb70b33b92b1def3838d5fdfa9a68e48ac8054b6"
+  }
+}

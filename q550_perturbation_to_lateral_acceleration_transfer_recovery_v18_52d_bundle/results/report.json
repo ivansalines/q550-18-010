@@ -1,0 +1,191 @@
+{
+  "version": "v18.52d",
+  "title": "Perturbation-to-Lateral-Acceleration Transfer & Recovery Audit",
+  "mode": "authentic_10D_nonlinear_field_plus_transient_velocity_kicks",
+  "all_numerical_checks_passed": true,
+  "checks": {
+    "parent_source_hash_verified": true,
+    "all_model_acceleration_arrays_finite": true,
+    "cartesian_embedding_reproduces_archived_states": true,
+    "physical_clock_reproduces_archive": true,
+    "independent_velocity_derivative_approximately_agrees": true,
+    "time_aligned_lateral_projection_orthogonality": true,
+    "kick_baselines_match_authentic_history": true,
+    "all_requested_kick_ivps_complete": true,
+    "kick_initial_velocity_lateral": true,
+    "original_pointwise_parallel_plus_perpendicular_closure": true,
+    "autonomous_pointwise_parallel_plus_perpendicular_closure": true
+  },
+  "scientific_classification": {
+    "original": "SAMPLED_MODEL_LATERAL_DOMINANT",
+    "autonomous": "SAMPLED_MODEL_LATERAL_DOMINANT"
+  },
+  "parent_v18_52c_midpoints_completed": 24,
+  "historical_fixed_kappa_pairing": {
+    "original": {
+      "seed": "original",
+      "kind": "fixed_kappa_difference",
+      "acceleration_source": "authentic_10D_rhs_to_dV_dtau",
+      "terminal_tau": 0.33481856382492503,
+      "max_abs_drive_clock_delta_at_matched_tau": 4.7984671791567735e-12,
+      "terminal_delta_acceleration": 4.7293845073797116e-05,
+      "terminal_lateral_acceleration": 4.6570423598897065e-05,
+      "terminal_parallel_acceleration": 8.240353613991018e-06,
+      "terminal_lateral_fraction": 0.9847036866262148,
+      "median_lateral_fraction_after_xi_approx_005": 0.9865742444239783,
+      "terminal_delta_position": 3.116923053561758e-06,
+      "terminal_delta_velocity": 1.7977808158329954e-05,
+      "max_delta_position": 3.116923053561758e-06,
+      "max_delta_velocity": 1.7977808158329954e-05,
+      "last_quarter_deltaQ_increasing_fraction": 1.0,
+      "last_quarter_deltaV_increasing_fraction": 1.0,
+      "recovery_status": "NOT_APPLICABLE_TO_PERMANENT_KAPPA_SHIFT"
+    },
+    "autonomous": {
+      "seed": "autonomous",
+      "kind": "fixed_kappa_difference",
+      "acceleration_source": "authentic_10D_rhs_to_dV_dtau",
+      "terminal_tau": 0.3348184955540382,
+      "max_abs_drive_clock_delta_at_matched_tau": 4.799938224664402e-12,
+      "terminal_delta_acceleration": 4.729239855555563e-05,
+      "terminal_lateral_acceleration": 4.6569339679936225e-05,
+      "terminal_parallel_acceleration": 8.238177159556442e-06,
+      "terminal_lateral_fraction": 0.9847108859414265,
+      "median_lateral_fraction_after_xi_approx_005": 0.986579914810444,
+      "terminal_delta_position": 3.1168923820119612e-06,
+      "terminal_delta_velocity": 1.797753751551374e-05,
+      "max_delta_position": 3.1168923820119612e-06,
+      "max_delta_velocity": 1.797753751551374e-05,
+      "last_quarter_deltaQ_increasing_fraction": 1.0,
+      "last_quarter_deltaV_increasing_fraction": 1.0,
+      "recovery_status": "NOT_APPLICABLE_TO_PERMANENT_KAPPA_SHIFT"
+    }
+  },
+  "archived_kinematic_pairing": {
+    "original": {
+      "seed": "original",
+      "kind": "fixed_kappa_difference",
+      "acceleration_source": "archived_velocity_spline_d_dtau",
+      "terminal_tau": 0.33481856382492503,
+      "max_abs_drive_clock_delta_at_matched_tau": 4.7984671791567735e-12,
+      "terminal_delta_acceleration": 4.729384507594662e-05,
+      "terminal_lateral_acceleration": 4.657042353018285e-05,
+      "terminal_parallel_acceleration": 8.240354014666637e-06,
+      "terminal_lateral_fraction": 0.9847036851285391,
+      "median_lateral_fraction_after_xi_approx_005": 0.9865742446338692,
+      "terminal_delta_position": 3.116923053561758e-06,
+      "terminal_delta_velocity": 1.7977808158329954e-05,
+      "max_delta_position": 3.116923053561758e-06,
+      "max_delta_velocity": 1.7977808158329954e-05,
+      "last_quarter_deltaQ_increasing_fraction": 1.0,
+      "last_quarter_deltaV_increasing_fraction": 1.0,
+      "recovery_status": "NOT_APPLICABLE_TO_PERMANENT_KAPPA_SHIFT",
+      "stride_two_vs_one_derivative_discrepancy_max": 1.2648304788929434e-12
+    },
+    "autonomous": {
+      "seed": "autonomous",
+      "kind": "fixed_kappa_difference",
+      "acceleration_source": "archived_velocity_spline_d_dtau",
+      "terminal_tau": 0.3348184955540382,
+      "max_abs_drive_clock_delta_at_matched_tau": 4.799938224664402e-12,
+      "terminal_delta_acceleration": 4.729239823307501e-05,
+      "terminal_lateral_acceleration": 4.656933921158623e-05,
+      "terminal_parallel_acceleration": 8.238177955833068e-06,
+      "terminal_lateral_fraction": 0.9847108827527572,
+      "median_lateral_fraction_after_xi_approx_005": 0.9865799143410869,
+      "terminal_delta_position": 3.1168923820119612e-06,
+      "terminal_delta_velocity": 1.797753751551374e-05,
+      "max_delta_position": 3.1168923820119612e-06,
+      "max_delta_velocity": 1.797753751551374e-05,
+      "last_quarter_deltaQ_increasing_fraction": 1.0,
+      "last_quarter_deltaV_increasing_fraction": 1.0,
+      "recovery_status": "NOT_APPLICABLE_TO_PERMANENT_KAPPA_SHIFT",
+      "stride_two_vs_one_derivative_discrepancy_max": 2.7589857763722197e-12
+    }
+  },
+  "model_acceleration_vs_velocity_spline_absolute_discrepancy": {
+    "original": 1.0536536156762014e-12,
+    "autonomous": 1.272120818704589e-12
+  },
+  "model_acceleration_vs_velocity_spline_relative_discrepancy_qualified": {
+    "original": 2.157246406568929e-08,
+    "autonomous": 2.6899054764798934e-08
+  },
+  "same_external_phase_xi_comparison": {
+    "original": {
+      "terminal_delta_acceleration": 4.7293843615004835e-05,
+      "terminal_lateral_fraction": 0.9847036925019688
+    },
+    "autonomous": {
+      "terminal_delta_acceleration": 4.729239709699822e-05,
+      "terminal_lateral_fraction": 0.9847108918177664
+    }
+  },
+  "model_rhs_immersion_residuals": [
+    {
+      "seed": "original",
+      "branch": "autonomous",
+      "max_archived_clock_difference": 6.661338147750939e-16,
+      "max_archived_cartesian_embedding_difference": 0.0
+    },
+    {
+      "seed": "original",
+      "branch": "midpoint",
+      "max_archived_clock_difference": 8.881784197001252e-16,
+      "max_archived_cartesian_embedding_difference": 0.0
+    },
+    {
+      "seed": "original",
+      "branch": "original",
+      "max_archived_clock_difference": 6.661338147750939e-16,
+      "max_archived_cartesian_embedding_difference": 0.0
+    },
+    {
+      "seed": "autonomous",
+      "branch": "autonomous",
+      "max_archived_clock_difference": 8.881784197001252e-16,
+      "max_archived_cartesian_embedding_difference": 0.0
+    },
+    {
+      "seed": "autonomous",
+      "branch": "midpoint",
+      "max_archived_clock_difference": 8.881784197001252e-16,
+      "max_archived_cartesian_embedding_difference": 0.0
+    },
+    {
+      "seed": "autonomous",
+      "branch": "original",
+      "max_archived_clock_difference": 6.661338147750939e-16,
+      "max_archived_cartesian_embedding_difference": 0.0
+    }
+  ],
+  "kick_baseline_reproduction": [
+    {
+      "seed": "original",
+      "max_archived_position_difference": 1.0764443230670028e-14,
+      "max_archived_velocity_difference": 5.528487122453257e-15,
+      "nfev": 2417
+    },
+    {
+      "seed": "autonomous",
+      "max_archived_position_difference": 4.812797003448147e-15,
+      "max_archived_velocity_difference": 2.675844357372841e-15,
+      "nfev": 2417
+    }
+  ],
+  "transient_kicks_completed": 8,
+  "transient_kick_failures": [],
+  "finite_window_phase_return_candidates": 0,
+  "physical_recovery_certified": false,
+  "permanent_parameter_shift_is_recovery_test": false,
+  "limits": [
+    "Fixed tau is not fixed external drive phase; both clocks are recorded.",
+    "Lateral component depends on the kinetic Cartesian chart and reference tangent.",
+    "The kick changes one admissible state coordinate, without proving global charge-constraint preservation.",
+    "Finite-window closeness or contraction is not asymptotic stability or dissipation.",
+    "This is a finite sampled numerical experiment, not interval arithmetic."
+  ],
+  "python": "3.13.16",
+  "numpy": "2.4.1",
+  "scipy": "1.17.1"
+}

@@ -1,0 +1,25 @@
+Q550 v18.52d immutable inputs and v18.52c prior report verified
+Q550 v18.52d synthetic mechanics: 10 / 10 PASS
+Recovering authenticated physical generator from 19-ancestor lineage
+AUTHENTICATED MODEL: staging 10D physical solver
+Exact historical acceleration: original_autonomous
+Exact historical acceleration: original_midpoint
+Exact historical acceleration: original_original
+Exact historical acceleration: autonomous_autonomous
+Exact historical acceleration: autonomous_midpoint
+Exact historical acceleration: autonomous_original
+Historical fixed-kappa baseline checked: original
+Physical kick original_negative_1.0e-04 final/initial 1.331242592500002
+Physical kick original_positive_1.0e-04 final/initial 1.33122487992343
+Physical kick original_negative_3.0e-04 final/initial 1.3312603020315188
+Physical kick original_positive_3.0e-04 final/initial 1.3312071644383274
+Historical fixed-kappa baseline checked: autonomous
+Physical kick autonomous_negative_1.0e-04 final/initial 1.3312553535550395
+Physical kick autonomous_positive_1.0e-04 final/initial 1.3312376324240363
+Physical kick autonomous_negative_3.0e-04 final/initial 1.3312730717516374
+Physical kick autonomous_positive_3.0e-04 final/initial 1.3312199082685656
+Q550 v18.52d numerical checks 11 / 11
+Q550 v18.52d scientific classification {'original': 'SAMPLED_MODEL_LATERAL_DOMINANT', 'autonomous': 'SAMPLED_MODEL_LATERAL_DOMINANT'}
+Q550 v18.52d output checks: 11 numerical checks; 1026 physical-time paired rows PASS
+Q550 v18.52d output hashes: 7
+Q550 v18.52d server sendback: /root/elab1/hysteresis/q550_perturbation_to_lateral_acceleration_transfer_recovery_v18_52d_bundle_server_sendback.zip
