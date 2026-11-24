@@ -1,0 +1,27 @@
+{
+  "version": "v18.52e",
+  "root": "q550_lateral_curvature_relative_acceleration_work_restoring_tendency_v18_52e_bundle",
+  "title": "Lateral Curvature, Relative-Acceleration Work & Restoring-Tendency Audit",
+  "parent_archives": {
+    "v18_51s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b"
+  },
+  "file_sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "b07b4d2976b298b308bccd10949f0d24aa3cc2dd414a52540323f6d9e84aa540",
+    "README.md": "1b4e0285fc3caf2feff7111a51c1faa89726d5e07f00fe8025a410742a28c67b",
+    "SCIENTIFIC_DECISION_RULES.md": "c2ad4c07078ce5aadeb7e27a6cded4ea0b5f5cd2aec1a71a1d04935102183f70",
+    "SCIENTIFIC_REPORT.md": "832a3f25dd53f204ed1baede3a0d701dfbad668a205661317d0826649d876072",
+    "SOURCE_PROVENANCE.md": "0e01b360e065f8836cb959db35dfd3e64f2cd7c570730500978bbd37f542509a",
+    "inputs/q550_perturbation_to_lateral_acceleration_transfer_recovery_v18_52d_bundle_server_sendback.zip": "94c16162f42197be51bae7d662baf0baed7fa48681a5095a64c759a695875e9f",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/parent_v18_52d_run_audit.py": "3c6c9eed6744c04f9ac63db5ce2ddc0b0836b350631b34242cf7809ce554777b",
+    "requirements.txt": "4ddefcbf8af7122841b2b29be0f531ddc8a2d7caa059d1e978a33c6dd606dea7",
+    "run_on_server.sh": "9fbedd7db7e11c674becb0ef4b2074c57e31c51100d8ddcf125191b3767f664a",
+    "scripts/pack_sendback.py": "5ab9a192405c2ea7a4aaa7b3b660b768e148f9a933599d954ee62526074cd79c",
+    "scripts/run_audit.py": "4710ddae040073dfb43279a5c2238779117e8c4ecabd0374e3c6be8648b9fdbd",
+    "scripts/verify_source_manifest.py": "0ff21cb27df012bd445539993752f207e7942d41caabeaf2a87dbdb5f6e8fe01",
+    "scripts/write_output_manifest.py": "16c7c5d82e11dc2a43ce1899796045f2b81344c9668ef7e27144056b9b363721",
+    "tests/test_results.py": "2926253dec93427552193e74d1be7feea388594d76dd9a0968c5a58ba7759629",
+    "tests/test_synthetic.py": "11a9b92d3453cf4cdc706da3c226ecf27bb5dff328e4a32d6018a19a23c3c614"
+  }
+}

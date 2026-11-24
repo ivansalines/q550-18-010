@@ -1,0 +1,73 @@
+{
+  "version": "v18.52e",
+  "stage": "ARCHIVED_NORM_DERIVATIVE_ONLY",
+  "source": "authenticated v18.52d genuine transient kick traces",
+  "results": [
+    {
+      "label": "autonomous_negative_1.0e-04",
+      "velocity_ratio_terminal_initial": 0.9164954555624701,
+      "position_distance_terminal": 2.7698736731620874e-05,
+      "negative_relative_power_fraction": 1.0,
+      "positive_position_separation_rate_fraction": 1.0,
+      "preflight_only": true
+    },
+    {
+      "label": "autonomous_negative_3.0e-04",
+      "velocity_ratio_terminal_initial": 0.916514600419916,
+      "position_distance_terminal": 8.309674625434726e-05,
+      "negative_relative_power_fraction": 1.0,
+      "positive_position_separation_rate_fraction": 1.0,
+      "preflight_only": true
+    },
+    {
+      "label": "autonomous_positive_1.0e-04",
+      "velocity_ratio_terminal_initial": 0.9164763061427396,
+      "position_distance_terminal": 2.7698557648851732e-05,
+      "negative_relative_power_fraction": 1.0,
+      "positive_position_separation_rate_fraction": 1.0,
+      "preflight_only": true
+    },
+    {
+      "label": "autonomous_positive_3.0e-04",
+      "velocity_ratio_terminal_initial": 0.9164571522191707,
+      "position_distance_terminal": 8.309513449413049e-05,
+      "negative_relative_power_fraction": 1.0,
+      "positive_position_separation_rate_fraction": 1.0,
+      "preflight_only": true
+    },
+    {
+      "label": "original_negative_1.0e-04",
+      "velocity_ratio_terminal_initial": 0.9164817134609038,
+      "position_distance_terminal": 2.7698776128733623e-05,
+      "negative_relative_power_fraction": 1.0,
+      "positive_position_separation_rate_fraction": 1.0,
+      "preflight_only": true
+    },
+    {
+      "label": "original_negative_3.0e-04",
+      "velocity_ratio_terminal_initial": 0.9165008490372881,
+      "position_distance_terminal": 8.309686418484627e-05,
+      "negative_relative_power_fraction": 1.0,
+      "positive_position_separation_rate_fraction": 1.0,
+      "preflight_only": true
+    },
+    {
+      "label": "original_positive_1.0e-04",
+      "velocity_ratio_terminal_initial": 0.9164625733592445,
+      "position_distance_terminal": 2.7698597127548736e-05,
+      "negative_relative_power_fraction": 1.0,
+      "positive_position_separation_rate_fraction": 1.0,
+      "preflight_only": true
+    },
+    {
+      "label": "original_positive_3.0e-04",
+      "velocity_ratio_terminal_initial": 0.916443428737523,
+      "position_distance_terminal": 8.309525319003246e-05,
+      "negative_relative_power_fraction": 1.0,
+      "positive_position_separation_rate_fraction": 1.0,
+      "preflight_only": true
+    }
+  ],
+  "direct_vector_signed_work_verified": false,
+  "position_return_proven": false
+}

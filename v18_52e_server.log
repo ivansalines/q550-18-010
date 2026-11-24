@@ -1,0 +1,19 @@
+Q550 v18.52e source verified 17 SHA-256
+Q550 v18.52e synthetic tests 17 / 17 PASS
+Q550 v18.52e authenticated preflight: 8 kick norm traces verified
+Recover authenticated original nonlinear model from s/r lineage
+AUTHENTICATED MODEL: staging 10D physical solver
+Authentic midpoint baseline acceleration: original
+Kick original_negative_1.0e-04 P negative fraction 1.000000 position rate positive fraction 1.000000
+Kick original_positive_1.0e-04 P negative fraction 1.000000 position rate positive fraction 1.000000
+Kick original_negative_3.0e-04 P negative fraction 1.000000 position rate positive fraction 1.000000
+Kick original_positive_3.0e-04 P negative fraction 1.000000 position rate positive fraction 1.000000
+Authentic midpoint baseline acceleration: autonomous
+Kick autonomous_negative_1.0e-04 P negative fraction 1.000000 position rate positive fraction 1.000000
+Kick autonomous_positive_1.0e-04 P negative fraction 1.000000 position rate positive fraction 1.000000
+Kick autonomous_negative_3.0e-04 P negative fraction 1.000000 position rate positive fraction 1.000000
+Kick autonomous_positive_3.0e-04 P negative fraction 1.000000 position rate positive fraction 1.000000
+Q550 v18.52e checks 13 / 13
+Q550 v18.52e server report consistency PASS
+Q550 v18.52e results hashed: 9
+Q550 v18.52e sendback: /root/elab1/hysteresis/q550_lateral_curvature_relative_acceleration_work_restoring_tendency_v18_52e_bundle_server_sendback.zip

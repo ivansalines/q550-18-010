@@ -1,0 +1,14 @@
+{
+  "version": "v18.52e",
+  "file_sha256": {
+    "results/LOCAL_PREFLIGHT.json": "e5b672f26ffb0c3526e7670daaea217128b28af6adc52ab6f02d4f204b8b0781",
+    "results/PRELIMINARY_parent_52d_velocity_contracts.png": "3f090eb32451ef27a5ede966c570a1fbcccd6eaf741ea466e12a5e5d8df69722",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "c9517d3702f55ef0bd7bf0a2f32a09003c6f2881378ffab9acaf513693578845",
+    "results/kick_classifications.csv": "3b30cc8533c635920f44563a38689ac8e2bc4763179a18bf79b03d8fdde8bea1",
+    "results/lateral_curvature_and_restoring_acceleration.png": "73a3ae95fd2cee2e2b62262804bde18ce8bf0bd7524bc47265b9629fbe538ca8",
+    "results/physical_relative_vector_diagnostics.npz": "b1f0e622c9148f8aa25dc0f854b54ea298b2e60ddcceb1de478db9c205acd540",
+    "results/relative_work_curvature_ledger.csv": "510b9497e665d14a93cd51bdade0510b59f0e583c9b82a5df2cad5c44596220b",
+    "results/relative_work_vs_position_separation.png": "17747b59529452591a0d6c3c9103fb50439818315d64f6fc4e4023caea22e924",
+    "results/report.json": "27a565fc326d21d08885f075be815141df1c868d43d99e50597059ca013392e0"
+  }
+}
