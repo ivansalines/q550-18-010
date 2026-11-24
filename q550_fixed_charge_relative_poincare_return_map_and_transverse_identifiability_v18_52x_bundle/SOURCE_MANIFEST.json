@@ -1,0 +1,25 @@
+{
+  "version": "v18.52x",
+  "root": "q550_fixed_charge_relative_poincare_return_map_and_transverse_identifiability_v18_52x_bundle",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "144ff1b7a3822b53dae5f33317e1908f31e599524f1df375eaa90d2b0e0e2a14",
+    "README.md": "db0e08470dadf96f0e8775a86bb514a453a6fbb0bd834c910beb386095c2f221",
+    "SCIENTIFIC_DECISION_RULES.md": "4ad5111b0fd6a132f3341d18c8677da150c52dfd988d3dba9d2a6d4f640ddb64",
+    "SOURCE_PROVENANCE.md": "ac3b5eacb0ab16941c4ab04eeadf7775f1dbef1f4ea801cdba54233ff5c809cb",
+    "inputs_config.json": "314a77287d17563c9d08ef84ac289df1c4ece4ef74c21d14bfc4d7a0089e9f04",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52v_r1_run_audit.py": "dd1d3d441d191f3791c0524b1a6ae54cd596c5a7e395a43289e8604f22cd81b6",
+    "reference/v18_52w_authenticated_report.json": "954154ec5505da9482cea8cc8b55508838687752e969ebcaaed2600c70d50342",
+    "reference/v18_52w_inputs_config.json": "3bb4823e905dfc290e354f73b90450e5fbc4b6f8770ca1a70f6da9f3225b4659",
+    "reference/v18_52w_run_audit.py": "19e02e1dbfefd0a70cb85660fb32362dae6fc20342bb024018379b2cd7ee83f4",
+    "requirements.txt": "109c5614b4af528feb2eb55ceb5182421b55ddb34f50299cf8e84d87bdfbba3b",
+    "run_on_server.sh": "a3711bb3af85498c856da7f62e6ec65e31cb028e522a6ffe8e400158be591e35",
+    "scripts/energy_math.py": "23b49ac82e9acd11002cb45696858e6091113221646d2737cd6e2eeca2e2b4a2",
+    "scripts/package_sendback.py": "7f3e2f2062a64b444ba5f55040678d68475c2ff0596b9dbebb61cf4a716e1059",
+    "scripts/phase_energy.py": "fabf92d8a886526d97be2166dfce7feed540cbcc47e83a7dc89d29cd865a33bb",
+    "scripts/run_audit.py": "6d69c0fc85ec01817e53fbdc99695b8ec561bc9d1b45f88d0b2ab79861242a00",
+    "scripts/verify_manifest.py": "9c16ab99fb905c426dbf1077940cb627a16677814179fc39d350379850d1524d",
+    "tests/test_synthetic.py": "d87fed6fd317a08ab6c0cb1b39cc929200c31ea99889a650d0457cae643a3c3c"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": "v18.52x",
+  "root": "q550_fixed_charge_relative_poincare_return_map_and_transverse_identifiability_v18_52x_bundle",
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "2aad825e43b9c92dbd7c90286261c918faee1d60e7a6e191eba2bc7722c8842e",
+    "results/autonomous_relative_return_map.png": "ff98444fe2207b1d5bb5c6bb0fd58d9151ea77101a5e0046209221c56c031e28",
+    "results/mixed_charge_kick_family_directional_response.csv": "fb4c0d716b092c905650e9ab4e2c665008c7aa26716805226b98c127881772a4",
+    "results/one_step_fixed_phase_return_pairs.csv": "879ff136425be5147908878da55fda297bf32ee0b68d74a4b094795c5973a7df",
+    "results/original_relative_return_map.png": "550ae6d088f7312dc5ab83bf4fa371f162e91d29fe1f1456ea421ff6ac3aaca9",
+    "results/per_trajectory_charge_conservation.csv": "a547f6d1f1372d1fb08c039317be2ebbe3a421b7dbc3f0d6e3fb230879c8f8c0",
+    "results/refined_vs_base_return_precision.csv": "f6d49587397afa231afcca6996a57f36d88bfc7a81aca47ca7285e0202b451c2",
+    "results/report.json": "4e8804c7d8ee38a423c8fb97864ea58dde64e624a37c4ed423efb591075cc715",
+    "results/section_input_rank_and_identifiability.json": "4df8e5d67693568d5282da51b2ec385867a3dd67d893067e36eb4a9e12aac189",
+    "results/section_interpolation_precision.csv": "c75625fa66d888ed680452f40ab3f4d54513047ff8e40c0cba16bb66f262ea75"
+  }
+}

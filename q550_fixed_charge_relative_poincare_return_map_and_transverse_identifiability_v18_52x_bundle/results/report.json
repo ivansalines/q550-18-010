@@ -1,0 +1,72 @@
+{
+  "version": "v18.52x",
+  "title": "Fixed-Charge Relative Poincare Return Map & Transverse Identifiability Audit",
+  "parent_available": true,
+  "native_available": true,
+  "new_native_integrations": 0,
+  "return_map_observations_are_one_step_only": true,
+  "global_limit_cycle_certified": false,
+  "full_8D_fixed_J_transverse_floquet_identified": false,
+  "conservative_full_dynamics_certified": false,
+  "original_source_authentication": {
+    "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "nested_sha256": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+    "nested_states_sha256": "b33157879081d1c8a00e20b90ff64ea8904f371ac8ea7e3a659a6f7fc3ffbaf4",
+    "branch": "v18.51r MIDPOINT RETURN (NOT FORWARD)",
+    "early_xi": [
+      0.0,
+      0.2
+    ]
+  },
+  "verified_parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "verified_native_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "fixed_native_kappa": 0.1666331385421536,
+  "late_clock": {
+    "original": {
+      "source_sign_samples": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "phase_decrease_radians": 10.80778131691784,
+      "phase_turn_count": 1.7201118204437085,
+      "two_complete_returns_possible": false
+    },
+    "autonomous": {
+      "source_sign_samples": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "phase_decrease_radians": 10.80778131691784,
+      "phase_turn_count": 1.7201118204437085,
+      "two_complete_returns_possible": false
+    }
+  },
+  "native_series": 20,
+  "section_anchors_per_seed": 17,
+  "one_step_pairs": 340,
+  "one_step_reference_min_norm": {
+    "original": 0.1180826679500436,
+    "autonomous": 0.11826436144952736
+  },
+  "one_step_reference_max_norm": {
+    "original": 0.4071092691635279,
+    "autonomous": 0.40760999698526534
+  },
+  "max_abs_J_drift": 2.7755575615628914e-14,
+  "max_reference_charge_mismatch_from_kicks": 0.00010276688344834639,
+  "max_input_rank_1percent": 2,
+  "min_input_rank_1percent": 1,
+  "max_quadratic_vs_linear_interpolation_residual": 3.1179279780739884e-09,
+  "observed_at_least_two_full_returns": false,
+  "one_step_relative_fixed_J_pairs_meaning": "Individual trajectory carries constant J; different kicks have different J; pairs are not samples of a single fixed-J manifold map.",
+  "eight_dimensional_chart": "(logr1,v1,omega1,logr2,v2,z,vz,theta1+theta2 mod 2pi); omega2 reconstructed from J",
+  "floquet_multipliers": null,
+  "relative_limit_cycle_certified": false,
+  "scientific_decision": "AUTHENTIC_ONE_STEP_PHASE_SECTION_MAP_WITH_CHARGE_STRATIFICATION__FIXED_J_8D_FLOQUET_UNIDENTIFIABLE",
+  "plots": [
+    "original_relative_return_map.png",
+    "autonomous_relative_return_map.png"
+  ]
+}

@@ -1,0 +1,886 @@
+[
+  {
+    "seed": "original",
+    "anchor_index": 0,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.1446254818558996,
+      0.019642489905692395,
+      1.3864207889656756e-05,
+      6.145870148819796e-09
+    ],
+    "J_reference": -1.441016445824766,
+    "charge_offsets_for_kicks": [
+      3.425562777104041e-05,
+      -3.425562779657554e-05,
+      0.00010276688333399342,
+      -0.00010276688335242312
+    ],
+    "max_abs_charge_offset": 0.00010276688335242312,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 1,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.8282704651223565,
+      0.009516043589593818,
+      3.073519118967979e-05,
+      5.062848892193598e-09
+    ],
+    "J_reference": -1.4410164458225652,
+    "charge_offsets_for_kicks": [
+      3.425562778169855e-05,
+      -3.425562779990621e-05,
+      0.0001027668833553097,
+      -0.00010276688337129691
+    ],
+    "max_abs_charge_offset": 0.00010276688337129691,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 2,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      5.285610846182059,
+      0.012918244968790491,
+      1.781971026843232e-05,
+      4.539795787243501e-09
+    ],
+    "J_reference": -1.4410164458249664,
+    "charge_offsets_for_kicks": [
+      3.425562776082636e-05,
+      -3.425562778258673e-05,
+      0.00010276688330135286,
+      -0.00010276688332089279
+    ],
+    "max_abs_charge_offset": 0.00010276688332089279,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 3,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.685726432877491,
+      0.01069524115523566,
+      2.567628082425838e-05,
+      5.904313707427328e-09
+    ],
+    "J_reference": -1.441016445818148,
+    "charge_offsets_for_kicks": [
+      3.425562776593338e-05,
+      -3.425562778081037e-05,
+      0.00010276688330379535,
+      -0.00010276688332200301
+    ],
+    "max_abs_charge_offset": 0.00010276688332200301,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 4,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      2.1266464336429496,
+      0.009687668921226873,
+      1.0831778344245359e-05,
+      2.6706832191769958e-08
+    ],
+    "J_reference": -1.4410164458259003,
+    "charge_offsets_for_kicks": [
+      3.425562777881197e-05,
+      -3.425562779280078e-05,
+      0.00010276688334953654,
+      -0.00010276688336396944
+    ],
+    "max_abs_charge_offset": 0.00010276688336396944,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 5,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 2,
+    "singular_values_scaled_by_nominal_kick": [
+      2.120427159110922,
+      0.022468607093693017,
+      1.0387134251139738e-05,
+      1.0382577338111742e-08
+    ],
+    "J_reference": -1.441016445842197,
+    "charge_offsets_for_kicks": [
+      3.425562778458513e-05,
+      -3.4255627798795985e-05,
+      0.00010276688337107487,
+      -0.00010276688337729212
+    ],
+    "max_abs_charge_offset": 0.00010276688337729212,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 6,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      4.310963299463667,
+      0.013544471777286394,
+      1.830201965310115e-05,
+      4.124834447457496e-09
+    ],
+    "J_reference": -1.4410164458340355,
+    "charge_offsets_for_kicks": [
+      3.425562775083435e-05,
+      -3.425562777170654e-05,
+      0.00010276688327981454,
+      -0.00010276688329469152
+    ],
+    "max_abs_charge_offset": 0.00010276688329469152,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 7,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      5.293850799495719,
+      0.0134056437704948,
+      1.4438442786853822e-05,
+      1.8513688125766532e-09
+    ],
+    "J_reference": -1.4410164458276986,
+    "charge_offsets_for_kicks": [
+      3.425562778858193e-05,
+      -3.425562781123048e-05,
+      0.00010276688339794227,
+      -0.00010276688341037676
+    ],
+    "max_abs_charge_offset": 0.00010276688341037676,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 8,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.7977099799228364,
+      0.01837922984494116,
+      8.046041619500058e-06,
+      2.0135691959693274e-09
+    ],
+    "J_reference": -1.4410164458304269,
+    "charge_offsets_for_kicks": [
+      3.4255627770374275e-05,
+      -3.4255627796353494e-05,
+      0.00010276688334753814,
+      -0.00010276688336352535
+    ],
+    "max_abs_charge_offset": 0.00010276688336352535,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 9,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      2.556349239848302,
+      0.013178158484998176,
+      7.071115559322931e-06,
+      2.226303951479161e-09
+    ],
+    "J_reference": -1.4410164458248433,
+    "charge_offsets_for_kicks": [
+      3.4255627755497287e-05,
+      -3.425562777392699e-05,
+      0.0001027668832980222,
+      -0.00010276688330823625
+    ],
+    "max_abs_charge_offset": 0.00010276688330823625,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 10,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      1.9842013966977294,
+      0.0128171223659364,
+      2.294174198111679e-06,
+      1.5713372099129817e-08
+    ],
+    "J_reference": -1.4410164457992964,
+    "charge_offsets_for_kicks": [
+      3.4255627765489294e-05,
+      -3.425562778325286e-05,
+      0.00010276688332955253,
+      -0.00010276688333710204
+    ],
+    "max_abs_charge_offset": 0.00010276688333710204,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 11,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      4.572161356198278,
+      0.010101824034205129,
+      2.7276692756950166e-06,
+      9.191733728376128e-09
+    ],
+    "J_reference": -1.4410164458140797,
+    "charge_offsets_for_kicks": [
+      3.42556278023487e-05,
+      -3.4255627821444534e-05,
+      0.00010276688344124096,
+      -0.00010276688344657003
+    ],
+    "max_abs_charge_offset": 0.00010276688344657003,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 12,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      5.394794024143419,
+      0.005967984463334006,
+      2.356407775849538e-06,
+      4.979155749443961e-09
+    ],
+    "J_reference": -1.441016445824109,
+    "charge_offsets_for_kicks": [
+      3.425562776149249e-05,
+      -3.425562778325286e-05,
+      0.00010276688332311323,
+      -0.00010276688333421546
+    ],
+    "max_abs_charge_offset": 0.00010276688333421546,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 13,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.7631461345435464,
+      0.012197538737798172,
+      4.0624081612545805e-06,
+      3.1731113305863693e-09
+    ],
+    "J_reference": -1.4410164458153079,
+    "charge_offsets_for_kicks": [
+      3.425562776904201e-05,
+      -3.425562778547331e-05,
+      0.00010276688333821227,
+      -0.00010276688334820427
+    ],
+    "max_abs_charge_offset": 0.00010276688334820427,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 14,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      2.9356692882364457,
+      0.012260005841530168,
+      3.537426630067314e-06,
+      4.56507014964182e-09
+    ],
+    "J_reference": -1.4410164458182968,
+    "charge_offsets_for_kicks": [
+      3.4255627805013233e-05,
+      -3.425562782033431e-05,
+      0.00010276688344057483,
+      -0.00010276688344834639
+    ],
+    "max_abs_charge_offset": 0.00010276688344834639,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 15,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      2.255336045974695,
+      0.008486660707256117,
+      3.698192510756549e-06,
+      8.049212114210642e-09
+    ],
+    "J_reference": -1.4410164458420085,
+    "charge_offsets_for_kicks": [
+      3.42556277859174e-05,
+      -3.4255627805013233e-05,
+      0.0001027668833861739,
+      -0.0001027668833926132
+    ],
+    "max_abs_charge_offset": 0.0001027668833926132,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "original",
+    "anchor_index": 16,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      4.075856918291316,
+      0.0034571686945856807,
+      4.756803684997326e-06,
+      1.803476922196706e-08
+    ],
+    "J_reference": -1.4410164458310852,
+    "charge_offsets_for_kicks": [
+      3.425562775616342e-05,
+      -3.4255627779478104e-05,
+      0.00010276688330179695,
+      -0.00010276688331489758
+    ],
+    "max_abs_charge_offset": 0.00010276688331489758,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 0,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.135954587612834,
+      0.019592918120464164,
+      1.3806868580343549e-05,
+      6.092736384200494e-09
+    ],
+    "J_reference": -1.4410164458247814,
+    "charge_offsets_for_kicks": [
+      3.424990917544335e-05,
+      -3.424990916545134e-05,
+      0.00010274972752966072,
+      -0.00010274972752322142
+    ],
+    "max_abs_charge_offset": 0.00010274972752966072,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 1,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.8263276243583686,
+      0.009518852104702874,
+      3.057179747602942e-05,
+      5.0229151885423375e-09
+    ],
+    "J_reference": -1.4410164458226016,
+    "charge_offsets_for_kicks": [
+      3.424990918077242e-05,
+      -3.424990917633153e-05,
+      0.0001027497275429834,
+      -0.00010274972754187317
+    ],
+    "max_abs_charge_offset": 0.0001027497275429834,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 2,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      5.263375210898686,
+      0.012943199043308472,
+      1.777102452782792e-05,
+      4.532603961830476e-09
+    ],
+    "J_reference": -1.4410164458249497,
+    "charge_offsets_for_kicks": [
+      3.424990915967818e-05,
+      -3.4249909160344316e-05,
+      0.00010274972748902655,
+      -0.00010274972749191313
+    ],
+    "max_abs_charge_offset": 0.00010274972749191313,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 3,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.6624180155851676,
+      0.010703759788647144,
+      2.559612149115659e-05,
+      5.938201546188943e-09
+    ],
+    "J_reference": -1.441016445818127,
+    "charge_offsets_for_kicks": [
+      3.424990915990023e-05,
+      -3.4249909160788405e-05,
+      0.00010274972748880451,
+      -0.00010274972749546585
+    ],
+    "max_abs_charge_offset": 0.00010274972749546585,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 4,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      2.1096080986721204,
+      0.009717146874028205,
+      1.0690184676852445e-05,
+      2.690922967709166e-08
+    ],
+    "J_reference": -1.4410164458259191,
+    "charge_offsets_for_kicks": [
+      3.4249909177663795e-05,
+      -3.4249909175665394e-05,
+      0.00010274972753632206,
+      -0.00010274972753498979
+    ],
+    "max_abs_charge_offset": 0.00010274972753632206,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 5,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 2,
+    "singular_values_scaled_by_nominal_kick": [
+      2.114246052366739,
+      0.02245060121371524,
+      1.0399472487625929e-05,
+      1.0243026739273938e-08
+    ],
+    "J_reference": -1.4410164458422536,
+    "charge_offsets_for_kicks": [
+      3.424990918321491e-05,
+      -3.424990918077242e-05,
+      0.00010274972755031087,
+      -0.00010274972755253131
+    ],
+    "max_abs_charge_offset": 0.00010274972755253131,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 6,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      4.3106707051081505,
+      0.013477745101658589,
+      1.8302694500227013e-05,
+      4.06861433717893e-09
+    ],
+    "J_reference": -1.4410164458340156,
+    "charge_offsets_for_kicks": [
+      3.4249909152128666e-05,
+      -3.42499091527948e-05,
+      0.00010274972745816235,
+      -0.00010274972746393551
+    ],
+    "max_abs_charge_offset": 0.00010274972746393551,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 7,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      5.274106910812308,
+      0.013409962607789382,
+      1.4346000513178094e-05,
+      1.851641541593355e-09
+    ],
+    "J_reference": -1.4410164458277475,
+    "charge_offsets_for_kicks": [
+      3.424990918943216e-05,
+      -3.424990919320692e-05,
+      0.00010274972757473577,
+      -0.00010274972758295142
+    ],
+    "max_abs_charge_offset": 0.00010274972758295142,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 8,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.781101750230437,
+      0.01834896180970007,
+      8.010813690229177e-06,
+      2.0175872056094507e-09
+    ],
+    "J_reference": -1.4410164458304464,
+    "charge_offsets_for_kicks": [
+      3.42499091692261e-05,
+      -3.424990917633153e-05,
+      0.00010274972752122302,
+      -0.00010274972753276934
+    ],
+    "max_abs_charge_offset": 0.00010274972753276934,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 9,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      2.5480139865623315,
+      0.013136054235486532,
+      7.0162911391926765e-06,
+      2.257876575182767e-09
+    ],
+    "J_reference": -1.4410164458248205,
+    "charge_offsets_for_kicks": [
+      3.4249909154571156e-05,
+      -3.424990915235071e-05,
+      0.00010274972746660005,
+      -0.00010274972747637001
+    ],
+    "max_abs_charge_offset": 0.00010274972747637001,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 10,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      1.9837341958865526,
+      0.012755758100561568,
+      2.2763130965759796e-06,
+      1.5722274357146567e-08
+    ],
+    "J_reference": -1.4410164457992651,
+    "charge_offsets_for_kicks": [
+      3.4249909164119074e-05,
+      -3.424990916345294e-05,
+      0.00010274972749835243,
+      -0.00010274972750878852
+    ],
+    "max_abs_charge_offset": 0.00010274972750878852,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 11,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      4.5696662146156495,
+      0.010050204308499585,
+      2.7173698575063858e-06,
+      9.354179398881266e-09
+    ],
+    "J_reference": -1.4410164458141288,
+    "charge_offsets_for_kicks": [
+      3.424990919920212e-05,
+      -3.424990920186666e-05,
+      0.00010274972760537793,
+      -0.00010274972761714629
+    ],
+    "max_abs_charge_offset": 0.00010274972761714629,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 12,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      5.374202629038548,
+      0.005952805551430206,
+      2.3262028572908905e-06,
+      5.442576316993699e-09
+    ],
+    "J_reference": -1.441016445824102,
+    "charge_offsets_for_kicks": [
+      3.424990916256476e-05,
+      -3.424990916101045e-05,
+      0.00010274972749013678,
+      -0.00010274972750146105
+    ],
+    "max_abs_charge_offset": 0.00010274972750146105,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 13,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      3.7449447598715846,
+      0.012172720782865439,
+      4.040928466057283e-06,
+      3.32078078172284e-09
+    ],
+    "J_reference": -1.4410164458153016,
+    "charge_offsets_for_kicks": [
+      3.424990916833792e-05,
+      -3.4249909164119074e-05,
+      0.00010274972750701217,
+      -0.00010274972751722622
+    ],
+    "max_abs_charge_offset": 0.00010274972751722622,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 14,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      2.9251619940783105,
+      0.012224401872226225,
+      3.508664368954144e-06,
+      4.666276686935422e-09
+    ],
+    "J_reference": -1.4410164458183548,
+    "charge_offsets_for_kicks": [
+      3.424990920430915e-05,
+      -3.424990919898008e-05,
+      0.00010274972761004086,
+      -0.00010274972761625811
+    ],
+    "max_abs_charge_offset": 0.00010274972761625811,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 15,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      2.25238257121164,
+      0.008434595940207425,
+      3.6684878742789787e-06,
+      8.150848798979571e-09
+    ],
+    "J_reference": -1.4410164458420454,
+    "charge_offsets_for_kicks": [
+      3.424990918410309e-05,
+      -3.424990917921811e-05,
+      0.00010274972755408562,
+      -0.00010274972756052492
+    ],
+    "max_abs_charge_offset": 0.00010274972756052492,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  },
+  {
+    "seed": "autonomous",
+    "anchor_index": 16,
+    "input_displacement_count": 4,
+    "chart_dimension_after_fixed_J": 8,
+    "input_span_max_possible_rank": 4,
+    "observed_rank_threshold_1percent": 1,
+    "singular_values_scaled_by_nominal_kick": [
+      4.070283022406683,
+      0.0034197098144743265,
+      4.7689912898314785e-06,
+      1.7986214144622536e-08
+    ],
+    "J_reference": -1.4410164458310697,
+    "charge_offsets_for_kicks": [
+      3.42499091567916e-05,
+      -3.4249909154571156e-05,
+      0.00010274972747192912,
+      -0.00010274972748169908
+    ],
+    "max_abs_charge_offset": 0.00010274972748169908,
+    "all_kicks_on_reference_charge": false,
+    "fixed_charge_8D_Jacobian_identifiable": false,
+    "full_floquet_spectrum_identifiable": false,
+    "reason": "FOUR_KICK_POINTS_SPAN_AT_MOST_FOUR_DIRECTIONS_AND_EACH_HAS_DIFFERENT_CHARGE__ALSO_ONLY_ONE_RETURN"
+  }
+]
