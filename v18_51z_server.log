@@ -1,0 +1,37 @@
+Q550 v18.51z verified source files 14
+PASS both_synthetic_channels_turn_clockwise
+PASS synthetic_total_turns_counterclockwise
+PASS synthetic_three_channel_closure
+PASS rotated_lab_reconstruction
+PASS oriented_wedge_covariant
+PASS mutual_angle_covariant
+PASS rotating_connection_restores_angular_rate
+PASS omitted_connection_creates_defect
+PASS wedge_turning_budget
+PASS positive_clock_reparam_preserves_sign
+PASS reflection_reverses_oriented_area
+PASS zero_response_angle_masked
+SYNTHETIC 12 / 12 PASS
+original turns deg {'v2': -5.3541877443890735, 'omega2': -7.146635304748628, 'other': -5.533300928993899, 'total': 3.3358014906790574} reversals {'v2': 4, 'omega2': 4, 'other': 4, 'total': 4}
+autonomous turns deg {'v2': -5.354783112708596, 'omega2': -7.147571665209832, 'other': -5.532919595922836, 'total': 3.3371226484597734} reversals {'v2': 4, 'omega2': 4, 'other': 4, 'total': 4}
+Q550 v18.51z 38 / 38 PASS
+PASS 513_sample_sections
+PASS original_cartesian_closure
+PASS original_observer_preserves_norms
+PASS original_observer_connection
+PASS original_all_channels_turn_consistently
+PASS original_total_mixed_turning_budget
+PASS original_positive_mutual_area
+PASS original_clock_monotone
+PASS original_finite_angle_on_mask
+PASS autonomous_cartesian_closure
+PASS autonomous_observer_preserves_norms
+PASS autonomous_observer_connection
+PASS autonomous_all_channels_turn_consistently
+PASS autonomous_total_mixed_turning_budget
+PASS autonomous_positive_mutual_area
+PASS autonomous_clock_monotone
+PASS autonomous_finite_angle_on_mask
+RESULTS 17 / 17 PASS
+Q550 v18.51z output hashes 6
+Q550 v18.51z sendback: /root/elab1/hysteresis/q550_posture_elegance_observer_induced_catwalk_v18_51z_bundle_server_sendback.zip

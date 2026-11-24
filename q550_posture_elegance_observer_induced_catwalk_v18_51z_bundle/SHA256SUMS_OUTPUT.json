@@ -1,0 +1,11 @@
+{
+  "version": "v18.51z",
+  "sha256": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "f5dded2dd999583d9d3986ef655876542749a5d78f31e854dd02c17eb72fd713",
+    "results/channel_posture_and_observer_catwalk.png": "98c2405d471501e78ee0b1c95085577d7d57c17ee8ddba1fb65033e42215ad45",
+    "results/physical_clock_posture_turning.png": "7c49cc6c54eca05e6c430cdbf3c48962d7d21efd693a5898f7348b596edc8991",
+    "results/posture_observer_turning_arrays.npz": "bdd90cfad857dd448d4b0b9fe06b34a850839dfbe9b312a1239263c83f5f13a9",
+    "results/report.json": "f1505e2b4ac9e4374843aef1ca6199c7c117f09c67fb2141ead8b2a5b3438e85",
+    "results/turning_budget_sections.csv": "ba2c6848f2957c1db8853a5eb31ff1dfcabb7defbb513064cc5941b157d88a8d"
+  }
+}

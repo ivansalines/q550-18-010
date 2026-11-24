@@ -1,0 +1,20 @@
+{
+  "version": "v18.51z",
+  "title": "Posture, Elegance & Observer-Induced Catwalk Audit",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "b6beb1807bb9ac281cdd0dc4048f18fc6dc63cd170d9d10b422e3ac015b44c4e",
+    "README.md": "1cd54eb4292d537d1977ab57dbcc8700967a714745d5b3c7150ade94a3634822",
+    "SCIENTIFIC_DECISION_RULES.md": "48879838355da1d7184ca12fb26110450fc161d41e6f572681df980e070c3ecd",
+    "SCIENTIFIC_REPORT.md": "75c3566391ee9aa9cd4d42279b27ec0b6b09d113275312aaaaa0c5f09090c128",
+    "SOURCE_PROVENANCE.md": "d0a5ddb9f741403da243a0eec5c10c00e00f8ebfdebad7ba3576b2670100b393",
+    "inputs/q550_model_constrained_source_subspaces_physical_attribution_admissibility_v18_51y_bundle_server_sendback.zip": "9ff570b932b83ac048675a7ff081b70bc3f7d4c3b37eae5328bcd3dc3ec5651c",
+    "requirements.txt": "3375370eec2c6a1f458a4abab8f8f13f27981197d3b20cb8b14fb200dacf3fca",
+    "run_on_server.sh": "b549b7bdd8e8cc90740c6d9af390b6102eed72a58a28a605d1dde1d6031344bc",
+    "scripts/pack_sendback.py": "7cf0e2e84d581d3c70d9eba5716951f6392f2243dce5259e7b46017a0aa5bc4f",
+    "scripts/run_audit.py": "ec94961237435cb1d45163ac9b8fa9ed407456637672c85da802cac290fbc65b",
+    "scripts/verify_source_manifest.py": "d5e261fcdf3f8d1ba9fbeaf3bd84f5f56a5c3abceb177006bb7e62653ddab213",
+    "scripts/write_output_manifest.py": "3220d9f88a6454e9ecacf9a60a1398992d2f5046195fae38adb38c5a9b5684cc",
+    "tests/test_results.py": "83e5eb7f52952435f95c6073055fc776c6750138326919e6469c7db03792bd07",
+    "tests/test_synthetic.py": "051295e717a4f3570382343365e80dc33e7d09e898933491c4cdcbcd41c52fdc"
+  }
+}

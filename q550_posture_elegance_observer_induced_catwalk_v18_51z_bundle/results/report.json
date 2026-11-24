@@ -1,0 +1,190 @@
+{
+  "version": "v18.51z",
+  "title": "Posture, Elegance & Observer-Induced Catwalk Audit",
+  "classification": "MODEL_GROUNDED_LOCAL_RESPONSE_TURNING_AND_PASSIVE_OBSERVER_COVARIANCE_DIAGNOSTIC_NOT_MATERIAL_POSTURE_CERTIFICATE",
+  "parent_source": "q550_model_constrained_source_subspaces_physical_attribution_admissibility_v18_51y_bundle_server_sendback.zip",
+  "parent_source_sha256": "9ff570b932b83ac048675a7ff081b70bc3f7d4c3b37eae5328bcd3dc3ec5651c",
+  "n_samples_per_seed": 513,
+  "mask_for_angular_rates": "xi >= 0.01; exactly zero vectors at xi=0 have undefined angles",
+  "observer_protocol": "phi(xi)=8 deg*(xi/0.2)+2.5 deg*sin(4*pi*xi/0.2), common passive SO(2) rotation for all channels",
+  "all_passed": true,
+  "scientific_checks": {
+    "original:T_W_cartesian_vectors_agree": true,
+    "original:three_channel_closure": true,
+    "original:both_channels_turn_clockwise_in_lab": true,
+    "original:total_response_turns_counterclockwise_in_lab": true,
+    "original:positive_oriented_channel_area": true,
+    "original:relative_angle_decreases": true,
+    "original:turning_budget_reconstructs_total": true,
+    "original:mixed_v2_omega2_overcomes_negative_self_turning": true,
+    "original:passive_frame_relative_angle_invariant": true,
+    "original:passive_frame_relative_angular_rate_invariant": true,
+    "original:passive_frame_oriented_area_invariant": true,
+    "original:observer_rate_connection_restores_lab_rate": true,
+    "original:omitting_connection_creates_false_turning": true,
+    "original:observer_induces_turning_reversals": true,
+    "original:physical_clock_increases": true,
+    "original:positive_clock_preserves_turning_orientation": true,
+    "original:direct_tau_derivative_consistency": true,
+    "autonomous:T_W_cartesian_vectors_agree": true,
+    "autonomous:three_channel_closure": true,
+    "autonomous:both_channels_turn_clockwise_in_lab": true,
+    "autonomous:total_response_turns_counterclockwise_in_lab": true,
+    "autonomous:positive_oriented_channel_area": true,
+    "autonomous:relative_angle_decreases": true,
+    "autonomous:turning_budget_reconstructs_total": true,
+    "autonomous:mixed_v2_omega2_overcomes_negative_self_turning": true,
+    "autonomous:passive_frame_relative_angle_invariant": true,
+    "autonomous:passive_frame_relative_angular_rate_invariant": true,
+    "autonomous:passive_frame_oriented_area_invariant": true,
+    "autonomous:observer_rate_connection_restores_lab_rate": true,
+    "autonomous:omitting_connection_creates_false_turning": true,
+    "autonomous:observer_induces_turning_reversals": true,
+    "autonomous:physical_clock_increases": true,
+    "autonomous:positive_clock_preserves_turning_orientation": true,
+    "autonomous:direct_tau_derivative_consistency": true,
+    "two_seed_mutual_angle_agreement": true,
+    "model_parent_authenticated": true,
+    "no_parameter_actuator_claim": true,
+    "no_material_return_claim": true
+  },
+  "n_checks": 38,
+  "seeds": {
+    "original": {
+      "seed": "original",
+      "xi_first_qualified": 0.01015625,
+      "xi_end": 0.2,
+      "initial_relative_angle_deg": 89.99999699084988,
+      "final_relative_angle_deg": 88.20754943049033,
+      "lab_posture_turn_deg": {
+        "v2": -5.3541877443890735,
+        "omega2": -7.146635304748628,
+        "other": -5.533300928993899,
+        "total": 3.3358014906790574
+      },
+      "native_posture_end_deg": {
+        "v2": 12.557939933844713,
+        "omega2": 100.76548936433413,
+        "other": 12.381703040809835,
+        "total": 30.885831242317643
+      },
+      "lab_final_angular_rate_per_xi": {
+        "v2": -0.460333850785446,
+        "omega2": -0.7465871384192724,
+        "other": -0.6804882945550617,
+        "total": 0.23080979480300812
+      },
+      "observer_final_angular_rate_per_xi": {
+        "v2": -3.900572711669156,
+        "omega2": -4.186825999304347,
+        "other": -4.120727155439454,
+        "total": -3.2094290660816114
+      },
+      "observer_turning_reversals": {
+        "v2": 4,
+        "omega2": 4,
+        "other": 4,
+        "total": 4
+      },
+      "physical_lab_turning_reversals": {
+        "v2": 0,
+        "omega2": 0,
+        "other": 0,
+        "total": 0
+      },
+      "final_total_turning_budget_per_xi": {
+        "self_v2": -0.4062047543041388,
+        "self_omega2": -0.07389505628573188,
+        "self_other": -2.550484864768535e-09,
+        "mixed_v2_omega2": 0.7111247752137746,
+        "mixed_v2_other": -6.740548908199174e-05,
+        "mixed_omega2_other": -0.00014942545169675242,
+        "total": 0.23080813112188428
+      },
+      "final_tau": 0.33481856382894365,
+      "max_w_T_cartesian_difference": 5.171413373962442e-11,
+      "max_lab_channel_closure": 1.0408340855860843e-16,
+      "max_covariant_rate_defect": 1.7621459846850485e-12,
+      "max_relative_angle_gauge_defect": 6.661338147750939e-16,
+      "max_relative_rate_gauge_defect": 1.8189894035458565e-12,
+      "max_oriented_area_gauge_defect": 2.168404344971009e-19,
+      "max_signed_turning_budget_defect": 1.0755979440446595e-11,
+      "max_direct_tau_derivative_discrepancy": 7.402352064644901e-10,
+      "max_omitted_connection_turning_defect": 3.4402388608850742,
+      "min_positive_clock_rate": 1.6736334152820718,
+      "max_frame_rotation_deg": 7.999999999999998
+    },
+    "autonomous": {
+      "seed": "autonomous",
+      "xi_first_qualified": 0.01015625,
+      "xi_end": 0.2,
+      "initial_relative_angle_deg": 89.9999969903766,
+      "final_relative_angle_deg": 88.20720843787537,
+      "lab_posture_turn_deg": {
+        "v2": -5.354783112708596,
+        "omega2": -7.147571665209832,
+        "other": -5.532919595922836,
+        "total": 3.3371226484597734
+      },
+      "native_posture_end_deg": {
+        "v2": 12.559126138269917,
+        "omega2": 100.76633457614437,
+        "other": 12.383868591449769,
+        "total": 30.891680541704822
+      },
+      "lab_final_angular_rate_per_xi": {
+        "v2": -0.46034899017763564,
+        "omega2": -0.7466618839853254,
+        "other": -0.680513285042025,
+        "total": 0.23094350785368079
+      },
+      "observer_final_angular_rate_per_xi": {
+        "v2": -3.9005878510606635,
+        "omega2": -4.186900744872219,
+        "other": -4.120752145925735,
+        "total": -3.209295353030484
+      },
+      "observer_turning_reversals": {
+        "v2": 4,
+        "omega2": 4,
+        "other": 4,
+        "total": 4
+      },
+      "physical_lab_turning_reversals": {
+        "v2": 0,
+        "omega2": 0,
+        "other": 0,
+        "total": 0
+      },
+      "final_total_turning_budget_per_xi": {
+        "self_v2": -0.4061922791679238,
+        "self_omega2": -0.07393879943531281,
+        "self_other": -2.549359415036252e-09,
+        "mixed_v2_omega2": 0.7112897338929156,
+        "mixed_v2_other": -6.737959223852807e-05,
+        "mixed_omega2_other": -0.00014943007566664554,
+        "total": 0.2309418430703645
+      },
+      "final_tau": 0.33481849555805815,
+      "max_w_T_cartesian_difference": 5.172627763835981e-11,
+      "max_lab_channel_closure": 8.673617379884035e-17,
+      "max_covariant_rate_defect": 2.9558577807620168e-12,
+      "max_relative_angle_gauge_defect": 6.661338147750939e-16,
+      "max_relative_rate_gauge_defect": 3.637978807091713e-12,
+      "max_oriented_area_gauge_defect": 2.168404344971009e-19,
+      "max_signed_turning_budget_defect": 2.659511499913947e-12,
+      "max_direct_tau_derivative_discrepancy": 7.402066737327573e-10,
+      "max_omitted_connection_turning_defect": 3.4402388608868932,
+      "min_positive_clock_rate": 1.6736330598552098,
+      "max_frame_rotation_deg": 7.999999999999998
+    }
+  },
+  "method_limits": [
+    "V2 and omega2 refer to channels of the kappa sensitivity in Cartesian Q3/Q4, not an actual human posture or the full 10D orbit.",
+    "The signed self/mixed turning budget follows from bilinearity of the wedge product; it is checked on authentic numerical responses, not an independent model evolution.",
+    "Observer rotations are passive; induced apparent reversal is not a physical reversal.",
+    "A physical time reparametrization with positive rate preserves the sign of angular turning but changes its numerical rate.",
+    "The 0.01 cutoff avoids ill-defined angles and amplification near zero response norm. All reported angular changes start at the first nonzero section.",
+    "Results cover xi <= 0.2, not the true return or material memory."
+  ]
+}
