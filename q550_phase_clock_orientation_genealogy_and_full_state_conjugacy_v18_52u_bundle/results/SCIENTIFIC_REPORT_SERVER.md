@@ -1,0 +1,99 @@
+# Q550 v18.52u — Phase-Clock Orientation Genealogy & Full-State Conjugacy Audit
+
+## Scientific decision
+AUTHENTIC_GENEALOGY_WITH_EXTERNAL_DRIVE_DISTINCT_FROM_SIMPLE_COORDINATE_RELABEL
+
+## Exact passive coordinate identity
+Theta_ext=-Theta_engine implies Theta_ext_dot=-x AND Delta=theta1+theta2-phi0+Theta_ext.
+This does not establish the actual archived external drive, which was evaluated using Delta=theta1+theta2-phi0-Theta_ext.
+
+## Original ancestry
+Original v18.51s must be SHA-256 checked and staged before its context theta is attributed to any source.
+Full-state map tests are limited to the explicitly listed linear transformations; arbitrary nonlinear conjugacy is untested.
+
+## Results
+```json
+{
+  "version": "v18.52u",
+  "parent": "SHA256_AUTHENTICATED",
+  "native": "AUTHENTIC_SHA256_VERIFIED",
+  "lineage": "ORIGINAL_ENGINE_AND_THETA_FUNCTION_STAGED",
+  "scientific_decision": "AUTHENTIC_GENEALOGY_WITH_EXTERNAL_DRIVE_DISTINCT_FROM_SIMPLE_COORDINATE_RELABEL",
+  "global_noncollapse_bound_certified": false,
+  "full_nonlinear_conjugacy_certified": false,
+  "native_total_series": 20,
+  "native_kick_shared_phase_x_difference": {
+    "original": 6.158643146458864e-06,
+    "autonomous": 6.135730599488021e-06
+  },
+  "native_reference_xi_length": 65537,
+  "full_field_candidate_maps": {
+    "passive_relabel_algebraic_identity": {
+      "n": 256,
+      "max_relative": 0.0,
+      "median_relative": 0.0
+    },
+    "physical_full_field_conjugacy_theta_local_and_omega_sign": {
+      "n": 256,
+      "max_relative": 0.804673809879267,
+      "median_relative": 0.10956833941135444
+    },
+    "physical_full_field_conjugacy_theta_sign_only": {
+      "n": 256,
+      "max_relative": 0.7410936954301991,
+      "median_relative": 0.10527321067274573
+    }
+  },
+  "authentic_engine_probes_max_relative": 1.2679260239156237e-15,
+  "original_engine_clock_ratio_range": [
+    0.9999999999999999,
+    1.0000000000000002
+  ],
+  "native_clock_force_discrimination": {
+    "original": {
+      "n_native_samples": 8193,
+      "theta_delta": -10.80778131691784,
+      "x_reference_integral": 10.807781315891742,
+      "signed_clock_endpoint_error": -1.0260983174248395e-09,
+      "external_clock_plus_x_rate_rms": 1.000164936749146,
+      "external_clock_minus_x_rate_rms": 2.4925766243662405e-09,
+      "minus_external_phase_angular_rms_relative": 0.00018981344509887886,
+      "plus_external_phase_angular_rms_relative": 3.2474537853022505,
+      "reference_tau_start": 21.607387810711703,
+      "reference_tau_end": 43.21975312648101
+    },
+    "autonomous": {
+      "n_native_samples": 8193,
+      "theta_delta": -10.80778131691784,
+      "x_reference_integral": 10.807781315890423,
+      "signed_clock_endpoint_error": -1.0274163741996745e-09,
+      "external_clock_plus_x_rate_rms": 1.0001651552963386,
+      "external_clock_minus_x_rate_rms": 2.4934943497527338e-09,
+      "minus_external_phase_angular_rms_relative": 0.00018678142288126393,
+      "plus_external_phase_angular_rms_relative": 3.244010472632074,
+      "reference_tau_start": 21.60739834262348,
+      "reference_tau_end": 43.21975917079475
+    }
+  },
+  "plots": [
+    "original_phase_orientation_force_comparison.png",
+    "autonomous_phase_orientation_force_comparison.png"
+  ],
+  "criteria": {
+    "minus_clock": true,
+    "engine_plus_clock": true,
+    "archived_minus_phase_force_fit": true,
+    "passive_plus_phase_force_fit": false
+  },
+  "source_of_negative_external_clock_not_assumed": "Inspect results/parent_clock_source_excerpt.txt and results/source_genealogy.json before attributing the sign to a particular ancestor function.",
+  "no_claims": [
+    "No proof of conjugacy by an arbitrary nonlinear transformation",
+    "No automatic identification of external reference clock with per-kick x",
+    "No topological integer winding or all-time global noncollapse theorem"
+  ]
+}
+```
+
+## Scientific restrictions
+No new integrations. No global bound or topological charge concluded.
+The eleventh v18.52l column is material tau, never Theta.

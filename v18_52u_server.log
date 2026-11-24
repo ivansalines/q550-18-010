@@ -1,0 +1,41 @@
+SOURCE_MANIFEST_PASS 21
+SYNTHETIC_PASS {'coordinate_relabel_max_relative': 0.0, 'naive_external_minus_mismatch_max': 0.9643215540220822, 'all_angle_flip_mismatch_max': 1.0203003337175272}
+AUTHENTICATED MODEL: staging 10D physical solver
+{
+  "decision": "AUTHENTIC_GENEALOGY_WITH_EXTERNAL_DRIVE_DISTINCT_FROM_SIMPLE_COORDINATE_RELABEL",
+  "parent": "SHA256_AUTHENTICATED",
+  "native": "AUTHENTIC_SHA256_VERIFIED",
+  "criteria": {
+    "minus_clock": true,
+    "engine_plus_clock": true,
+    "archived_minus_phase_force_fit": true,
+    "passive_plus_phase_force_fit": false
+  },
+  "native_clock_force_discrimination": {
+    "original": {
+      "n_native_samples": 8193,
+      "theta_delta": -10.80778131691784,
+      "x_reference_integral": 10.807781315891742,
+      "signed_clock_endpoint_error": -1.0260983174248395e-09,
+      "external_clock_plus_x_rate_rms": 1.000164936749146,
+      "external_clock_minus_x_rate_rms": 2.4925766243662405e-09,
+      "minus_external_phase_angular_rms_relative": 0.00018981344509887886,
+      "plus_external_phase_angular_rms_relative": 3.2474537853022505,
+      "reference_tau_start": 21.607387810711703,
+      "reference_tau_end": 43.21975312648101
+    },
+    "autonomous": {
+      "n_native_samples": 8193,
+      "theta_delta": -10.80778131691784,
+      "x_reference_integral": 10.807781315890423,
+      "signed_clock_endpoint_error": -1.0274163741996745e-09,
+      "external_clock_plus_x_rate_rms": 1.0001651552963386,
+      "external_clock_minus_x_rate_rms": 2.4934943497527338e-09,
+      "minus_external_phase_angular_rms_relative": 0.00018678142288126393,
+      "plus_external_phase_angular_rms_relative": 3.244010472632074,
+      "reference_tau_start": 21.60739834262348,
+      "reference_tau_end": 43.21975917079475
+    }
+  }
+}
+SENDBACK /root/elab1/hysteresis/q550_phase_clock_orientation_genealogy_and_full_state_conjugacy_v18_52u_bundle_server_sendback.zip 534970
