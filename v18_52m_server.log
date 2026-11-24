@@ -1,0 +1,6 @@
+SOURCE MANIFEST PASS 12 files
+SYNTHETIC HINGE / TWO SHADOWS TEST PASS
+PREFLIGHT PASS 8 physical trajectories; 65537 samples each
+v18.52m AUDIT PASS: 8 physical single-trajectory observer pairs; source SHA validated; output in /root/elab1/hysteresis/q550_nodal_hinge_plus_minus_17_04_degree_dual_view_single_trajectory_shadow_and_section_audit_v18_52m_bundle/results
+OUTPUT MANIFEST WRITTEN 10 files
+PACKED SERVER SENDBACK /root/elab1/hysteresis/q550_nodal_hinge_plus_minus_17_04_degree_dual_view_single_trajectory_shadow_and_section_audit_v18_52m_bundle_server_sendback.zip

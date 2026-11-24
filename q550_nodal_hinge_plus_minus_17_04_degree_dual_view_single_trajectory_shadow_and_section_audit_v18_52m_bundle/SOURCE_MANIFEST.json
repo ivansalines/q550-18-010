@@ -1,0 +1,20 @@
+{
+  "version": "v18.52m",
+  "title": "Nodal Hinge +/-17.04 Degree Dual-View Single-Trajectory Shadow & Section Audit",
+  "root": "q550_nodal_hinge_plus_minus_17_04_degree_dual_view_single_trajectory_shadow_and_section_audit_v18_52m_bundle",
+  "parent_l_trace_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "a378b0d939ba81cd232444cfa4cb7f1872a894f7d608e38ad947e37c1c0a37b4",
+    "README.md": "0075893d61089f6343f7ddbeb10dced046f6b3c9406ebe0c9dfb60b3e9454967",
+    "SCIENTIFIC_DECISION_RULES.md": "4adfbbc1308625fbf2ea7950ac5f14e8f4e9cc2827eaffe1874580e3e83fbc18",
+    "SOURCE_PROVENANCE.md": "a16ff65a44e93e35cc48f74e6d843c7068b4bb748760c13052545a803b171ab5",
+    "reference/PARENT_v18_52l_OUTPUT_MANIFEST.json": "81236c53ab9d2dce4be4fc12e7929e452632d8c05f4ce221628c7748b41bae65",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "run_on_server.sh": "b60b42e3709fbc635ccd34042106d00da714d7b2f98ce50f48b8677e450c11a1",
+    "scripts/pack_sendback.py": "66eed4295f6c4eb6c6fdd19882a614a5bf11b02a1b6817ec458502afc6f83bba",
+    "scripts/run_audit.py": "b27e913e20f060852664ea39c084a18a662312c4b6ce13e4cc49dd881ed6b09d",
+    "scripts/verify_source_manifest.py": "0b3a14d9aeb844629905abf07915ffebc4e238e0fb6fd88a80e1ab8fd2c20d2c",
+    "scripts/write_output_manifest.py": "3c3b25df14349895d455a1d7489a2b77deb1ef9005985ef5f1e6140a2f7c7706",
+    "tests/test_synthetic.py": "f5f01e9ef9461d7c0a5bbe600a5ef0655437dbd3ae0e54aff4f9887dc5da5245"
+  }
+}

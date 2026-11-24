@@ -1,0 +1,13 @@
+{
+  "version": "v18.52m",
+  "mode": "preflight",
+  "source": {
+    "version": "v18.52l",
+    "path": "/root/elab1/hysteresis/q550_near_tangency_breathing_envelope_drift_five_dimensional_section_audit_v18_52l_bundle/results/extended_horizon_5d_vectors_and_traces.npz",
+    "expected_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+    "observed_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+    "kicks": 8,
+    "samples_per_kick": 65537
+  },
+  "physical_integration": false
+}
