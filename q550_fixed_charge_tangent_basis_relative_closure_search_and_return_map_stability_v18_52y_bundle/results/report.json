@@ -1,0 +1,706 @@
+{
+  "version": "v18.52y",
+  "title": "Fixed-Charge Tangent Basis, Relative-Closure Search & Return-Map Stability Audit",
+  "parent_available": true,
+  "native_available": true,
+  "solver_configuration": {
+    "rtol": 5e-10,
+    "atol": 5e-12,
+    "max_step": 0.08,
+    "fd_eps": [
+      0.0001,
+      4e-05
+    ],
+    "max_newton": 3
+  },
+  "full_global_conservative_dynamics_claimed": false,
+  "global_limit_cycle_certificate": false,
+  "original_historical_mixed_charge_kicks_not_used_for_DP": true,
+  "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "native_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "original_source_provenance": {
+    "make_context": {
+      "module": "q550_v18_50q_auth_p",
+      "qualname": "make_context",
+      "source": "def make_context(o,kind,engine,unit,drpt,creport):\n    a=o.make_engine_args();ramp=.24;shape='beta:2:2';kappa=float(engine.ks[kind])\n    des=engine.original_ramp.Design('v18_50p',shape,ramp)\n    entries=[z for z in creport['cases'] if z['kind']==kind and abs(float(z['ramp_xi'])-ramp)<1e-9 and z['shape']==shape and z['metric']=='common']\n    if len(entries)!=1: raise RuntimeError('Could not identify the natural turning section')\n    event=float(entries[0]['turn_xi'])\n    back,turn_ledger=engine.original.integrate(engine.physical,engine.clock,engine.support,engine.audit,kappa,engine.params,engine.slope,engine.omega,engine.turning[kind],a,design=des)\n    seed=np.asarray(back(event)[:11],float)\n    theta0=float(seed[10]);phase0=engine.clock.cubic_phase_excursion(event,des)\n    def theta(t):return theta0-engine.omega*(engine.clock.cubic_phase_excursion(t,des)-phase0)\n    def ode(t,z):\n        y=np.r_[z,theta(t)]\n        return np.asarray(engine.physical.rhs_from_original(y,kappa,engine.params,engine.slope,engine.clock.cubic_clock_sign(t,des),engine.support,engine.audit)[:10],float)\n    def hidden(y):\n        f,j,_=engine.jet.structural_jet(y,kappa,engine.params,engine.slope)\n        return np.asarray([f[2],f[6],(j@f)[2],(j@f)[6]],float)\n    cscale=np.asarray(drpt['common_metric_scale_4d'],float)\n    direction=lambda y:unit(hidden(y),cscale)\n    scale=np.maximum(1.,np.abs(seed[:10]))\n    sol=solve_ivp(ode,(event,event+0.001092),seed[:10],method='DOP853',rtol=a.rtol,atol=a.atol,max_step=a.max_step,dense_output=True)\n    if not sol.success:raise RuntimeError('10D natural IVP failed: '+sol.message)\n    return {'kind':kind,'kappa0':kappa,'event':event,'turn_ledger':turn_ledger,'seed':seed.tolist(),\n            'sol':sol,'theta':theta,'ode':ode,'direction':direction,'scale':scale,'nfev':sol.nfev}\n",
+      "filename": "/tmp/q550_v1852v_original_1i437snv/engine_staging/historical_engine/stage/q550_near_null_tangent_direction_stencil_order_transport_v18_50p_bundle/scripts/run_audit.py",
+      "line": 69
+    },
+    "rhs_from_original": {
+      "module": "o_original_phys",
+      "qualname": "rhs_from_original",
+      "source": "def rhs_from_original(y,kappa,p,slope,clock_sign,support,audit):\n    \"\"\"Original original-support source function; change ONLY drive clock.\"\"\"\n    f=slope*np.asarray(support.support_rhs_float(y,kappa0=kappa,params=p,audit=audit),float)\n    f[10]=clock_sign*(2*math.pi*slope)\n    return f\n",
+      "filename": "/tmp/q550_v1852v_original_1i437snv/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/runtime/authenticated_o/q550_dominance_boundary_continuation_ramp_shape_stress_v18_49o_bundle/runtime/authenticated_n/q550_ramp_shape_perturbation_pairwise_dominance_persistence_v18_49n_bundle/runtime/authenticated_parent_m/q550_pairwise_eigenprojector_coupling_spectral_gap_attribution_v18_49m_bundle/runtime/authenticated_parent_l/q550_kappa_projector_generator_v18_49l_bundle/runtime/authenticated_parent_k/q550_kappa_source_projector_v18_49k_bundle/runtime/verified_j/q550_kappa_liouville_projection_v18_49j_bundle/runtime/verified_i/q550_kappa_volume_strain_v18_49i_bundle/runtime/verified_h/q550_kappa_kinetic_pullback_v18_49h_bundle/runtime/verified_g/q550_kappa_clockmatched_full10d_v18_49g_bundle/runtime/verified_f/q550_kappa_threshold_clock_v18_49f_bundle/runtime/verified_e/q550_kappa_common_frame_passage_v18_49e_bundle/runtime/verified_d/q550_kappa_rank_complement_v18_49d_bundle/runtime/verified_c/q550_kappa_observer_family_v18_49c_bundle/reference/physical_math.py",
+      "line": 53
+    },
+    "cubic_clock_sign": {
+      "module": "ramp_stress",
+      "qualname": "ShapeClock.cubic_clock_sign",
+      "source": "    def cubic_clock_sign(self,t,d):\n        if d.ramp<=0:raise ValueError('Positive ramp duration required')\n        if t<=0:return 1.\n        if t>=d.ramp:return -1.\n        return float(1-2*h(t/d.ramp,d.kind))\n",
+      "filename": "/tmp/q550_v1852v_original_1i437snv/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/scripts/ramp_stress.py",
+      "line": 68
+    },
+    "cubic_phase_excursion": {
+      "module": "ramp_stress",
+      "qualname": "ShapeClock.cubic_phase_excursion",
+      "source": "    def cubic_phase_excursion(self,t,d):\n        if d.ramp<=0:raise ValueError('Positive ramp duration required')\n        if t<=0:return 0.\n        if t>=d.ramp:return float(t-d.ramp)\n        return float(-t+2*d.ramp*area(t/d.ramp,d.kind))\n",
+      "filename": "/tmp/q550_v1852v_original_1i437snv/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/scripts/ramp_stress.py",
+      "line": 73
+    }
+  },
+  "fixed_native_kappa": 0.1666331385421536,
+  "results": {
+    "original": {
+      "seed": "original",
+      "phase_period": {
+        "source_omega": 0.844357915384206,
+        "source_sign_samples": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "phase_one_turn": -6.28318530717959,
+        "phase_two_turn": -12.566370614359172,
+        "period_xi": 7.441376687184325
+      },
+      "J_fixed": -1.441016445824766,
+      "native_one_turn_relative_error": 9.212550019153996e-10,
+      "counterrotation_gauge_equivariance_error": 1.295752758573449e-14,
+      "P_squared_vs_extended_integration_error": 2.382730563751652e-14,
+      "first_return_residual_chart_norm": 0.3966077136857759,
+      "second_return_residual_chart_norm": 0.5337844769025737,
+      "consecutive_return_displacement_1": 0.3966077136857759,
+      "consecutive_return_displacement_2": 0.16344869727745612,
+      "basis": {
+        "basis_shape": [
+          10,
+          8
+        ],
+        "basis_rank": 8,
+        "basis_singular_values": [
+          281.1243129457729,
+          1.0000000000000082,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.9999999999999999,
+          0.7071067811865476
+        ],
+        "max_analytic_vs_fd_column_error": 8.290343176249015e-09,
+        "max_abs_charge_derivative_on_basis": 8.881784197001252e-16,
+        "J_reference": -1.441016445824766,
+        "gauge_reference": -8.041007443479018
+      },
+      "two_actual_phase_turns_integrated": true,
+      "DP_at_reference_exists": true,
+      "historical_reference_is_closed": false,
+      "reference_D_P_singular_values_descriptive": [
+        217.09944657048592,
+        0.8011852458774416,
+        0.4231886776323491,
+        0.1558137158082372,
+        0.124061248964714,
+        0.06523159804784487,
+        0.05678457546616134,
+        0.002370813520557205
+      ],
+      "reference_DP_eigenvalues_not_floquet": [
+        {
+          "real": -0.010670206826900494,
+          "imag": 0.5274307791812094,
+          "abs": 0.5275387001362332
+        },
+        {
+          "real": -0.010670206826900494,
+          "imag": -0.5274307791812094,
+          "abs": 0.5275387001362332
+        },
+        {
+          "real": 0.14205187396132407,
+          "imag": 0.08160473549808972,
+          "abs": 0.16382328208053057
+        },
+        {
+          "real": 0.14205187396132407,
+          "imag": -0.08160473549808972,
+          "abs": 0.16382328208053057
+        },
+        {
+          "real": -0.19128389464420353,
+          "imag": 0.1619645587906392,
+          "abs": 0.25064326572741025
+        },
+        {
+          "real": -0.19128389464420353,
+          "imag": -0.1619645587906392,
+          "abs": 0.25064326572741025
+        },
+        {
+          "real": -0.1627152876146431,
+          "imag": 0.012424163496490913,
+          "abs": 0.16318892322122713
+        },
+        {
+          "real": -0.1627152876146431,
+          "imag": -0.012424163496490913,
+          "abs": 0.16318892322122713
+        }
+      ],
+      "finite_difference_steps": [
+        0.0001,
+        4e-05
+      ],
+      "relative_two_step_jacobian_difference": 0.0004663444784323016,
+      "fixed_charge_perturbation_directions": 8,
+      "initial_chart": [
+        0.5429716095419782,
+        0.0037384857065972162,
+        -0.48721721444258786,
+        -2.109527306396643,
+        0.00285529296773583,
+        -0.012628902505004237,
+        0.001654902778089236,
+        -0.09662358277933755
+      ],
+      "P_initial_chart": [
+        0.5478241349191807,
+        0.0017514646355791968,
+        -0.483179313567938,
+        -2.1339528941859918,
+        0.04885969202150536,
+        0.00021933294201300138,
+        0.010393068108470774,
+        -0.48943324648138437
+      ],
+      "P2_initial_chart": [
+        0.5466271311414266,
+        -0.0022748140113265313,
+        -0.4828280027074662,
+        -2.109106751602674,
+        -0.03176550186760767,
+        0.007551147087220345,
+        0.0007481827998946468,
+        -0.6288361785968433
+      ],
+      "chart_displacement_after_one_turn": {
+        "logr1": 0.004852525377202488,
+        "v1": -0.0019870210710180194,
+        "omega1": 0.004037900874649891,
+        "logr2": -0.02442558778934867,
+        "v2": 0.04600439905376953,
+        "z": 0.012848235447017239,
+        "vz": 0.008738165330381537,
+        "alpha": -0.39280966370204684
+      },
+      "chart_displacement_after_two_turns": {
+        "logr1": 0.0036555215994483747,
+        "v1": -0.006013299717923748,
+        "omega1": 0.00438921173512169,
+        "logr2": 0.0004205547939690746,
+        "v2": -0.0346207948353435,
+        "z": 0.02018004959222458,
+        "vz": -0.0009067199781945892,
+        "alpha": -0.5322125958175057
+      },
+      "closure_search": {
+        "search_converged": false,
+        "closure_8D_absolute_norm": 1.50180328164762e-05,
+        "closure_8D_normalized_norm": 6.547536277525463e-06,
+        "two_turn_reclosure_normalized_norm": 6.343262527315912e-06,
+        "P_composed_vs_integrated_two_turn": 2.421710162821752e-14,
+        "search_history": [
+          {
+            "iteration": 0,
+            "residual_normalized": 0.39602416031530024,
+            "u": [
+              0.5429716095419782,
+              0.0037384857065972162,
+              -0.48721721444258786,
+              -2.109527306396643,
+              0.00285529296773583,
+              -0.012628902505004237,
+              0.001654902778089236,
+              -0.09662358277933755
+            ],
+            "P_u": [
+              0.5478241349191807,
+              0.0017514646355791968,
+              -0.483179313567938,
+              -2.1339528941859918,
+              0.04885969202150536,
+              0.00021933294201300138,
+              0.010393068108470774,
+              -0.48943324648138437
+            ],
+            "newton_operator_singular_values": [
+              217.0224224608915,
+              1.5249863420705378,
+              1.2273319333899113,
+              1.1539950593550508,
+              0.9986113689478838,
+              0.7855373664052583,
+              0.7283966856077426,
+              0.007043205777398891
+            ],
+            "accepted_backtrack": 0,
+            "accepted_residual": 0.1287349862348112
+          },
+          {
+            "iteration": 1,
+            "residual_normalized": 0.1287349862348112,
+            "u": [
+              0.5450266276874475,
+              0.0011191882541427057,
+              -0.4849490049899115,
+              -2.139041535200252,
+              -0.025360684811812594,
+              -0.0034293885947430675,
+              0.0018719187217572058,
+              -0.34442835673858274
+            ],
+            "P_u": [
+              0.5461498207324365,
+              0.0001982067645924807,
+              -0.4838498447666256,
+              -2.132142812628019,
+              0.012389315969354374,
+              0.0010154533475270641,
+              0.003233373467067486,
+              -0.4673592778219288
+            ],
+            "newton_operator_singular_values": [
+              241.64787736844244,
+              1.3617415921854346,
+              1.22343814690907,
+              1.1567691257004256,
+              1.0522009602351015,
+              0.8291733559892622,
+              0.7630165302577264,
+              0.005744388447416416
+            ],
+            "accepted_backtrack": 0,
+            "accepted_residual": 0.006932956769108803
+          },
+          {
+            "iteration": 2,
+            "residual_normalized": 0.006932956769108803,
+            "u": [
+              0.5451508139644679,
+              1.772130414028116e-05,
+              -0.48444632493051665,
+              -2.1358891704985887,
+              -0.005402257590836304,
+              -1.6049661767085326e-05,
+              0.00017854409178771641,
+              -0.414600999495054
+            ],
+            "P_u": [
+              0.5451441837436297,
+              -4.288082631408046e-05,
+              -0.48442527903005383,
+              -2.135016253980354,
+              0.0007664447445709457,
+              0.00015209778222405654,
+              3.448912942342178e-05,
+              -0.4177296714215523
+            ],
+            "newton_operator_singular_values": [
+              238.25963901913002,
+              1.2513502831026113,
+              1.1982583266819866,
+              1.153767220203193,
+              1.1336367122334368,
+              0.8412939704228596,
+              0.7752776422247925,
+              0.00563648703421526
+            ],
+            "accepted_backtrack": 0,
+            "accepted_residual": 1.004477246301008e-05
+          },
+          {
+            "iteration": 3,
+            "residual_normalized": 1.004477246301008e-05,
+            "u": [
+              0.5451077174860354,
+              -6.29121561484725e-08,
+              -0.48446210138438495,
+              -2.1351149438378916,
+              7.438368789910305e-06,
+              -2.2212156540969135e-07,
+              -4.22392486780737e-07,
+              -0.4128705399378787
+            ],
+            "P_u": [
+              0.5451077847472774,
+              1.0165293269762182e-07,
+              -0.48446209171403853,
+              -2.13510226427144,
+              -1.0758575446726456e-07,
+              -3.170338495471028e-07,
+              3.1936919508208916e-08,
+              -0.41286778651246947
+            ]
+          }
+        ],
+        "candidate_u": [
+          0.5451077174860354,
+          -6.29121561484725e-08,
+          -0.48446210138438495,
+          -2.1351149438378916,
+          7.438368789910305e-06,
+          -2.2212156540969135e-07,
+          -4.22392486780737e-07,
+          -0.4128705399378787
+        ],
+        "accepted_as_relative_fixed_point": false,
+        "physical_10D_full_orbit_not_asserted": true,
+        "conditional_floquet_multipliers": null,
+        "floquet_certificate_conditional": false
+      },
+      "statistics": {
+        "physical_10D_ivps": 73,
+        "total_solver_nfev": 84941,
+        "max_native_integration_J_drift": 2.4424906541753444e-15,
+        "fixed_charge_jacobian_probe_evaluations": 32
+      }
+    },
+    "autonomous": {
+      "seed": "autonomous",
+      "phase_period": {
+        "source_omega": 0.844357915384206,
+        "source_sign_samples": [
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        "phase_one_turn": -6.28318530717959,
+        "phase_two_turn": -12.566370614359172,
+        "period_xi": 7.441376687184325
+      },
+      "J_fixed": -1.4410164458247814,
+      "native_one_turn_relative_error": 9.240868975338372e-10,
+      "counterrotation_gauge_equivariance_error": 1.0851121613382696e-14,
+      "P_squared_vs_extended_integration_error": 9.422375822863746e-14,
+      "first_return_residual_chart_norm": 0.3970966917296729,
+      "second_return_residual_chart_norm": 0.533793703767489,
+      "consecutive_return_displacement_1": 0.3970966917296729,
+      "consecutive_return_displacement_2": 0.16322872392021573,
+      "basis": {
+        "basis_shape": [
+          10,
+          8
+        ],
+        "basis_rank": 8,
+        "basis_singular_values": [
+          281.17786234230033,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.9999999999999997,
+          0.9999999999999785,
+          0.7071067811865476
+        ],
+        "max_analytic_vs_fd_column_error": 8.135388838775722e-09,
+        "max_abs_charge_derivative_on_basis": 4.440892098500626e-16,
+        "J_reference": -1.4410164458247814,
+        "gauge_reference": -8.0410229427368
+      },
+      "two_actual_phase_turns_integrated": true,
+      "DP_at_reference_exists": true,
+      "historical_reference_is_closed": false,
+      "reference_D_P_singular_values_descriptive": [
+        217.1338297169546,
+        0.8018310879066224,
+        0.4232107189676433,
+        0.1558185415408032,
+        0.12406686321259888,
+        0.06521970414859708,
+        0.05675376040260901,
+        0.0023691070717076963
+      ],
+      "reference_DP_eigenvalues_not_floquet": [
+        {
+          "real": -0.010555321094950446,
+          "imag": 0.5271946316776757,
+          "abs": 0.5273002887095527
+        },
+        {
+          "real": -0.010555321094950446,
+          "imag": -0.5271946316776757,
+          "abs": 0.5273002887095527
+        },
+        {
+          "real": 0.14205781196320227,
+          "imag": 0.0816032303088238,
+          "abs": 0.16382768122819621
+        },
+        {
+          "real": 0.14205781196320227,
+          "imag": -0.0816032303088238,
+          "abs": 0.16382768122819621
+        },
+        {
+          "real": -0.19139677198307659,
+          "imag": 0.1619130444919495,
+          "abs": 0.2506961473620882
+        },
+        {
+          "real": -0.19139677198307659,
+          "imag": -0.1619130444919495,
+          "abs": 0.2506961473620882
+        },
+        {
+          "real": -0.16272127221885763,
+          "imag": 0.012426911293509816,
+          "abs": 0.1631950996715904
+        },
+        {
+          "real": -0.16272127221885763,
+          "imag": -0.012426911293509816,
+          "abs": 0.1631950996715904
+        }
+      ],
+      "finite_difference_steps": [
+        0.0001,
+        4e-05
+      ],
+      "relative_two_step_jacobian_difference": 0.00046619353770774123,
+      "fixed_charge_perturbation_directions": 8,
+      "initial_chart": [
+        0.5429752927279449,
+        0.003744682974188295,
+        -0.4872162006501523,
+        -2.109619361569001,
+        0.002598455766167944,
+        -0.012632123075128631,
+        0.0016742837406636727,
+        -0.09659019700028956
+      ],
+      "P_initial_chart": [
+        0.5478277949634215,
+        0.001746912097814897,
+        -0.48317561659917896,
+        -2.1338703956284775,
+        0.049042054968167034,
+        0.0002345016387469011,
+        0.010395664177288136,
+        -0.48985243181151605
+      ],
+      "P2_initial_chart": [
+        0.5466241145530322,
+        -0.0022783433048598053,
+        -0.482828927394377,
+        -2.1091400357716243,
+        -0.031926641234289774,
+        0.0075546061323877875,
+        0.0007337960347260655,
+        -0.6288178537784676
+      ],
+      "chart_displacement_after_one_turn": {
+        "logr1": 0.004852502235476619,
+        "v1": -0.001997770876373398,
+        "omega1": 0.00404058405097335,
+        "logr2": -0.024251034059476595,
+        "v2": 0.04644359920199909,
+        "z": 0.012866624713875532,
+        "vz": 0.008721380436624463,
+        "alpha": -0.39326223481122646
+      },
+      "chart_displacement_after_two_turns": {
+        "logr1": 0.0036488218250873006,
+        "v1": -0.0060230262790481005,
+        "omega1": 0.004387273255775315,
+        "logr2": 0.0004793257973765286,
+        "v2": -0.034525097000457715,
+        "z": 0.020186729207516418,
+        "vz": -0.0009404877059376071,
+        "alpha": -0.532227656778178
+      },
+      "closure_search": {
+        "search_converged": false,
+        "closure_8D_absolute_norm": 1.513736192292143e-05,
+        "closure_8D_normalized_norm": 6.599571910740183e-06,
+        "two_turn_reclosure_normalized_norm": 6.403745261815763e-06,
+        "P_composed_vs_integrated_two_turn": 1.6263788595635426e-14,
+        "search_history": [
+          {
+            "iteration": 0,
+            "residual_normalized": 0.396522149962935,
+            "u": [
+              0.5429752927279449,
+              0.003744682974188295,
+              -0.4872162006501523,
+              -2.109619361569001,
+              0.002598455766167944,
+              -0.012632123075128631,
+              0.0016742837406636727,
+              -0.09659019700028956
+            ],
+            "P_u": [
+              0.5478277949634215,
+              0.001746912097814897,
+              -0.48317561659917896,
+              -2.1338703956284775,
+              0.049042054968167034,
+              0.0002345016387469011,
+              0.010395664177288136,
+              -0.48985243181151605
+            ],
+            "newton_operator_singular_values": [
+              217.05678059223268,
+              1.5255308375916508,
+              1.2272411464012032,
+              1.1540048538083771,
+              0.9985278116076133,
+              0.7854676093774551,
+              0.7283327013433295,
+              0.00704046449644661
+            ],
+            "accepted_backtrack": 0,
+            "accepted_residual": 0.12890367389865331
+          },
+          {
+            "iteration": 1,
+            "residual_normalized": 0.12890367389865331,
+            "u": [
+              0.5450274636517365,
+              0.0011212786188767214,
+              -0.4849491078540974,
+              -2.1390893141043126,
+              -0.02541104379532781,
+              -0.0034311593978524485,
+              0.0018789561641535104,
+              -0.3444195596334215
+            ],
+            "P_u": [
+              0.546151382378132,
+              0.0001968536168181602,
+              -0.48384844254188325,
+              -2.132122972645863,
+              0.012417524144127794,
+              0.001020528009673529,
+              0.003235747531768877,
+              -0.4675019084136556
+            ],
+            "newton_operator_singular_values": [
+              241.65843122964552,
+              1.3620787018241394,
+              1.2234366974036994,
+              1.15677324909443,
+              1.0520497460961558,
+              0.8291324045837732,
+              0.7629826987207724,
+              0.005744560342668438
+            ],
+            "accepted_backtrack": 0,
+            "accepted_residual": 0.0069471063319604814
+          },
+          {
+            "iteration": 2,
+            "residual_normalized": 0.0069471063319604814,
+            "u": [
+              0.5451509673468208,
+              1.775091845084573e-05,
+              -0.48444626301579374,
+              -2.135897573164692,
+              -0.005413009578260717,
+              -1.596550717970248e-05,
+              0.00017926048914481698,
+              -0.41459123950816223
+            ],
+            "P_u": [
+              0.545144282207049,
+              -4.307830757534344e-05,
+              -0.4844251537344695,
+              -2.135014978942083,
+              0.0007681507097271189,
+              0.00015268419849155033,
+              3.446368157918402e-05,
+              -0.4177260304048695
+            ],
+            "newton_operator_singular_values": [
+              238.26311957259463,
+              1.2513664855503062,
+              1.1982600144351303,
+              1.1537707492166611,
+              1.1336226099556554,
+              0.8412908369280112,
+              0.7752761603580215,
+              0.005636419438713902
+            ],
+            "accepted_backtrack": 0,
+            "accepted_residual": 1.0140996292081001e-05
+          },
+          {
+            "iteration": 3,
+            "residual_normalized": 1.0140996292081001e-05,
+            "u": [
+              0.5451077165808565,
+              -6.304755158499005e-08,
+              -0.48446210201956413,
+              -2.135115015988954,
+              7.531062691711922e-06,
+              -2.2466801583702638e-07,
+              -4.2499106561600243e-07,
+              -0.4128494426282892
+            ],
+            "P_u": [
+              0.5451077846515775,
+              1.0257683267013581e-07,
+              -0.48446209204116497,
+              -2.135102252629165,
+              -1.1410289104271982e-07,
+              -3.1942850774032197e-07,
+              3.3138145718190936e-08,
+              -0.41284669730689827
+            ]
+          }
+        ],
+        "candidate_u": [
+          0.5451077165808565,
+          -6.304755158499005e-08,
+          -0.48446210201956413,
+          -2.135115015988954,
+          7.531062691711922e-06,
+          -2.2466801583702638e-07,
+          -4.2499106561600243e-07,
+          -0.4128494426282892
+        ],
+        "accepted_as_relative_fixed_point": false,
+        "physical_10D_full_orbit_not_asserted": true,
+        "conditional_floquet_multipliers": null,
+        "floquet_certificate_conditional": false
+      },
+      "statistics": {
+        "physical_10D_ivps": 73,
+        "total_solver_nfev": 84941,
+        "max_native_integration_J_drift": 3.1086244689504383e-15,
+        "fixed_charge_jacobian_probe_evaluations": 32
+      }
+    }
+  },
+  "plots": [
+    "original_fixed_charge_return_map.png",
+    "autonomous_fixed_charge_return_map.png"
+  ],
+  "full_eight_direction_J_tangent_basis_verified": true,
+  "all_selected_native_one_turn_replays_validated": true,
+  "all_two_turn_propagations_completed": true,
+  "relative_fixed_point_found": false,
+  "full_8D_fixed_J_floquet_certified": false,
+  "scientific_decision": "AUTHENTIC_FIXED_CHARGE_8D_TANGENT_MAP_AND_TWO_TURN_PROPAGATION__NO_RELATIVE_CYCLE_CERTIFICATE"
+}

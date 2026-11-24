@@ -1,0 +1,28 @@
+{
+  "version": "v18.52y",
+  "root": "q550_fixed_charge_tangent_basis_relative_closure_search_and_return_map_stability_v18_52y_bundle",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "804d54850d7f3c621ea05143a4a7c0b7961b06b55ac2907ce6f4dfb0ed72c998",
+    "README.md": "c5987ee48ecc7ea8010635b7aedb633efe403a06e35ca72972c9aac91eb9c22b",
+    "SCIENTIFIC_DECISION_RULES.md": "20da5c9690aba0ab4b6083491e5ff2cf33765a6896d10c22d65d422e620eacdf",
+    "SOURCE_PROVENANCE.md": "ef85100f83fcbc91eddf2768a1b8adb72d5972629a4cbd316944683d302ac8c5",
+    "inputs_config.json": "9d1da953c4e9270809d2c5981d6d284e0e92488c8210acd733b07359eba26a5a",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52v_r1_run_audit.py": "dd1d3d441d191f3791c0524b1a6ae54cd596c5a7e395a43289e8604f22cd81b6",
+    "reference/v18_52w_authenticated_report.json": "954154ec5505da9482cea8cc8b55508838687752e969ebcaaed2600c70d50342",
+    "reference/v18_52w_run_audit.py": "19e02e1dbfefd0a70cb85660fb32362dae6fc20342bb024018379b2cd7ee83f4",
+    "reference/v18_52x_authenticated_report.json": "4e8804c7d8ee38a423c8fb97864ea58dde64e624a37c4ed423efb591075cc715",
+    "requirements.txt": "aef24272736ceb6ed64cdddbc26a97ae1a0af11845eb0b71d3ec09626e50e82a",
+    "run_on_server.sh": "a3711bb3af85498c856da7f62e6ec65e31cb028e522a6ffe8e400158be591e35",
+    "scripts/energy_math.py": "23b49ac82e9acd11002cb45696858e6091113221646d2737cd6e2eeca2e2b4a2",
+    "scripts/package_sendback.py": "fd44076e0658f8412750114e41b5129982b0ba774ba04dc5e1f9d88474905c85",
+    "scripts/phase_energy.py": "fabf92d8a886526d97be2166dfce7feed540cbcc47e83a7dc89d29cd865a33bb",
+    "scripts/return_map.py": "9e087f54de33830389014b43b14c4b572a21a38a476c340953830d0edcff2b75",
+    "scripts/run_audit.py": "2fb826da285608db56f64cf9f4db406324f0a5f8ea5f2d693c69da0c1eb4a42b",
+    "scripts/verify_manifest.py": "a2538ff5a93237c324aa2d768908b52c552048d8b0d301b1b371152217836763",
+    "tests/test_synthetic.py": "f7bc341a6a00d63de0427b720872ce3066ff5aaae842bea03fc589f464cfed8e"
+  },
+  "parent_v18_51s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "native_v18_52l_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12"
+}

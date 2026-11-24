@@ -1,0 +1,78 @@
+{
+  "version": "v18.52w",
+  "title": "Drive-Zero Crossing, Posture Persistence & Relative-Cycle Discrimination",
+  "historical_parent_available": true,
+  "native_late_available": true,
+  "finite_late_archive_starts_after_drive_zero": true,
+  "new_native_IVP_runs": 0,
+  "observed_full_forward_return_orbit_pair": false,
+  "limit_cycle_certified": false,
+  "relative_periodic_orbit_certified": false,
+  "conservative_full_dynamics_certified": false,
+  "global_energy_bound_certified": false,
+  "early_lineage": {
+    "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "nested_sha256": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+    "nested_states_sha256": "b33157879081d1c8a00e20b90ff64ea8904f371ac8ea7e3a659a6f7fc3ffbaf4",
+    "branch": "v18.51r MIDPOINT RETURN (NOT FORWARD)",
+    "early_xi": [
+      0.0,
+      0.2
+    ]
+  },
+  "actual_drive_zero_events": {
+    "original": {
+      "source_design_zero_t": 0.12000000000000001,
+      "context_event": 0.09104762622982329,
+      "early_xi_crossing": 0.028952373770176718,
+      "native_midpoint_kappa": 0.1666331385421536,
+      "source_rhs_zero_sign": -2.220446049250313e-16,
+      "theta_xi_rate_at_zero": -1.8748511973680904e-16,
+      "physical_Q5_speed_xi_at_zero": 1.4338592898173588,
+      "physical_RHS10_norm_xi_at_zero": 2.3477448569831916,
+      "early_Y_derivative_vs_source_rhs_relative": 7.509351036296146e-07,
+      "Jdiff_at_zero": -1.4410164458184387,
+      "Wtheta_at_zero": -5.189177059220618e-19,
+      "D_total_at_zero": 0.001984840202118775,
+      "W_x_at_zero": 1.4262867144948774e-05,
+      "alpha_rate_at_zero": -2.2542943211727904,
+      "counterrotation_gauge_rate_at_zero": 0.3072185671817419,
+      "source_phase_derivative_minus_omega_sign_abs": 5.551096374613809e-11
+    },
+    "autonomous": {
+      "source_design_zero_t": 0.12000000000000001,
+      "context_event": 0.09102271942457762,
+      "early_xi_crossing": 0.028977280575422384,
+      "native_midpoint_kappa": 0.1666331385421536,
+      "source_rhs_zero_sign": -2.220446049250313e-16,
+      "theta_xi_rate_at_zero": -1.8748511973680904e-16,
+      "physical_Q5_speed_xi_at_zero": 1.4338494872023213,
+      "physical_RHS10_norm_xi_at_zero": 2.347969809375676,
+      "early_Y_derivative_vs_source_rhs_relative": 2.1699955245965382e-07,
+      "Jdiff_at_zero": -1.4410164458172088,
+      "Wtheta_at_zero": -5.190299053346522e-19,
+      "D_total_at_zero": 0.0019833860599711805,
+      "W_x_at_zero": 1.4270003577849873e-05,
+      "alpha_rate_at_zero": -2.2545623814933107,
+      "counterrotation_gauge_rate_at_zero": 0.30735266299077446,
+      "source_phase_derivative_minus_omega_sign_abs": 5.551096374613809e-11
+    }
+  },
+  "phase_derivative_matches_source": true,
+  "native_late_xi_range": [
+    12.8,
+    25.6
+  ],
+  "one_turn_rows": 340,
+  "one_turn_min_scaled_quotient_residual": 0.16297941985129302,
+  "one_turn_max_scaled_quotient_residual": 0.19931182492848415,
+  "plots": [
+    "original_drive_zero_posture.png",
+    "original_relative_phase_turn_recurrence.png",
+    "autonomous_drive_zero_posture.png",
+    "autonomous_relative_phase_turn_recurrence.png"
+  ],
+  "physical_motion_stopped_at_drive_zero": false,
+  "maximum_source_vs_recorded_early_tangent_relative": 7.509351036296146e-07,
+  "scientific_decision": "AUTHENTIC_ZERO_DRIVE_POSTURE_AND_ONE_TURN_QUOTIENT_RECURRENCE_METROLOGY__NO_LIMIT_CYCLE_CERTIFICATE"
+}

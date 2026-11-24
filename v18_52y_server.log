@@ -1,0 +1,7 @@
+SOURCE_MANIFEST_PASS 20 []
+SYNTHETIC_PASS: 8D fixed-charge tangent, gauge quotient, hidden drift, source-free central Jacobian, true/false closure, neutrality exclusion
+MOCK_10D_IVP_PASS: authentic pipeline interface simulated only, charge/gauge and two-turn composition
+AUTHENTICATED MODEL: staging 10D physical solver
+AUTHENTIC FIXED-CHARGE RETURN MAP original
+AUTHENTIC FIXED-CHARGE RETURN MAP autonomous
+SENDBACK /root/elab1/hysteresis/q550_fixed_charge_tangent_basis_relative_closure_search_and_return_map_stability_v18_52y_bundle_server_sendback.zip results 6

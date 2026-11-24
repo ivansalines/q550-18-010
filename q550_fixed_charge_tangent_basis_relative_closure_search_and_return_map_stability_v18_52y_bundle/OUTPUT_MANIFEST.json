@@ -1,0 +1,12 @@
+{
+  "version": "v18.52y",
+  "root": "q550_fixed_charge_tangent_basis_relative_closure_search_and_return_map_stability_v18_52y_bundle",
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "afff3d9b58235874cb6f66713656dc97f8f2e34fb1140ec8b2fa27c887debd00",
+    "results/autonomous_fixed_charge_return_map.png": "6f1f17db68e2912ad9f56c4f0a8f1eb978587b968af176f71cdc45d765377f13",
+    "results/eight_direction_tangent_jacobian.csv": "cd822d23b43e8687ce8e38aa067d62a6d117ccd1766c0b54539cb1c0b33ddaad",
+    "results/original_fixed_charge_return_map.png": "02042e220c2e5991e06a98b45117d4985b12811a00ecae522d99ebe35779331a",
+    "results/relative_return_summary.csv": "3b422bf4fe5f264e45856fff02dcdd54f206865c25a13f8b0316167bfe3010b7",
+    "results/report.json": "dd8c6884de14140414840d2f1e7f0a186b6e191c3bbb02891a6c05fdd49d2d1e"
+  }
+}
