@@ -1,0 +1,27 @@
+{
+  "root": "q550_physical_source_channel_recombination_geometric_attribution_robustness_v18_51x_bundle",
+  "version": "v18.51x",
+  "type": "full_authenticated_ancestral_sendback",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "3943e2b53801b173a8a2adacf10c99c103724c70df10c5be5211fc72c8746f9f",
+    "README.md": "5734062c5ea7f5e997dd50a783c76bcd7992e97d14ab484dfaa98274f330dd94",
+    "SCIENTIFIC_DECISION_RULES.md": "e5dd934056369f5ebe6f17c0929e11a1253e03475265c3ecad7977b4ac49a2a6",
+    "SCIENTIFIC_REPORT.md": "57a4aeccbcd5042e98fc74c1462c3ac1e0b9d2566838fd58be1f7fbcef635c52",
+    "SOURCE_PROVENANCE.md": "a370537e99e6f4883e90473d8cf3aef6a47a697af14d68d849779c2b2406e5ed",
+    "inputs/q550_channel_vector_angle_oriented_area_observer_critical_compensation_v18_51w_bundle_server_sendback.zip": "7c519f52dbf4d9fbc3b8a70f86906001b86a567c72b6035b09607d3fff6bdf52",
+    "inputs/t_green_channel_transport_states_v18_51t.npz": "def1fd342a2429e31a8a1bddb8c45f186176431dd5ab28dd769141f12866a026",
+    "inputs/w_channel_vector_geometric_invariants_v18_51w.npz": "863a55f4280f1c7058e157e28d7ec69120dca6c958f12bcc9f98008fbc3a9abd",
+    "reference/parent_v18_51t_report.json": "45ed1c5be98325dfcf06e5f228ea1521aeb5f09c86ebbe07e63e7d8611158363",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/parent_v18_51w_report.json": "78e3071fb749f863ea926d7da13b864f79277e8ca4ac20c5b731cad4e31b6372",
+    "reference/parent_v18_51w_run_audit.py": "5b4b2113412f10e9731f5af23ad4434367c387975ab9cb671276f898e62e5150",
+    "requirements.txt": "bde68ffcfb53dd010e2ca394340aee83803b9f8e90ecfb32b1c600cd4d3db081",
+    "run_on_server.sh": "77a225ad4148373ad0ed932904e6ad64ebe80653c652f02fcbdc03aaa19a79e8",
+    "scripts/pack_sendback.py": "5c4ae9868c382eb34d1e264034e40e4f444982b737472802e2de066e2d2af060",
+    "scripts/run_audit.py": "06508e09d02cf9a4c736c2d4b05a3ba52ccd7bdd5e9cd5e92a27ab8b4a3d8790",
+    "scripts/verify_source_manifest.py": "e0c6f3539f4f32956f1e5c196624df328dbf356dd18fae487408f4208293f618",
+    "scripts/write_output_manifest.py": "0e65f0ce5e78a3df82935b57233c7d5c2287688fca2db07729f592a50ecee14e",
+    "tests/test_channel_recombination_synthetic.py": "3f07bd14a6227d466a4f57274a2720e69da48956c3863a9d1ac4b82d9ecbb862",
+    "tests/test_results.py": "b7663f0d0190fd0c6a2f936b929bc8115b184f9f8131ce1adccf88b3114330bb"
+  }
+}

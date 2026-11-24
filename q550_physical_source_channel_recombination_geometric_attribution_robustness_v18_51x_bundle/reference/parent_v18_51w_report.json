@@ -1,0 +1,149 @@
+{
+  "version": "v18.51w",
+  "title": "Channel-Vector Angle, Oriented-Area & Observer-Critical Compensation Audit",
+  "classification": "COORDINATE_SPLIT_CHANNEL_VECTOR_GEOMETRY_AND_OBSERVER_THRESHOLD_DIAGNOSTIC_NOT_MATERIAL_MEMORY_CERTIFICATE",
+  "all_passed": true,
+  "scientific_checks": {
+    "parent_v_authentic_sources_outputs_and_crc": true,
+    "both_seed_513_section_clocks_aligned": true,
+    "source_channel_vector_additivity": true,
+    "v_lab_matches_independent_t_cartesian": true,
+    "dot_rotation_invariant": true,
+    "oriented_area_rotation_invariant": true,
+    "handedness_reflection_reverses_area": true,
+    "angle_dot_area_unit_identity": true,
+    "critical_axis_exact_projection_zero": true,
+    "critical_axis_covariant_under_rotating_observers": true,
+    "observer_channel_vector_reconstruction": true,
+    "mutual_orientation_consistent_between_seeds": true,
+    "second_plane_orientation_positive_in_sample": true,
+    "near_origin_angle_undefined_guarded": true,
+    "physical_projection_not_confused_with_zero_material_response": true,
+    "geometric_observer_conditioning_not_promoted_to_material_memory": true
+  },
+  "sections_per_seed": 513,
+  "source_channels": [
+    "v2",
+    "omega2",
+    "other",
+    "total"
+  ],
+  "parent": {
+    "v_archive_sha256": "6d514659cf62caa035f7426ca6ee0d289905842c4a48c28c74cc300c808a4da7",
+    "v_source_hashes": 15,
+    "v_output_hashes": 7,
+    "v_version": "v18.51v",
+    "v_scientific_checks_pass": true
+  },
+  "seeds": {
+    "original": {
+      "seed": "original",
+      "n_sections": 513,
+      "n_valid_angles": 512,
+      "first_angle_defined_xi": 0.000390625,
+      "angle_end_deg": 88.20754943048941,
+      "angle_min_deg": 88.20754943048941,
+      "angle_max_deg": 89.99998864854848,
+      "angle_first_nonzero_deg": 89.99998864854848,
+      "angle_all_positive_orientation": true,
+      "dot_all_positive": true,
+      "oriented_area_end": 0.0006343669893904736,
+      "oriented_area_normalized_end": 0.9995106904469248,
+      "dot_end": 1.985211784469498e-05,
+      "dot_normalized_end": 0.03127906140395201,
+      "v2_end_norm": 0.043532105559300024,
+      "omega2_end_norm": 0.014579527799566352,
+      "total_end_norm": 0.046341778515499615,
+      "critical_observer_omega2_end_deg": 10.76548936433412,
+      "critical_observer_v2_end_deg": -77.44206006615529,
+      "critical_observer_total_end_deg": -59.114168757682364,
+      "natural_radial_cancellation_end_percent": 12.04555712588633,
+      "sine_radial_cancellation_end_percent": 0.0,
+      "crest_radial_cancellation_end_percent": 15.749630372511044,
+      "max_invariant_dot_native_vs_lab": 1.8370450560051266e-17,
+      "max_invariant_area_native_vs_lab": 1.5720931501039814e-16,
+      "max_lab_vs_independent_t_cartesian": 5.171413373962442e-11,
+      "max_source_additivity_defect": 3.122502256758253e-17,
+      "max_vector_norm_native_vs_lab": 5.823039829236197e-12,
+      "max_unit_circle_identity_defect": 7.771561172376096e-16,
+      "max_mirror_oriented_area_sign_defect": 0.0,
+      "max_v2_projection_zero_error": 5.204170427930421e-18,
+      "max_omega2_projection_zero_error": 2.168404344971009e-18,
+      "max_total_projection_zero_error": 6.938893903907228e-18,
+      "observer_frame_checks": {
+        "sine": {
+          "max_dot_invariance_defect": 3.3881317890172014e-20,
+          "max_oriented_area_invariance_defect": 2.168404344971009e-19,
+          "max_channel_vector_reconstruction_defect": 1.3877787807814457e-17,
+          "max_critical_axis_covariance_sine_defect": 2.7755575615628914e-16
+        },
+        "crest": {
+          "max_dot_invariance_defect": 5.421010862427522e-20,
+          "max_oriented_area_invariance_defect": 2.168404344971009e-19,
+          "max_channel_vector_reconstruction_defect": 6.938893903907228e-18,
+          "max_critical_axis_covariance_sine_defect": 2.7755575615628914e-16
+        }
+      },
+      "critical_axis_interpretation": "unoriented local radial-azimuthal axis modulo pi, not material event"
+    },
+    "autonomous": {
+      "seed": "autonomous",
+      "n_sections": 513,
+      "n_valid_angles": 512,
+      "first_angle_defined_xi": 0.000390625,
+      "angle_end_deg": 88.20720843787446,
+      "angle_min_deg": 88.20720843787446,
+      "angle_max_deg": 89.99998864765064,
+      "angle_first_nonzero_deg": 89.99998864765064,
+      "angle_all_positive_orientation": true,
+      "dot_all_positive": true,
+      "oriented_area_end": 0.0006344919133410274,
+      "oriented_area_normalized_end": 0.9995105042736454,
+      "dot_end": 1.985980710335328e-05,
+      "dot_normalized_end": 0.03128500993515566,
+      "v2_end_norm": 0.043530352458868694,
+      "omega2_end_norm": 0.014582988895470043,
+      "total_end_norm": 0.04634138593465819,
+      "critical_observer_omega2_end_deg": 10.766334576144375,
+      "critical_observer_v2_end_deg": -77.4408738617301,
+      "critical_observer_total_end_deg": -59.10831945829518,
+      "natural_radial_cancellation_end_percent": 12.049631256695475,
+      "sine_radial_cancellation_end_percent": 0.0,
+      "crest_radial_cancellation_end_percent": 15.754591405001014,
+      "max_invariant_dot_native_vs_lab": 1.8387391218996352e-17,
+      "max_invariant_area_native_vs_lab": 1.573177352276467e-16,
+      "max_lab_vs_independent_t_cartesian": 5.172627763835981e-11,
+      "max_source_additivity_defect": 4.163336342344337e-17,
+      "max_vector_norm_native_vs_lab": 5.8230439372136425e-12,
+      "max_unit_circle_identity_defect": 8.881784197001252e-16,
+      "max_mirror_oriented_area_sign_defect": 0.0,
+      "max_v2_projection_zero_error": 5.204170427930421e-18,
+      "max_omega2_projection_zero_error": 1.734723475976807e-18,
+      "max_total_projection_zero_error": 6.938893903907228e-18,
+      "observer_frame_checks": {
+        "sine": {
+          "max_dot_invariance_defect": 2.710505431213761e-20,
+          "max_oriented_area_invariance_defect": 2.168404344971009e-19,
+          "max_channel_vector_reconstruction_defect": 1.3877787807814457e-17,
+          "max_critical_axis_covariance_sine_defect": 2.7755575615628914e-16
+        },
+        "crest": {
+          "max_dot_invariance_defect": 5.421010862427522e-20,
+          "max_oriented_area_invariance_defect": 2.168404344971009e-19,
+          "max_channel_vector_reconstruction_defect": 1.3877787807814457e-17,
+          "max_critical_axis_covariance_sine_defect": 2.220446049250313e-16
+        }
+      },
+      "critical_axis_interpretation": "unoriented local radial-azimuthal axis modulo pi, not material event"
+    }
+  },
+  "limitations": [
+    "An observer projection can vanish while the Cartesian response vector remains nonzero; projected cancellation is not dynamical closure.",
+    "The source-channel splitting is attached to chosen model coordinates. Angle, dot product and signed area are SO(2) observer-frame invariants only after that splitting is fixed.",
+    "Signed area reverses under an orientation-reversing reflection; the apparent sign is not O(2) invariant.",
+    "Critical observer angles are relative to the local radial frame, modulo pi; they do not define a preferred physical observer.",
+    "At xi=0 the response vectors vanish: mutual angle and critical direction are undefined; these sections are explicitly masked.",
+    "These diagnostics use existing verified v18.51v server trajectories and do not constitute new nonlinear or variational integrations.",
+    "All findings are numerical on xi in [0,0.20], not a rigorous interval proof, material memory certificate, or return-section closure."
+  ]
+}

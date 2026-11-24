@@ -1,0 +1,11 @@
+Q550 v18.51x source hashes verified: 20
+Q550 v18.51x SYNTHETIC 31 / 31 PASS
+Q550 v18.51x source-channel reassignment: original
+Q550 v18.51x source-channel reassignment: autonomous
+Q550 v18.51x 21 / 21 PASS
+original critical η= 0.060231476993115346 max recomposition= 1.9984014443252818e-15
+autonomous critical η= 0.06025184803685425 max recomposition= 2.4424906541753444e-15
+Verified full W parent: True
+Q550 v18.51x REAL RESULTS 21 / 21 PASS
+Q550 v18.51x output hashes written: 7
+Q550 v18.51x sendback: /root/elab1/hysteresis/q550_physical_source_channel_recombination_geometric_attribution_robustness_v18_51x_bundle_server_sendback.zip

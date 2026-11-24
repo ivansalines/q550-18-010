@@ -1,0 +1,13 @@
+{
+  "root": "q550_physical_source_channel_recombination_geometric_attribution_robustness_v18_51x_bundle",
+  "version": "v18.51x",
+  "file_sha256": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "862b39564e1be7f2cb8d06c04705a70808a2d8b642715f6248c1c957f4a9b00b",
+    "results/channel_recombination_endpoint_ledger.csv": "231d816c06cf4b5327167c2f7e01608f8ccc7b87d51bc444c9caf255841686ed",
+    "results/channel_recombination_robustness.png": "555d6a8b2c2329f6617044a5f8ce755feea78eeaef76f2cdd943e343992b6973",
+    "results/channel_recombination_robustness_arrays.npz": "f94507607ae1150902151c6d591b661411fce770fcf33a8f86895aaf4f9b5b63",
+    "results/channel_recombination_section_ledger.csv": "57fab9d1102a27206d0e2e61ae5449a5446b73d05ae10b3e76e257adcc0fd941",
+    "results/report.json": "58247adf273635204530679e39be57d1c0dc40331498e39c9871051795d28ae7",
+    "results/sectional_channel_mix_response.png": "647898fb4e7c3c6e0337cc9c02a5738d8885c2424027a8b43b62c613e2cfcf74"
+  }
+}
