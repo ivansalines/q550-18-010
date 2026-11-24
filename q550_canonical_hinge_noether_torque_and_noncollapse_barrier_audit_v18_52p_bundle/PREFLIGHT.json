@@ -1,0 +1,21 @@
+{
+  "labels": [
+    "original_negative_1.0e-04",
+    "original_negative_3.0e-04",
+    "original_positive_1.0e-04",
+    "original_positive_3.0e-04",
+    "autonomous_negative_1.0e-04",
+    "autonomous_negative_3.0e-04",
+    "autonomous_positive_1.0e-04",
+    "autonomous_positive_3.0e-04"
+  ],
+  "source_authentication": {
+    "ancestry_v18_52o_version": "v18.52o",
+    "historical_kinetic_embedding_sha256": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "native_10d_states_available": true,
+    "v18_52l_10d_states_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+    "v18_52l_vectors_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195"
+  },
+  "stage": "FULL_RESOLUTION_NATIVE_10D_AND_RELATIVE_5D_KINEMATIC_AUDIT",
+  "version": "v18.52p"
+}

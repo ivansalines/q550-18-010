@@ -1,0 +1,11 @@
+{
+  "version": "v18.52p",
+  "nodal_slope": -0.308,
+  "visual_angle_deg": 17.04,
+  "meaning": "Passive physical Cartesian Q1 Q2 rotation and independent \u00b117.04-degree observer tilts are distinct",
+  "tau_from": "physical material tau archived v18.52l",
+  "source_type": "physically embedded relative 5D and native 10D restarts",
+  "physical_kinetic_momentum_hypothesis": "P=V for flat kinetic embedding; force model canonical status NOT assumed",
+  "symmetry_status": "TO_BE_TESTED",
+  "nonsingular_barrier_status": "CONDITIONAL"
+}

@@ -1,0 +1,7 @@
+SEALED SOURCE PASS 17
+LINEAGE PASS: authentic v18.52l native 5D/10D ancestor; v18.52o observer; v18.49h kinetic embedding
+SYNTHETIC PASS: symplectic rotation, oriented nodal sign, central J, noncentral torque, 5D wedge, radial balance, kinetic chart, zero-J control
+PREFLIGHT PASS FULL_RESOLUTION_NATIVE_10D_AND_RELATIVE_5D_KINEMATIC_AUDIT
+Q550 v18.52p FULL_RESOLUTION_NATIVE_10D_AND_RELATIVE_5D_KINEMATIC_AUDIT relative branches 8 absolute physical states 10 gates 64 Noether NOT certified; collapse NOT certified
+OUTPUT MANIFEST PASS 26
+SENDBACK PACK PASS /root/elab1/hysteresis/q550_canonical_hinge_noether_torque_and_noncollapse_barrier_audit_v18_52p_bundle_server_sendback.zip 2669191

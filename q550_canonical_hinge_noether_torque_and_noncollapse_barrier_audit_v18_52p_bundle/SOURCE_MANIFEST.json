@@ -1,0 +1,22 @@
+{
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "7e6f27d62fb7b28b7533f6c05e2a28fe76b9ae4aecd07a71c3e10f95e5371bb3",
+    "README.md": "2ff3551d8511b8f34e93b9cf83ed6d79f6ab89aab9089486257387be7cfbecf5",
+    "SCIENTIFIC_DECISION_RULES.md": "5478a4ac6553e09a5c44046e5e8c36059b5fb6a66ef0d0b08fbf1eebe8a7cdd1",
+    "SOURCE_PROVENANCE.md": "ebd564522fabf5643b4de830c4a010cbc81d0f382f3dbc5362a5c95e7c1436fd",
+    "inputs/config.json": "b5e8c2906769ac45ccc1290f049f83c37427ee7e4da6e1ce653914c671e18451",
+    "reference/PARENT_v18_52l_OUTPUT_MANIFEST.json": "81236c53ab9d2dce4be4fc12e7929e452632d8c05f4ce221628c7748b41bae65",
+    "reference/PARENT_v18_52o_OUTPUT_MANIFEST.json": "32ce752e9dc66a3388c74deba90ba6a143cf5c2745a17c09e930897c80bbc072",
+    "reference/PARENT_v18_52o_report.json": "7c902a80d22146a30664fbbb692084ed9930e67d5a78d4872213ff87c967fe1e",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "run_on_server.sh": "b80bb6b34057dacebcc229a930c0cec9b808f916925405de4d2383eb38534880",
+    "scripts/pack_sendback.py": "7b01b8b16c9b20e9c60bc9f129cdf2700c13169883b7a77cf4e26cda04269bfa",
+    "scripts/run_audit.py": "4c48e43fe45cb698f78962f05ab101b24c559451f9828cf935dd26b81a5b9af7",
+    "scripts/verify_lineage.py": "7f7305532b37c1817b8d056913176bf2bf44fa9b62d69cb16f31fcadf249b989",
+    "scripts/write_manifest.py": "25e2f8f89223f7c45f256e6bac4fef77f184c1034d2d01372d9422d2c22b5275",
+    "scripts/write_source_manifest.py": "a3afdf92f4952d5e22d8c10169a74846a8c72b345f760814d8483255668781cc",
+    "tests/test_synthetic.py": "85b3717fa9a366fb88aa4a17b6984ebc1554b33401d9a2f5eca80202305e710d"
+  },
+  "version": "v18.52p"
+}

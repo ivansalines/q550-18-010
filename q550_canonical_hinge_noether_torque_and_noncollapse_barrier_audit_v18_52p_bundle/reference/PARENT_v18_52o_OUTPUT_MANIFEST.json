@@ -1,0 +1,22 @@
+{
+  "version": "v18.52o",
+  "files_sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "325a0d7f607effc08df56f6b4c8ec1c54ccf6f355919173168dba054a26edff1",
+    "README.md": "175304bd488e7e05f62b5c0feaa67bd383ca78c50dd8436b1645d0277db4edd3",
+    "SCIENTIFIC_DECISION_RULES.md": "5c978293387b1a83b541117e2c1a2e3e4a7cfd86ea67969b2362552a44869abe",
+    "SOURCE_PROVENANCE.md": "d098ff20ecbaf5a64850e75b896ba5b37dea2762e5340d198d5381be92bdddf9",
+    "inputs/config.json": "7910a50380e3bc444bd8d70f7d1416ded1738a196f04f43b3b9308dcc5493778",
+    "reference/PARENT_v18_52l_OUTPUT_MANIFEST.json": "81236c53ab9d2dce4be4fc12e7929e452632d8c05f4ce221628c7748b41bae65",
+    "reference/PARENT_v18_52m_OUTPUT_MANIFEST.json": "f434945b59c83b909bd787f1b5c30871fac087a2b157cbea5ab22f683b2c3271",
+    "reference/PARENT_v18_52m_report.json": "1c92da5d2dad507b4f16f5b66c6a3e8036ecff39d30055b1f7971971375cebeb",
+    "reference/PARENT_v18_52n_OUTPUT_MANIFEST.json": "45276dbfc6f28520b2712ac2bd94d3108d27ea97140cd97ad8a6be1eebd21851",
+    "reference/PARENT_v18_52n_report.json": "93eb61581f130608d78b70972cf4ec205fecb99e1fb68f8e13efa1b1a6e5c0f9",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "run_on_server.sh": "b80bb6b34057dacebcc229a930c0cec9b808f916925405de4d2383eb38534880",
+    "scripts/pack_sendback.py": "a7069dcfc908bae63f1b9b4fbb4ea9585ab8bef3c88a38f34bd935fd57d45da0",
+    "scripts/run_audit.py": "c15160f47f3905a3ae10babda880604b1385fec8b65d03f7c1fcb85003650328",
+    "scripts/verify_lineage.py": "cd0854efa112ad378a2160164fd59ac7a3aab11b04531b3bca9d9e31993f15da",
+    "scripts/write_manifest.py": "77ff44ed7a0ed0a87ff062ce18c12f0fbc2010615669027bd5f690b342a472c2",
+    "tests/test_synthetic.py": "afb8f765854d6a2d4e9df888eba94d9f2707486987f53f02647f7dfe46386f86"
+  }
+}
