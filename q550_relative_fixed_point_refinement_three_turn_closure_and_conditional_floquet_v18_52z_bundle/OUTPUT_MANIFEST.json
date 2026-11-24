@@ -1,0 +1,11 @@
+{
+  "version": "v18.52z",
+  "root": "q550_relative_fixed_point_refinement_three_turn_closure_and_conditional_floquet_v18_52z_bundle",
+  "files": {
+    "results/.keep": "6272afc6eee327d45256921ee7afd48ebd63adc2327ecc625b2f0a41cf532198",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "edf2599ec29b11f339fe2cec32a73a35a7d92fb953ba4ab7f76005603d2d6b4e",
+    "results/autonomous_three_turn_fixed_charge_closure.png": "55330a8c51011b08dc92c57099dec1792ac9b50edad1370a2f064f08b632e2ae",
+    "results/original_three_turn_fixed_charge_closure.png": "4da4dc0e3d1e4e00914e0d0a4c9c590ca03c7aecdb3d5da63fa7259b94b39817",
+    "results/report.json": "06ca2eb5b103b8097e053eaa2a4af22984554299c7dc001f94c582242e9d7373"
+  }
+}

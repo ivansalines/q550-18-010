@@ -1,0 +1,17 @@
+SOURCE_MANIFEST_PASS 20 []
+  Newton 00 |P(u)-u|=2.252524362e-02 scaled=2.214991071e-02
+  Newton 01 |P(u)-u|=2.140545487e-14 scaled=1.167257339e-14
+  Newton 00 |P(u)-u|=1.700000000e-01 scaled=1.700000000e-01
+SYNTHETIC_PASS: historical candidate lineage, fixed-J 8D basis, three-turn composition, Newton root, hidden-drift falsification, neutral Floquet exclusion
+AUTHENTICATED MODEL: staging 10D physical solver
+SOURCE-AUTHENTICATED THREE TURN FIXED-J AUDIT original
+original: authentic y candidate residual 1.501803282e-05
+  Newton 00 |P(u)-u|=1.501803282e-05 scaled=1.000183599e-05
+  Newton 01 |P(u)-u|=5.757061013e-10 scaled=5.754832846e-10
+original: 3-turn gate accepted=True abs1=5.757e-10 abs3=2.436e-09
+SOURCE-AUTHENTICATED THREE TURN FIXED-J AUDIT autonomous
+autonomous: authentic y candidate residual 1.513736192e-05
+  Newton 00 |P(u)-u|=1.513736192e-05 scaled=1.009806187e-05
+  Newton 01 |P(u)-u|=5.774882394e-10 scaled=5.772626352e-10
+autonomous: 3-turn gate accepted=True abs1=5.775e-10 abs3=2.447e-09
+SENDBACK /root/elab1/hysteresis/q550_relative_fixed_point_refinement_three_turn_closure_and_conditional_floquet_v18_52z_bundle_server_sendback.zip results 5
