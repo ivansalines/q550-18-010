@@ -1,0 +1,15 @@
+{
+  "version": "v18.52o",
+  "small_kick_amplitude": 0.0001,
+  "large_kick_amplitude": 0.0003,
+  "amplitude_ratio": 3,
+  "nodal_slope_observational_hypothesis": -0.308,
+  "hinge_tilt_degrees": [17.04, -17.04],
+  "other_slope_controls": [0, 0.308, -0.30649],
+  "gate_window_halfwidth_material_tau": [0.1, 0.25, 0.5],
+  "replay": "same physical 5D v18.52l source, no new nonlinear integration",
+  "source_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+  "four_original_observed_points_coordinates_available": false,
+  "scientific_sample_stride": 1,
+  "export_decimation_stride": 16
+}

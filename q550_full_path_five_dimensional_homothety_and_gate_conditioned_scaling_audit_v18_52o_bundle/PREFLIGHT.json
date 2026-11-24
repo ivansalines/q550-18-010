@@ -1,0 +1,25 @@
+{
+  "pair_labels": [
+    "original_negative",
+    "original_positive",
+    "autonomous_negative",
+    "autonomous_positive"
+  ],
+  "pca_hidden": [
+    -0.4105034129634594,
+    0.9094294538464419,
+    -0.06652079691279893
+  ],
+  "pca_historical_mismatch_deg": 0.0,
+  "source": "/root/elab1/hysteresis/q550_near_tangency_breathing_envelope_drift_five_dimensional_section_audit_v18_52l_bundle/results/extended_horizon_5d_vectors_and_traces.npz",
+  "source_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+  "stage": "AUTHENTIC_FULL_RESOLUTION_POSTPROCESS",
+  "synthetic_checks": {
+    "exact_5D_homothety": "PASS",
+    "gate_root_detection": "PASS",
+    "hermite_cubic": "PASS",
+    "hinge_projection_algebra": "PASS",
+    "nonlinear_response_detection": "PASS"
+  },
+  "version": "v18.52o"
+}

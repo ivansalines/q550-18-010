@@ -1,0 +1,15 @@
+{
+  "version": "v18.52m",
+  "file_sha256": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "463853dfd23320487c9bc8ddea0166f0a876929c22d8bdf2d92407b79a2ac7e2",
+    "results/angle_and_hidden_direction_sensitivity.csv": "b428f1bcbcde3887e29c074593882ce502cecee260d5233310bb4f5bb9325031",
+    "results/cross_view_sequential_posture_pairs_5d.csv": "d831239a451c5eba6c9fffd70d0adf6b3f0a482a536ec1bb5f780bdc424c45c8",
+    "results/paired_hinge_views_single_trajectory.png": "4396671bcff68fd5041310e461552362017b7069f4448fb5dc98715e54d63d9a",
+    "results/paired_observer_gate_windows.png": "b7bb72a464b700987359a171524cbb026eff9403bc3299f0db9e9db0df856e0d",
+    "results/report.json": "1c92da5d2dad507b4f16f5b66c6a3e8036ecff39d30055b1f7971971375cebeb",
+    "results/single_observer_consecutive_section_return_map_5d.csv": "3233d5e163178ee81028ef877bb2c34ea29a39609641c90a5e73f6d9bd76693a",
+    "results/single_trajectory_hinge_observer_metrics.csv": "ed8763c3a1b551eb337146cc3bd295a61fbe3da020cea1e17a257ba3d125fc81",
+    "results/single_trajectory_reduced_3d_and_hinge_radius.png": "423b4c6b24c497261b16d653f01373e9f480531fb39614efb631cf7cfcc6c33e",
+    "results/tilted_hinge_section_crossings_5d.csv": "334671d6f8cfba54caa5e366fcad1c8d150e3bd4e3c5c9c63b172427bfb8de08"
+  }
+}

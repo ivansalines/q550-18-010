@@ -1,0 +1,10 @@
+LINEAGE PASS: v18.52l physical data; v18.52m/v18.52n observer audits
+SYNTHETIC TESTS PASS {'hermite_cubic': 'PASS', 'exact_5D_homothety': 'PASS', 'hinge_projection_algebra': 'PASS', 'gate_root_detection': 'PASS', 'nonlinear_response_detection': 'PASS'}
+PREFLIGHT PASS AUTHENTIC_FULL_RESOLUTION_POSTPROCESS ['original_negative', 'original_positive', 'autonomous_negative', 'autonomous_positive']
+original_negative AUTHENTIC_FULL_RESOLUTION_POSTPROCESS rel median 0.00039591768924338304 max 0.0008254930834600213 root counts {'+': 4, '-': 4}
+original_positive AUTHENTIC_FULL_RESOLUTION_POSTPROCESS rel median 0.00039270953894986156 max 0.0008181543001623827 root counts {'+': 4, '-': 4}
+autonomous_negative AUTHENTIC_FULL_RESOLUTION_POSTPROCESS rel median 0.00039490623226589173 max 0.0008228326923395193 root counts {'+': 4, '-': 4}
+autonomous_positive AUTHENTIC_FULL_RESOLUTION_POSTPROCESS rel median 0.0003917088845672936 max 0.0008155331283084054 root counts {'+': 4, '-': 4}
+AUDIT PASS: AUTHENTIC_FULL_RESOLUTION_POSTPROCESS pairs 4 gates 32 midpoints 24
+MANIFEST PASS 30
+SENDBACK ZIP PASS /root/elab1/hysteresis/q550_full_path_five_dimensional_homothety_and_gate_conditioned_scaling_audit_v18_52o_bundle_server_sendback.zip 1599868
