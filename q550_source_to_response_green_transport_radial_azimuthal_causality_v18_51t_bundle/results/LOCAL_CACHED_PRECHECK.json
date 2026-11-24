@@ -1,0 +1,18 @@
+{
+  "original": {
+    "parent_source_v2_at_zero": 10.243045312184616,
+    "parent_source_omega2_at_zero": 1.7392813323025,
+    "max_residual_source_inferred_from_norm_rounded": 0.06862016186175783,
+    "parent_integrated_Q_norm_at_end": 0.04648223190782779,
+    "parent_radial_plane2_at_end": 0.03977013774213345,
+    "parent_azimuthal_plane2_at_end": 0.023788580873001952
+  },
+  "autonomous": {
+    "parent_source_v2_at_zero": 10.24546658124903,
+    "parent_source_omega2_at_zero": 1.7401977180364623,
+    "max_residual_source_inferred_from_norm_rounded": 0.06860338669806242,
+    "parent_integrated_Q_norm_at_end": 0.04648177449129462,
+    "parent_radial_plane2_at_end": 0.039767372080659474,
+    "parent_azimuthal_plane2_at_end": 0.023792439306286384
+  }
+}

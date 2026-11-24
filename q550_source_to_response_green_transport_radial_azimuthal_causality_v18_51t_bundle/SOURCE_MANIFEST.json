@@ -1,0 +1,19 @@
+{
+  "root": "q550_source_to_response_green_transport_radial_azimuthal_causality_v18_51t_bundle",
+  "version": "v18.51t",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "6244331b339f58a8de2d154b181d6ffd76737e97f3a7e246d010a1af961689e6",
+    "README.md": "c5d1c88fa74ec7972d8532172902728bb8650356466f6b9aa1ff9ba8831bfd57",
+    "SCIENTIFIC_DECISION_RULES.md": "2bcbfdf9afd91e97192f3670bd5153bd6acb7ed10933394c671ce75adff430ff",
+    "SCIENTIFIC_REPORT.md": "41947658e675d746979c9f1526a121820fc21dd7ef4b33cfe0c4422e13e25f63",
+    "inputs/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "requirements.txt": "25412683eb8f0b0049e66b26009838e23bc6cb4d4979f9da0f289599b0dab630",
+    "run_on_server.sh": "0a8c7b04a3ffc1a97eeacb59bca02fe2a0100cb701f954dc5bfef31144044414",
+    "scripts/pack_sendback.py": "2694a4ceae88b2960bd201e9a9a06985cb0355cb6b958afb6f6fbee4157c6bc4",
+    "scripts/run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "scripts/verify_source_manifest.py": "1ddc8b037e8e1c9ad120b347e55980698d70b98ac9725509cc687bd506d6da1e",
+    "scripts/write_output_manifest.py": "4f03bd5da368f783406fc540e3837af17f42481fa5de7967bd06585578ea106f",
+    "tests/test_green_synthetic.py": "5a988ffcfd16001f10dda8c359a717ddf7ed1771ff4bd1cdf543ec1b91ba5a93",
+    "tests/test_results.py": "30b8a0f4a0da1e4d4db5dc9a5b3be1a9d8f54e6012421ac2a1d056b8c15c5037"
+  }
+}

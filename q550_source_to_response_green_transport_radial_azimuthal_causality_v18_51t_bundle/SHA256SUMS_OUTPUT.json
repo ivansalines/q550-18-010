@@ -1,0 +1,11 @@
+{
+  "root": "q550_source_to_response_green_transport_radial_azimuthal_causality_v18_51t_bundle",
+  "version": "v18.51t",
+  "file_sha256": {
+    "results/LOCAL_CACHED_PRECHECK.json": "7421ed7a71b3365fef4d152e5ac84be26de41d7a230802c81b16ba3c1972c32e",
+    "results/green_channel_transport_states.npz": "def1fd342a2429e31a8a1bddb8c45f186176431dd5ab28dd769141f12866a026",
+    "results/green_transport_attribution_ledger.csv": "86d8dedea517b8acb49d307aa3af1fbfd01d2e3d39aa69461de050b10e62001b",
+    "results/report.json": "45ed1c5be98325dfcf06e5f228ea1521aeb5f09c86ebbe07e63e7d8611158363",
+    "results/source_to_response_green_radial_azimuthal_transport.png": "d50e287e548acca72a486b980c726843f214473b5b9f2acd310cd5995ee990ba"
+  }
+}
