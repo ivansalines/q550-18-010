@@ -1,0 +1,16 @@
+SOURCE IDENTITY VERIFIED 13
+SYNTHETIC MODEL-INDEPENDENT VARIATION / EMBEDDING TESTS PASS
+R AUTHENTICATED; SECANT Q END 0.04648223190083042
+STAGING AUTHENTIC 10D Q550 FIELD AND JET FROM R ANCESTRY
+AUTHENTICATED MODEL: staging 10D physical solver
+VARIATIONAL SOURCE + ANALYTIC JET original
+  jet stride 4 nodes 129 nfev 3017 max source h error 3.230066321066113e-12
+  jet stride 2 nodes 257 nfev 3017 max source h error 3.230066321066113e-12
+VARIATIONAL SOURCE + ANALYTIC JET autonomous
+  jet stride 4 nodes 129 nfev 3017 max source h error 3.1718894076232184e-12
+  jet stride 2 nodes 257 nfev 3017 max source h error 3.6296320246585373e-12
+V18.51s full 16 / 16 PASS
+INDEPENDENT SAVED-RESULTS TESTS PASS; MODE: full
+OUTPUT MANIFEST WRITTEN 8
+SOURCE IDENTITY VERIFIED 13
+SENDBACK PACKED /root/elab1/hysteresis/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip bytes 87808087

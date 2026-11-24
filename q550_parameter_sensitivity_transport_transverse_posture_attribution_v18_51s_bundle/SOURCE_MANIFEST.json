@@ -1,0 +1,19 @@
+{
+  "root": "q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle",
+  "version": "v18.51s",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "ebb392533b440aa4c3a4b7292636bec647bb8cd051c9a4dea2f4b0d5b9ce3d20",
+    "README.md": "4c74bc3cc8ceefc055bde94f29d983cfb5ff094fc4eaffd1237e1f56456d212e",
+    "SCIENTIFIC_DECISION_RULES.md": "69e1189cb946486077f2b90709db5848bee32e03e8ff4125870dcc77c56f325d",
+    "SCIENTIFIC_REPORT.md": "16ac5d7cf96b45ac611648385f7560b9350fe3344b3c726d7af72c41034aed52",
+    "inputs/q550_long_horizon_paired_kappa0_transverse_transport_return_section_search_v18_51r_bundle_server_sendback.zip": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+    "requirements.txt": "d82e736a00366dded6b79b8c523da81968111fe02c4128e0b9506c4b8f488370",
+    "run_on_server.sh": "f62e3ba72f0e46d41103c4b689f4b66e7ab53d1cf5ffe3143b9a5752c74a5bd1",
+    "scripts/pack_sendback.py": "b58064e837e831efa7b7eee8958ee67e4cb2529e159b57ed50bbc7552474dd04",
+    "scripts/run_audit.py": "d65655eb60290d52808be81e5af3ab8fa6d71d46bf1f8eb9ac247275ce2179a5",
+    "scripts/verify_source_manifest.py": "1b31258d9fece29f8e9487a62946bd3120eaa1ac07f9689b052b39d6281c1f0d",
+    "scripts/write_output_manifest.py": "8734b613e323647554056861bc41ecf942166b5c755a2d3216395cb27d36dd2c",
+    "tests/test_geometry.py": "4f50dfa8bab1577f79ffcd1aeb5a7a7e028394e107315593548ed152e3707193",
+    "tests/test_results.py": "248a700cc714392659eb031ae4108e23a40c711b2c4ebccb0dbdb12d06b66b1c"
+  }
+}

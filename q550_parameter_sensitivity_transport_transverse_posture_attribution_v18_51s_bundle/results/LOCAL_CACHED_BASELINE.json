@@ -1,0 +1,67 @@
+{
+  "version": "v18.51s",
+  "title": "Parameter-Sensitivity Transport & Transverse-Posture Attribution Audit",
+  "classification": "CACHED_PARENT_SECANT_AND_EMBEDDING_DIAGNOSTIC_VARIATIONAL_PENDING",
+  "mode": "cached",
+  "scientific_checks": {
+    "r_source_and_output_sha256_verified": true,
+    "r_17_scientific_controls_inherited": true,
+    "same_seed_same_initial_state_for_parameter_pair": true,
+    "two_distinct_seed_preparations": true,
+    "historical_kappa_branches_distinct": true,
+    "grid_complete_through_xi_0p2": true,
+    "analytic_cartesian_immersion_matches_physical_secant": true,
+    "parameter_response_has_no_initial_displacement": true,
+    "second_plane_share_measured_not_preselected": true,
+    "no_global_shadowing_or_variational_certification_from_secant": true
+  },
+  "all_passed": true,
+  "parent_r_sha256": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+  "parent_source_files": 13,
+  "parent_output_files": 9,
+  "xi_end": 0.2,
+  "sections_per_seed": 513,
+  "kappa_original": 0.16666666666666666,
+  "kappa_autonomous": 0.16659961041764054,
+  "kappa_difference": 6.705624902611507e-05,
+  "parent_scientific_checks": 17,
+  "secant_summary": {
+    "original": {
+      "final_secant_Q_norm": 0.046482231900830416,
+      "final_plane2_squared_share": 0.9939658152808833,
+      "final_radial_plane2": 0.03977013773942958,
+      "final_azimuthal_plane2": 0.023788580872820972,
+      "final_transverse_fraction": 0.9879087414810745,
+      "loglog_exponent_fit_0p0125_to_0p2": 1.9807119816397556,
+      "max_immersion_secant_error": 6.382905933917693e-12
+    },
+    "autonomous": {
+      "final_secant_Q_norm": 0.046481774499773296,
+      "final_plane2_squared_share": 0.9939685372306983,
+      "final_radial_plane2": 0.039767372094367336,
+      "final_azimuthal_plane2": 0.023792439306156623,
+      "final_transverse_fraction": 0.9879161535959756,
+      "loglog_exponent_fit_0p0125_to_0p2": 1.9807096356724732,
+      "max_immersion_secant_error": 6.325009477231796e-12
+    }
+  },
+  "immersion_quality": {
+    "max_immersion_absolute_error": 6.382905933917693e-12,
+    "max_immersion_scaled_error": 2.5049783864485373e-06
+  },
+  "variational_summary": null,
+  "limitations": [
+    "The cached stage derives sensitivities from finite parameter differences, not an independent tangent equation.",
+    "The full stage uses the historical analytic state jet and a finite-difference parameter-source derivative; this is not interval certified.",
+    "DOP853 and jet sampling refinements are error diagnostics, not rigorous forward error bounds.",
+    "The 0.2 event-relative interval has not exhibited an x turning or full material return.",
+    "The Euclidean Cartesian transverse split is not observer- or metric-independent material torsion.",
+    "No intrinsic material kappa band, unique variational force or global shadowing law is established."
+  ],
+  "environment": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  }
+}
