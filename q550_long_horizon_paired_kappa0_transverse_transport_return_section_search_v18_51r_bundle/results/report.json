@@ -1,0 +1,118 @@
+{
+  "version": "v18.51r",
+  "title": "Long-Horizon Paired-kappa0 Transverse Transport & Return-Section Search Audit",
+  "classification": "AUTHENTIC_NONLINEAR_EXTENDED_HORIZON_NUMERICAL_SHADOWING_AND_RETURN_SEARCH",
+  "xi_end": 0.2,
+  "n_sections": 513,
+  "physical_ivps": 18,
+  "seed_families": [
+    "original",
+    "autonomous"
+  ],
+  "historical_kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054,
+    "midpoint": 0.1666331385421536
+  },
+  "parent_q_sha256": "426065995c794aa8fe26ee49bee3c61ef1933a20367ca3dad472825d22fe8d9c",
+  "parent_lineage_count": 19,
+  "max_q_endpoint_overlap": 7.055555217241089e-15,
+  "integration_budgets": {
+    "standard": {
+      "rtol": 2e-10,
+      "atol": 2e-11,
+      "max_step": 0.0015
+    },
+    "reference": {
+      "rtol": 2e-12,
+      "atol": 2e-13,
+      "max_step": 0.00075
+    },
+    "tight": {
+      "rtol": 2e-13,
+      "atol": 2e-14,
+      "max_step": 0.000375
+    }
+  },
+  "summary": {
+    "original": {
+      "end_Q_gap": 3.1169241176317145e-06,
+      "end_V_gap": 1.797780805965576e-05,
+      "max_Q_gap": 3.1169241176317145e-06,
+      "max_V_gap": 1.797780805965576e-05,
+      "end_transverse_fraction": 0.9879071307184861,
+      "min_transverse_fraction_positive": 0.9879071307184861,
+      "end_local_phase_lag": -3.3790016617048925e-07,
+      "end_Q_resolution_ratio": 39168393.255279765,
+      "resolved_sections_20x": 512,
+      "total_sections": 513,
+      "initial_x": 0.5045058885537722,
+      "end_x": 0.5041131244671259,
+      "event_count": 0,
+      "constant_lag_fit": {
+        "xi_window_start": 0.05,
+        "xi_window_end": 0.19492187500000002,
+        "optimal_constant_delay": -1.4084704931694012e-07,
+        "rms_without_shift": 1.5548775226943577e-06,
+        "rms_after_shift": 1.5417357495910636e-06,
+        "reduction_fraction": 0.008451966737882732
+      }
+    },
+    "autonomous": {
+      "end_Q_gap": 3.1168934460325234e-06,
+      "end_V_gap": 1.7977537416292566e-05,
+      "max_Q_gap": 3.1168934460325234e-06,
+      "max_V_gap": 1.7977537416292566e-05,
+      "end_transverse_fraction": 0.9879145433221938,
+      "min_transverse_fraction_positive": 0.9879145433221938,
+      "end_local_phase_lag": -3.3779704028711746e-07,
+      "end_Q_resolution_ratio": 39168056.052391425,
+      "resolved_sections_20x": 512,
+      "total_sections": 513,
+      "initial_x": 0.5045059956948805,
+      "end_x": 0.5041132183197408,
+      "event_count": 0,
+      "constant_lag_fit": {
+        "xi_window_start": 0.05,
+        "xi_window_end": 0.19492187500000002,
+        "optimal_constant_delay": -1.4080800091539708e-07,
+        "rms_without_shift": 1.5548652059724025e-06,
+        "rms_after_shift": 1.5417306576651037e-06,
+        "reduction_fraction": 0.008447387115518179
+      }
+    }
+  },
+  "returns": [],
+  "checks": {
+    "authenticated_q_parent_and_nested_historical_model": true,
+    "two_distinct_original_kappa_values": true,
+    "three_nonlinear_parameter_branches_two_seeds_three_budgets": true,
+    "physical_18_ivps_completed": true,
+    "identical_same_seed_initial_state": true,
+    "independent_initial_seed_states": true,
+    "positive_physical_material_clocks": true,
+    "nonlinear_clock_closure": true,
+    "fourfold_q_horizon_and_saved_sections": true,
+    "overlap_with_authenticated_q_endpoint": true,
+    "finite_refinement_proxies": true,
+    "positive_parameter_separation_at_endpoint": true,
+    "phase_projection_orthogonality": true,
+    "all_saved_phase_differences_finite": true,
+    "constant_global_lag_fit_not_forced_to_win": true,
+    "return_search_does_not_assume_a_return": true,
+    "no_claim_of_rigorous_error_or_global_shadowing": true
+  },
+  "limitations": {
+    "horizon": "Finite event-relative xi range [0,0.2], not a full physical return cycle.",
+    "numerical": "3-budget adaptive solver agreement is not a validated global ODE error bound.",
+    "phase": "Local tangent projection and constant-lag fit do not establish orbit conjugacy.",
+    "geometry": "Equal x is a projected recurrence, not identical ten-dimensional material posture.",
+    "model": "Two kappa parameters are alternative interventions, not simultaneously coexisting material sheets."
+  },
+  "environment": {
+    "python": "3.13.16 (main, Oct  1 2026, 00:00:00) [GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+    "numpy": "2.4.1",
+    "scipy": "1.17.1",
+    "platform": "Linux-5.14.0-687.57.1.el9_8.x86_64-x86_64-with-glibc2.34"
+  }
+}

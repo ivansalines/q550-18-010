@@ -1,0 +1,15 @@
+{
+  "root": "q550_long_horizon_paired_kappa0_transverse_transport_return_section_search_v18_51r_bundle",
+  "version": "v18.51r",
+  "file_sha256": {
+    "results/constant_lag_fit.csv": "54f42d6bc2e8a6042a79c5497dcc728ffe12cf1ea2e754340b0e630927f32631",
+    "results/extended_paired_kappa_nonlinear_states.npz": "b33157879081d1c8a00e20b90ff64ea8904f371ac8ea7e3a659a6f7fc3ffbaf4",
+    "results/extended_shadowing_phase_error_ledger.csv": "632ba8c68003c9b9f1e71f129ec8bbce677a643e76c09df854cb213618ed20c5",
+    "results/extended_shadowing_transverse_transport.png": "a2328487dfcd51b9074f5f8906ebc2e13be2b35d3149e15fe27141b28266fc58",
+    "results/global_lag_comparison.png": "f7538306ffb61b08ad3815545e92bc7858aeb702eea6087b01bafe68702e545b",
+    "results/projection_turning_and_angle_differences.png": "ceabfb5c8b6d277f6c88f911e94c6949a71e38593071fd1f80ea0cb678c8bc2d",
+    "results/report.json": "5f522444ec0dcac06801031e4b2ee75ccbd77f6d8048f9080cb2c27e3136fe55",
+    "results/return_section_search.csv": "aab8431881b266e1c20e8d7624cdb0d7bbfc9f360fc0579d0827e0eec6caaf40",
+    "results/solver_three_budget_ledger.csv": "3098d582a78e308cdd1476e0746fb923d1fdb0ee7267c04d479cf82fd148a557"
+  }
+}

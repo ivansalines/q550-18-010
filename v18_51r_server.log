@@ -1,0 +1,78 @@
+SOURCE IDENTITY VERIFIED 13
+Q550 v18.51r independent geometry, projected returns and phase-lag tests PASS
+AUTHENTICATING v18.51q and historical ancestors
+AUTHENTICATED MODEL: staging 10D physical solver
+PHYSICAL IVP original autonomous standard nfev 2012
+PHYSICAL IVP original autonomous reference nfev 4007
+PHYSICAL IVP original autonomous tight nfev 8012
+PHYSICAL IVP original midpoint standard nfev 2012
+PHYSICAL IVP original midpoint reference nfev 4007
+PHYSICAL IVP original midpoint tight nfev 8012
+PHYSICAL IVP original original standard nfev 2012
+PHYSICAL IVP original original reference nfev 4007
+PHYSICAL IVP original original tight nfev 8012
+PHYSICAL IVP autonomous autonomous standard nfev 2012
+PHYSICAL IVP autonomous autonomous reference nfev 4007
+PHYSICAL IVP autonomous autonomous tight nfev 8012
+PHYSICAL IVP autonomous midpoint standard nfev 2012
+PHYSICAL IVP autonomous midpoint reference nfev 4007
+PHYSICAL IVP autonomous midpoint tight nfev 8012
+PHYSICAL IVP autonomous original standard nfev 2012
+PHYSICAL IVP autonomous original reference nfev 4007
+PHYSICAL IVP autonomous original tight nfev 8012
+AUTHENTIC 18 PHYSICAL IVPS COMPLETE
+Q550 v18.51r CHECKS 17 / 17
+MAX Q HISTORICAL ENDPOINT MISMATCH 7.055555217241089e-15
+RETURN EVENTS []
+SUMMARY {
+  "original": {
+    "end_Q_gap": 3.1169241176317145e-06,
+    "end_V_gap": 1.797780805965576e-05,
+    "max_Q_gap": 3.1169241176317145e-06,
+    "max_V_gap": 1.797780805965576e-05,
+    "end_transverse_fraction": 0.9879071307184861,
+    "min_transverse_fraction_positive": 0.9879071307184861,
+    "end_local_phase_lag": -3.3790016617048925e-07,
+    "end_Q_resolution_ratio": 39168393.255279765,
+    "resolved_sections_20x": 512,
+    "total_sections": 513,
+    "initial_x": 0.5045058885537722,
+    "end_x": 0.5041131244671259,
+    "event_count": 0,
+    "constant_lag_fit": {
+      "xi_window_start": 0.05,
+      "xi_window_end": 0.19492187500000002,
+      "optimal_constant_delay": -1.4084704931694012e-07,
+      "rms_without_shift": 1.5548775226943577e-06,
+      "rms_after_shift": 1.5417357495910636e-06,
+      "reduction_fraction": 0.008451966737882732
+    }
+  },
+  "autonomous": {
+    "end_Q_gap": 3.1168934460325234e-06,
+    "end_V_gap": 1.7977537416292566e-05,
+    "max_Q_gap": 3.1168934460325234e-06,
+    "max_V_gap": 1.7977537416292566e-05,
+    "end_transverse_fraction": 0.9879145433221938,
+    "min_transverse_fraction_positive": 0.9879145433221938,
+    "end_local_phase_lag": -3.3779704028711746e-07,
+    "end_Q_resolution_ratio": 39168056.052391425,
+    "resolved_sections_20x": 512,
+    "total_sections": 513,
+    "initial_x": 0.5045059956948805,
+    "end_x": 0.5041132183197408,
+    "event_count": 0,
+    "constant_lag_fit": {
+      "xi_window_start": 0.05,
+      "xi_window_end": 0.19492187500000002,
+      "optimal_constant_delay": -1.4080800091539708e-07,
+      "rms_without_shift": 1.5548652059724025e-06,
+      "rms_after_shift": 1.5417306576651037e-06,
+      "reduction_fraction": 0.008447387115518179
+    }
+  }
+}
+Q550 v18.51r independent nonlinear output tests PASS
+OUTPUT MANIFEST WRITTEN 9
+SOURCE IDENTITY VERIFIED 13
+SENDBACK PACKED /root/elab1/hysteresis/q550_long_horizon_paired_kappa0_transverse_transport_return_section_search_v18_51r_bundle_server_sendback.zip bytes 87230758
