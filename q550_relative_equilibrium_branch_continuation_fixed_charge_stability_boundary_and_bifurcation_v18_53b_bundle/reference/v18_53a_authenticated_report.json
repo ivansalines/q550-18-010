@@ -1,0 +1,561 @@
+{
+  "version": "v18.53a",
+  "title": "Phase-Locked Relative Equilibrium, Cross-Seed Equivalence & Instantaneous RHS Audit",
+  "parent_z_sha256": "06ca2eb5b103b8097e053eaa2a4af22984554299c7dc001f94c582242e9d7373",
+  "source_requirements_met": true,
+  "status": "AUTHENTIC_INSTANTANEOUS_PHASE_LOCKED_RELATIVE_EQUILIBRIUM_AND_CROSS_SEED_MATCH_WITH_GENERATOR_FLOQUET_AGREEMENT",
+  "global_conservative_dynamics_certified": false,
+  "full_historical_forward_return_cycle_certified": false,
+  "results": {
+    "original": {
+      "seed": "original",
+      "J": -1.441016445824766,
+      "kappa": 0.1666331385421536,
+      "t0_xi": 12.8,
+      "period_xi": 7.441376687184325,
+      "phase_external_at_anchor": -9.837654285725517,
+      "candidate_alpha": -0.4128763235660494,
+      "candidate_delta": -3.1415926521997055,
+      "candidate_phase_branch_distance_pi": 1.3900882896020258e-09,
+      "candidate_instantaneous_rhs": [
+        1.1636333233066464e-11,
+        1.2852134229111801e-11,
+        -2.1322010946544693e-12,
+        1.1643932041081678e-10,
+        -4.5982783550087486e-11,
+        -5.220430668686267e-11,
+        2.380346290315285e-11,
+        1.002576910380526e-09
+      ],
+      "candidate_instantaneous_rhs_max": 1.002576910380526e-09,
+      "algebraic_branch_root": {
+        "success": true,
+        "root_residual": [
+          -1.734723475976807e-17,
+          0.0,
+          2.4424906541753444e-15
+        ],
+        "root_residual_max": 2.4424906541753444e-15,
+        "equilibrium_core": {
+          "logr1": 0.5451078280162905,
+          "logr2": -2.135103838783051,
+          "r1": 1.7247943535034538,
+          "r2": 0.11823231263973201,
+          "x": 0.5,
+          "omega1": -0.4844620357055457,
+          "omega2": -0.015537964294451853,
+          "J": -1.441016445824766,
+          "delta": "pi_mod_2pi"
+        },
+        "core_root": [
+          0.5451078280162905,
+          -2.135103838783051,
+          -0.4844620357055457
+        ],
+        "chart_u_delta": [
+          0.5451078280162905,
+          0.0,
+          -0.4844620357055457,
+          -2.135103838783051,
+          0.0,
+          0.0,
+          0.0,
+          3.141592653589793
+        ],
+        "candidate_core_shift": 1.5685890158724126e-11
+      },
+      "native_root_reduced_rhs": [
+        0.0,
+        1.722215381675135e-15,
+        1.1811299112855252e-18,
+        0.0,
+        0.0,
+        0.0,
+        8.434725011899824e-18,
+        4.107825191113079e-15
+      ],
+      "native_root_rhs_max": 4.107825191113079e-15,
+      "native_root_charge": -1.441016445824766,
+      "native_root_charge_error": 0.0,
+      "native_root_F11": [
+        0.0,
+        1.722215381675135e-15,
+        -0.8181187091022467,
+        1.1811299112855252e-18,
+        0.0,
+        0.0,
+        -0.026239206281955186,
+        2.513621846660803e-16,
+        0.0,
+        8.434725011899824e-18,
+        -0.844357915384206
+      ],
+      "native_root_angvel_sum_vs_clock": 4.107825191113079e-15,
+      "native_root_energy": 1.4043464598390387,
+      "gauge_errors": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "signed_clock_11d_residual": 0.0,
+      "source_phase_finite_difference_rate": -0.844357915319449,
+      "jacobian_fd_rel_disagreement_large_mid": 1.0413962465381223e-07,
+      "jacobian_fd_rel_disagreement_mid_small": 9.155551858160431e-09,
+      "floquet_vs_exp_instantaneous_jacobian": {
+        "instantaneous_generator_eigenvalues": [
+          {
+            "re": -0.25373616218603995,
+            "im": 2.917627325922358
+          },
+          {
+            "re": -0.25373616218603995,
+            "im": -2.917627325922358
+          },
+          {
+            "re": -0.013548746457950733,
+            "im": 1.861055733906664
+          },
+          {
+            "re": -0.013548746457950733,
+            "im": -1.861055733906664
+          },
+          {
+            "re": -0.24673759402928513,
+            "im": 2.09918143698664
+          },
+          {
+            "re": -0.24673759402928513,
+            "im": -2.09918143698664
+          },
+          {
+            "re": -0.24589962117251046,
+            "im": 2.6016767790473616
+          },
+          {
+            "re": -0.24589962117251046,
+            "im": -2.6016767790473616
+          }
+        ],
+        "predicted_monodromy": [
+          {
+            "re": -0.14545840344571914,
+            "im": 0.04182476944619931,
+            "mod": 0.15135210098378327
+          },
+          {
+            "re": -0.14545840344571914,
+            "im": -0.04182476944619931,
+            "mod": 0.15135210098378327
+          },
+          {
+            "re": 0.2570981969171331,
+            "im": 0.8667684145408645,
+            "mod": 0.9040945566165769
+          },
+          {
+            "re": 0.2570981969171331,
+            "im": -0.8667684145408645,
+            "mod": 0.9040945566165769
+          },
+          {
+            "re": -0.15883792529809931,
+            "im": 0.013880032095393766,
+            "mod": 0.1594432243902943
+          },
+          {
+            "re": -0.15883792529809931,
+            "im": -0.013880032095393766,
+            "mod": 0.1594432243902943
+          },
+          {
+            "re": 0.13998436467861328,
+            "im": 0.07839357730147037,
+            "mod": 0.16044056630602063
+          },
+          {
+            "re": 0.13998436467861328,
+            "im": -0.07839357730147037,
+            "mod": 0.16044056630602063
+          }
+        ],
+        "archived_monodromy": [
+          {
+            "re": 0.2570597455829696,
+            "im": 0.8667474645434807,
+            "mod": 0.9040635376408748
+          },
+          {
+            "re": 0.2570597455829696,
+            "im": -0.8667474645434807,
+            "mod": 0.9040635376408748
+          },
+          {
+            "re": 0.1399843283521647,
+            "im": 0.0783936245278418,
+            "mod": 0.1604405576866987
+          },
+          {
+            "re": 0.1399843283521647,
+            "im": -0.0783936245278418,
+            "mod": 0.1604405576866987
+          },
+          {
+            "re": -0.15884024274890782,
+            "im": 0.013880092724241814,
+            "mod": 0.1594455383212886
+          },
+          {
+            "re": -0.15884024274890782,
+            "im": -0.013880092724241814,
+            "mod": 0.1594455383212886
+          },
+          {
+            "re": -0.1454584559257009,
+            "im": 0.04182483217722168,
+            "mod": 0.15135216875532978
+          },
+          {
+            "re": -0.1454584559257009,
+            "im": -0.04182483217722168,
+            "mod": 0.15135216875532978
+          }
+        ],
+        "best_permutation": [
+          6,
+          7,
+          0,
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "abs_eigen_discrepancy_max": 4.378821176219862e-05,
+        "rel_eigen_discrepancy_max": 4.378821176219862e-05,
+        "generator_spectral_abscissa": -0.013548746457950733,
+        "prediction_spectral_radius": 0.9040945566165769,
+        "archived_spectral_radius": 0.9040635376408748
+      },
+      "equilibrium_reduced_chart": [
+        0.5451078280162905,
+        0.0,
+        -0.4844620357055457,
+        -2.135103838783051,
+        0.0,
+        0.0,
+        0.0,
+        3.141592653589793
+      ],
+      "gauge_at_parent_native_start": -8.041007443479018,
+      "instantaneous_root_pass": true,
+      "local_spectrum_pass": true
+    },
+    "autonomous": {
+      "seed": "autonomous",
+      "J": -1.4410164458247814,
+      "kappa": 0.1666331385421536,
+      "t0_xi": 12.8,
+      "period_xi": 7.441376687184325,
+      "phase_external_at_anchor": -9.83763325546736,
+      "candidate_alpha": -0.4128552933016856,
+      "candidate_delta": -3.141592652193499,
+      "candidate_phase_branch_distance_pi": 1.3962948803988902e-09,
+      "candidate_instantaneous_rhs": [
+        1.16774297534329e-11,
+        1.289870537874448e-11,
+        -2.152242130191504e-12,
+        1.1785470591677932e-10,
+        -4.619332497312612e-11,
+        -5.2503290686129954e-11,
+        2.3811253245676402e-11,
+        1.008889971565452e-09
+      ],
+      "candidate_instantaneous_rhs_max": 1.008889971565452e-09,
+      "algebraic_branch_root": {
+        "success": true,
+        "root_residual": [
+          -8.413408858487514e-17,
+          1.3322676295501878e-15,
+          5.551115123125783e-17
+        ],
+        "root_residual_max": 1.3322676295501878e-15,
+        "equilibrium_core": {
+          "logr1": 0.5451078280162933,
+          "logr2": -2.13510383878305,
+          "r1": 1.7247943535034587,
+          "r2": 0.11823231263973212,
+          "x": 0.5,
+          "omega1": -0.48446203570554813,
+          "omega2": -0.015537964294451824,
+          "J": -1.4410164458247814,
+          "delta": "pi_mod_2pi"
+        },
+        "core_root": [
+          0.5451078280162933,
+          -2.13510383878305,
+          -0.48446203570554813
+        ],
+        "chart_u_delta": [
+          0.5451078280162933,
+          0.0,
+          -0.48446203570554813,
+          -2.13510383878305,
+          0.0,
+          0.0,
+          0.0,
+          3.141592653589793
+        ],
+        "candidate_core_shift": 1.579724295394965e-11
+      },
+      "native_root_reduced_rhs": [
+        0.0,
+        2.491607460470824e-15,
+        1.1811299112855229e-18,
+        0.0,
+        7.928675146027906e-16,
+        0.0,
+        8.434725011899855e-18,
+        2.6978419498391304e-14
+      ],
+      "native_root_rhs_max": 2.6978419498391304e-14,
+      "native_root_charge": -1.4410164458247814,
+      "native_root_charge_error": 0.0,
+      "native_root_F11": [
+        0.0,
+        2.491607460470824e-15,
+        -0.8181187091022507,
+        1.1811299112855229e-18,
+        0.0,
+        7.928675146027906e-16,
+        -0.026239206281928308,
+        2.513621846660808e-16,
+        0.0,
+        8.434725011899855e-18,
+        -0.844357915384206
+      ],
+      "native_root_angvel_sum_vs_clock": 2.6978419498391304e-14,
+      "native_root_energy": 1.4043464598390465,
+      "gauge_errors": [
+        6.117307240659294e-17,
+        0.0,
+        0.0
+      ],
+      "signed_clock_11d_residual": 0.0,
+      "source_phase_finite_difference_rate": -0.8443579154082669,
+      "jacobian_fd_rel_disagreement_large_mid": 1.0413940802803413e-07,
+      "jacobian_fd_rel_disagreement_mid_small": 9.156038548656636e-09,
+      "floquet_vs_exp_instantaneous_jacobian": {
+        "instantaneous_generator_eigenvalues": [
+          {
+            "re": -0.2537361621858436,
+            "im": 2.917627325908061
+          },
+          {
+            "re": -0.2537361621858436,
+            "im": -2.917627325908061
+          },
+          {
+            "re": -0.013548746486680974,
+            "im": 1.861055733897216
+          },
+          {
+            "re": -0.013548746486680974,
+            "im": -1.861055733897216
+          },
+          {
+            "re": -0.24673759399913353,
+            "im": 2.0991814368330632
+          },
+          {
+            "re": -0.24673759399913353,
+            "im": -2.0991814368330632
+          },
+          {
+            "re": -0.24589962117412645,
+            "im": 2.6016767790477067
+          },
+          {
+            "re": -0.24589962117412645,
+            "im": -2.6016767790477067
+          }
+        ],
+        "predicted_monodromy": [
+          {
+            "re": -0.14545840344148195,
+            "im": 0.041824769461735675,
+            "mod": 0.1513521009840044
+          },
+          {
+            "re": -0.14545840344148195,
+            "im": -0.041824769461735675,
+            "mod": 0.1513521009840044
+          },
+          {
+            "re": 0.25709819692310687,
+            "im": 0.8667684143374803,
+            "mod": 0.9040945564232884
+          },
+          {
+            "re": 0.25709819692310687,
+            "im": -0.8667684143374803,
+            "mod": 0.9040945564232884
+          },
+          {
+            "re": -0.15883792531787527,
+            "im": 0.013880032280031613,
+            "mod": 0.15944322442606848
+          },
+          {
+            "re": -0.15883792531787527,
+            "im": -0.013880032280031613,
+            "mod": 0.15944322442606848
+          },
+          {
+            "re": 0.13998436467672862,
+            "im": 0.07839357730088725,
+            "mod": 0.16044056630409134
+          },
+          {
+            "re": 0.13998436467672862,
+            "im": -0.07839357730088725,
+            "mod": 0.16044056630409134
+          }
+        ],
+        "archived_monodromy": [
+          {
+            "re": 0.2570597457218504,
+            "im": 0.8667474623472914,
+            "mod": 0.9040635355748243
+          },
+          {
+            "re": 0.2570597457218504,
+            "im": -0.8667474623472914,
+            "mod": 0.9040635355748243
+          },
+          {
+            "re": 0.13998432830624047,
+            "im": 0.07839362450730165,
+            "mod": 0.16044055763659362
+          },
+          {
+            "re": 0.13998432830624047,
+            "im": -0.07839362450730165,
+            "mod": 0.16044055763659362
+          },
+          {
+            "re": -0.15884024276143915,
+            "im": 0.013880092725549,
+            "mod": 0.15944553833388617
+          },
+          {
+            "re": -0.15884024276143915,
+            "im": -0.013880092725549,
+            "mod": 0.15944553833388617
+          },
+          {
+            "re": -0.14545845593104445,
+            "im": 0.04182483219907018,
+            "mod": 0.1513521687665029
+          },
+          {
+            "re": -0.14545845593104445,
+            "im": -0.04182483219907018,
+            "mod": 0.1513521687665029
+          }
+        ],
+        "best_permutation": [
+          6,
+          7,
+          0,
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "abs_eigen_discrepancy_max": 4.3789048527466046e-05,
+        "rel_eigen_discrepancy_max": 4.3789048527466046e-05,
+        "generator_spectral_abscissa": -0.013548746486680974,
+        "prediction_spectral_radius": 0.9040945564232883,
+        "archived_spectral_radius": 0.9040635355748244
+      },
+      "equilibrium_reduced_chart": [
+        0.5451078280162933,
+        0.0,
+        -0.48446203570554813,
+        -2.13510383878305,
+        0.0,
+        0.0,
+        0.0,
+        3.141592653589793
+      ],
+      "gauge_at_parent_native_start": -8.0410229427368,
+      "instantaneous_root_pass": true,
+      "local_spectrum_pass": true
+    }
+  },
+  "v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "v1852l_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "verified_model_params": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "source_genealogy": {
+    "authenticated_parent": {
+      "path": "/root/elab1/hysteresis/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip",
+      "sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+      "rblob_sha256": "542fdb636e8e5722cbe5ffa42ca78dad4c6e9aa4cb8c0bd19742b29ca4bc10d2",
+      "srun_sha256": "d65655eb60290d52808be81e5af3ab8fa6d71d46bf1f8eb9ac247275ce2179a5",
+      "engine_omega": 0.844357915384206,
+      "engine_slope": 0.1343837359721647,
+      "historical_seed_kappas": {
+        "original": 0.16666666666666666,
+        "autonomous": 0.16659961041764054
+      },
+      "authenticated_native_fixed_kappa": 0.1666331385421536
+    },
+    "rhs_from_original": {
+      "module": "o_original_phys",
+      "qualname": "rhs_from_original",
+      "source": "def rhs_from_original(y,kappa,p,slope,clock_sign,support,audit):\n    \"\"\"Original original-support source function; change ONLY drive clock.\"\"\"\n    f=slope*np.asarray(support.support_rhs_float(y,kappa0=kappa,params=p,audit=audit),float)\n    f[10]=clock_sign*(2*math.pi*slope)\n    return f\n",
+      "filename": "/tmp/q550_v1852v_original_udsg5xjo/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/runtime/authenticated_o/q550_dominance_boundary_continuation_ramp_shape_stress_v18_49o_bundle/runtime/authenticated_n/q550_ramp_shape_perturbation_pairwise_dominance_persistence_v18_49n_bundle/runtime/authenticated_parent_m/q550_pairwise_eigenprojector_coupling_spectral_gap_attribution_v18_49m_bundle/runtime/authenticated_parent_l/q550_kappa_projector_generator_v18_49l_bundle/runtime/authenticated_parent_k/q550_kappa_source_projector_v18_49k_bundle/runtime/verified_j/q550_kappa_liouville_projection_v18_49j_bundle/runtime/verified_i/q550_kappa_volume_strain_v18_49i_bundle/runtime/verified_h/q550_kappa_kinetic_pullback_v18_49h_bundle/runtime/verified_g/q550_kappa_clockmatched_full10d_v18_49g_bundle/runtime/verified_f/q550_kappa_threshold_clock_v18_49f_bundle/runtime/verified_e/q550_kappa_common_frame_passage_v18_49e_bundle/runtime/verified_d/q550_kappa_rank_complement_v18_49d_bundle/runtime/verified_c/q550_kappa_observer_family_v18_49c_bundle/reference/physical_math.py",
+      "line": 53
+    },
+    "cubic_clock_sign": {
+      "module": "ramp_stress",
+      "qualname": "ShapeClock.cubic_clock_sign",
+      "source": "    def cubic_clock_sign(self,t,d):\n        if d.ramp<=0:raise ValueError('Positive ramp duration required')\n        if t<=0:return 1.\n        if t>=d.ramp:return -1.\n        return float(1-2*h(t/d.ramp,d.kind))\n",
+      "filename": "/tmp/q550_v1852v_original_udsg5xjo/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/scripts/ramp_stress.py",
+      "line": 68
+    },
+    "cubic_phase_excursion": {
+      "module": "ramp_stress",
+      "qualname": "ShapeClock.cubic_phase_excursion",
+      "source": "    def cubic_phase_excursion(self,t,d):\n        if d.ramp<=0:raise ValueError('Positive ramp duration required')\n        if t<=0:return 0.\n        if t>=d.ramp:return float(t-d.ramp)\n        return float(-t+2*d.ramp*area(t/d.ramp,d.kind))\n",
+      "filename": "/tmp/q550_v1852v_original_udsg5xjo/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/scripts/ramp_stress.py",
+      "line": 73
+    },
+    "make_context": {
+      "module": "q550_v18_50q_auth_p",
+      "qualname": "make_context",
+      "source": "def make_context(o,kind,engine,unit,drpt,creport):\n    a=o.make_engine_args();ramp=.24;shape='beta:2:2';kappa=float(engine.ks[kind])\n    des=engine.original_ramp.Design('v18_50p',shape,ramp)\n    entries=[z for z in creport['cases'] if z['kind']==kind and abs(float(z['ramp_xi'])-ramp)<1e-9 and z['shape']==shape and z['metric']=='common']\n    if len(entries)!=1: raise RuntimeError('Could not identify the natural turning section')\n    event=float(entries[0]['turn_xi'])\n    back,turn_ledger=engine.original.integrate(engine.physical,engine.clock,engine.support,engine.audit,kappa,engine.params,engine.slope,engine.omega,engine.turning[kind],a,design=des)\n    seed=np.asarray(back(event)[:11],float)\n    theta0=float(seed[10]);phase0=engine.clock.cubic_phase_excursion(event,des)\n    def theta(t):return theta0-engine.omega*(engine.clock.cubic_phase_excursion(t,des)-phase0)\n    def ode(t,z):\n        y=np.r_[z,theta(t)]\n        return np.asarray(engine.physical.rhs_from_original(y,kappa,engine.params,engine.slope,engine.clock.cubic_clock_sign(t,des),engine.support,engine.audit)[:10],float)\n    def hidden(y):\n        f,j,_=engine.jet.structural_jet(y,kappa,engine.params,engine.slope)\n        return np.asarray([f[2],f[6],(j@f)[2],(j@f)[6]],float)\n    cscale=np.asarray(drpt['common_metric_scale_4d'],float)\n    direction=lambda y:unit(hidden(y),cscale)\n    scale=np.maximum(1.,np.abs(seed[:10]))\n    sol=solve_ivp(ode,(event,event+0.001092),seed[:10],method='DOP853',rtol=a.rtol,atol=a.atol,max_step=a.max_step,dense_output=True)\n    if not sol.success:raise RuntimeError('10D natural IVP failed: '+sol.message)\n    return {'kind':kind,'kappa0':kappa,'event':event,'turn_ledger':turn_ledger,'seed':seed.tolist(),\n            'sol':sol,'theta':theta,'ode':ode,'direction':direction,'scale':scale,'nfev':sol.nfev}\n",
+      "filename": "/tmp/q550_v1852v_original_udsg5xjo/engine_staging/historical_engine/stage/q550_near_null_tangent_direction_stencil_order_transport_v18_50p_bundle/scripts/run_audit.py",
+      "line": 69
+    }
+  },
+  "cross_seed": {
+    "J_difference": 1.532107773982716e-14,
+    "intrinsic_locked_chart_difference": 3.802412560270631e-15,
+    "candidate_phase_offset_invariance_defect": -6.206701819166938e-12,
+    "phase_external_difference": -2.103025815713977e-05,
+    "candidate_alpha_difference": -2.103026436384159e-05,
+    "equivalent_on_fixed_charge_and_phase_frame": true
+  },
+  "instantaneous_equilibrium_pass": true,
+  "generator_floquet_agreement_pass": true
+}

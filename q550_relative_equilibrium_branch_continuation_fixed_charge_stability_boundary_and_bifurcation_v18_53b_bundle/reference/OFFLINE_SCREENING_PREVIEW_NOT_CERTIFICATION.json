@@ -1,0 +1,19 @@
+{
+  "classification": "OFFLINE_ALGEBRAIC_SCREENING_NOT_AUTHENTICATED_ORIGINAL_GENERATOR",
+  "local_reduced_branch_counts": {
+    "charge": 62,
+    "kappa": 62,
+    "signed_drive": 78
+  },
+  "local_pseudo_branch_count": 60,
+  "local_fold_parameter": 0.9268428336365817,
+  "local_fold_residual": 7.448163635837926e-11,
+  "local_fold_transversality": -0.40525738998704597,
+  "local_fold_quadratic_curvature": [
+    -0.4315270643696726,
+    -0.4315243370232699,
+    -0.4315241019573595
+  ],
+  "v1851s_source_still_required": true,
+  "no_analytic_bifurcation_theorem": true
+}

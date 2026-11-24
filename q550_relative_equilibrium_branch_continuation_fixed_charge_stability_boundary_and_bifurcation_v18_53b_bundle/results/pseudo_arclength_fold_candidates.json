@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "status": "NUMERICAL_PSEUDOARCLENGTH_FOLD_AND_REAL_STABILITY_CROSSING_CANDIDATE",
+    "n_steps": 60,
+    "n_failed_steps": 0,
+    "max_signed_drive_including_tip": 0.9268409019848072,
+    "max_signed_drive_position_in_sequence": 3,
+    "parameter_turn_observed": true,
+    "min_equilibrium_3x3_singular": 0.0008212623455905393,
+    "min_spectral_abscissa": -0.020869318826671472,
+    "max_spectral_abscissa": 0.4428854274006488,
+    "native_all_checked": true
+  },
+  "correction_failures": []
+}

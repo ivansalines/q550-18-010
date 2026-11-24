@@ -1,0 +1,54 @@
+{
+  "version": "v18.53b",
+  "title": "Relative-Equilibrium Branch Continuation, Fixed-Charge Stability Boundary & Bifurcation Audit",
+  "v1853a_report_sha256": "a2f9c080b523bc3fdad67216164660bcc76402bb9e514116d96dabd0f21d12e8",
+  "v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "v1852l_10d_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "v1852l_fixed_model_kappa": 0.1666331385421536,
+  "model_params": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "base_signed_clock": -1.0,
+  "kappa_seeds": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.1665996104
+  },
+  "anchor_tol_core": 1e-10,
+  "source_rhs_tol": 1e-08,
+  "native_jacobian_rel_tol": 0.003,
+  "root_tol": 2e-09,
+  "positive_radius_floor": 1e-07,
+  "jacobian_steps": [
+    2e-05,
+    6e-06
+  ],
+  "branch_scans": {
+    "charge": {
+      "lo": -2.2,
+      "hi": -0.7,
+      "n": 61
+    },
+    "kappa": {
+      "lo": 0.085,
+      "hi": 0.25,
+      "n": 61
+    },
+    "signed_drive": {
+      "lo": -1.0,
+      "hi": 1.0,
+      "n": 81
+    }
+  },
+  "spectral_crossing_abs_tol": 1e-07,
+  "eigen_zero_real_tol": 2e-05,
+  "singular_value_warning": 0.0001,
+  "expected_v1853a_status": "AUTHENTIC_INSTANTANEOUS_PHASE_LOCKED_RELATIVE_EQUILIBRIUM_AND_CROSS_SEED_MATCH_WITH_GENERATOR_FLOQUET_AGREEMENT",
+  "no_full_forward_return_claim": true,
+  "no_global_bifurcation_claim": true
+}

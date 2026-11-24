@@ -1,0 +1,17 @@
+{
+  "version": "v18.53b",
+  "root": "q550_relative_equilibrium_branch_continuation_fixed_charge_stability_boundary_and_bifurcation_v18_53b_bundle",
+  "files": {
+    "results/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "ef3ee98702f826e4dba401972f6eb99f70e3e316997fd0dc35757f9628749279",
+    "results/branch_continuation.csv": "135351e9c8d677f3552f1fbfde61403136ebaef7345437997016e3a43daf34a1",
+    "results/branch_detailed_spectrum.json": "ceb492676d7b22b5874b4a74b710078ae0501f150734b0e16b4f308cb1069da8",
+    "results/branch_radius_and_spectral_abscissa.png": "1c11c453cd0100a144c965123a6be9b4f9f18ece1f9ff195703b1138355cafc5",
+    "results/corrector_stops_not_proven_folds.json": "69448d6ba1850b07cf6afa73ccdd5a51c07e4584cd10ad5b64c8661f2f21f966",
+    "results/pseudo_arclength_drive.csv": "03d98e53b05dfd44825d6306d930d37a4651e9634910b694e582d3276fb31682",
+    "results/pseudo_arclength_fold_candidates.json": "c1849a145da5473631cf4160e73686dc2bf651381e9bb660881d629c4b1236cd",
+    "results/refined_fold_nondegeneracy.json": "c230f371169f16880b5ecf08a15583cfc255e99044a7f04617bcc9eeb17a585b",
+    "results/report.json": "9d4fb4d2bc784e55954481600989e6953fbb4d56e18880300f2a90fb9c15354c",
+    "results/stability_boundary_candidates.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  }
+}

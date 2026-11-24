@@ -1,0 +1,180 @@
+{
+  "version": "v18.53b",
+  "scientific_decision": "AUTHENTIC_FIXED_CHARGE_RELATIVE_EQUILIBRIUM_BRANCHES_WITH_LOCAL_SPECTRAL_BOUNDARY_DIAGNOSTICS__NO_GLOBAL_BIFURCATION_THEOREM",
+  "authenticated_53a_anchor_sha256": "a2f9c080b523bc3fdad67216164660bcc76402bb9e514116d96dabd0f21d12e8",
+  "parent_v1851s_verified": true,
+  "anchor": {
+    "J": -1.441016445824766,
+    "kappa": 0.1666331385421536,
+    "signed_drive": -1.0,
+    "r1": 1.7247943535034538,
+    "r2": 0.11823231263973201,
+    "omega1": -0.4844620357055457
+  },
+  "full_historical_ramp_bifurcation_certified": false,
+  "global_bifurcation_theorem_certified": false,
+  "two_seed_branches_independent": false,
+  "axes": {
+    "charge": {
+      "n_points": 62,
+      "n_failed_correctors": 0,
+      "n_stable": 62,
+      "n_unstable": 0,
+      "n_near_neutral": 0,
+      "n_native_source_mismatch": 0,
+      "radial_range_r1": [
+        1.1263976011267394,
+        1.934156588010058
+      ],
+      "radial_range_r2": [
+        0.10401937198574476,
+        0.12471728489513462
+      ],
+      "stability_boundary_candidate_intervals": [],
+      "continued_range": [
+        -2.2,
+        -0.7
+      ]
+    },
+    "kappa": {
+      "n_points": 62,
+      "n_failed_correctors": 0,
+      "n_stable": 62,
+      "n_unstable": 0,
+      "n_near_neutral": 0,
+      "n_native_source_mismatch": 0,
+      "radial_range_r1": [
+        1.7211558190353475,
+        1.7304193493002582
+      ],
+      "radial_range_r2": [
+        0.0992092031303977,
+        0.14860026446540675
+      ],
+      "stability_boundary_candidate_intervals": [],
+      "continued_range": [
+        0.085,
+        0.25
+      ]
+    },
+    "signed_drive": {
+      "n_points": 78,
+      "n_failed_correctors": 1,
+      "n_stable": 78,
+      "n_unstable": 0,
+      "n_near_neutral": 0,
+      "n_native_source_mismatch": 0,
+      "radial_range_r1": [
+        1.705582556347706,
+        1.7247943535034538
+      ],
+      "radial_range_r2": [
+        0.11822141763738393,
+        0.288424315190176
+      ],
+      "stability_boundary_candidate_intervals": [],
+      "continued_range": [
+        -1.0,
+        0.925
+      ]
+    }
+  },
+  "warnings": [],
+  "source_provenance": {
+    "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "parent_file": "/root/elab1/hysteresis/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip",
+    "original_engine_omega": 0.844357915384206,
+    "model_parameters": {
+      "phi0": 0.0,
+      "e_reserve": 0.01,
+      "gamma_rho": 0.3,
+      "barrier_B": 0.3,
+      "mu_x": 0.05,
+      "gamma_x": 0.3,
+      "m_x": 1.0
+    },
+    "signed_rhs_source": {
+      "module": "o_original_phys",
+      "qualname": "rhs_from_original",
+      "source": "def rhs_from_original(y,kappa,p,slope,clock_sign,support,audit):\n    \"\"\"Original original-support source function; change ONLY drive clock.\"\"\"\n    f=slope*np.asarray(support.support_rhs_float(y,kappa0=kappa,params=p,audit=audit),float)\n    f[10]=clock_sign*(2*math.pi*slope)\n    return f\n",
+      "filename": "/tmp/q550_v1852v_original_ppo9mjn6/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/runtime/authenticated_o/q550_dominance_boundary_continuation_ramp_shape_stress_v18_49o_bundle/runtime/authenticated_n/q550_ramp_shape_perturbation_pairwise_dominance_persistence_v18_49n_bundle/runtime/authenticated_parent_m/q550_pairwise_eigenprojector_coupling_spectral_gap_attribution_v18_49m_bundle/runtime/authenticated_parent_l/q550_kappa_projector_generator_v18_49l_bundle/runtime/authenticated_parent_k/q550_kappa_source_projector_v18_49k_bundle/runtime/verified_j/q550_kappa_liouville_projection_v18_49j_bundle/runtime/verified_i/q550_kappa_volume_strain_v18_49i_bundle/runtime/verified_h/q550_kappa_kinetic_pullback_v18_49h_bundle/runtime/verified_g/q550_kappa_clockmatched_full10d_v18_49g_bundle/runtime/verified_f/q550_kappa_threshold_clock_v18_49f_bundle/runtime/verified_e/q550_kappa_common_frame_passage_v18_49e_bundle/runtime/verified_d/q550_kappa_rank_complement_v18_49d_bundle/runtime/verified_c/q550_kappa_observer_family_v18_49c_bundle/reference/physical_math.py",
+      "line": 53
+    },
+    "historical_clock_source": {
+      "module": "ramp_stress",
+      "qualname": "ShapeClock.cubic_clock_sign",
+      "source": "    def cubic_clock_sign(self,t,d):\n        if d.ramp<=0:raise ValueError('Positive ramp duration required')\n        if t<=0:return 1.\n        if t>=d.ramp:return -1.\n        return float(1-2*h(t/d.ramp,d.kind))\n",
+      "filename": "/tmp/q550_v1852v_original_ppo9mjn6/engine_staging/historical_engine/stage/q550_dense_gate_replay_model_gram_metric_v18_50l_bundle/runtime/q550_early_cancellation_balance_metric_robustness_v18_50i_bundle/runtime/q550_response_arc_length_refinement_comoving_curvature_v18_50h_bundle/runtime/q550_common_horizon_sensitivity_accumulated_conditioning_v18_50e_bundle/runtime/q550_hidden_direction_controlled_perturbation_causal_discrimination_v18_50d_bundle/runtime/q550_hidden_tangent_conditioning_turning_response_v18_50c_bundle/runtime/parent_b/q550_equal_projection_tangent_orientation_fiber_transport_v18_50b_bundle/runtime/parent_a/q550_equal_projection_oriented_passage_transport_law_v18_50a_bundle/runtime/parent_x/q550_x_turning_clock_equal_projection_return_continuation_v18_49x_bundle/runtime/parent_w/q550_equal_locus_unequal_posture_in_ramp_transport_v18_49w_bundle/runtime/parent_v/q550_in_ramp_deceleration_forward_transport_v18_49v_bundle/runtime/parent_u/q550_return_section_continuation_physical_closure_search_v18_49u_bundle/runtime/parent_t/q550_dynamical_return_closure_material_memory_discrimination_v18_49t_bundle/runtime/parent_s/q550_forward_return_triad_holonomy_orientation_memory_v18_49s_bundle/runtime/parent_r/q550_gauge_covariant_triad_orientation_cross_subspace_transport_v18_49r_bundle/runtime/parent_q/q550_coupled_handover_geometry_residual_transport_v18_49q_bundle/runtime/parent_p/q550_pairwise_handover_numerator_gap_competition_phase_resolved_transfer_v18_49p_bundle/scripts/ramp_stress.py",
+      "line": 68
+    }
+  },
+  "pseudoarclength_signed_drive": {
+    "status": "NUMERICAL_PSEUDOARCLENGTH_FOLD_AND_REAL_STABILITY_CROSSING_CANDIDATE",
+    "n_steps": 60,
+    "n_failed_steps": 0,
+    "max_signed_drive_including_tip": 0.9268409019848072,
+    "max_signed_drive_position_in_sequence": 3,
+    "parameter_turn_observed": true,
+    "min_equilibrium_3x3_singular": 0.0008212623455905393,
+    "min_spectral_abscissa": -0.020869318826671472,
+    "max_spectral_abscissa": 0.4428854274006488,
+    "native_all_checked": true
+  },
+  "refined_local_fold": {
+    "status": "NUMERICALLY_NONDEGENERATE_LOCAL_SADDLE_NODE_CANDIDATE__NOT_INTERVAL_CERTIFICATE",
+    "J": -1.441016445824766,
+    "kappa": 0.1666331385421536,
+    "s_fold": 0.9268428336365817,
+    "core_a": [
+      0.5323827558021118,
+      -1.1851911989057509,
+      -0.46689946765986373
+    ],
+    "r1": 1.702985276132668,
+    "r2": 0.3056877267519828,
+    "root_augmented_residual_max": 7.448163635837926e-11,
+    "jacobian_equilibrium_singular_values": [
+      89.8538967252151,
+      1.1369690330736044,
+      2.4274967852109883e-09
+    ],
+    "parametric_transversality_left_null_dot_Fs": -0.4052573899870457,
+    "quadratic_fold_curvature_left_null_dot_Faa_vv_by_stencil": [
+      -0.43152706436967314,
+      -0.4315243370232702,
+      -0.43152410195735946
+    ],
+    "smallest_8d_eigenvalue": {
+      "real": 3.132888730289945e-08,
+      "imag": 0.0
+    },
+    "other_7_max_real": -0.04036235847711806,
+    "conditions": {
+      "root_augmented_max_abs_lt_1e_7": true,
+      "3x3_null_singular_value_lt_1e_6": true,
+      "parametric_transversality_nonzero": true,
+      "quadratic_fold_curvature_nonzero": true,
+      "quadratic_stencil_consistent": true,
+      "8d_one_near_zero_real_mode": true,
+      "other_7_modes_left_half_plane": true,
+      "authentic_source_match": true
+    },
+    "authentic_original_rhs_at_fold": {
+      "available": true,
+      "native_equilibrium_rhs_max": 1.9932976885231687e-15,
+      "source_reconstructed_field_relative": 7.717299992935316e-15,
+      "source_reconstructed_jacobian_relative": 4.54770043378145e-13,
+      "native_jacobian_step_relative": 6.650331550023252e-09,
+      "native_local_eigen_max_abs_difference": 1.364946419779578e-10,
+      "source_match": true,
+      "native_spectral_abscissa": 3.132888730289945e-08
+    },
+    "classification": "NUMERICAL_LOCAL_SADDLE_NODE_NONDGENERACY_DIAGNOSTIC_NOT_GLOBAL_PROOF"
+  },
+  "total_points": 262,
+  "candidate_boundary_count": 0,
+  "pseudo_points": 60,
+  "source_checked_all_equilibrium_points": true,
+  "source_checked_refined_fold": true,
+  "corrector_stops": 1
+}

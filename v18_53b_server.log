@@ -1,0 +1,9 @@
+SOURCE_MANIFEST_PASS 23
+SYNTHETIC_FIXED_CHARGE_AND_BOUNDARY_FALSIFIERS_PASS
+HISTORICAL_SUPPORT_RHS_INDEPENDENT_64_STATES_PASS 1.2732925824820995e-11
+AUTHENTICATED MODEL: staging 10D physical solver
+charge points 62 stability boundary brackets 0 source mismatches 0
+kappa points 62 stability boundary brackets 0 source mismatches 0
+signed_drive points 78 stability boundary brackets 0 source mismatches 0
+pseudo-arclength NUMERICAL_PSEUDOARCLENGTH_FOLD_AND_REAL_STABILITY_CROSSING_CANDIDATE max s 0.9268409019848072
+SENDBACK /root/elab1/hysteresis/q550_relative_equilibrium_branch_continuation_fixed_charge_stability_boundary_and_bifurcation_v18_53b_bundle_server_sendback.zip results 11

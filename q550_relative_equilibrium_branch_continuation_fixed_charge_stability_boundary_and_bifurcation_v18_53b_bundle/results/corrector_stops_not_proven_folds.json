@@ -1,0 +1,10 @@
+[
+  {
+    "axis": "signed_drive",
+    "direction": 1,
+    "value": 0.9500000000000002,
+    "status": "CORRECTOR_FAILED_NOT_PROVEN_FOLD",
+    "last_accepted_value": 0.925,
+    "last_residual": 0.007625101168304116
+  }
+]

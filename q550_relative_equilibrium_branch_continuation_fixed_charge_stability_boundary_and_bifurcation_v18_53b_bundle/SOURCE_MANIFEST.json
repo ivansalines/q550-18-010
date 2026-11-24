@@ -1,0 +1,29 @@
+{
+  "version": "v18.53b",
+  "root": "q550_relative_equilibrium_branch_continuation_fixed_charge_stability_boundary_and_bifurcation_v18_53b_bundle",
+  "files": {
+    ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "MATHEMATICAL_PROTOCOL.md": "7ce7a40059f7b5fbd69b8e09874a54418b4add515992af351a633aa075226c12",
+    "README.md": "0886193957088fd96dfd29c525c1cac1c0f599e02ca25d929e1eff779a3e2d7e",
+    "SCIENTIFIC_DECISION_RULES.md": "8128c227640f2fce299847301a192fea2221b86352049d6a30e59b35618f2d88",
+    "SOURCE_PROVENANCE.md": "50a5ab712ca369ed2a14e5835027f533397c7c3e253517a14f58b11906cb9128",
+    "inputs_config.json": "68a9f15bdc2da03f708a6511e87f3ad3aa3e92a26f6563fe15341e685fc9d35d",
+    "reference/OFFLINE_SCREENING_PREVIEW_NOT_CERTIFICATION.json": "a4203a9d58a1afaa259b91068edc2fde6be050c02e284aa100f8d943ad1918a9",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52v_r1_run_audit.py": "dd1d3d441d191f3791c0524b1a6ae54cd596c5a7e395a43289e8604f22cd81b6",
+    "reference/v18_53a_authenticated_report.json": "a2f9c080b523bc3fdad67216164660bcc76402bb9e514116d96dabd0f21d12e8",
+    "reference/v18_53a_inputs_config.json": "4c9f1199017f35ed26ae13baae8e75ec103ac5095c6265a8447ded2553296bcd",
+    "reference/v18_53a_run_audit.py": "a1dd67109233fc0b154401e48ba32dfc7d0778e4dec70f3f33152f63737cec23",
+    "requirements.txt": "6a328bc99ed1b11d09e5eb835e06af0ebb359dadb18e61a874c071a5c6bfac9f",
+    "run_on_server.sh": "ff03c0b4302224ad2caa2f3ec563afd24ead1c09c1dae74394bca1944cbf9dd4",
+    "scripts/energy_math.py": "23b49ac82e9acd11002cb45696858e6091113221646d2737cd6e2eeca2e2b4a2",
+    "scripts/package_sendback.py": "797c3c8d41773ace8714042897b47d90c31c052a325e8f115b5c431d8cc95d13",
+    "scripts/phase_energy.py": "fabf92d8a886526d97be2166dfce7feed540cbcc47e83a7dc89d29cd865a33bb",
+    "scripts/return_map.py": "9e087f54de33830389014b43b14c4b572a21a38a476c340953830d0edcff2b75",
+    "scripts/run_audit.py": "dfd221f25985f651da7c2c73e02cb423a677505e5b02eaa0a312b664721034eb",
+    "scripts/verify_manifest.py": "579306042b1f9a2ff46930e7d94f541ddab1d964352d825ec4da40f62a1f43b8",
+    "tests/test_archived_rhs_crosscheck.py": "53c3bfa69bcdcff44a324e87b38265299b65b9d8c3af6014da3ebe32618912da",
+    "tests/test_synthetic.py": "08e91e9e8931b264aba0c3072ff445956cc88b29a4bd6934dd47a5ce4f1ee7e3"
+  }
+}
