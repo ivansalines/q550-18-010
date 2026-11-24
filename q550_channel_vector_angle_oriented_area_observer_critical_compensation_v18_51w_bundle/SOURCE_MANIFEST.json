@@ -1,0 +1,21 @@
+{
+  "version": "v18.51w",
+  "title": "Channel-Vector Angle, Oriented-Area & Observer-Critical Compensation Audit",
+  "file_hash_algorithm": "SHA-256",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "38c50e56ac319a250abf98e2803eabcbf263784eea23c95128ffd88f48e65945",
+    "README.md": "e87b659794b4dd3890392e88423add3802aa505269efd998ff4b5babbc711d2b",
+    "SCIENTIFIC_DECISION_RULES.md": "81316f580c63d18dd8a18444449e1588e208a6f2342cee4dce596f25ae88e8cb",
+    "SCIENTIFIC_REPORT.md": "1b41684e46511b0d45fe81d10ea1b73f59d31589625a3ea680b767c6408fe2e8",
+    "SOURCE_PROVENANCE.md": "1d5a1a09d26f88f996d79bd46bb238a51e7989a251fb79e34ef6ef879c07a390",
+    "inputs/q550_physical_clock_green_transport_moving_frame_invariance_v18_51v_bundle_server_sendback.zip": "6d514659cf62caa035f7426ca6ee0d289905842c4a48c28c74cc300c808a4da7",
+    "requirements.txt": "3375370eec2c6a1f458a4abab8f8f13f27981197d3b20cb8b14fb200dacf3fca",
+    "run_on_server.sh": "b39b79e5dc8574d0f995e5faea8879414a717212adb997b4e7d7f116abd7ebb9",
+    "scripts/pack_sendback.py": "212bbcae45159a877fdcb3f667465d4a9bff8c8fd08944ab74b8cfe37bbf95e9",
+    "scripts/run_audit.py": "5b4b2113412f10e9731f5af23ad4434367c387975ab9cb671276f898e62e5150",
+    "scripts/verify_source_manifest.py": "ce891eaa22a04287df77ce53e1053afb6b331237df6549b293849bef1c1e2309",
+    "scripts/write_output_manifest.py": "6c0d15e61f76457f6f1126339265cdd567d182372670451c7342a43defdffa13",
+    "tests/test_channel_geometry_synthetic.py": "2b972e0b113796520acd31a8f246de7a82c28b96f3a5088fc8aa19005be1ba7e",
+    "tests/test_results.py": "158acc50e54d1f511ffb2702529cd1b414c9e8b25d026d3207e021078923465c"
+  }
+}

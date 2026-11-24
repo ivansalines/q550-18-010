@@ -1,0 +1,12 @@
+{
+  "version": "v18.51w",
+  "file_sha256": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "438655690ad00e9dd5f17f644a7fb27c5bdeec88e66ca68f583364f95b656d1e",
+    "results/channel_oriented_area_and_handedness.png": "d29282ae7a7f0827302fdd1c65547be00b6e4efa348b3cf480d3d07825498f37",
+    "results/channel_vector_angle_and_dot.png": "2772812fe6b5c3696ca2e74c4cbe393db44daa79d1b14949b6e248f99210d227",
+    "results/channel_vector_geometric_invariants.npz": "863a55f4280f1c7058e157e28d7ec69120dca6c958f12bcc9f98008fbc3a9abd",
+    "results/channel_vector_section_ledger.csv": "340fb42d6f3337c64244376dc5da8439f8eec9e9d78d4665718022379d8977e8",
+    "results/observer_critical_angles_and_compensation.png": "68b58ff6411e125032dcd27f912a90cf383e5001ab1dabe56024f90b72ad5fe2",
+    "results/report.json": "78e3071fb749f863ea926d7da13b864f79277e8ca4ac20c5b731cad4e31b6372"
+  }
+}

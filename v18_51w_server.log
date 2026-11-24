@@ -1,0 +1,12 @@
+Q550 v18.51w source hashes PASS 14
+Q550 v18.51w synthetic geometric reference: 19/19 PASS
+Q550 v18.51w geometric channel audit: original
+  angle terminal deg: 88.20754943048941
+  omega2 critical axis deg: 10.76548936433412
+Q550 v18.51w geometric channel audit: autonomous
+  angle terminal deg: 88.20720843787446
+  omega2 critical axis deg: 10.766334576144375
+Q550 v18.51w: 16/16 checks PASS
+Q550 v18.51w result tests PASS
+Q550 v18.51w output SHA-256 entries: 7
+Q550 v18.51w sendback: /root/elab1/hysteresis/q550_channel_vector_angle_oriented_area_observer_critical_compensation_v18_51w_bundle_server_sendback.zip bytes: 143437263
