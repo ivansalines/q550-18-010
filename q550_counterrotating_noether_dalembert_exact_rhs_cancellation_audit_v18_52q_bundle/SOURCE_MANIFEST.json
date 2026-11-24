@@ -1,0 +1,25 @@
+{
+  "version": "v18.52q",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "123e481447d314fed9f5f93b9c49b5453cfbf7ccd2c308b16d6b2ffeb985c80d",
+    "README.md": "991611db05b2169e0e8d8da1100ef109b9613077b7c373ffb000323a214ce9d9",
+    "SCIENTIFIC_DECISION_RULES.md": "68972c05fafe3de38bca5c167d7c73c5d3b26a01c6ed43fa320209515ae90956",
+    "SOURCE_PROVENANCE.md": "4b31b59fc023708e9976ac443cfdadf87bd75df3cf7496eba3ee2fd1d219e18e",
+    "inputs_config.json": "501248ac5ac0df0ea2c51275abee9df043c1d617c5b13e824bedf4cdbb4751ce",
+    "reference/LOCAL_PREFLIGHT_ARCHIVED_ONLY.json": "ff386c63325176ac3117c7420fe722e76f781c35c6d8766a06cb8ce1c2d17fee",
+    "reference/__pycache__/test_support_q550_oriented_coupled_bulge_cone_audit_v1.cpython-313.pyc": "4731e407906b1c09dd5b3a97b4f6fd584064c053fafb4dbdb7e742fc3d9aebc1",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/parent_v18_52g_run_audit.py": "8924eca42df09593de0d36b09985a6722ed2b9ad6ed2e1d54c63e8d675fb02b1",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/test_support_q550_support_ode_interval_residual_pilot_v1.py": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61",
+    "requirements.txt": "cc3cc87307fd5674d01b5896d30d1b830945fc599eb2c07591212eff4083cbb8",
+    "run_on_server.sh": "684ab93d4e13c3df8f6db770e03c12677c2d0bfeaf3325472b08735ffe87a932",
+    "scripts/__pycache__/run_audit.cpython-313.pyc": "e95489106706610683ecde623ae58f14ed9c0f890616555723d19287f319cbb7",
+    "scripts/exact_symbolic_proof.py": "edf51996629bfef8a041b7a03043950a7b4eb7c6200770f7f60614c500c9f0f7",
+    "scripts/pack_sendback.py": "c1af445952c9ccea5e4efe033132ea9b910449578cc88d8743c8cd5d029e4c9d",
+    "scripts/run_audit.py": "c4cf8ae252da9c97de83869aab2858f6a06737d306e415e232b99d8c3efdc6ee",
+    "scripts/verify_source_manifest.py": "fe26ade58e9245692e7dd01e5edb86c1d5aed804bc3b57072fddc94035cb5d71",
+    "tests/test_synthetic.py": "4a0468445080b97abb1560885853656da158c49e4262260225977f2d27c96338"
+  }
+}

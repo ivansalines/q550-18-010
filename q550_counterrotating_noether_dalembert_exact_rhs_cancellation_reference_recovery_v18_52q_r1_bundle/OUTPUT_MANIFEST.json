@@ -1,0 +1,11 @@
+{
+  "version": "v18.52q",
+  "file_sha256": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "a6f2c186caa1842efa9b23a9ca51bfcea2331df4f2a7421ee0fbd6587a2c0952",
+    "results/all_native_absolute_charge_series.csv": "d291118508305d21dc352080b956b309946ce5b952c8aee91048a888efd00f60",
+    "results/counterrotating_angular_transfer_and_charge.png": "06403f046c51c9e13e3dd8227e60ea72b89d86cd286ff69550ad02e455dfef9c",
+    "results/current_engine_off_orbit_probes.csv": "36d60036d059e32415b23226b530f7335b765ca0ab4a733394da7c99c15997eb",
+    "results/report.json": "56303a55f0a325058279d6daf05095b1bd588e9bc13e29fbc2466df7e2633931",
+    "results/symbolic_identity.json": "0ce71d6539178de8e572487cc634516a18b830600f8e34b6f0f09ca337879e93"
+  }
+}

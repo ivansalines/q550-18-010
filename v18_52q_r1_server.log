@@ -1,0 +1,27 @@
+SOURCE MANIFEST PASS: 19 files
+Q550 v18.52q synthetic tests
+PASS: exact archived equation, drive-equivariance, and deliberate symmetry breaking {'n_probes': 100, 'max_dC_physical': np.float64(1.7039333929706609e-15), 'max_dC_support': np.float64(2.708944180085382e-14), 'max_anti_rotation_equivariance': 7.105427357601002e-15, 'max_common_torque_error': np.float64(1.7039333929706609e-15), 'counterfactual_break_dC': 0.005631367536260687, 'counterfactual_predicted': 0.005631367536260756, 'counterfactual_pass': True, 'passes': True}
+Sympy optional; formal derivation preserved in protocol
+AUTHENTICATED MODEL: staging 10D physical solver
+{
+  "version": "v18.52q-r1",
+  "mode": "auto",
+  "status": "ARCHIVED_EXACT_IDENTITY_AND_NATIVE_TRACES__ORIGINAL_ENGINE_NOT_VERIFIED",
+  "checks": {
+    "archived_rhs_random_identity": true,
+    "native_all_series_constant": true,
+    "actual_original_engine_off_orbit_verified": false,
+    "deliberate_unbalanced_torque_is_detected": true
+  },
+  "reference_discovery": {
+    "v1851s_expected_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "searched_paths": [
+      "/root/elab1/hysteresis/q550_counterrotating_noether_dalembert_exact_rhs_cancellation_reference_recovery_v18_52q_r1_bundle/inputs/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip",
+      "/root/elab1/hysteresis/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip"
+    ],
+    "found_path": "/root/elab1/hysteresis/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip",
+    "v1852l_states_found": true
+  }
+}
+[INCOMPLETE CERTIFICATE] Archived identity verified; missing parts explicitly reported. Do NOT describe this as verification of the current structural_jet.
+SENDBACK READY: /root/elab1/hysteresis/q550_counterrotating_noether_dalembert_exact_rhs_cancellation_reference_recovery_v18_52q_r1_bundle_server_sendback.zip 219484 bytes

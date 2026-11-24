@@ -1,0 +1,59 @@
+{
+  "version": "v18.52q-r1",
+  "mode": "auto",
+  "analytical_identity": "EXACT_FOR_ARCHIVED_EXPLICIT_Q550_ANGULAR_RHS",
+  "archived_rhs": {
+    "n_probes": 240,
+    "max_dC_physical": 2.886579864025407e-15,
+    "max_dC_support": 3.2807090377673376e-14,
+    "max_anti_rotation_equivariance": 1.021405182655144e-14,
+    "max_common_torque_error": 3.1086244689504383e-15,
+    "counterfactual_break_dC": 0.003470819991129165,
+    "counterfactual_predicted": 0.00347081999112953,
+    "counterfactual_pass": true,
+    "passes": true
+  },
+  "native_traces": {
+    "n_series": 20,
+    "trace_n_samples": 65537,
+    "max_range": 3.175237850427948e-14,
+    "max_individual_J_variation": 0.010073528595991643,
+    "source_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+    "passed": true,
+    "status": "VERIFIED"
+  },
+  "actual_original_engine": {
+    "status": "VERIFIED",
+    "input_v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "n_probes": 96,
+    "max_absolute_dC": 5.218048215738236e-15,
+    "max_absolute_anti_rotation_equivariance_error": 1.6653345369377348e-15,
+    "max_relative_archived_angular_rhs_disagreement": 0.8656162640278354,
+    "n_original_rhs_comparisons": 96,
+    "relative_dC_scale": 1.8449814411001415e-15,
+    "passes": false
+  },
+  "generated_from_source_hashes": {
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/parent_v18_52g_run_audit.py": "8924eca42df09593de0d36b09985a6722ed2b9ad6ed2e1d54c63e8d675fb02b1",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/test_support_q550_support_ode_interval_residual_pilot_v1.py": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+  },
+  "reference_discovery": {
+    "v1851s_expected_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "searched_paths": [
+      "/root/elab1/hysteresis/q550_counterrotating_noether_dalembert_exact_rhs_cancellation_reference_recovery_v18_52q_r1_bundle/inputs/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip",
+      "/root/elab1/hysteresis/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip"
+    ],
+    "found_path": "/root/elab1/hysteresis/q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle_server_sendback.zip",
+    "v1852l_states_found": true
+  },
+  "checks": {
+    "archived_rhs_random_identity": true,
+    "native_all_series_constant": true,
+    "actual_original_engine_off_orbit_verified": false,
+    "deliberate_unbalanced_torque_is_detected": true
+  },
+  "status": "ARCHIVED_EXACT_IDENTITY_AND_NATIVE_TRACES__ORIGINAL_ENGINE_NOT_VERIFIED"
+}
