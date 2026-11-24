@@ -1,0 +1,25 @@
+{
+  "version": "v18.52l",
+  "title": "Near-Tangency, Breathing-Envelope Drift & Five-Dimensional Section Audit",
+  "root": "q550_near_tangency_breathing_envelope_drift_five_dimensional_section_audit_v18_52l_bundle",
+  "parent_k_archive_sha256": "23620ca6e4f265fc39a6d9e345e0ac106b42ae40ed6821dbd3dfe1ced43b9825",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "32b7058b5d8e32751d61402743681fbfc45b95339707d7afd611821081c7e16d",
+    "README.md": "10e42204a6541d489581dfc552f602f94fb089e42a03d04367641361118d6884",
+    "SCIENTIFIC_DECISION_RULES.md": "da96003b23b247721d4d421bd7cadabdd281535b81467acdfb9d5c4c49ab8d32",
+    "SCIENTIFIC_REPORT.md": "e724a43b3799f8d7d15d273d31a8b42d4b3e324fec606c46527ee0f081cf0a8e",
+    "SOURCE_PROVENANCE.md": "8944b84da3b79d08f2f45a03c90f3fb43213247af3dccedd463384067bbe9ead",
+    "inputs/q550_breathing_drift_and_five_dimensional_posture_transport_v18_52k_bundle_server_sendback.zip": "23620ca6e4f265fc39a6d9e345e0ac106b42ae40ed6821dbd3dfe1ced43b9825",
+    "reference/parent_v18_52k_run_audit.py": "4e31a630ceb7cbd7e8c0a6f309d8781ff720bbcb1e24f3b4d2f23b2ec3bb74c0",
+    "requirements.txt": "e13491531df6eeb59d6420ef04d4b5651adec77439da3bccd7409e90f0988035",
+    "run_on_server.sh": "f3d8a79a7c3b5f68f498d51a51ac83f5fc8189fa416e6a163fc6ccce7367f3fd",
+    "scripts/pack_sendback.py": "bce120a510f3121cb9e54f76533e194cb5620761cb71e5cf3d023fa0c8e42541",
+    "scripts/run_audit.py": "ac1d24e13a68cff4db0cb91440c004389d2d6ec9320e72dc11030b057ed4a41d",
+    "scripts/verify_source_manifest.py": "8724113114de88e282e09e336f6e2bb5c330e78fa8e62d6388252ac83ccbc1bd",
+    "scripts/write_output_manifest.py": "e6414fc4260fae2dd03496977d86205c3259654d576077d89305a5659d5da46b",
+    "tests/test_mock_restart.py": "d9869575db6744acd7b67e0f86d4d0bd2bebdc7566ce5604d94ee0b0f743c558",
+    "tests/test_results.py": "5ec5bf06f83f545f794646620124c081007bc0005e048f270c7870274f6377b3",
+    "tests/test_sections.py": "7235a202d2c05f2a60d5dc7108cbdb62316ed3142bc0b0b78b0907c2be700a85",
+    "tests/test_synthetic.py": "316b6953508ee909e68ce9130a46562950a9411c428716c317c540af32ac62f1"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "original_negative_1.0e-04": {
+    "n_horizontal_section_crossings": 4,
+    "n_opposite_orientation_pairs": 3,
+    "min_pair_normalized_5d_distance": 1.7900856786901331,
+    "n_near_radial_tangency_candidates": 0,
+    "near_radial_tangency_candidates": [],
+    "section_is_projection_dependent": true,
+    "exact_symmetry_or_closure_claim": false
+  },
+  "original_positive_1.0e-04": {
+    "n_horizontal_section_crossings": 4,
+    "n_opposite_orientation_pairs": 3,
+    "min_pair_normalized_5d_distance": 1.7899820063576666,
+    "n_near_radial_tangency_candidates": 0,
+    "near_radial_tangency_candidates": [],
+    "section_is_projection_dependent": true,
+    "exact_symmetry_or_closure_claim": false
+  },
+  "original_negative_3.0e-04": {
+    "n_horizontal_section_crossings": 4,
+    "n_opposite_orientation_pairs": 3,
+    "min_pair_normalized_5d_distance": 1.7901896845109277,
+    "n_near_radial_tangency_candidates": 0,
+    "near_radial_tangency_candidates": [],
+    "section_is_projection_dependent": true,
+    "exact_symmetry_or_closure_claim": false
+  },
+  "original_positive_3.0e-04": {
+    "n_horizontal_section_crossings": 4,
+    "n_opposite_orientation_pairs": 3,
+    "min_pair_normalized_5d_distance": 1.7898786658896648,
+    "n_near_radial_tangency_candidates": 0,
+    "near_radial_tangency_candidates": [],
+    "section_is_projection_dependent": true,
+    "exact_symmetry_or_closure_claim": false
+  },
+  "autonomous_negative_1.0e-04": {
+    "n_horizontal_section_crossings": 4,
+    "n_opposite_orientation_pairs": 3,
+    "min_pair_normalized_5d_distance": 1.7899865756541862,
+    "n_near_radial_tangency_candidates": 0,
+    "near_radial_tangency_candidates": [],
+    "section_is_projection_dependent": true,
+    "exact_symmetry_or_closure_claim": false
+  },
+  "autonomous_positive_1.0e-04": {
+    "n_horizontal_section_crossings": 4,
+    "n_opposite_orientation_pairs": 3,
+    "min_pair_normalized_5d_distance": 1.7898830419181413,
+    "n_near_radial_tangency_candidates": 0,
+    "near_radial_tangency_candidates": [],
+    "section_is_projection_dependent": true,
+    "exact_symmetry_or_closure_claim": false
+  },
+  "autonomous_negative_3.0e-04": {
+    "n_horizontal_section_crossings": 4,
+    "n_opposite_orientation_pairs": 3,
+    "min_pair_normalized_5d_distance": 1.7900904435479847,
+    "n_near_radial_tangency_candidates": 0,
+    "near_radial_tangency_candidates": [],
+    "section_is_projection_dependent": true,
+    "exact_symmetry_or_closure_claim": false
+  },
+  "autonomous_positive_3.0e-04": {
+    "n_horizontal_section_crossings": 4,
+    "n_opposite_orientation_pairs": 3,
+    "min_pair_normalized_5d_distance": 1.7897798435858736,
+    "n_near_radial_tangency_candidates": 0,
+    "near_radial_tangency_candidates": [],
+    "section_is_projection_dependent": true,
+    "exact_symmetry_or_closure_claim": false
+  }
+}

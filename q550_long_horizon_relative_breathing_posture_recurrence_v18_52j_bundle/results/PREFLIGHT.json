@@ -1,0 +1,8 @@
+{
+  "version": "v18.52j",
+  "stage": "AUTHENTICATED_I_PARENT_ONLY",
+  "physical_extension_executed": false,
+  "parent_i_sha256": "f71ef4f1c0614a2dc5c5eb5345525ce7933594341e5860b23f1102382bba25e6",
+  "parent_h_sha256": "b986e954d912593cd2400fcef5469618db46ae4a192138258bdeba25ee3604a7",
+  "parent_i_checks_passed": true
+}

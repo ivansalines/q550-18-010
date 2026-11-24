@@ -1,0 +1,30 @@
+SOURCE MANIFEST PASS 16 files
+SYNTHETIC EVENT + PHYSICAL 5D POSTURE TEST PASS
+MOCK GLOBAL-XI + MATERIAL CLOCK SEAM PASS
+Parent i authenticated 18 source and 9 output entries, SHA f71ef4f1c0614a2dc5c5eb5345525ce7933594341e5860b23f1102382bba25e6
+PREFLIGHT PASS: genuine physical extension not executed
+Parent i authenticated 18 source and 9 output entries, SHA f71ef4f1c0614a2dc5c5eb5345525ce7933594341e5860b23f1102382bba25e6
+Restaging archived nonlinear 10D model and kinetic 5D embedding...
+AUTHENTICATED MODEL: staging 10D physical solver
+Continuing physical reference original global xi 3.2 to 6.4
+ Continuing kick original_negative_1.0e-04
+   original_negative_1.0e-04 C zeros 7 G zeros 4 D minima 2 terminal D 4.352514e-09 angle 97.51deg
+ Continuing kick original_positive_1.0e-04
+   original_positive_1.0e-04 C zeros 7 G zeros 4 D minima 2 terminal D 4.350862e-09 angle 97.50deg
+ Continuing kick original_negative_3.0e-04
+   original_negative_3.0e-04 C zeros 7 G zeros 4 D minima 2 terminal D 3.918761e-08 angle 97.53deg
+ Continuing kick original_positive_3.0e-04
+   original_positive_3.0e-04 C zeros 7 G zeros 4 D minima 2 terminal D 3.914300e-08 angle 97.49deg
+Continuing physical reference autonomous global xi 3.2 to 6.4
+ Continuing kick autonomous_negative_1.0e-04
+   autonomous_negative_1.0e-04 C zeros 7 G zeros 4 D minima 2 terminal D 4.349781e-09 angle 97.51deg
+ Continuing kick autonomous_positive_1.0e-04
+   autonomous_positive_1.0e-04 C zeros 7 G zeros 4 D minima 2 terminal D 4.348147e-09 angle 97.49deg
+ Continuing kick autonomous_negative_3.0e-04
+   autonomous_negative_3.0e-04 C zeros 7 G zeros 4 D minima 2 terminal D 3.916285e-08 angle 97.52deg
+ Continuing kick autonomous_positive_3.0e-04
+   autonomous_positive_3.0e-04 C zeros 7 G zeros 4 D minima 2 terminal D 3.911873e-08 angle 97.48deg
+Q550 v18.52j completed: 48 / 48 checks; D minima 16
+SERVER RESULTS TEST PASS 8 kicks
+OUTPUT MANIFEST WRITTEN 9 files
+PACKED SERVER SENDBACK /root/elab1/hysteresis/q550_long_horizon_relative_breathing_posture_recurrence_v18_52j_bundle_server_sendback.zip

@@ -1,0 +1,11 @@
+{
+  "version": "v18.52l",
+  "stage": "AUTHENTICATED_K_TO_F_ANCESTRY",
+  "physical_extension_executed": false,
+  "parent_k_sha256": "23620ca6e4f265fc39a6d9e345e0ac106b42ae40ed6821dbd3dfe1ced43b9825",
+  "parent_j_sha256": "8a9d02a181fc53eef4e68963b2a2561baa9dbb245bf1b8222cb8236b64e4f2ac",
+  "parent_i_sha256": "f71ef4f1c0614a2dc5c5eb5345525ce7933594341e5860b23f1102382bba25e6",
+  "parent_h_sha256": "b986e954d912593cd2400fcef5469618db46ae4a192138258bdeba25ee3604a7",
+  "parent_g_sha256": "3a22ed6254608dba1b623653a9879a16381c17141f7054e54976ea5b4a42535e",
+  "historical_f_sha256": "232ffeafb260906b9c210b9561eb48573ee7930a640350ca627761a17a1a701c"
+}

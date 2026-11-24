@@ -1,0 +1,24 @@
+{
+  "version": "v18.52j",
+  "title": "Long-Horizon Relative Breathing & Posture-Recurrence Audit",
+  "root": "q550_long_horizon_relative_breathing_posture_recurrence_v18_52j_bundle",
+  "parent_i_archive_sha256": "f71ef4f1c0614a2dc5c5eb5345525ce7933594341e5860b23f1102382bba25e6",
+  "sha256": {
+    "MATHEMATICAL_PROTOCOL.md": "e38cf8f770320a7bfc8b726f4e3eb090cd946a686e76317102c49af4aacc191c",
+    "README.md": "73d7733c2279113b4f2f6ff5b32e3738bda9a058d0df192b844c320dedc9b435",
+    "SCIENTIFIC_DECISION_RULES.md": "ad5aa883327cee64b56e09bf8aaf07a36c38d80b752ffcc1b0aef2bcf7286319",
+    "SCIENTIFIC_REPORT.md": "e1666c4351e2d3fc70f2099edb77f326ccaeb136e15b4030ef4da77290a38069",
+    "SOURCE_PROVENANCE.md": "6b4ca0335d2e6e58b223593f435aca316039e78f7381366cfd354c3713ea8043",
+    "inputs/q550_extended_return_relative_posture_closure_discrimination_v18_52i_bundle_server_sendback.zip": "f71ef4f1c0614a2dc5c5eb5345525ce7933594341e5860b23f1102382bba25e6",
+    "reference/parent_v18_52i_run_audit.py": "35186db24b905df4e37990a797cae0fe3612f87cddc34502f4021c49c0a9b843",
+    "requirements.txt": "b6a329f45697a122c45574f01803cab5174f35374012711aea6a9a9edee7b256",
+    "run_on_server.sh": "ee77ad248eccb20cf5a53a210708bd48e02782573300d4921aac803e2272dac6",
+    "scripts/pack_sendback.py": "bce120a510f3121cb9e54f76533e194cb5620761cb71e5cf3d023fa0c8e42541",
+    "scripts/run_audit.py": "1ec5e9da0a3451e3d208d98f09caaf5c34f570a9f6e994ed2c28d172cc332834",
+    "scripts/verify_source_manifest.py": "b6b395cb40d72d332b1c2d5db63b0cbb172d510790bdd9fc3f4d918813509826",
+    "scripts/write_output_manifest.py": "b7c23f10c8ee6fb7cfdf6cfe96b23d559fac81086be906abb845a168947815b3",
+    "tests/test_mock_restart.py": "993ff94e3a3d83ce603b51d5bf65cb16ad901d2e7c3e72c4081212129962ce04",
+    "tests/test_results.py": "d425675025956686f9645066a8ee19623389d695fec72728104432257da0bda3",
+    "tests/test_synthetic.py": "9348c1f5b5be8e093d6c0339ae90cdaa24997c2528c914e0d0294da9c32a0fc6"
+  }
+}

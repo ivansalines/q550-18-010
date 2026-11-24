@@ -1,0 +1,5 @@
+# Exact server versions observed in the authenticated h report:
+# Python 3.13.16, NumPy 2.4.1, SciPy 1.17.1
+numpy>=2.0
+scipy>=1.11
+matplotlib>=3.8
