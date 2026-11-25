@@ -1,0 +1,15 @@
+{
+  "version": "v18.53d",
+  "root": "q550_dual_kappa_hinge_momentum_transverse_velocity_radius_envelope_v18_53d_bundle",
+  "files": {
+    "results/relative_5d_hinge_wedge_summary.json": "3a9e3f9878d025426596a8715c90018363f017f9d19cac10bf38ce36c4b48adb",
+    "results/report.json": "14ca5b7d164daad30613b503127fb8172bd98197add2e87738329590816c2b47",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "c955283110f2aaed33209b2b01515659fbbc551ed1d34cf5db73a315692672e6",
+    "results/physical_5d_relative_projection_shadow_hidden_depth.csv": "1e645fb1445cc5171d680028267249c502adc9f4d8f0953a9bfbf085edc1713e",
+    "results/fold_rotor_kinematics.csv": "3863c7e24560ce888359b81183894bd203635db26e863d122b0b0a4fd6c876d1",
+    "results/dual_kappa_rotor_radius_speed_momentum.png": "6b242e10da57e7b593d0e66695a5041fd15ff6a40f96b26c30798d1a87b98b1a",
+    "results/tilted_observer_shadow_vs_hidden_5d_gap.png": "1aac7ccd3fc41cc18ba9b0b28d1761c5679b2ceb58bce9dd67c03718a636d42e",
+    "results/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/fold_rotor_report.json": "59c0be3ab4570ddc95e6185ccd5613f38d38b2399d4cfaf5603f3a0c55424ce0"
+  }
+}

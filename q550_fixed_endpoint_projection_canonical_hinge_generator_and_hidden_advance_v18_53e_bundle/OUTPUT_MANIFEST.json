@@ -1,0 +1,16 @@
+{
+  "version": "v18.53e",
+  "root": "q550_fixed_endpoint_projection_canonical_hinge_generator_and_hidden_advance_v18_53e_bundle",
+  "files": {
+    "results/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/SCIENTIFIC_REPORT_SERVER.json": "499627f1acf00e03fa803da01251201952e545a4c50f977af2a1ebec383795b6",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "13ed712ff7f903bf1951db5837f593e3f9d6ebb4a5efa56ff04624366bbc731c",
+    "results/absolute_kinetic_hinge_vs_conserved_rotor_charge.png": "64d6bf715ffcff2a3f9d8878d0338e726a0eadab2d638c22780b42e6bd0cb8e6",
+    "results/fixed_endpoint_observer_projection.csv": "fbe3e3ee49e5c1967acdbbc5eceb612d600c962db7c9cecb6522b5efe3561777",
+    "results/fixed_endpoint_pair_summary.json": "819ce7dfbbb49852ede3bb2247a8af24f4065e1e80252905e82ca2a0d1024091",
+    "results/fixed_endpoint_shadow_hidden_observer.png": "68bbbbf7555cf11c787fd6c6692acb9bfa641d9b67838881aeb81a5b526748e9",
+    "results/native_absolute_kinetic_hinge_moment.csv": "f2bf3ed88d3e443ab158cf19df05e33b33019506e22451de1c8bfc8388216c53",
+    "results/native_absolute_kinetic_hinge_summary.json": "aaaa71926b15e4600a04999e74fc3aa936a7427da74e990f2900152260e87035",
+    "results/report.json": "68de34cc5d5b7070114f44118fb78f9f99bd029bd1cdabd495db4fb3a014038a"
+  }
+}

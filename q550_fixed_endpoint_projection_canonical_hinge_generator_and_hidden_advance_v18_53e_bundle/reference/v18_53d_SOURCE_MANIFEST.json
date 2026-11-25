@@ -1,0 +1,30 @@
+{
+  "version": "v18.53d",
+  "root": "q550_dual_kappa_hinge_momentum_transverse_velocity_radius_envelope_v18_53d_bundle",
+  "files": {
+    "SCIENTIFIC_DECISION_RULES.md": "64e47423f04da98dff6cc1d5d3876f90e7adba4b68504499a9ad28dd3cf2c956",
+    "requirements.txt": "5f44ff1206abd7dce45e18b85430cadf95c127d683f39983546ede714c2f51ca",
+    "README.md": "280366858ac114ffa3e6470f74d8ab6ae4721d36febf50325eba1cb25794193c",
+    "inputs_config.json": "2ef5c214f779cba9c7e16b38f2d29c40619c3af4c5d300270b9d1e04a130d32b",
+    "run_on_server.sh": "a7934c10e93891476a0064994be064662fa293033054f83e5a5033ff7cd4792d",
+    "SOURCE_PROVENANCE.md": "fc52069bef03704ccbe01a73f8583ddc948daada79a19e29f535b6e3039bdb67",
+    "MATHEMATICAL_PROTOCOL.md": "395283aed613dacc8436140bece2154a37579551d51cec1323a5fc4320e6c231",
+    "tests/test_synthetic.py": "e9880b83958a08d1e1d622d799c1fc61c94ddad743a0e74cd7966f7feccd87cc",
+    "scripts/verify_manifest.py": "201663ef6872e11c195a623e17450661ae6ad2743ad41966b62a990593dc6a98",
+    "scripts/run_audit.py": "496c8d3731d1bb394e60e952b1e460529849a053589c1c46a7882265b116c8ec",
+    "scripts/package_sendback.py": "9d35b82f5fa25c55bf4de75424d8a84d4b5f9d46d392fde1ad34f3da691789e1",
+    "reference/v18_53c_source_manifest.json": "900878d5660665bf8945e4702b34d32b67bcc40fe83ab255899fa52eaeeb1ddf",
+    "reference/v18_52n_authenticated_report.json": "93eb61581f130608d78b70972cf4ec205fecb99e1fb68f8e13efa1b1a6e5c0f9",
+    "reference/v18_52n_four_point_status.json": "a4a00fb684a92baad9df702104ba6580e17cdeeaeb840e334c5a3f48d0869a40",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_53c_output_manifest.json": "7193959bdd3c86715f12ba1bd3da42968f2915004c2181070fdb99ec7989c5a7",
+    "reference/v18_53b_run_audit.py": "dfd221f25985f651da7c2c73e02cb423a677505e5b02eaa0a312b664721034eb",
+    "reference/v18_53c_authenticated_fold_states.json": "8fc5b57cc1bd954a98c5722daf6345a73bba93687ee7a03d82452d1adc76bd47",
+    "reference/v18_53a_run_audit.py": "a1dd67109233fc0b154401e48ba32dfc7d0778e4dec70f3f33152f63737cec23",
+    "reference/v18_53c_authenticated_fold_locus.csv": "112279263d0c0b3855155f06c653613b3e4343902d1d7294f648ecf9451e30fa",
+    "reference/v18_52n_output_manifest.json": "45276dbfc6f28520b2712ac2bd94d3108d27ea97140cd97ad8a6be1eebd21851",
+    "reference/v18_52n_observer_source.py": "f2c4e1d5ff0ee49d1c62a21867f204d11e1c465772ede19b9fa61132d12dc302",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/v18_53c_authenticated_report.json": "a3c8025da36324740608ebaeacb558125a277f05a14e5ebd71bb8d3ab33af592"
+  }
+}

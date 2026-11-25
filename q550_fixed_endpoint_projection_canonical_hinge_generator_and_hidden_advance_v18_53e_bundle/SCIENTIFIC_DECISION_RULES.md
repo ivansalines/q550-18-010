@@ -1,0 +1,10 @@
+# Q550 v18.53e — Scientific decision rules
+
+1. **Source integrity:** source manifest, v18.53d selected report/CSV hashes versus v18.53d authenticated output manifest, v18.52n observer report versus its own output manifest, historical v18.49h source SHA-256, and two large v18.52l NPZ content hashes must all match.
+2. **Fixed endpoints:** both matched-time indices selected from v18.53d 0° and +17.04° must be reproduced, then held fixed for all observers. A third pair is selected from full 5D distance, independent of angle.
+3. **Falsification:** fixed endpoints guarantee `D5` invariant under observer tilt and exact Pythagorean screen/hidden decomposition. Synthetic helical advance with closed 2D shadow must be rejected as 5D closure. A post-selected optimal alpha may reduce the screen gap but must be labeled and cannot count as prospective physical evidence.
+4. **5D scope:** all `dQ,dV` results are relative separation histories, not absolute physical orbit returns. 5D velocity mismatch is recorded independently from positional shadow closure.
+5. **Kinetic generator:** compute absolute `(Q,V)` from native 10D using the historical v18.49h embedding, and independently verify the embedding sample-by-sample. Evaluate a **kinetic-sector** canonical angular generator for the observer plane only with explicit `P^(T)=V`. Do not silently claim a full driven Lagrangian or Noether hinge conservation.
+6. **Distinct charge:** compare `J_hinge^(T)` with certified `mathcal J=J1-J2` over 20 native time series. Only `mathcal J` has the proven first-integral status. No claim that a changing kinetic-plane moment is topological.
+7. **Kappa and radius:** preserve the dual-κ fold source and recognize that the long-time 5D traces used shared κ. No claim of dynamic transfer between the two folds or a global minimum-radius bound.
+8. **Missing input:** in strict mode report incomplete, package diagnostic output, and exit nonzero. Never promote synthetic results or a partial local smoke run into an authenticated full result.

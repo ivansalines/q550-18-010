@@ -1,0 +1,4 @@
+SOURCE_MANIFEST_PASS 26
+SYNTHETIC_PASS: fixed endpoints, helix hidden advance, wedge rotation, kinetic counterexample, optimal observer
+SCIENTIFIC_DECISION AUTHENTIC_FIXED_ENDPOINT_OBSERVER_GEOMETRY_AND_ABSOLUTE_KINETIC_HINGE__NO_FULL_NOETHER_HINGE_CHARGE
+SENDBACK /root/elab1/hysteresis/q550_fixed_endpoint_projection_canonical_hinge_generator_and_hidden_advance_v18_53e_bundle_server_sendback.zip 10 output SHA256

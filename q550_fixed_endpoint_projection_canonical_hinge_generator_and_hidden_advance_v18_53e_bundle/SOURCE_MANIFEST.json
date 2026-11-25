@@ -1,0 +1,32 @@
+{
+  "version": "v18.53e",
+  "root": "q550_fixed_endpoint_projection_canonical_hinge_generator_and_hidden_advance_v18_53e_bundle",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "e848283d9d64936ad937821e12901d9b1f4efde9e56cce05d981e2bd2e1b3a8a",
+    "README.md": "ac8f849b121aa411e94e5e2c9af5a4f036c1531a9e7b4517d7e213fb56ed868f",
+    "SCIENTIFIC_DECISION_RULES.md": "63117d89e866713ae8ecbf8f9a1fbd70dfbe3c23d3223e4db89a4ca755402143",
+    "SOURCE_PROVENANCE.md": "fc3292bba2d4821dea906a3b6f948224dc6f4e6369a125c3622beca597804c78",
+    "inputs_config.json": "9c59acbff4edcbac241f78a4e579646d745651eac443224110b34db97c6dba31",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/v18_52n_authenticated_report.json": "93eb61581f130608d78b70972cf4ec205fecb99e1fb68f8e13efa1b1a6e5c0f9",
+    "reference/v18_52n_observer_source.py": "f2c4e1d5ff0ee49d1c62a21867f204d11e1c465772ede19b9fa61132d12dc302",
+    "reference/v18_52n_output_manifest.json": "45276dbfc6f28520b2712ac2bd94d3108d27ea97140cd97ad8a6be1eebd21851",
+    "reference/v18_52p_hinge_audit.py": "4c48e43fe45cb698f78962f05ab101b24c559451f9828cf935dd26b81a5b9af7",
+    "reference/v18_53c_authenticated_fold_locus.csv": "112279263d0c0b3855155f06c653613b3e4343902d1d7294f648ecf9451e30fa",
+    "reference/v18_53c_authenticated_report.json": "a3c8025da36324740608ebaeacb558125a277f05a14e5ebd71bb8d3ab33af592",
+    "reference/v18_53c_output_manifest.json": "7193959bdd3c86715f12ba1bd3da42968f2915004c2181070fdb99ec7989c5a7",
+    "reference/v18_53d_OUTPUT_MANIFEST.json": "aa729119b590a116ea07973119f2e02a15ec358748133c502128ce7daab921db",
+    "reference/v18_53d_SOURCE_MANIFEST.json": "3904d16bf19179d85027c992449deaa9d210c7b76987e60191c5e8fe030edfb8",
+    "reference/v18_53d_fold_rotor_kinematics.csv": "3863c7e24560ce888359b81183894bd203635db26e863d122b0b0a4fd6c876d1",
+    "reference/v18_53d_fold_rotor_report.json": "59c0be3ab4570ddc95e6185ccd5613f38d38b2399d4cfaf5603f3a0c55424ce0",
+    "reference/v18_53d_projection_candidates.csv": "1e645fb1445cc5171d680028267249c502adc9f4d8f0953a9bfbf085edc1713e",
+    "reference/v18_53d_report.json": "14ca5b7d164daad30613b503127fb8172bd98197add2e87738329590816c2b47",
+    "reference/v18_53d_run_audit.py": "496c8d3731d1bb394e60e952b1e460529849a053589c1c46a7882265b116c8ec",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "a7934c10e93891476a0064994be064662fa293033054f83e5a5033ff7cd4792d",
+    "scripts/package_sendback.py": "8857153f2a12adcc96e10d9be5fe6aec4f8c859bb776b52009bc03cc1c5ab4ec",
+    "scripts/run_audit.py": "f0766131650d742fdb1e367ec6d1eaeed702415c82cc01a8cce11035d957dc01",
+    "scripts/verify_manifest.py": "8719e67f767dda524d5dd29c4e1f0fa3e17bed196779901cb869000dbc619368",
+    "tests/test_synthetic.py": "7cba3c2a94744504ffce0a7b7d5e7110b91c373c726ada084f7927defdc7662f"
+  }
+}
