@@ -1,0 +1,29 @@
+{
+  "version": "v18.53u",
+  "scientific_decision": "KINETIC_CANONICAL_COVARIANCE_AND_CONDITIONED_METRIC_SENSITIVITY__NO_MATERIAL_CLOSURE",
+  "mode": "POSTPROCESS_AUTHENTIC_21D_T_NO_NEW_IVPS",
+  "checked_six_physical_cases": true,
+  "metric_sensitivity_families": 5,
+  "case_count": 30,
+  "descriptive_kinematic_weight_robustness_screen": true,
+  "historical_embedding_max_error": 4.336808689942018e-19,
+  "parent_manifest_counts": {
+    "SOURCE_MANIFEST.json": 13,
+    "OUTPUT_MANIFEST.json": 7
+  },
+  "max_pullback_relative_error": 8.580795797112549e-16,
+  "max_minimum_origin_shift": 0.012339800943335533,
+  "max_minimum_width_shift": 7.215932491533295e-05,
+  "max_arclength_change": 0.017949538543445165,
+  "min_weighted_residual": 0.07869065257807037,
+  "all_minima_nonzero": true,
+  "any_minimum_on_boundary": false,
+  "limitations": [
+    "Canonical kinetic metric already Euclidean in historical mass-whitened 5D embedding.",
+    "Correct log-polar pullback is an exact coordinate change and cannot independently certify robustness.",
+    "Velocity occupation weighting depends on epoch and lambda, is not a uniquely imposed physical metric.",
+    "The accumulated bivector is not the full physical 11D state and does not certify recurrence.",
+    "All relevant far endpoints lie in formal clock continuation beyond xi=25.6.",
+    "No material holonomy or exact continuum invariant is claimed."
+  ]
+}

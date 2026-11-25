@@ -1,0 +1,12 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "c2dfabe91d3bcf482507aceeb12dddbf4087e714cab0ea0a444712eaeb2f30e0",
+    "results/kinetic_metric_valley_autonomous.png": "b7219d517a2000ef7fe9df3fff7e3ac152112e27fd7c1f8ff66cf0b7f95e09e0",
+    "results/kinetic_metric_valley_original.png": "a8f19547df256ee803d5e8f1db005a2474bb28921c0205ab368fd0b1a7b56aac",
+    "results/metric_comparison.csv": "7d35242e02699d630f9da2b051d6e1e724955ff51d6b83ed6c618db1dc9dc14d",
+    "results/metric_oriented_10d_data.npz": "efd1bf697a671af1c8515a01bb7fb897a000b59b375a6b91136c2aa3e16c9d52",
+    "results/metric_valley_curves.csv": "1cda54fb3a8e53f8739d53c5061827c2f8cd41317e38a0f94c0d1bd1cd845aa1",
+    "results/metric_valley_summary.csv": "989deb7c2c398f998a3d5352b475ad3b62853017a836b7e9483d567ec7c05f36",
+    "results/report.json": "80b1e5d2a984ffe34d995753e0c8f3b2d7bde0c242f23db2d494ed5b267bb934"
+  }
+}

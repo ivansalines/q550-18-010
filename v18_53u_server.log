@@ -1,0 +1,47 @@
+SOURCE_MANIFEST_PASS 14 files
+SYNTHETIC_MODEL_METRIC_COVARIANCE_PASS
+AUTHENTIC_V1853T_SOURCE_PASS {'SOURCE_MANIFEST.json': 13, 'OUTPUT_MANIFEST.json': 7} HISTORICAL_5D_EMBED_MATCH 4.336808689942018e-19
+METRIC_CASE original__shared kinetic_exact N_min 0.0787010786 origin 14.3273902 arc 2.02921539
+METRIC_CASE original__shared occupation_preformal_lambda1 N_min 0.0821321757 origin 14.3341642 arc 2.01869233
+METRIC_CASE original__shared occupation_preformal_lambda3 N_min 0.0865791376 origin 14.3397227 arc 2.01132897
+METRIC_CASE original__shared occupation_full_formal_lambda1 N_min 0.0818831974 origin 14.3285254 arc 2.02295455
+METRIC_CASE original__shared occupation_full_formal_lambda3 N_min 0.0861233082 origin 14.3294224 arc 2.01876957
+METRIC_CASE original__original kinetic_exact N_min 0.0786944096 origin 14.3268062 arc 2.02918471
+METRIC_CASE original__original occupation_preformal_lambda1 N_min 0.0821264593 origin 14.3335761 arc 2.01865140
+METRIC_CASE original__original occupation_preformal_lambda3 N_min 0.0865741907 origin 14.3391315 arc 2.01128002
+METRIC_CASE original__original occupation_full_formal_lambda1 N_min 0.0818770782 origin 14.3279406 arc 2.02291796
+METRIC_CASE original__original occupation_full_formal_lambda3 N_min 0.0861175841 origin 14.3288367 arc 2.01872841
+METRIC_CASE original__autonomous kinetic_exact N_min 0.0787081565 origin 14.3279744 arc 2.02923877
+METRIC_CASE original__autonomous occupation_preformal_lambda1 N_min 0.082138313 origin 14.3347525 arc 2.01872597
+METRIC_CASE original__autonomous occupation_preformal_lambda3 N_min 0.0865845236 origin 14.3403142 arc 2.01137064
+METRIC_CASE original__autonomous occupation_full_formal_lambda1 N_min 0.0818897385 origin 14.3291104 arc 2.02298385
+METRIC_CASE original__autonomous occupation_full_formal_lambda3 N_min 0.0861294727 origin 14.3300084 arc 2.01880347
+METRIC_CASE autonomous__shared kinetic_exact N_min 0.0786973465 origin 14.3265754 arc 2.02951682
+METRIC_CASE autonomous__shared occupation_preformal_lambda1 N_min 0.0821298064 origin 14.3333448 arc 2.01896888
+METRIC_CASE autonomous__shared occupation_preformal_lambda3 N_min 0.0865779452 origin 14.3389001 arc 2.01158560
+METRIC_CASE autonomous__shared occupation_full_formal_lambda1 N_min 0.0818795398 origin 14.3277104 arc 2.02324835
+METRIC_CASE autonomous__shared occupation_full_formal_lambda3 N_min 0.0861196507 origin 14.3286074 arc 2.01905728
+METRIC_CASE autonomous__original kinetic_exact N_min 0.0786906526 origin 14.3259915 arc 2.02948520
+METRIC_CASE autonomous__original occupation_preformal_lambda1 N_min 0.0821240667 origin 14.3327568 arc 2.01892698
+METRIC_CASE autonomous__original occupation_preformal_lambda3 N_min 0.086572976 origin 14.3383089 arc 2.01153566
+METRIC_CASE autonomous__original occupation_full_formal_lambda1 N_min 0.0818733968 origin 14.3271257 arc 2.02321081
+METRIC_CASE autonomous__original occupation_full_formal_lambda3 N_min 0.0861139035 origin 14.3280217 arc 2.01901514
+METRIC_CASE autonomous__autonomous kinetic_exact N_min 0.0787044497 origin 14.3271596 arc 2.02954115
+METRIC_CASE autonomous__autonomous occupation_preformal_lambda1 N_min 0.0821359675 origin 14.3339331 arc 2.01900349
+METRIC_CASE autonomous__autonomous occupation_preformal_lambda3 N_min 0.0865833539 origin 14.3394916 arc 2.01162826
+METRIC_CASE autonomous__autonomous occupation_full_formal_lambda1 N_min 0.0818861051 origin 14.3282954 arc 2.02327862
+METRIC_CASE autonomous__autonomous occupation_full_formal_lambda3 N_min 0.0861258389 origin 14.3291933 arc 2.01909215
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_model_kinetic_induced_bivector_metric_covariance_trajectory_weighted_robustness_v18_53u_bundle/scripts/run_audit.py", line 249, in <module>
+    run(full=args.full)
+    ~~~^^^^^^^^^^^^^^^^
+  File "/root/elab1/hysteresis/q550_model_kinetic_induced_bivector_metric_covariance_trajectory_weighted_robustness_v18_53u_bundle/scripts/run_audit.py", line 196, in run
+    csvwrite(OUT/'metric_valley_summary.csv',cases)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/elab1/hysteresis/q550_model_kinetic_induced_bivector_metric_covariance_trajectory_weighted_robustness_v18_53u_bundle/scripts/run_audit.py", line 150, in csvwrite
+    with path.open('w',newline='') as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib64/python3.13/pathlib/_local.py", line 537, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/root/elab1/hysteresis/q550_model_kinetic_induced_bivector_metric_covariance_trajectory_weighted_robustness_v18_53u_bundle/results/metric_valley_summary.csv'
