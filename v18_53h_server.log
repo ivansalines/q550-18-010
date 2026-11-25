@@ -1,0 +1,5 @@
+SOURCE_MANIFEST_PASS 27
+SYNTHETIC_PASS geometry/principal_planes/frame_invariance/six_forces/J_identity/dual_IVP/refinement
+AUTHENTICATED MODEL: staging 10D physical solver
+V18_53H_SCIENTIFIC_DECISION AUDIT_FAIL_NOT_CERTIFIED
+SENDBACK /root/elab1/hysteresis/q550_residual_torque_bivector_principal_plane_geometry_dual_kappa_dynamical_persistence_v18_53h_bundle_server_sendback.zip FILES 31

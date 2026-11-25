@@ -1,0 +1,36 @@
+{
+  "version": "v18.53h",
+  "scientific_decision": "AUDIT_FAIL_NOT_CERTIFIED",
+  "parent_status": "SHA256_AUTHENTICATED",
+  "native_status": "SHA256_AUTHENTICATED",
+  "n_new_Q550_ivps": 0,
+  "no_full_historical_pre_12_8_ramp_claim": true,
+  "no_global_bifurcation_or_hinge_noether_certificate": true,
+  "kappa_rules": {
+    "autonomous": 0.16659961041764054,
+    "shared": 0.1666331385421536,
+    "original": 0.16666666666666666
+  },
+  "v18_53g_reference": "SHA256_AND_PREVIOUS_OUTPUT_MANIFEST_AUTHENTICATED",
+  "engine_provenance": {
+    "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "source_omega": 0.844357915384206,
+    "model_parameters": {
+      "phi0": 0.0,
+      "e_reserve": 0.01,
+      "gamma_rho": 0.3,
+      "barrier_B": 0.3,
+      "mu_x": 0.05,
+      "gamma_x": 0.3,
+      "m_x": 1.0
+    },
+    "historical_seed_kappas": {
+      "original": 0.16666666666666666,
+      "autonomous": 0.16659961041764054
+    },
+    "native_fixed_kappa": 0.1666331385421536,
+    "external_phase_source": "authenticated v18.51s make_context/theta + cubic_clock_sign"
+  },
+  "failure": "name 'clock_error' is not defined",
+  "traceback": "Traceback (most recent call last):\n  File \"/root/elab1/hysteresis/q550_residual_torque_bivector_principal_plane_geometry_dual_kappa_dynamical_persistence_v18_53h_bundle/scripts/run_audit.py\", line 230, in main\n    result,plotdata=analyse(native,eng,contexts)\n                    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/elab1/hysteresis/q550_residual_torque_bivector_principal_plane_geometry_dual_kappa_dynamical_persistence_v18_53h_bundle/scripts/run_audit.py\", line 136, in analyse\n    ctx=contexts[seed];baseline,clock_error,archived=native_53g_reconciliation(f,xi,seed,ctx,engine.omega)\n                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/elab1/hysteresis/q550_residual_torque_bivector_principal_plane_geometry_dual_kappa_dynamical_persistence_v18_53h_bundle/scripts/run_audit.py\", line 125, in native_53g_reconciliation\n    return float(err),clock_error,arr\n                      ^^^^^^^^^^^\nNameError: name 'clock_error' is not defined\n"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "seed": "original",
+    "baseline_53g_bivector_error": 0.0,
+    "material_clock_rate_relative_residual": 8.751040983611407e-11
+  },
+  {
+    "seed": "autonomous",
+    "baseline_53g_bivector_error": 0.0,
+    "material_clock_rate_relative_residual": 8.755464561515452e-11
+  }
+]
