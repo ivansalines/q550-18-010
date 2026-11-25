@@ -1,0 +1,55 @@
+{
+  "version": "Q550-v18.53y-11D-velocity-generated-minimal-turn-connection",
+  "scientific_decision": "AUTHENTIC_11D_TRAJECTORY_INDUCED_MINIMAL_TURN_KINEMATIC_CONNECTION__GAUGE_COVARIANT_TRANSPORT__NO_UNIQUE_MATERIAL_CONNECTION",
+  "n_parent_nodes": 204,
+  "n_lift_rows": 612,
+  "n_moving_gauge_tests": 24,
+  "n_refinement_checks": 36,
+  "n_new_physical_ivps": 0,
+  "ancestor_manifest_counts": {
+    "x": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 9
+    },
+    "w": {
+      "SOURCE_MANIFEST.json": 13,
+      "OUTPUT_MANIFEST.json": 7
+    },
+    "v": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 10
+    },
+    "u": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 8
+    },
+    "t": {
+      "SOURCE_MANIFEST.json": 13,
+      "OUTPUT_MANIFEST.json": 7
+    }
+  },
+  "minimum_5d_speed": 0.8331168912630905,
+  "maximum_parent_x_fixed_frame_replay_error_deg": 0.0,
+  "maximum_gauge_pullback_error": 6.970264852407413e-17,
+  "maximum_generator_gauge_error": 4.19544990831082e-16,
+  "maximum_polygon_gauge_error": 9.38318277452004e-16,
+  "maximum_frame_refinement_polygon_angle_deg": 0.00014281772846202505,
+  "maximum_dynamic_frame_angle_by_temporal_lift_deg": {
+    "start": 0.6950841550301787,
+    "midpoint": 0.6813843332003438,
+    "end": 0.6694938797189962
+  },
+  "maximum_absolute_dynamic_minus_fixed_arclength_by_lift_rad": {
+    "start": 0.47888789994257563,
+    "midpoint": 0.45899985703361,
+    "end": 0.434241569613127
+  },
+  "limits": [
+    "The 5D tangent is reconstructed from authenticated mass-normalized 11D phase trajectories; its derivative uses cubic spline differentiation of stored velocities, not a newly integrated 11D tangent map.",
+    "Omega=e_prime wedge e is the unique minimum-Frobenius-norm skew generator satisfying Omega e=e_prime. This is a kinematic no-twist convention, not a physically unique material connection.",
+    "A 10D residual is an integral over [a,a+3w] and has no intrinsically assigned time. Start, midpoint, and end lifts are distinct, explicitly tested conventions.",
+    "Gauge recovery and generator covariance are controlled algebraic/numerical identities; they cannot alone certify material holonomy.",
+    "The canonical 10D metric is used for the dynamical-frame transport; noncanonical velocity-occupation metric sensitivity remains a separate question.",
+    "All endpoints of the near-return windows extend beyond xi=25.6 in the formal clock continuation. Neither 11D material recurrence nor unique frame transport is certified."
+  ]
+}

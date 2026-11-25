@@ -1,0 +1,19 @@
+{
+  "files": {
+    "ENVIRONMENT.md": "8fdbf13c00ee99b74f2d8a0b57a4ea902a69328df5b19a88dc639c03a817e9e0",
+    "LOCAL_PREFLIGHT_VALIDATION.md": "bb13036b1db234b6bf7f76eca3469c3a2cb424caa9e6babe00bd046b5329c20c",
+    "MATHEMATICAL_PROTOCOL.md": "0a0e8f503f7815984057db60d8db239c0f9d77478d6e47bb741945028884d21b",
+    "README.md": "40a94b56b20bb0e791c6a85bc98ca92b6bed1b275aab54859a4065e468aec642",
+    "SCIENTIFIC_DECISION_RULES.md": "fc8d276b2921a4c7770968694a16e615d68d764a0dd3e4e4a16c4e97f9c9e10e",
+    "inputs/v18_53x_authenticated_server_sendback.zip": "e28b3f93392903301e5f5a172eef5783f33dfd03c6cadb9e6a9c6a18d9dd89f8",
+    "inputs_config.json": "7dae555a66cf347715e25417ddc074096b59da7cd9fee8d3290dbdc2b6fa5610",
+    "scripts/connection_math.py": "17a96c088babc6b885fa028d114ce79bb840ab79c4c56e478755422b518e9811",
+    "scripts/package_sendback.py": "af095f56ad5bd4bb625721f00beafd71e9a2d2aa0434c0ce114804973a30d8a7",
+    "scripts/physical_frame_transport.py": "ac0f19d5345d2f683f4b70421175cebc9b75ebfd72d381b691cffad67b2bc84d",
+    "scripts/plot_transport.py": "8aa2961b7421cb9d04b598ca6cb520c31699f5e2bda6fcc66e8d096869b09405",
+    "scripts/run_on_server.sh": "308246a0b6a7b370e4a2705911ffefd0e99a02cc5f464a1e738724edf0d56472",
+    "scripts/verify_manifest.py": "2cf398699b4d17aa88c5f0f20315da8c24466e6955af48bbc685afb0649faa6a",
+    "tests/test_connection.py": "722346d801498eae9db02a16e6c4c1d990e9a4912d6696e63efbf201cf0a5ec0",
+    "tests/test_packaging.py": "6b06b1e0b553897fdcfe639bfdcc7b036e91bd63b82b45ed922069881477442f"
+  }
+}

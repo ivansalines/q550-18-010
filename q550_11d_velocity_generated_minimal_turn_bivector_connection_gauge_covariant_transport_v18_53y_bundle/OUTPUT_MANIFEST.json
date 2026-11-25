@@ -1,0 +1,12 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "023ac47cfdc4b613798015d13bbc23fd96b4d7a4d6bdfa235e0b6f58690da9d0",
+    "results/dynamic_connection_oriented_transport_autonomous.png": "0b5a4a2f3bf420f52fa6af55687e292f96e15d0e7ae8bec6847969328d761e18",
+    "results/dynamic_connection_oriented_transport_original.png": "8a623b6bf38260ff9bea348de4beeee3336b61d49aaf1c34e600a6897af29bdc",
+    "results/dynamic_frame_oriented_transport.csv": "096c7bffee44f62ccc10e13779ba831f52c7a68958e9e7e708d7e7eb1a57c1e8",
+    "results/frame_resolution_convergence.csv": "9d55f633cc6266d3f02cdd7218904ff8c13ff4965844e10eca9ad8c365cdbf31",
+    "results/moving_frame_gauge_covariance.csv": "506baa17cf6bd6bb40aad8ca1a7aed7a17751ed18a0a4a9625d0eb7b64c33825",
+    "results/report.json": "7ac3f07f74b0ae3e7784bd540404036743f997c65d938909eff941117ecba570",
+    "results/selected_dynamic_10d_45d_transport.npz": "7a80b6ece87d8324d1c440ae51fd70d3510d057ab4774656cd48006ec6ebe238"
+  }
+}

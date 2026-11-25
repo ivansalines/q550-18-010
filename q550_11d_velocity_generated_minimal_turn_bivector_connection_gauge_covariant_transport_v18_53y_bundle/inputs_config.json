@@ -1,0 +1,27 @@
+{
+  "version": "Q550-v18.53y-11D-velocity-generated-minimal-turn-connection",
+  "parent_filename": "v18_53x_authenticated_server_sendback.zip",
+  "parent_sha256": "e28b3f93392903301e5f5a172eef5783f33dfd03c6cadb9e6a9c6a18d9dd89f8",
+  "m_x": 1.0,
+  "formal_clock_boundary": 25.6,
+  "min_allowed_speed": 1e-05,
+  "fixed_parent_angle_tolerance_deg": 2e-06,
+  "gauge_tolerance": 1e-09,
+  "gauge_amplitude_rad": 0.22,
+  "gauge_test_lambda": 4.0,
+  "gauge_test_lifts": [
+    "start",
+    "end"
+  ],
+  "lifts": [
+    "start",
+    "midpoint",
+    "end"
+  ],
+  "refinement_stride": 4,
+  "selected_lambdas": [
+    0.0,
+    1.0,
+    4.0
+  ]
+}
