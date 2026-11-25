@@ -1,0 +1,7 @@
+seed,kappa_rule,contrast,max_source_10d_difference,max_cumulative_trapezoid_difference
+original,shared,tight_vs_r4x_same_4x_grid,8.95195328268525e-14,1.57356814408228e-13
+original,original,tight_vs_r4x_same_4x_grid,1.1526000155402567e-13,2.431391528886058e-13
+original,autonomous,tight_vs_r4x_same_4x_grid,2.335725779302565e-13,2.6744766123721857e-13
+autonomous,shared,tight_vs_r4x_same_4x_grid,9.450966766521271e-14,1.5248044567171338e-13
+autonomous,original,tight_vs_r4x_same_4x_grid,5.672682993612665e-14,1.1029009124807136e-13
+autonomous,autonomous,tight_vs_r4x_same_4x_grid,1.5105213355909784e-13,2.1561876340845738e-13

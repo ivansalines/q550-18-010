@@ -1,0 +1,26 @@
+{
+  "version": "v18.53s",
+  "parent_filename": "v18_53r_authenticated_server_sendback.zip",
+  "parent_sha256": "d269fde5a1bac4b82ab50d9aea80725f175494f4744cb0c754d02757677517ff",
+  "parent_r_decision": "GENUINE_DENSER_11D_SOURCE__NUMERICALLY_ROBUST_ORIENTED_VALLEY__NO_MATERIAL_HOLONOMY",
+  "seeds": [
+    "original",
+    "autonomous"
+  ],
+  "kappa_rules": [
+    "shared",
+    "original",
+    "autonomous"
+  ],
+  "physical_reference_max_step_ratio": 0.5,
+  "physical_reference_rtol_ratio": 0.1,
+  "physical_reference_atol_ratio": 0.1,
+  "origin_halfspan": 0.35,
+  "curve_points": 281,
+  "width_halfband": 0.05,
+  "search_brackets": 25,
+  "formal_clock_boundary": 25.6,
+  "near_zero_screen": 1e-05,
+  "purpose": "Separate nested fixed-trajectory quadrature bias from a same-evaluation-grid tighter 11D DOP853 replay; no full material closure claim.",
+  "integration_rule": "Euclidean 10D components; original physical clock transport; all quadrature in xi units."
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "e335800e97882ecc6138e2c327db88f4ac7541eafb203f8b176125bf322febe2",
+    "results/oriented_valley_quadrature_comparison.npz": "3e6a343281fe1825d2ed70fa58aaa350018d45592e1130fe907c2f96972632a3",
+    "results/physical_step_reference.csv": "d09f8b335bb72bd1de6e557c789a1920f8e19c9f88d8e5f4139e3e080025c371",
+    "results/quadrature_geometry_separation_autonomous.png": "9092cd6ae1771d4455f8c26a537845361750915f6628a50d8afcec80892d4ad3",
+    "results/quadrature_geometry_separation_original.png": "96ea39f558c08f30fdee184d6b4f49ce4ceda6a755f911acc9715b60ac919426",
+    "results/quadrature_order_bias.csv": "52a3c393986df5db54fad0e096cf3dc0fe2caeaa8a0df86e6361d9160fc87938",
+    "results/report.json": "d6c6281d263f55cb586411dd3b5ff5ebb10b1df61579e907de5c2abde2f5c3be",
+    "results/same_grid_physical_source_comparison.csv": "765d65b837deadd387f14adbd2f6cbe50cc43834f1a2809259a347fd183d172f",
+    "results/valley_geometry_quadrature_bias.csv": "2d7d4b4840fd9797d087b0f3cc0ddfabe126a6cf95f8f65e2764b8a04255f0ed"
+  }
+}

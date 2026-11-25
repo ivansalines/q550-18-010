@@ -1,0 +1,26 @@
+{
+  "version": "v18.53s",
+  "scientific_decision": "AUTHENTIC_FIXED_GRID_QUADRATURE_VS_TIGHT_11D_STEP_SEPARATION__NO_MATERIAL_HOLONOMY",
+  "new_physical_ivps": 6,
+  "inherited_r_physical_ivps": 12,
+  "r_parent_manifests": {
+    "SOURCE_MANIFEST.json": 12,
+    "OUTPUT_MANIFEST.json": 10
+  },
+  "r_parent_sha256": "d269fde5a1bac4b82ab50d9aea80725f175494f4744cb0c754d02757677517ff",
+  "max_telescoping_identity_error": 0.0,
+  "number_quadrature_comparisons": 96,
+  "number_valley_geometries": 24,
+  "minimum_full_10d_residual": 0.07869049398442791,
+  "max_width_sign_changes": 0,
+  "max_physically_constrained_quadrature_difference": 2.3317656144462833e-06,
+  "formal_clock_continuation_beyond_25p6": true,
+  "limitations": [
+    "Nested trapezoid/Simpson differences are empirical error indicators, not rigorous upper bounds.",
+    "Source PCHIP integral is a reconstructed source, not the exact continuum model integral.",
+    "The same-grid tighter DOP853 replay isolates a numerical step/tolerance sensitivity, not a unique exact ODE error.",
+    "The Euclidean 10D bivector metric is not a full physical-state distance.",
+    "All relevant late endpoints belong to formal clock continuation beyond xi=25.6.",
+    "No material closure, true state recurrence, or material holonomy is certified."
+  ]
+}

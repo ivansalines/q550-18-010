@@ -1,0 +1,16 @@
+{
+  "files": {
+    "LOCAL_PREFLIGHT_VALIDATION.md": "5ef6d311905732057ed1db8cde87d8b925e32772070a244366e737b976f8dfd9",
+    "MATHEMATICAL_PROTOCOL.md": "ee92bd681b4f5bdd9feb34d39d0c5cba074e2cbb07d04d967aefba481f760428",
+    "README.md": "f12ad5e5febac304d5b98b9d285521d448cdde653a4a9a7a1408354d877d3226",
+    "SCIENTIFIC_DECISION_RULES.md": "87c725989e69667e11e13c7636fbc321448a037c13a480e0a37e81e19253b3b9",
+    "inputs/v18_53r_authenticated_server_sendback.zip": "d269fde5a1bac4b82ab50d9aea80725f175494f4744cb0c754d02757677517ff",
+    "inputs_config.json": "a3e87729f84acfb8c65eca6347be1f348f9ba76e4cc19ced9e37bf30c02799a1",
+    "scripts/package_sendback.py": "33938e69e79cf8b575465a059c3594979fcefc46f0e795c3a11c268a4605b21f",
+    "scripts/quadrature_math.py": "693f15a153c1bf728168814d1c6d1f15bee09871a1f32b1295089ad26e99d9c2",
+    "scripts/run_audit.py": "f78a5aca4e36b6e63d4c0422c1dd11e59763880ba5c1643ae59189c63fd5e36c",
+    "scripts/run_on_server.sh": "f61ca22e30a0dfb4e9729ac898de3bbdfc24d786f13e3d28b7014a24ab99f681",
+    "scripts/verify_manifest.py": "da0db9caa3824d336ecc9298e7ce7bb1d92da4032beac3fb6f8959de3bf4cb45",
+    "tests/test_synthetic.py": "97d008e9c0380ae376bc1e22f6efd29d9b9af692c87032f795e6274aab7b7d13"
+  }
+}
