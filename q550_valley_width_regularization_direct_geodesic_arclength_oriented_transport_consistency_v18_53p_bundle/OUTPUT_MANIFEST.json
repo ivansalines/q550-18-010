@@ -1,0 +1,13 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "bbd687dff40a85cf0931b847982c0b6bd313a5dd6fc1a1757dc90a2c1dfeb37b",
+    "results/arclength_convergence_summary.csv": "488f2dc511eb2a06e2160a4b15dd8b415b0300ed04c0b8089e6b067a4a73cb92",
+    "results/historical_v18_53o_replay.csv": "fb5edc511e686a7422b934860c97f5db5e538762b7baa6a4e2258cd5e48ff4b1",
+    "results/report.json": "9f7ac8c6bbd72c5da1f0948da1a851c7e46b61a39bd22ede2cb5936be152de8f",
+    "results/resolution_pair_comparison.csv": "0ab4c1b76fd1217310a38c9f01b2c44e636431ad8d2fe199617c95945b21d5dc",
+    "results/unit_direction_and_oriented_area.npz": "6b5868f34e90dacc0207f07bb56f05f8ae7e3fdfa09b2f3b79420d0f3a7a4cc4",
+    "results/valley_arclength_convergence_autonomous.png": "0757bd7b1dd2806a4ce686ecc593c6be196f1fcba43f0f7a1069f0e535d89aa4",
+    "results/valley_arclength_convergence_original.png": "1fbcf3dea9072905ee2628b1d8e9fd5fb3dede326fb3dd5b5343d6db2b9de2a0",
+    "results/width_and_direction_samples.csv": "15cbf06bd7cdbee2a5ed5bb1f2eec09882bebe82e75ab6d48c2fc8aa328680c8"
+  }
+}

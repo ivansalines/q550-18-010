@@ -1,0 +1,13 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "d18e76a105f9202af1f8c3708bb9d41d85adefbac685b715e093bb61bbb19167",
+    "results/convergence_summary.csv": "39bd648001618938fb85b2de1af10575db0a4a9e7372ff7ec13737e0d9ba0c61",
+    "results/cross_interpolant_comparison.csv": "0329a8cb124922c2742fa40e1ee97e568ecdc8e24b88d2874c4e6b748bd1ea44",
+    "results/oriented_forms.npz": "0b093b182453c4b03731d6180a02c9f648ed50f10ef05447da7cb0e820f148e5",
+    "results/primitive_source_consistency.csv": "ab41144be25da6464671c5b712e4db68a9ae5e9216db43bab533061e614ce2e8",
+    "results/report.json": "99e2781b1de3ccf36b177ff7a6208df77f2d16bf04b9cd88b396a5c00f6593bc",
+    "results/source_constrained_valley_autonomous.png": "a53f2a453cc5c2bf423b6485aa5a73bc66c0aadc64a364ca66adf8b7d9e69b9a",
+    "results/source_constrained_valley_original.png": "41ffa7a3234bbd8161c235ab770e653b3505fe21cd9d393cd7404ebe610ea5dc",
+    "results/valley_samples.csv": "95a0b3406267691f13ace164d243ca431d8947982c03eb34a583a525f766eeff"
+  }
+}

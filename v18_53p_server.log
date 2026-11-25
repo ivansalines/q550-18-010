@@ -1,0 +1,29 @@
+V1853P_SOURCE_MANIFEST_PASS 14
+V1853P_SYNTHETIC_GEODESIC_WIDTH_WEDGE_TESTS_PASS
+V1853P_GENEALOGY_PREFLIGHT_PASS {'SOURCE_MANIFEST.json': 14, 'OUTPUT_MANIFEST.json': 11} parent_ivps=10
+CASE original__shared fixed_width historical_chord_minus_chain -5.81479393e-05 new_geodesic_length 2.0582987
+CASE original__shared optimized_valley historical_chord_minus_chain 0.00988144538 new_geodesic_length 2.0458158
+MODE_DONE original__shared linear
+MODE_DONE original__shared pchip
+CASE original__original fixed_width historical_chord_minus_chain -7.59805862e-05 new_geodesic_length 2.0582819
+CASE original__original optimized_valley historical_chord_minus_chain 0.00981857255 new_geodesic_length 2.04577158
+MODE_DONE original__original linear
+MODE_DONE original__original pchip
+CASE original__autonomous fixed_width historical_chord_minus_chain -3.64984919e-05 new_geodesic_length 2.05830987
+CASE original__autonomous optimized_valley historical_chord_minus_chain 0.00991626132 new_geodesic_length 2.04586071
+MODE_DONE original__autonomous linear
+MODE_DONE original__autonomous pchip
+CASE autonomous__shared fixed_width historical_chord_minus_chain -7.41625967e-05 new_geodesic_length 2.05861318
+CASE autonomous__shared optimized_valley historical_chord_minus_chain 0.0098257151 new_geodesic_length 2.04612293
+MODE_DONE autonomous__shared linear
+MODE_DONE autonomous__shared pchip
+CASE autonomous__original fixed_width historical_chord_minus_chain -8.57843601e-05 new_geodesic_length 2.05859831
+CASE autonomous__original optimized_valley historical_chord_minus_chain 0.00975514122 new_geodesic_length 2.04606902
+MODE_DONE autonomous__original linear
+MODE_DONE autonomous__original pchip
+CASE autonomous__autonomous fixed_width historical_chord_minus_chain -5.87103517e-05 new_geodesic_length 2.05862243
+CASE autonomous__autonomous optimized_valley historical_chord_minus_chain 0.00983020062 new_geodesic_length 2.04613973
+MODE_DONE autonomous__autonomous linear
+MODE_DONE autonomous__autonomous pchip
+V1853P_POSTPROCESS_COMPLETE summaries 72 samples 23592 new_ivps=0
+V1853P_SENDBACK_PASS /root/elab1/hysteresis/q550_valley_width_regularization_direct_geodesic_arclength_oriented_transport_consistency_v18_53p_bundle_server_sendback.zip OUTPUT 9

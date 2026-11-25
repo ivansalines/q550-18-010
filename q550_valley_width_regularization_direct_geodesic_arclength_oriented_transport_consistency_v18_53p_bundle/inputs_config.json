@@ -1,0 +1,25 @@
+{
+  "version": "v18.53p",
+  "parent_v18_53o_sha256": "7e7f1e5e3e952f271d39e833fdf4a615fd281051359a2ab210ce852f8c3d6465",
+  "required_parent_decision": "AUTHENTIC_ORIENTED_10D_VALLEY_AND_BOUNDARY_GEOMETRY__NO_MATERIAL_HOLONOMY",
+  "grid_points": [
+    141,
+    281,
+    561
+  ],
+  "deep_grid_points": [
+    1121
+  ],
+  "interpolants": [
+    "linear",
+    "pchip"
+  ],
+  "width_halfband": 0.05,
+  "origin_halfspan": 0.35,
+  "min_norm_threshold": 0.02,
+  "max_o_replay_width_diff": 8e-05,
+  "max_o_replay_norm_diff": 1e-06,
+  "window_end_formal_boundary": 25.6,
+  "angular_arclength_discrepancy_of_interest_rad": 0.009,
+  "interpolation_changes_are_not_model_changes": true
+}

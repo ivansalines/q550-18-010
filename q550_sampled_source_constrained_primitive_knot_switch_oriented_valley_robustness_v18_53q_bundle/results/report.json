@@ -1,0 +1,39 @@
+{
+  "version": "v18.53q",
+  "scientific_decision": "AUTHENTIC_SAMPLED_SOURCE_CONSTRAINED_INTERPOLANT_DISCRIMINATION__NO_NEW_IVPS__NO_MATERIAL_HOLONOMY",
+  "inherited_physical_ivps": 10,
+  "new_physical_ivps": 0,
+  "physical_refinement_reexecuted": 0,
+  "parent_genealogy": {
+    "p": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 9
+    },
+    "o": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 11
+    },
+    "sha_p": "ba7a57911d64ac9530ff961c25b457bb7744ffb652f8fd998ed53e9d694035f1",
+    "sha_o": "7e7f1e5e3e952f271d39e833fdf4a615fd281051359a2ab210ce852f8c3d6465"
+  },
+  "cases": 6,
+  "num_summaries": 54,
+  "num_samples": 17694,
+  "methods": [
+    "pchip_cumulative",
+    "cubic_hermite_matched_sampled_source",
+    "integral_of_piecewise_linear_sampled_source"
+  ],
+  "max_source_integrated_nodal_drift": 6.481769724036675e-07,
+  "max_cross_interpolant_width_difference": 5.667375994278245e-06,
+  "maximum_cross_interpolant_oriented_area_angle_deg": 0.0010824169763218585,
+  "max_direct_chain_discrepancy": 3.972162010956737e-05,
+  "all_curves_after_formal_clock_boundary": true,
+  "limitations": [
+    "No genuinely new sampling of the physical ODE occurs.",
+    "Sampled source and cumulant are from the same archived trajectory.",
+    "All near-return endpoints rely on formal xi>25.6 clock continuation.",
+    "No claim of 11D closure or material holonomy.",
+    "Width search brackets the observed stationary candidates; missed narrow double roots remain possible."
+  ]
+}

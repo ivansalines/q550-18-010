@@ -1,0 +1,18 @@
+{
+  "files": {
+    "LOCAL_PREFLIGHT_VALIDATION.md": "bff89538bdb7fac41c4a4c42bfed2021a37ab1d0c40e233ab27131eda36197d6",
+    "MATHEMATICAL_PROTOCOL.md": "647ab00f022d920733501bddb00963d8c5cc0de58db93ca192ff8adaab15f871",
+    "README.md": "1b88d532f57c3c67f2a62962a119d5c0649666b479967bef68c61884893e2a49",
+    "SCIENTIFIC_DECISION_RULES.md": "7078140793da8b18a3283d5f0233ec3f2ec95bf55b73376b54ac6a1906d54b29",
+    "inputs/v18_53o_authenticated_server_sendback.zip": "7e7f1e5e3e952f271d39e833fdf4a615fd281051359a2ab210ce852f8c3d6465",
+    "inputs_config.json": "222761cb07d5cc155c5e3bda0b47ca0c6a1115028f861932e1a5a2510b834463",
+    "scripts/package_sendback.py": "48f4f5a01c66d0172f883d713c7d28ccb07996c5995f92b9df529c9e90b23a46",
+    "scripts/release_bundle.py": "9dd52dbd44d9ba48915d726b0dd6a8a397eb6d0fec978ef515a12d8985e0131d",
+    "scripts/run_audit.py": "860ce93621c0280cda4854dfbbf426f11aa6111208639bf28f0f0b2057e81ae6",
+    "scripts/run_on_server.sh": "8366a3331ad8224741d22f7b8ce3a488144592deb265dd28276a383c556d1c61",
+    "scripts/valley_convergence_math.py": "131a031920e4b66293a934600e089a18baf04d2cb5912e22b5311f6d988bc2f0",
+    "scripts/verify_manifest.py": "5efcad2649df93ba95b2b69b74b4fab88e388bd1cbbad7511abcb0168003ae33",
+    "tests/test_authentic_smoke.py": "330596d8bea5ed92f2b68f26d66bf79b8b01b26178f0365437fe7552fb7ad634",
+    "tests/test_synthetic.py": "61b8ef0ad2eb34337d95df9bfd9a419a688c5858bbd66a35fa0336e6330f00b5"
+  }
+}

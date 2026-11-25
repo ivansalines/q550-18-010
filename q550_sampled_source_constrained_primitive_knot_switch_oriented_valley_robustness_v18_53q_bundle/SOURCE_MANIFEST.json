@@ -1,0 +1,16 @@
+{
+  "files": {
+    "LOCAL_PREFLIGHT_VALIDATION.md": "453acbd6ba32121d3271a585c3c8ae1cae4e9d651540527c85a267feb07b37aa",
+    "MATHEMATICAL_PROTOCOL.md": "400d5784f0bd1450bc5f6d2e9a21de0362e9f82b0fb25668b35bc4f48b2eea86",
+    "README.md": "4912517a050067cb02c23abdeaf2d58fc053b5f83d36ce69a2af3cb7b9c96287",
+    "SCIENTIFIC_DECISION_RULES.md": "490f20fd1739f09b92d903bff2901bbf7c99056cdd839d2b20757b0c16b7e629",
+    "inputs/v18_53p_authenticated_server_sendback.zip": "ba7a57911d64ac9530ff961c25b457bb7744ffb652f8fd998ed53e9d694035f1",
+    "inputs_config.json": "60495dd65f50f1510c391a310a5bc461c4d0bfcb7a42703058e22ce2c980c7cc",
+    "scripts/package_sendback.py": "e3d1e20027906339b786f497b6ee701639cfaf3bde6f85703b93f4b383c953a8",
+    "scripts/run_audit.py": "2e766347e85f5444a458dd59fb6c4a19de7d06444d21e59e1998f43d53c7a26c",
+    "scripts/run_on_server.sh": "8366a3331ad8224741d22f7b8ce3a488144592deb265dd28276a383c556d1c61",
+    "scripts/source_valley_math.py": "ba26a5e565dcb26409417ee3596425c36301fc62cb639a1d9a698c03c368316b",
+    "scripts/verify_manifest.py": "d61f1c6ba811ac6a8bee8f134095ee28bc093bde173b062cab71a19fb7b8996e",
+    "tests/test_synthetic.py": "48b3b80d7f1eb38afe738e3d0ad760c60b10d6a077afaf10658c6b2fa26f3898"
+  }
+}

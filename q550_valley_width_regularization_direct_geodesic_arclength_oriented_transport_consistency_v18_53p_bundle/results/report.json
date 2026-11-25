@@ -1,0 +1,38 @@
+{
+  "version": "v18.53p",
+  "scientific_decision": "AUTHENTIC_V18_53O_DERIVED_GEOMETRIC_CONVERGENCE__NO_NEW_IVPS__NO_MATERIAL_HOLONOMY",
+  "source_parent_sha256": "7e7f1e5e3e952f271d39e833fdf4a615fd281051359a2ab210ce852f8c3d6465",
+  "parent_manifests": {
+    "SOURCE_MANIFEST.json": 14,
+    "OUTPUT_MANIFEST.json": 11
+  },
+  "inherited_physical_ivps": 10,
+  "new_physical_ivps": 0,
+  "physical_refinement_reexecuted": 0,
+  "num_case_combinations": 6,
+  "num_curve_summaries": 72,
+  "num_sample_rows": 23592,
+  "grid_resolutions": [
+    141,
+    281,
+    561
+  ],
+  "interpolants": [
+    "linear",
+    "pchip"
+  ],
+  "historical_valley_direct_minus_chain_rad_range": [
+    0.00975514121849086,
+    0.009916261320396025
+  ],
+  "finest_pl_valley_chord_minus_chain_range": [
+    0.023232314363159645,
+    0.023345668548428122
+  ],
+  "finest_pchip_valley_chord_minus_chain_range": [
+    8.045362434039305e-07,
+    2.5550076738767302e-06
+  ],
+  "all_endpoints_in_formal_clock_continuation": true,
+  "caution": "PCHIP and piecewise-linear changes are interpolation choices of the SAME archived physical data. Non-smooth PL knots and a discrete argmin path can bias chain-rule tangent quadrature. No material holonomy or full 11D closure is established."
+}

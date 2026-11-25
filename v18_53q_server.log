@@ -1,0 +1,60 @@
+V1853Q_SOURCE_MANIFEST_PASS 12
+V1853Q_SYNTHETIC_SOURCE_AND_GEOMETRY_TEST_PASS
+V1853Q_HELICAL_INTERIOR_STATIONARITY_TEST_PASS
+V1853Q_PREFLIGHT_PASS {'p': {'SOURCE_MANIFEST.json': 14, 'OUTPUT_MANIFEST.json': 9}, 'o': {'SOURCE_MANIFEST.json': 14, 'OUTPUT_MANIFEST.json': 11}, 'sha_p': 'ba7a57911d64ac9530ff961c25b457bb7744ffb652f8fd998ed53e9d694035f1', 'sha_o': '7e7f1e5e3e952f271d39e833fdf4a615fd281051359a2ab210ce852f8c3d6465'} cases 6
+V1853Q_CASE original__shared pchip 141 direct 2.029275194933762 chain 2.029256429576779
+V1853Q_CASE original__shared pchip 281 direct 2.0292763108156238 chain 2.0292760625909456
+V1853Q_CASE original__shared pchip 561 direct 2.029276758469153 chain 2.0292704226973974
+V1853Q_CASE original__shared hermite 141 direct 2.029277028109944 chain 2.0292557475054465
+V1853Q_CASE original__shared hermite 281 direct 2.0292775474473537 chain 2.0292712556592454
+V1853Q_CASE original__shared hermite 561 direct 2.0292776786798927 chain 2.0292772277061153
+V1853Q_CASE original__shared source_integral 141 direct 2.0292770382595124 chain 2.0292557633194392
+V1853Q_CASE original__shared source_integral 281 direct 2.029277557510275 chain 2.0292712777440878
+V1853Q_CASE original__shared source_integral 561 direct 2.029277688682555 chain 2.029277227226242
+V1853Q_CASE original__original pchip 141 direct 2.0292447706763435 chain 2.029225179298181
+V1853Q_CASE original__original pchip 281 direct 2.0292460033210453 chain 2.0292410728108745
+V1853Q_CASE original__original pchip 561 direct 2.0292463075349474 chain 2.029244524992728
+V1853Q_CASE original__original hermite 141 direct 2.029246372406258 chain 2.0292260078167192
+V1853Q_CASE original__original hermite 281 direct 2.0292468923517637 chain 2.0292413890951972
+V1853Q_CASE original__original hermite 561 direct 2.029247022406344 chain 2.029245536231537
+V1853Q_CASE original__original source_integral 141 direct 2.029246381392351 chain 2.0292260199380205
+V1853Q_CASE original__original source_integral 281 direct 2.02924690123277 chain 2.0292414011870563
+V1853Q_CASE original__original source_integral 561 direct 2.029247031264445 chain 2.029245544867904
+V1853Q_CASE original__autonomous pchip 141 direct 2.029298740243488 chain 2.029287709787267
+V1853Q_CASE original__autonomous pchip 281 direct 2.0292997701555926 chain 2.0293030615555683
+V1853Q_CASE original__autonomous pchip 561 direct 2.029300432991883 chain 2.0293011678344692
+V1853Q_CASE original__autonomous hermite 141 direct 2.029300379889431 chain 2.0292796994829065
+V1853Q_CASE original__autonomous hermite 281 direct 2.0293008984497067 chain 2.029294855084196
+V1853Q_CASE original__autonomous hermite 561 direct 2.0293010307242554 chain 2.0292996734301783
+V1853Q_CASE original__autonomous source_integral 141 direct 2.029300391226495 chain 2.0292797250662904
+V1853Q_CASE original__autonomous source_integral 281 direct 2.029300909711613 chain 2.0292948802994832
+V1853Q_CASE original__autonomous source_integral 561 direct 2.029301041884312 chain 2.0292996869963207
+V1853Q_CASE autonomous__shared pchip 141 direct 2.029577585855445 chain 2.0295531142422507
+V1853Q_CASE autonomous__shared pchip 281 direct 2.0295788441376748 chain 2.0295723472724383
+V1853Q_CASE autonomous__shared pchip 561 direct 2.029579154414076 chain 2.029579909167075
+V1853Q_CASE autonomous__shared hermite 141 direct 2.029578644858108 chain 2.0295584490517085
+V1853Q_CASE autonomous__shared hermite 281 direct 2.029579165822483 chain 2.0295740283397903
+V1853Q_CASE autonomous__shared hermite 561 direct 2.0295792957847314 chain 2.029577561992504
+V1853Q_CASE autonomous__shared source_integral 141 direct 2.029578655934912 chain 2.0295584691670294
+V1853Q_CASE autonomous__shared source_integral 281 direct 2.029579176787961 chain 2.0295740445581947
+V1853Q_CASE autonomous__shared source_integral 561 direct 2.029579306733991 chain 2.029577580094249
+V1853Q_CASE autonomous__original pchip 141 direct 2.0295460697647116 chain 2.029506348144602
+V1853Q_CASE autonomous__original pchip 281 direct 2.02954727902378 chain 2.029525073064685
+V1853Q_CASE autonomous__original pchip 561 direct 2.029547715955081 chain 2.029543946059981
+V1853Q_CASE autonomous__original hermite 141 direct 2.0295470434248575 chain 2.0295303422654962
+V1853Q_CASE autonomous__original hermite 281 direct 2.029547564585013 chain 2.0295457136076767
+V1853Q_CASE autonomous__original hermite 561 direct 2.02954769514824 chain 2.0295471004981627
+V1853Q_CASE autonomous__original source_integral 141 direct 2.0295470534305187 chain 2.0295303114967083
+V1853Q_CASE autonomous__original source_integral 281 direct 2.0295475744834324 chain 2.029545686086493
+V1853Q_CASE autonomous__original source_integral 561 direct 2.0295477050124995 chain 2.0295471032480386
+V1853Q_CASE autonomous__autonomous pchip 141 direct 2.029601682120684 chain 2.0295825465937494
+V1853Q_CASE autonomous__autonomous pchip 281 direct 2.029602900350427 chain 2.0296053959379154
+V1853Q_CASE autonomous__autonomous pchip 561 direct 2.029603223395327 chain 2.0296029757238476
+V1853Q_CASE autonomous__autonomous hermite 141 direct 2.02960293800502 chain 2.0295814244571515
+V1853Q_CASE autonomous__autonomous hermite 281 direct 2.029603458202704 chain 2.0295969156491163
+V1853Q_CASE autonomous__autonomous hermite 561 direct 2.0296035886303874 chain 2.0296023152951506
+V1853Q_CASE autonomous__autonomous source_integral 141 direct 2.0296029502116464 chain 2.0295814509098298
+V1853Q_CASE autonomous__autonomous source_integral 281 direct 2.0296034703079906 chain 2.0295969483748157
+V1853Q_CASE autonomous__autonomous source_integral 561 direct 2.029603600706247 chain 2.0296023296260164
+V1853Q_AUDIT_PASS 54 rows 6.481769724036675e-07
+V1853Q_SENDBACK_PASS /root/elab1/hysteresis/q550_sampled_source_constrained_primitive_knot_switch_oriented_valley_robustness_v18_53q_bundle_server_sendback.zip 9 results
