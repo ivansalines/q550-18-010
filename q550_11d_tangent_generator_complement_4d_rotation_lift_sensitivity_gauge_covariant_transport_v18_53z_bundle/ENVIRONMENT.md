@@ -1,0 +1,1 @@
+Python 3.13, NumPy, SciPy, Matplotlib. No network access. Run on the user's Q550 server under `/root/elab1/hysteresis` with the command in `README.md`. Parent archive is incorporated. No separate historical native NPZ is required, and the nonlinear Q550 orbit is never restarted in v18.53z.

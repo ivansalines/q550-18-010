@@ -1,0 +1,46 @@
+{
+  "version": "Q550-v18.53z-11D-tangent-complement-4D-spin-lift-gauge-audit",
+  "parent_filename": "v18_53y_authenticated_server_sendback.zip",
+  "parent_sha256": "d4f8bbe9338043a4fec36f4d21f8675e94e797f91d686641acccd8e799e10030",
+  "torque_source_sha256": "fab1ccca5481f71dde3b4dacc42636de8d7497bd1292aeba56ac84017b65e928",
+  "parameters": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "kappa_rules": {
+    "shared": 0.1666331385421536,
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "formal_clock_boundary": 25.6,
+  "horizon_xi": 0.07,
+  "spin_nodes": 241,
+  "spin_nodes_smoke": 25,
+  "phase_unit_circle_tolerance": 1e-06,
+  "source_reconstruction_tolerance": 1e-06,
+  "jacobian_stencil_relative_tolerance": 5e-05,
+  "parent_y_replay_tolerance_deg": 5e-06,
+  "horizontal_lifts": [
+    "fixed_cartesian_velocity",
+    "fixed_generalized_velocity"
+  ],
+  "lifts": [
+    "start",
+    "midpoint",
+    "end"
+  ],
+  "gauge_test_lambda": 4.0,
+  "gauge_tolerance": 5e-08,
+  "horizon_probe_nodes": 17,
+  "selected_lambdas": [
+    0.0,
+    1.0,
+    4.0
+  ],
+  "smoke_expected_rows": 18
+}

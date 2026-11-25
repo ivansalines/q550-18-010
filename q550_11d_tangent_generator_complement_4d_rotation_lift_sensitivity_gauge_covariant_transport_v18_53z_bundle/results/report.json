@@ -1,0 +1,54 @@
+{
+  "version": "Q550-v18.53z-11D-tangent-complement-4D-spin-lift-gauge-audit",
+  "scientific_decision": "AUTHENTIC_TRACE_CONDITIONED_11D_TANGENT_COMPLEMENT_DIAGNOSTIC__HORIZONTAL_LIFT_AND_FINITE_LAG_SENSITIVE__NO_UNIQUE_MATERIAL_CONNECTION",
+  "n_historical_paths": 204,
+  "n_transport_rows": 1224,
+  "n_gauge_tests": 48,
+  "n_horizon_tests": 12,
+  "n_new_nonlinear_11d_ivps": 0,
+  "ancestor_manifest_counts": {
+    "y": {
+      "SOURCE_MANIFEST.json": 15,
+      "OUTPUT_MANIFEST.json": 8
+    },
+    "x": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 9
+    },
+    "w": {
+      "SOURCE_MANIFEST.json": 13,
+      "OUTPUT_MANIFEST.json": 7
+    },
+    "v": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 10
+    },
+    "u": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 8
+    },
+    "t": {
+      "SOURCE_MANIFEST.json": 13,
+      "OUTPUT_MANIFEST.json": 7
+    }
+  },
+  "max_parent_y_angle_replay_error_deg": 0.0,
+  "max_source_10d_fit_error": 4.395031684190153e-10,
+  "max_gauge_recovery_error": 7.691694252838278e-17,
+  "max_gauge_generator_error": 4.765502449851098e-16,
+  "max_model_vs_minimal_polygon_angle_deg": 136.6319989386691,
+  "max_tangent_metric_horizon_spin_difference": 0.05819720820663164,
+  "max_model_tangent_lambda_angle_by_temporal_lift_deg": {
+    "start": 0.6984148940683234,
+    "midpoint": 0.6878194072839493,
+    "end": 0.6699521784633444
+  },
+  "limitations": [
+    "The model 11D tangent matrix is reconstructed from the historical material-time RHS and the forcing phase inferred from authenticated source samples, not from a new independent forcing dataset.",
+    "A midpoint finite-lag tangent map approximates a short variational flow. Its horizon dependence is explicitly tested but this is not an exact continuous-time variational integrator.",
+    "Mapping a 5D configuration perturbation into 11D state space requires a horizontal lift. Fixed generalized velocity and fixed Cartesian velocity are distinct defensible lifts. Any detected rotation is conditional on that choice.",
+    "Projecting the 5D tangent polar rotation into the complement of the kinetic velocity leaves e_prime unchanged but does not establish a unique material spin.",
+    "The SO(5) gauge covariance test is an algebraic consistency test, not material holonomy.",
+    "All near-return window endpoints remain in formal clock continuation beyond xi=25.6; no 11D material closure is claimed."
+  ]
+}

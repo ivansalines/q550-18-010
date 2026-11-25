@@ -1,0 +1,13 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "de313343d7fbd4336d6d7d59d141a4a04d6cd36d3fdc22967e884cdae57b5404",
+    "results/authentic_source_and_jacobian_checks.csv": "14a6bb9075672db3a20615082bdfad9f7e79475cad1e121e2ee2f63a081c31c2",
+    "results/finite_lag_horizon_sensitivity.csv": "29d5d2fa76ec9a081dc201124df297d46f6f1ea317c40b13e093e45695b9ee51",
+    "results/model_frame_gauge_covariance.csv": "34b8f7e852ac58a189e784c7e5fa11bbf94ef59c9b0e41c2073fafaaa62746a4",
+    "results/model_tangent_complement_autonomous.png": "6e599857b3a46e0fe95e5daf6b0d8c2c6b42074871aced9a8bd1e0cbb44282ac",
+    "results/model_tangent_complement_original.png": "48d5a8823cb320dd19fc939dd5d02b70f4999ee15b7e77c0509a8573a2d15c07",
+    "results/model_tangent_complement_transport.csv": "a1243cf84590f105a1faf2d1bb95c06d7ffbab27479dd68c0d2d8141fedd92d7",
+    "results/report.json": "a388c5bc9e067e706d96616616dbb01178f7bfda2e09931057b316d3219de1d0",
+    "results/selected_tangent_transport_10d_45d.npz": "525be39e995753fbb48f2cc75a1ad1df097ea4a4e2d0f74493ce67604a6a3442"
+  }
+}
