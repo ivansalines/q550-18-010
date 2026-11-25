@@ -1,0 +1,12 @@
+[
+  {
+    "seed": "original",
+    "v1853g_reference_error": 0.0,
+    "material_clock_rate_relative_error": 8.751040983611407e-11
+  },
+  {
+    "seed": "autonomous",
+    "v1853g_reference_error": 0.0,
+    "material_clock_rate_relative_error": 8.755464561515452e-11
+  }
+]

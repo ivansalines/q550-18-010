@@ -1,0 +1,26 @@
+[
+  {
+    "seed": "original",
+    "kappa_rule": "original",
+    "max_scaled_error": 1.0436096431476471e-13,
+    "nfev": 18527
+  },
+  {
+    "seed": "original",
+    "kappa_rule": "autonomous",
+    "max_scaled_error": 2.6412205755832474e-13,
+    "nfev": 18527
+  },
+  {
+    "seed": "autonomous",
+    "kappa_rule": "original",
+    "max_scaled_error": 9.825473767932635e-14,
+    "nfev": 18527
+  },
+  {
+    "seed": "autonomous",
+    "kappa_rule": "autonomous",
+    "max_scaled_error": 9.420242363944453e-14,
+    "nfev": 18527
+  }
+]

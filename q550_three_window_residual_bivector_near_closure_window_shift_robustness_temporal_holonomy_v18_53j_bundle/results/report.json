@@ -1,0 +1,66 @@
+{
+  "version": "v18.53j",
+  "scientific_decision": "AUTHENTIC_THREE_WINDOW_SHIFT_WIDTH_SCAN__WINDOW_SENSITIVE_OR_NONCLOSING",
+  "parent_status": "SHA256_AUTHENTICATED",
+  "native_status": "SHA256_AUTHENTICATED",
+  "actual_completed_Q550_ivps": 10,
+  "actual_completed_refinement_ivps": 4,
+  "original_historical_trace_ends_xi": 25.6,
+  "continued_external_clock_to_xi": 56.0,
+  "not_a_physical_orbit_holonomy_or_full_ramp_certificate": true,
+  "fixed_endpoints_algebraic_additivity_not_robustness_evidence": true,
+  "v1853i_reference_status": "SHA256_AND_OUTPUT_MANIFEST_AUTHENTICATED",
+  "engine_provenance": {
+    "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "source_omega": 0.844357915384206,
+    "model_parameters": {
+      "phi0": 0.0,
+      "e_reserve": 0.01,
+      "gamma_rho": 0.3,
+      "barrier_B": 0.3,
+      "mu_x": 0.05,
+      "gamma_x": 0.3,
+      "m_x": 1.0
+    },
+    "historical_seed_kappas": {
+      "original": 0.16666666666666666,
+      "autonomous": 0.16659961041764054
+    },
+    "native_fixed_kappa": 0.1666331385421536,
+    "external_phase_source": "authenticated v18.51s make_context/theta + cubic_clock_sign"
+  },
+  "clock": {
+    "original": {
+      "end_theta": -46.313916230323215,
+      "end_drive_sign": -1.0,
+      "historical_clock_extrapolated_beyond_xi25_6": true
+    },
+    "autonomous": {
+      "end_theta": -46.31389520006506,
+      "end_drive_sign": -1.0,
+      "historical_clock_extrapolated_beyond_xi25_6": true
+    }
+  },
+  "summary": {
+    "n_completed_ivps": 10,
+    "n_unique_dynamical_traces": 6,
+    "n_window_triplets": 270,
+    "n_whole_interval_origin_width_triplets": 120,
+    "n_fixed_endpoints_boundary_jitter_triplets": 150,
+    "n_principal_plane_geodesic_polygon_diagnostics_defined": 240,
+    "n_strong_near_closure_origin_width": 24,
+    "n_near_equiangular_and_balanced_origin_width": 24,
+    "min_shift_width_closure_score": 0.5758660358511019,
+    "max_shift_width_closure_score": 0.9743368376133945,
+    "max_shift_width_120_degree_deviation": 75.10384900443407,
+    "baseline_shared_original_seed_closure_score": 0.937047611009578,
+    "maximum_native_replay_error": 9.059419880941277e-14,
+    "maximum_authentic_source_error": 2.0623693725019265e-15,
+    "maximum_charge_drift": 7.549516567451064e-15,
+    "maximum_refinement_error": 2.6412205755832474e-13,
+    "maximum_53i_residual_reconciliation_error": 3.3306690738754696e-15,
+    "maximum_independent_offgrid_integral_error": 3.813352475529652e-05,
+    "first_12_8_to_25_6_history_replayed": true,
+    "beyond_xi_25_6_is_model_clock_continuation": true
+  }
+}

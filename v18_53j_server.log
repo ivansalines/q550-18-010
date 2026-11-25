@@ -1,0 +1,13 @@
+SOURCE_SHA256_PASS 44
+SYNTHETIC_PASS geometry/principal_planes/frame_invariance/six_forces/J_identity/dual_IVP/refinement/material_clock_regression
+V18_53I_SYNTHETIC_PASS bivector_projectors/dual_kappa_grid/central_difference/degeneracy/window_additivity
+V18_53J_SYNTHETIC_PASS: closure, boundary shifts, off-grid quadrature, O5 gauge, polygon holonomy
+AUTHENTICATED MODEL: staging 10D physical solver
+V18_53J_IVP_DONE original shared completed 1
+V18_53J_IVP_DONE original original completed 3
+V18_53J_IVP_DONE original autonomous completed 5
+V18_53J_IVP_DONE autonomous shared completed 6
+V18_53J_IVP_DONE autonomous original completed 8
+V18_53J_IVP_DONE autonomous autonomous completed 10
+V18_53J_DECISION AUTHENTIC_THREE_WINDOW_SHIFT_WIDTH_SCAN__WINDOW_SENSITIVE_OR_NONCLOSING ACTUAL_Q550_IVPS 10
+SENDBACK /root/elab1/hysteresis/q550_three_window_residual_bivector_near_closure_window_shift_robustness_temporal_holonomy_v18_53j_bundle_server_sendback.zip FILES 62
