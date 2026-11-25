@@ -1,0 +1,45 @@
+SOURCE_MANIFEST_PASS 14 files
+SELFTEST_MATCHED_ANCHOR 0.0 U_archive_arc 2.0292153939793502 V_anchor_arc 2.029096115775779 matched_delta 4.2736776784124686e-08
+SELFTEST_MATCHED_ANCHOR 1.0 U_archive_arc 2.018692329150808 V_anchor_arc 2.0184897267992574 matched_delta -8.638462078991438e-08
+SELFTEST_MATCHED_ANCHOR 3.0 U_archive_arc 2.0113289701549406 V_anchor_arc 2.011059154159816 matched_delta -8.790661532032118e-09
+SELFTEST_ANCHOR_ALIGNMENT_PASS
+SOURCE_MANIFEST_PASS 14 files
+ALIGNED_U_REPLAY autonomous autonomous full_formal 0.0 raw_arc_delta -0.000124819608 matched_arc_delta 4.27781992e-08
+ALIGNED_U_REPLAY autonomous autonomous full_formal 1.0 raw_arc_delta -0.000139622638 matched_arc_delta 7.84258813e-08
+ALIGNED_U_REPLAY autonomous autonomous full_formal 3.0 raw_arc_delta -0.000151156414 matched_arc_delta 8.19078605e-08
+ALIGNED_U_REPLAY autonomous autonomous preformal 0.0 raw_arc_delta -0.000124819608 matched_arc_delta 4.27781992e-08
+ALIGNED_U_REPLAY autonomous autonomous preformal 1.0 raw_arc_delta -0.000211892588 matched_arc_delta -8.16341394e-08
+ALIGNED_U_REPLAY autonomous autonomous preformal 3.0 raw_arc_delta -0.000282136843 matched_arc_delta -1.33116638e-08
+ALIGNED_U_REPLAY autonomous original full_formal 0.0 raw_arc_delta -0.000144499144 matched_arc_delta 4.19201491e-08
+ALIGNED_U_REPLAY autonomous original full_formal 1.0 raw_arc_delta -0.000161841942 matched_arc_delta 7.60144783e-08
+ALIGNED_U_REPLAY autonomous original full_formal 3.0 raw_arc_delta -0.000175344979 matched_arc_delta 7.39253672e-08
+ALIGNED_U_REPLAY autonomous original preformal 0.0 raw_arc_delta -0.000144499144 matched_arc_delta 4.19201491e-08
+ALIGNED_U_REPLAY autonomous original preformal 1.0 raw_arc_delta -0.00024647816 matched_arc_delta -9.22651764e-08
+ALIGNED_U_REPLAY autonomous original preformal 3.0 raw_arc_delta -0.000328778393 matched_arc_delta -1.79262831e-08
+ALIGNED_U_REPLAY autonomous shared full_formal 0.0 raw_arc_delta -0.000134744821 matched_arc_delta 4.24392095e-08
+ALIGNED_U_REPLAY autonomous shared full_formal 1.0 raw_arc_delta -0.000150820452 matched_arc_delta 7.72528606e-08
+ALIGNED_U_REPLAY autonomous shared full_formal 3.0 raw_arc_delta -0.000163341698 matched_arc_delta 7.95088697e-08
+ALIGNED_U_REPLAY autonomous shared preformal 0.0 raw_arc_delta -0.000134744821 matched_arc_delta 4.24392095e-08
+ALIGNED_U_REPLAY autonomous shared preformal 1.0 raw_arc_delta -0.000229285809 matched_arc_delta -8.63707896e-08
+ALIGNED_U_REPLAY autonomous shared preformal 3.0 raw_arc_delta -0.000305567975 matched_arc_delta -1.20547821e-08
+ALIGNED_U_REPLAY original autonomous full_formal 0.0 raw_arc_delta -0.000109174873 matched_arc_delta 4.32013003e-08
+ALIGNED_U_REPLAY original autonomous full_formal 1.0 raw_arc_delta -0.000122054191 matched_arc_delta 7.89240682e-08
+ALIGNED_U_REPLAY original autonomous full_formal 3.0 raw_arc_delta -0.000132091436 matched_arc_delta 8.39776328e-08
+ALIGNED_U_REPLAY original autonomous preformal 0.0 raw_arc_delta -0.000109174873 matched_arc_delta 4.32013003e-08
+ALIGNED_U_REPLAY original autonomous preformal 1.0 raw_arc_delta -0.000185006921 matched_arc_delta -8.38917398e-08
+ALIGNED_U_REPLAY original autonomous preformal 3.0 raw_arc_delta -0.000246161264 matched_arc_delta -7.16379134e-09
+ALIGNED_U_REPLAY original original full_formal 0.0 raw_arc_delta -0.000129211077 matched_arc_delta 4.22479336e-08
+ALIGNED_U_REPLAY original original full_formal 1.0 raw_arc_delta -0.000144637848 matched_arc_delta 7.65345591e-08
+ALIGNED_U_REPLAY original original full_formal 3.0 raw_arc_delta -0.000156648586 matched_arc_delta 8.21222339e-08
+ALIGNED_U_REPLAY original original preformal 0.0 raw_arc_delta -0.000129211077 matched_arc_delta 4.22479336e-08
+ALIGNED_U_REPLAY original original preformal 1.0 raw_arc_delta -0.000219996971 matched_arc_delta -8.87370217e-08
+ALIGNED_U_REPLAY original original preformal 3.0 raw_arc_delta -0.000293246422 matched_arc_delta -1.2186923e-08
+ALIGNED_U_REPLAY original shared full_formal 0.0 raw_arc_delta -0.000119278204 matched_arc_delta 4.27367768e-08
+ALIGNED_U_REPLAY original shared full_formal 1.0 raw_arc_delta -0.000133433934 matched_arc_delta 7.77428704e-08
+ALIGNED_U_REPLAY original shared full_formal 3.0 raw_arc_delta -0.000144461191 matched_arc_delta 8.22116899e-08
+ALIGNED_U_REPLAY original shared preformal 0.0 raw_arc_delta -0.000119278204 matched_arc_delta 4.27367768e-08
+ALIGNED_U_REPLAY original shared preformal 1.0 raw_arc_delta -0.000202602352 matched_arc_delta -8.63846208e-08
+ALIGNED_U_REPLAY original shared preformal 3.0 raw_arc_delta -0.000269815995 matched_arc_delta -8.79066153e-09
+ALIGNED_PARENT_U_REPLAY_PASS 36 max_matched_arc 9.226517638794007e-08 max_minimum 3.470715270736946e-09 max_unaligned_arc 0.0003287783933845212
+V18_53V_FIX1_POSTPROCESS_COMPLETE REGULAR_CONDITIONED_NUMERIC_METRIC_CONTINUATION__NO_MATERIAL_HOLONOMY NODES 204
+SENDBACK_COMPLETE /root/elab1/hysteresis/q550_velocity_occupation_metric_continuation_conditioned_hessian_oriented_valley_branch_persistence_v18_53v_bundle_server_sendback.zip sha256 26c194c23ea44bd00d9a823006326c14eb0f2fb8e28535ae31a32a3c55c5bd7e bytes 84524561

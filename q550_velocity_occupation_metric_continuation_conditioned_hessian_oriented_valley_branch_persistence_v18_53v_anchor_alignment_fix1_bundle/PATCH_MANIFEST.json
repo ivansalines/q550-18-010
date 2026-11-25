@@ -1,0 +1,10 @@
+{
+  "name": "v18.53v anchor-alignment fix1",
+  "files": {
+    "FIX1_CHANGELOG.md": "bd4c6aac168f708d66ec7714303ae352fccc711440957b5e7fd0e6316829a945",
+    "README.md": "97300346946b8f2f4766edc738e91ef1d0afc1a9f29c24f9d43d619399a87668",
+    "TEST_VALIDATION.md": "37f86fe57b39600f76d3730943103bf28584d9d51fbb5f3f46f4b594a2ca361d",
+    "recover_v18_53v.py": "27879d6b7f2cc903521b1e5f8303ff448564e645c6cf48d4691778c60158baab",
+    "run_recovery.sh": "4386fe804742c03b0adcb34f63c68dcc836eeca1f0e3b241356c4c3bce6397cb"
+  }
+}

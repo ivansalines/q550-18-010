@@ -1,0 +1,52 @@
+{
+  "version": "v18.53v",
+  "parent_filename": "v18_53u_authenticated_server_sendback.zip",
+  "parent_sha256": "e693e116cd0355378b048dd0bdda11a5d5c8e8bee6ea6569668384aa9f129a1b",
+  "expected_parent_classification": "KINETIC_CANONICAL_COVARIANCE_AND_CONDITIONED_METRIC_SENSITIVITY__NO_MATERIAL_CLOSURE",
+  "expected_t_sha256": "ea65248b9e4dcdfd6d17ad633cab0f2a5688e99d551e80b65af158a135d2d165",
+  "u_helper_sha256": "6fc3f6bcda9ac55c3a6b6e8a8aefc4067475b10d10f5f32f2bf7ccf6e2bd2c76",
+  "seeds": [
+    "original",
+    "autonomous"
+  ],
+  "kappa_rules": [
+    "shared",
+    "original",
+    "autonomous"
+  ],
+  "m_x": 1.0,
+  "epochs": [
+    "preformal",
+    "full_formal"
+  ],
+  "lambdas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.25,
+    2.5,
+    2.75,
+    3.0,
+    3.25,
+    3.5,
+    3.75,
+    4.0
+  ],
+  "origin_halfspan": 0.35,
+  "width_halfband": 0.05,
+  "origin_curve_samples": 141,
+  "width_search_grid": 21,
+  "minimum_root_tol": 1e-09,
+  "min_hessian_scaled_eigen_screen": 1e-08,
+  "root_jump_screen": 0.03,
+  "max_branch_vs_global_param_diff": 0.0005,
+  "relative_u_audit_tolerance": 0.0002,
+  "formal_clock_boundary": 25.6,
+  "zero_screen": 1e-05
+}

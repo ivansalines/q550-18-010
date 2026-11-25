@@ -1,0 +1,14 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "a66de7f4f261aceec3757c033acf3cecb98c7f3e7fdbeac4463febc0bc5340d9",
+    "results/metric_continuation_autonomous.png": "f825608934120bebde01fbedb16422f186258347f4c3af97e4c66696a5a592a3",
+    "results/metric_continuation_original.png": "94f81c5cf26ad1000a75fbe0b0b9f9eaa94f6ab5110470d470fffc10b1f957f7",
+    "results/metric_lambda_continuation.csv": "3f5f200b48718476038165543da4336442c272c7e8a252f782b8a60c3fbdc1e1",
+    "results/metric_lambda_family_summary.csv": "0f0266ea4d6142737a0f8bf11dd004f9416f64d8805e53738ec759ba2e544078",
+    "results/metric_lambda_oriented_45d.npz": "3fd7e99ee123c28fadd84104446d3c7210a5c6a2a5d137051164f9599a4dea4a",
+    "results/metric_lambda_parent_u_matched_anchor.csv": "77a9883e08a2a1d24f0397b6de848b446d503ca47631e022f2737818543d9af4",
+    "results/metric_lambda_parent_u_replay.csv": "2801eb0aa82cc471b6c8153042c1fb2e9f2ddf38882a73bbd2a6e95e4c9ef092",
+    "results/metric_lambda_valley_curves.csv": "c165b7e54a577d261132bf4687003f6073e02fe9f7e10cee4ef79bb159214c98",
+    "results/report.json": "e0fa3d5060864ba359a67d0e6ea88b90ff3051b06e4d786014431a70e6fcf712"
+  }
+}

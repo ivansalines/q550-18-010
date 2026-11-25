@@ -1,0 +1,46 @@
+{
+  "version": "v18.53v-fix1",
+  "scientific_decision": "REGULAR_CONDITIONED_NUMERIC_METRIC_CONTINUATION__NO_MATERIAL_HOLONOMY",
+  "mode": "AUTHENTIC_U_T_POSTPROCESS_NO_NEW_PHYSICAL_IVPS__POST_RUN_ANCHOR_ALIGNMENT_RECOVERY",
+  "n_cases": 204,
+  "n_metric_families": 2,
+  "n_physical_cases": 6,
+  "n_lambda_values": 17,
+  "n_geometry_rows": 28764,
+  "n_ancestral_u_replays": 36,
+  "parent_manifest_counts": {
+    "parent_u": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 8
+    },
+    "parent_t": {
+      "SOURCE_MANIFEST.json": 13,
+      "OUTPUT_MANIFEST.json": 7
+    }
+  },
+  "max_historical_unchanged_U_arclength_internal_error": 0.0,
+  "max_original_unaligned_arclength_difference_not_a_regression": 0.0003287783933845212,
+  "max_parent_u_matched_anchor_arclength_difference": 9.226517638794007e-08,
+  "max_parent_u_minimum_fields_difference": 3.470715270736946e-09,
+  "recovered_without_repeating_204_continuation_nodes": true,
+  "all_interior_minima": true,
+  "all_positive_scaled_hessians": true,
+  "all_stationary_minima": true,
+  "independent_branch_screen_pass": true,
+  "max_multistart_param_displacement": 5.710615932108002e-12,
+  "min_scaled_hessian_eigenvalue": 0.005001280445501255,
+  "max_scaled_hessian_condition": 1.9982004489702605,
+  "max_origin_shift": 0.01370773050526708,
+  "max_oriented_polygon_angle_deg": NaN,
+  "max_implicit_origin_derivative_secant_mismatch": 8.584147664421338e-05,
+  "max_implicit_width_derivative_secant_mismatch": 6.624506581279295e-07,
+  "parent_anchor_explanation": "v18.53u archived 141-point curve is centered on the historical v18.53t curve origin; v18.53v 141-point curve is centered on the v18.53u optimized canonical minimum. The original absolute arclength difference therefore compares distinct paths. Fix1 recomputes the historical u width-search algorithm at the v anchor and compares identical observation windows.",
+  "limitations": [
+    "The canonical kinetic metric is Euclidean in the historical mass-whitened Cartesian embedding.",
+    "Velocity-occupation-weighted metrics are model-conditioned sensitivity probes, not fundamental physical metrics.",
+    "Analytic Hessians and implicit derivatives refer to the archived CubicHermiteSpline interpolant, not the continuum flow.",
+    "The oriented 45D polygon is compared using a convention-dependent SPD symmetric square-root identification.",
+    "Far endpoints remain in formal clock continuation beyond xi=25.6.",
+    "Regularity of this metric-conditioned numerical branch does not prove unique global continuation or 11D recurrence, material memory or holonomy."
+  ]
+}

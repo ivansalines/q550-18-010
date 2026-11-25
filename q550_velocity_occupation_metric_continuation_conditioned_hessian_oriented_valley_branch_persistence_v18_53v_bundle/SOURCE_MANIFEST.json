@@ -1,0 +1,18 @@
+{
+  "files": {
+    "ENVIRONMENT.md": "4bd168c840ec6eb266af56517a91cfb8483c333dc632d5afd0707e9432926eec",
+    "LOCAL_PREFLIGHT_VALIDATION.md": "8669250c8f65043058a7cf0561939ad4cc5abd45ecc1cbcf2b4e877d1858a0ff",
+    "MATHEMATICAL_PROTOCOL.md": "02146f8ccc60f8bd55b5471b1e2578ff0406623899d43b3254fa63101fae8a37",
+    "README.md": "69f91016e6cc2f2287c0643f62a0306f9d11c3dde2136a0f280eea48abbba6c8",
+    "SCIENTIFIC_DECISION_RULES.md": "da61bde361556d2605b0244a0a0d56bbc195d7c80bb9a9ceaff3a50a1cf1eb23",
+    "inputs/u_metric_geometry_authenticated.py": "6fc3f6bcda9ac55c3a6b6e8a8aefc4067475b10d10f5f32f2bf7ccf6e2bd2c76",
+    "inputs/v18_53u_authenticated_server_sendback.zip": "e693e116cd0355378b048dd0bdda11a5d5c8e8bee6ea6569668384aa9f129a1b",
+    "inputs_config.json": "21b838bf28db1b77eee4b9d9713574be6deb5ebd23fd6fe293d5bf33d091dfe5",
+    "scripts/metric_continuation.py": "5976dbded2fb41f9e0db9f39f8d465af7ea27b6b4851e21a74e0c5ca9aab6314",
+    "scripts/package_sendback.py": "587a5bde392dbfa66ddb3fe81fa8831a41e82196d77bb012e6a884fbdb70fc1a",
+    "scripts/run_on_server.sh": "b0044c5812add845b6c39cb0ee7010b843ae9810a4da6ead852f1147878b2173",
+    "scripts/verify_manifest.py": "978d78a77343021df9116f0e8ea5f461506545714b670a27ede9d4acb2bc9afe",
+    "tests/test_continuation_geometry.py": "0e6b2e160cf7c4b7d9b14f1e5744d4b81933cdbde60bfc8e744656cfcd72ae2d",
+    "tests/test_packaging.py": "284026d45d107cc091331215c14148d7ab17b0bd25ea7f56afbbbe41f3a3bcdc"
+  }
+}
