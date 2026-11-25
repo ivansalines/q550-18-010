@@ -1,0 +1,18 @@
+{
+  "files": {
+    "LOCAL_PREFLIGHT_VALIDATION.md": "01ffb4ef82ae1092adead70c0a55e12cf936b8b12d4eee589d3dcca05ba75117",
+    "MATHEMATICAL_PROTOCOL.md": "cad513b7338257bc7a35b5dd6907f6df1edc935225096b0fdafe2679da804db2",
+    "README.md": "1fe7d9438ff09820ac45a3a29437b49d3d4d73d804a62c70b9a9b14579ef2b04",
+    "SCIENTIFIC_DECISION_RULES.md": "c3c41f702240a01e2e04a3198f254ebaef754d5d6dd2dbbef70dffde0f23e5f2",
+    "inputs/v18_53n_fix1_authenticated_server_sendback.zip": "582c34b9784c398f5b74956a9961a286a24adf33244e65d3de90a1df81a8ca06",
+    "inputs_config.json": "b618287d505be7720b18246b6a6e8ee451656d4ef3c2f8d3ad5e01f54a86af3a",
+    "requirements.txt": "156ec9e31c34ee6ac86f1de488fdf72936fbd5c9af57abe58a8305ea1ccaa985",
+    "run_on_server.sh": "1bb29b311dabd71f4322333a226fcb3465e06a8eb9f007fba667123af01c024e",
+    "scripts/oriented_valley_geometry.py": "d7ab282817f19c568271e567447788af6fad252a1f80b8b06170d96d9ceca373",
+    "scripts/package_sendback.py": "b7090a496ee94dd92284b1e775ae22db01e5dc05fd31d52d4ea819dc32a434d6",
+    "scripts/run_audit.py": "57706a2af9fcfcd1d0df06470b18d5c4e874d7eed396b69feb07afab6a3d1071",
+    "scripts/run_on_server.sh": "f3b2986c55a895b2f79c8be4e04784dc302c672b49ea1a9437c20533695be4bd",
+    "scripts/verify_manifest.py": "ed529881e44a812eb00748c062d4abeb7659bced173081fdcb8da69395a6bf0e",
+    "tests/test_synthetic.py": "5644d4f1b87d65076dc6143990f1d4c4fecc202cd6220e42040904b5b1288291"
+  }
+}

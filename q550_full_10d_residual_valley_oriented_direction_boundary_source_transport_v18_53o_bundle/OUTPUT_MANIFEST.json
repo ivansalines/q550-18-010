@@ -1,0 +1,15 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "193b5db3682332f05f4a5891fa6f0ce411c71158ed2cc46decb8048eb44ffd30",
+    "results/derived_primitives.npz": "cc53f7d3c107c7b6d2a241e73354809ac0c196639e85028b886a8d1e150bb144",
+    "results/fixed_width_oriented_transport.csv": "f2ecfeb36ff11194e6a06b9e54ca3be64a5900aad46413fa05fd059d9df056b5",
+    "results/full10d_residual_valley_oriented_turning_autonomous.png": "f3b2752fa5a70f3b25151ff747b7243f83cdffab3bbd2a81455ff73d712b4d69",
+    "results/full10d_residual_valley_oriented_turning_original.png": "0fed3bf11a364680585631a35a1f8bdb86b65cf7fb02bdeaca1e58173ea10c1f",
+    "results/genuine_physical_ivps.csv": "764024e8e5aee69d5300f012bc39d545a948a4e9b2c480527452fa3084ff9b09",
+    "results/local_valley_oriented_transport.csv": "eb7de0e38798be02d8d22639f5df66a10d69f4100d48a582906b758144f7572f",
+    "results/minimum_two_endpoint_orthogonality.csv": "084df9c38c2db7da88d081533a8b40014586bbaa3ba374d0f5c23026a2c720c4",
+    "results/quadrature_pchip_refinement_sensitivity.csv": "81cf9651690cb0de8f15327499ded8bc02ab9dcca19c486ac853c8a8aa769980",
+    "results/report.json": "15a3ec92d6c0b76d54784e8df03e074dc82c4aaaec93fcdc5ad67131ee00d856",
+    "results/valley_curve_summary.csv": "c28b783544bd662999c0d23f052f21639b6bcc51cbc2be9805c1cef361695215"
+  }
+}

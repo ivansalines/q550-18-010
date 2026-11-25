@@ -1,0 +1,15 @@
+SOURCE_MANIFEST_PASS 14 files
+SYNTHETIC_ORIENTATION_AND_BOUNDARY_TESTS_PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+V1853O_PHYSICAL_CASE original shared IVPS 1
+V1853O_PHYSICAL_CASE original original IVPS 3
+V1853O_PHYSICAL_CASE original autonomous IVPS 5
+V1853O_PHYSICAL_CASE autonomous shared IVPS 6
+V1853O_PHYSICAL_CASE autonomous original IVPS 8
+V1853O_PHYSICAL_CASE autonomous autonomous IVPS 10
+V1853O AUTHENTIC_ORIENTED_10D_VALLEY_AND_BOUNDARY_GEOMETRY__NO_MATERIAL_HOLONOMY IVPS 10
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_full_10d_residual_valley_oriented_direction_boundary_source_transport_v18_53o_bundle/scripts/package_sendback.py", line 11, in <module>
+    if p.is_file() and p!=out:z.write(p,str(root.name+'/'+p.relative_to(root)))
+                                            ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+TypeError: can only concatenate str (not "PosixPath") to str

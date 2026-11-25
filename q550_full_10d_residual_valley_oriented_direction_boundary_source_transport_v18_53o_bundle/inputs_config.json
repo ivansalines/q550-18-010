@@ -1,0 +1,21 @@
+{
+  "version": "v18.53o",
+  "parent_v1853n_fix1_sha256": "582c34b9784c398f5b74956a9961a286a24adf33244e65d3de90a1df81a8ca06",
+  "parent_required_decision": "AUTHENTIC_FULL_10D_NONZERO_NEAR_RETURN_MINIMUM__NO_MATERIAL_CLOSURE",
+  "parent_minima_count": 6,
+  "physical_parent_source_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "physical_native_source_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "valley_halfwidth_origin_xi": 0.35,
+  "n_curve_points": 141,
+  "local_width_halfband_xi": 0.05,
+  "minimum_replay_norm_abs_tol": 3e-10,
+  "minimum_replay_params_abs_tol": 0.002,
+  "max_refined_scaled_trajectory_deviation": 3e-07,
+  "expected_actual_ivps": 10,
+  "expected_refined_ivps": 4,
+  "formal_continuation_boundary_xi": 25.6,
+  "derivative_fd_step_xi": 1e-05,
+  "derivative_check_tol_relative": 0.0001,
+  "numerical_closure_screen": 1e-07,
+  "scientific_note": "Inferred directional transport of an integrated full-10D bivector is not physical/material holonomy; full model state is not closed."
+}
