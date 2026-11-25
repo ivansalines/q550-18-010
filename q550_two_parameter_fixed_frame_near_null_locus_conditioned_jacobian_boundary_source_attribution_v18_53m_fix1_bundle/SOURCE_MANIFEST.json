@@ -1,0 +1,26 @@
+{
+  "version": "v18.53m-fix1",
+  "root_folder": "q550_two_parameter_fixed_frame_near_null_locus_conditioned_jacobian_boundary_source_attribution_v18_53m_fix1_bundle",
+  "files": {
+    "FIX1_CHANGELOG.md": "aefb02fb7735e10e0f063da8cac13c4249e616c7b4a65264252343e107c2061a",
+    "FIX1_LOCAL_VALIDATION.md": "b7f5b57e220215f4c65e2da2da481e3bbfcaf352c1927af4e3d10e19918ce9ed",
+    "LOCAL_PREFLIGHT_VALIDATION.md": "014fca4112bd5a803cc3d1ebbeb2fb352c5bd35d4eaa256c01ae9b4e5f44421b",
+    "MATHEMATICAL_PROTOCOL.md": "08d4d9dd15fa558a0740ba3eb86a15c749c42887b69169e1c18b7712a8b7bf0f",
+    "README.md": "1d7658436f25634ed54217f8cadf69096d2735fa6a630bcb7ccb803c71679058",
+    "SCIENTIFIC_DECISION_RULES.md": "b9481e19d93394d0e3bd9df9417e12fc7f115700da9a397d14c01e87808631ff",
+    "inputs/v18_53l_authenticated_server_sendback.zip": "a8b88d8914a4a16ffa1d8ce5837f837c91df5b7261ee03a34aa3ee6cb62ade6f",
+    "inputs/v18_53l_independent_review.zip": "7aad828ce4fa0bf19cf384e23fd8b794bbe1350851f85e3062b70c1adc1cb8bb",
+    "inputs_config.json": "5b4dd6e39d6a2778f39ccc4c27d126af2bf06e1bc687b40884d08a82c92bd7d5",
+    "provenance/v18_53m_failed_server_sendback.zip": "a9348cf4eb3b9de75d75396dd3635e5ad68e2094272a5ad8b0e2e9c3b7b7c5dd",
+    "requirements.txt": "156ec9e31c34ee6ac86f1de488fdf72936fbd5c9af57abe58a8305ea1ccaa985",
+    "results/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "run_on_server.sh": "4fa5d1d59c50fe98499693d8ebafafc76825d291634327020032235da5605709",
+    "scripts/near_null_geometry.py": "c184d16c0b77f6d16b42ebc4f2cba2a241a3094fae3e93b05e9be58d2e141f58",
+    "scripts/package_sendback.py": "39a1e8a0827934f24e0507c6bc57e7a5cf80392c46ee4037d12e5ee5f502811d",
+    "scripts/run_audit.py": "bbaf148475107fc994b7dd9a1cd56edd67567c1c352d9ca962a1b78e7e298c08",
+    "scripts/run_on_server.sh": "936929ca4e09218b6a7ec73c8ccb49b18ba1cb25c581746c14a1b16faa8ee789",
+    "scripts/verify_manifest.py": "a5f0198620ff695319849e03c477ee5a4b677be71955d0167c4981b6f6d0cd6e",
+    "tests/test_synthetic.py": "6fd1cebae18be9abd5b6188c0a0d5c71895a937e2fa6784549b00efb50ed5a80",
+    "tests/test_trace_domain_regression.py": "d0e10a6ed677f34835e3e1397ccac7d109a243f71181427ab532d8abf202fe42"
+  }
+}

@@ -1,0 +1,351 @@
+# Q550 v18.53m-fix1 — Two-Parameter Fixed-Frame Near-Null Audit
+
+Decision: `AUTHENTIC_TWO_PARAMETER_PROJECTED_ROOT_CANDIDATES_ONLY__NO_MATERIAL_CLOSURE`
+
+Actual physical Q550 integrations: 10
+
+Two-dimensional projected zeros are not full ten-dimensional bivector closure.
+
+```json
+{
+  "n_2d_map_samples": 13050,
+  "n_unfiltered_optimizations": 264,
+  "n_distinct_optimizer_candidates": 54,
+  "n_projected_root_candidates": 36,
+  "n_conditioned_projected_root_candidates": 36,
+  "minimum_projected_norm": 1.0672130742906749e-16,
+  "minimum_full_net_norm_at_projected_roots": 0.08069871902596001,
+  "max_boundary_jacobian_identity_error": 0.0,
+  "max_parent_l_net_reconciliation_error": 1.4641066137244252e-15,
+  "max_SO2_gauge_norm_error": 6.938893903907228e-18,
+  "candidate_condition_numbers": [
+    {
+      "seed": "original",
+      "kappa_rule": "shared",
+      "anchor": 13.6,
+      "origin": 12.87453210327512,
+      "width": 12.816721104645266,
+      "condition": 59.84361703985707,
+      "full_net_norm": 0.202221027197968
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "shared",
+      "anchor": 13.6,
+      "origin": 14.39224465037498,
+      "width": 12.799639691417187,
+      "condition": 41.44839216857683,
+      "full_net_norm": 0.08071351401750937
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "shared",
+      "anchor": 14.4,
+      "origin": 13.832703729488012,
+      "width": 12.804529720324028,
+      "condition": 129.00546683066167,
+      "full_net_norm": 0.14952372622495788
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "shared",
+      "anchor": 14.4,
+      "origin": 12.933088789736537,
+      "width": 12.804662931669515,
+      "condition": 108.1409501615733,
+      "full_net_norm": 0.20338959757656677
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "shared",
+      "anchor": 15.2,
+      "origin": 15.194985597417391,
+      "width": 12.809470910817838,
+      "condition": 85.35813664926822,
+      "full_net_norm": 0.19759426991072707
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "shared",
+      "anchor": 15.2,
+      "origin": 14.05451983205333,
+      "width": 12.794588107752325,
+      "condition": 58.21753039650722,
+      "full_net_norm": 0.10989007427974438
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "original",
+      "anchor": 13.6,
+      "origin": 12.874496083888435,
+      "width": 12.81674322944119,
+      "condition": 59.9188405453119,
+      "full_net_norm": 0.20224699090344508
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "original",
+      "anchor": 13.6,
+      "origin": 14.391978017902229,
+      "width": 12.799686963534059,
+      "condition": 41.385094306693624,
+      "full_net_norm": 0.08072896551854018
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "original",
+      "anchor": 14.4,
+      "origin": 12.931840813331187,
+      "width": 12.804681064095236,
+      "condition": 108.60191945719113,
+      "full_net_norm": 0.20336763159524587
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "original",
+      "anchor": 14.4,
+      "origin": 13.831850035002793,
+      "width": 12.80456978383073,
+      "condition": 128.29078752005302,
+      "full_net_norm": 0.14958918682517447
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "original",
+      "anchor": 15.2,
+      "origin": 14.053528207845927,
+      "width": 12.794628361387174,
+      "condition": 58.192668908157195,
+      "full_net_norm": 0.10997470665292737
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "original",
+      "anchor": 15.2,
+      "origin": 15.194117457770453,
+      "width": 12.809481220924512,
+      "condition": 85.50532314107609,
+      "full_net_norm": 0.19758834090716584
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "autonomous",
+      "anchor": 13.6,
+      "origin": 14.39251343713431,
+      "width": 12.799592412751096,
+      "condition": 41.51195141049167,
+      "full_net_norm": 0.08069871902596001
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "autonomous",
+      "anchor": 13.6,
+      "origin": 12.874568809622321,
+      "width": 12.816698968784841,
+      "condition": 59.76869802165728,
+      "full_net_norm": 0.20219486732724343
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "autonomous",
+      "anchor": 14.4,
+      "origin": 13.833560129316696,
+      "width": 12.80448973101106,
+      "condition": 129.7286974343167,
+      "full_net_norm": 0.1494579439035248
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "autonomous",
+      "anchor": 14.4,
+      "origin": 12.934334224587927,
+      "width": 12.804644750264666,
+      "condition": 107.68511655980681,
+      "full_net_norm": 0.20341132466830392
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "autonomous",
+      "anchor": 15.2,
+      "origin": 15.19584892040708,
+      "width": 12.809460514236402,
+      "condition": 85.2115907687273,
+      "full_net_norm": 0.19759971145450264
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "autonomous",
+      "anchor": 15.2,
+      "origin": 14.055511857893125,
+      "width": 12.794547881760133,
+      "condition": 58.24287605218792,
+      "full_net_norm": 0.10980588236419257
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "shared",
+      "anchor": 13.6,
+      "origin": 12.874380040348157,
+      "width": 12.816727363227656,
+      "condition": 59.848032490518094,
+      "full_net_norm": 0.20228007271758253
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "shared",
+      "anchor": 13.6,
+      "origin": 14.391519183816193,
+      "width": 12.799641287538993,
+      "condition": 41.43028645311122,
+      "full_net_norm": 0.08071619235916264
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "shared",
+      "anchor": 14.4,
+      "origin": 13.832088317376748,
+      "width": 12.804522933685886,
+      "condition": 128.88797438139324,
+      "full_net_norm": 0.14951295762631409
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "shared",
+      "anchor": 14.4,
+      "origin": 12.930967597032573,
+      "width": 12.804649391300453,
+      "condition": 108.40987010735222,
+      "full_net_norm": 0.20337232887283885
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "shared",
+      "anchor": 15.2,
+      "origin": 14.054107537701777,
+      "width": 12.794586356022618,
+      "condition": 58.26053360229801,
+      "full_net_norm": 0.10982793690535055
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "shared",
+      "anchor": 15.2,
+      "origin": 15.1942881820752,
+      "width": 12.809466314825034,
+      "condition": 85.36340090811692,
+      "full_net_norm": 0.19762786443365113
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "anchor": 13.6,
+      "origin": 14.391253771272396,
+      "width": 12.799688564577677,
+      "condition": 41.367088784072415,
+      "full_net_norm": 0.08073178036155448
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "anchor": 13.6,
+      "origin": 12.874343532304563,
+      "width": 12.816749464900921,
+      "condition": 59.9233612848028,
+      "full_net_norm": 0.20230601466083084
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "anchor": 14.4,
+      "origin": 12.929710255632296,
+      "width": 12.804667438670975,
+      "condition": 108.87385887690144,
+      "full_net_norm": 0.20335009902092221
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "anchor": 14.4,
+      "origin": 13.831235403346582,
+      "width": 12.804563038408583,
+      "condition": 128.17491320378434,
+      "full_net_norm": 0.1495784775235318
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "anchor": 15.2,
+      "origin": 14.053115502309224,
+      "width": 12.79462664502324,
+      "condition": 58.235910602535,
+      "full_net_norm": 0.1099127198555604
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "anchor": 15.2,
+      "origin": 15.193417494456655,
+      "width": 12.809476575585105,
+      "condition": 85.51080972680924,
+      "full_net_norm": 0.19762190561571552
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "autonomous",
+      "anchor": 13.6,
+      "origin": 14.391786746234756,
+      "width": 12.799594003919612,
+      "condition": 41.49374513535669,
+      "full_net_norm": 0.08070126138136281
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "autonomous",
+      "anchor": 13.6,
+      "origin": 12.874417233881804,
+      "width": 12.816705250573548,
+      "condition": 59.77300937058788,
+      "full_net_norm": 0.20225393405723235
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "autonomous",
+      "anchor": 14.4,
+      "origin": 13.832943917083036,
+      "width": 12.804482903184233,
+      "condition": 129.60956175610016,
+      "full_net_norm": 0.1494471188308383
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "autonomous",
+      "anchor": 14.4,
+      "origin": 12.932222294975917,
+      "width": 12.804631294241677,
+      "condition": 107.95106249877462,
+      "full_net_norm": 0.2033943186679865
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "autonomous",
+      "anchor": 15.2,
+      "origin": 15.195154046681846,
+      "width": 12.809455967700274,
+      "condition": 85.21663490590625,
+      "full_net_norm": 0.197633337900274
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "autonomous",
+      "anchor": 15.2,
+      "origin": 14.055099977926432,
+      "width": 12.7945460945941,
+      "condition": 58.28564104518756,
+      "full_net_norm": 0.10974359527961627
+    }
+  ],
+  "anchor_selection_is_observer_dependent": true
+}
+```
+
+Error: none

@@ -1,0 +1,13 @@
+V1853M_SOURCE_MANIFEST_PASS 20
+SYNTHETIC_2D_ROOT_BOUNDARY_JACOBIAN_SO2_GAUGE_AND_FULL_NET_NONCLOSURE_PASS
+FIX1_TRACE_DOMAIN_GUARD_AND_BOUNDARY_SAFE_FD_PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+V1853M_FIX1_VALIDATED_TRACE_DOMAIN {'xi_min': 12.8, 'xi_max': 56.0, 'box_start_min': 12.8, 'box_end_max': 54.13}
+V1853M_PHYSICAL_TRACE original shared IVPS 1
+V1853M_PHYSICAL_TRACE original original IVPS 3
+V1853M_PHYSICAL_TRACE original autonomous IVPS 5
+V1853M_PHYSICAL_TRACE autonomous shared IVPS 6
+V1853M_PHYSICAL_TRACE autonomous original IVPS 8
+V1853M_PHYSICAL_TRACE autonomous autonomous IVPS 10
+V1853M AUTHENTIC_TWO_PARAMETER_PROJECTED_ROOT_CANDIDATES_ONLY__NO_MATERIAL_CLOSURE ACTUAL_IVPS 10
+V1853M_FIX1_SENDBACK /root/elab1/hysteresis/q550_two_parameter_fixed_frame_near_null_locus_conditioned_jacobian_boundary_source_attribution_v18_53m_fix1_bundle_server_sendback.zip MEMBERS 35
