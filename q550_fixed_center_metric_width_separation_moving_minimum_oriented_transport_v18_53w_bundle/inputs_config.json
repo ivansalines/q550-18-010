@@ -1,0 +1,47 @@
+{
+  "version": "v18.53w",
+  "parent_filename": "v18_53v_authenticated_server_sendback.zip",
+  "parent_sha256": "26c194c23ea44bd00d9a823006326c14eb0f2fb8e28535ae31a32a3c55c5bd7e",
+  "u_helper_sha256": "6fc3f6bcda9ac55c3a6b6e8a8aefc4067475b10d10f5f32f2bf7ccf6e2bd2c76",
+  "seeds": [
+    "original",
+    "autonomous"
+  ],
+  "kappa_rules": [
+    "shared",
+    "original",
+    "autonomous"
+  ],
+  "epochs": [
+    "preformal",
+    "full_formal"
+  ],
+  "lambdas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.25,
+    2.5,
+    2.75,
+    3.0,
+    3.25,
+    3.5,
+    3.75,
+    4.0
+  ],
+  "m_x": 1.0,
+  "origin_halfspan": 0.35,
+  "width_halfband": 0.05,
+  "origin_curve_samples": 141,
+  "width_search_grid": 21,
+  "formal_clock_boundary": 25.6,
+  "parent_classification": "REGULAR_CONDITIONED_NUMERIC_METRIC_CONTINUATION__NO_MATERIAL_HOLONOMY",
+  "parent_polygon_tolerance": 1e-07,
+  "closure_tol": 5e-11
+}

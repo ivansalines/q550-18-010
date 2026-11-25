@@ -1,0 +1,11 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "9197c2201a74d9333aace840b144ec6c7f77890cfbca8c869156c7cfa5fe33a1",
+    "results/factorial_metric_path_autonomous.png": "bcf4b65e1d2cbbf2cbb66e4c3b50ddc27f3e630b72a6512443ee4b92c3c0e669",
+    "results/factorial_metric_path_original.png": "a3d7b0d8e1b1b587d6cba569c2c34b8f74679cfb28ae08c041a9e08c5ee6f0bf",
+    "results/metric_path_factorial_45d.csv": "cc6267448473c019811d78b3212056e8a1eedba81c9447e4747150f0af715a9d",
+    "results/metric_path_factorial_vectors.npz": "59f935a8d666301936e80049f93b48cb22a83fe387b7c350ff00db90393085d5",
+    "results/metric_path_family_summary.csv": "09eeb5e33d53a1d336053f17f7e4674dabcf990376e4130989a874bd48a14c99",
+    "results/report.json": "0b5dc9b693e3ed69699f511b4c0cc42ecaa674a8af35fb0bac829093a3c43f77"
+  }
+}

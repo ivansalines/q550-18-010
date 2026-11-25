@@ -1,0 +1,38 @@
+{
+  "version": "v18.53w",
+  "scientific_decision": "AUTHENTIC_THREE_FACTOR_METRIC_PATH_DECOMPOSITION__NO_MATERIAL_HOLONOMY",
+  "mode": "AUTHENTIC_V_U_T_POSTPROCESS_NO_NEW_PHYSICAL_IVPS",
+  "n_cases": 204,
+  "n_metric_families": 2,
+  "n_kappa_seed_cases": 6,
+  "n_lambda": 17,
+  "parent_counts": {
+    "v": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 10
+    },
+    "u": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 8
+    },
+    "t": {
+      "SOURCE_MANIFEST.json": 13,
+      "OUTPUT_MANIFEST.json": 7
+    }
+  },
+  "max_archived_fixed_center_polygon_replay_error": 0.0,
+  "max_45d_vector_closure_error": 3.511974702571049e-17,
+  "max_10d_vector_closure_error": 2.1852793414608445e-19,
+  "max_scalar_norm_closure_error": 0.0,
+  "max_fixed_center_45d_angle_deg": 6.563727664433235,
+  "max_moving_center_45d_angle_deg": 6.577965859007405,
+  "max_center_only_45d_angle_deg": 0.20173316957987064,
+  "limits": [
+    "The archived v18.53v angle uses a fixed origin center; it does not include migration of the global minimum.",
+    "Three-factor Shapley attribution is exact for 45D vector differences, but not additive in angles.",
+    "The symmetric square-root metric identification defines the shared 45D comparison frame; results are convention-dependent.",
+    "Velocity-occupation metrics are conditioned sensitivity probes, not unique canonical kinetic metrics.",
+    "Current analysis is on 8961-sample 21D traces and the continuous Hermite interpolation thereof, not a rigorous continuum certificate.",
+    "Window endpoints remain within formal continuation beyond xi=25.6; no material recurrence or holonomy is claimed."
+  ]
+}
