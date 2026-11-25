@@ -1,0 +1,14 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "190fb8a71ebd605e8be7fe2f92c7a78997dd396d7a255eff44635c0d0bbc1e8c",
+    "results/cross_density_comparison.csv": "60f3d8dbfbe489edb56e08a866fcd32ba0b8a44f525c2f8b03066fac6e89421b",
+    "results/dense_11d_10d_primitives.npz": "dae284f5d128b763ec2f26092237bd6bb9ca8aa857f244167a0d33bca1e3a14e",
+    "results/dense_physical_source_valley_autonomous.png": "0647be94929790bcc591a963afa70a2815c07c48b9cc43db4541d03676d0f093",
+    "results/dense_physical_source_valley_original.png": "4d7a0fc9c2cbf376e6036b5f845f2f4d1eb08d5059080066d1fc14ee2adf17d4",
+    "results/full10d_valley_convergence.csv": "e849801081b08bbf2b0c9be17ad0e367e94e14d7d4084a634385bfb3de7f2a3c",
+    "results/full10d_valley_samples.csv": "f4e9f9efd2ba446e416565637bf16465df503c6d5f3a903d3c7a9b3ff904b6cc",
+    "results/physical_11d_integrations.csv": "b4df29eca12e1105277a491dc777a1ad6f8aea48bbe64170b9eea16e94962844",
+    "results/report.json": "84b5c0041ea88f74f4c8d52ac1a1ef41caa5deb2424213670c38262042c3a5c2",
+    "results/source_knot_convergence.csv": "7d4e376db042c94f33d154fb66db44eb814d64ee7b27584d294e1540e5973beb"
+  }
+}

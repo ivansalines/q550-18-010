@@ -1,0 +1,42 @@
+{
+  "version": "v18.53r",
+  "scientific_decision": "GENUINE_DENSER_11D_SOURCE__NUMERICALLY_ROBUST_ORIENTED_VALLEY__NO_MATERIAL_HOLONOMY",
+  "new_physical_ivps": 12,
+  "inherited_physical_ivps": 10,
+  "authenticated_parent_manifest_counts": {
+    "q": {
+      "SOURCE_MANIFEST.json": 12,
+      "OUTPUT_MANIFEST.json": 9
+    },
+    "p": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 9
+    },
+    "o": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 11
+    },
+    "sha_q": "72961472060ae86340dcb5d4d5010b1e93f28b9d4f749b737e0122f4bb7530e4",
+    "sha_o": "7e7f1e5e3e952f271d39e833fdf4a615fd281051359a2ab210ce852f8c3d6465"
+  },
+  "source_reintegration_distinguished_from_postprocessing": true,
+  "comparisons": 36,
+  "densification_factors": [
+    2,
+    4
+  ],
+  "max_source_difference_2x4x": 2.1360690993788012e-13,
+  "max_source_integral_nodal_drift": 1.620546915981859e-07,
+  "max_2x_to_4x_width_difference": 1.4640502694618363e-06,
+  "max_2x_to_4x_oriented_area_angle_deg": 0.0042228162407029965,
+  "max_2x_to_4x_direct_arclength_difference": 1.2779640532922798e-05,
+  "minimum_10d_norm_all_runs": 0.07868201297155308,
+  "formal_clock_extension_beyond_25p6": true,
+  "limitations": [
+    "Denser same-model 11D numerical integrations are not independent observed material trajectories.",
+    "The clock/force source beyond xi=25.6 uses formal model continuation.",
+    "The objective is the Euclidean norm of 10 bivector components, not a full-state metric.",
+    "Finite 1x-2x-4x differences are numerical evidence, not certified continuous-time error bounds.",
+    "No material holonomy, physical spin or true return is certified."
+  ]
+}

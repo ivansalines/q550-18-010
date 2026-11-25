@@ -1,0 +1,17 @@
+SOURCE_MANIFEST_PASS 12 files
+V1853R_SYNTHETIC_GEOMETRY_AND_PACKAGING_PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+V1853R_GENUINE_PHYSICAL_CASE original shared factor 2 IVPS 1 nfev 37037
+V1853R_GENUINE_PHYSICAL_CASE original shared factor 4 IVPS 2 nfev 74072
+V1853R_GENUINE_PHYSICAL_CASE original original factor 2 IVPS 3 nfev 37037
+V1853R_GENUINE_PHYSICAL_CASE original original factor 4 IVPS 4 nfev 74072
+V1853R_GENUINE_PHYSICAL_CASE original autonomous factor 2 IVPS 5 nfev 37037
+V1853R_GENUINE_PHYSICAL_CASE original autonomous factor 4 IVPS 6 nfev 74072
+V1853R_GENUINE_PHYSICAL_CASE autonomous shared factor 2 IVPS 7 nfev 37037
+V1853R_GENUINE_PHYSICAL_CASE autonomous shared factor 4 IVPS 8 nfev 74072
+V1853R_GENUINE_PHYSICAL_CASE autonomous original factor 2 IVPS 9 nfev 37037
+V1853R_GENUINE_PHYSICAL_CASE autonomous original factor 4 IVPS 10 nfev 74072
+V1853R_GENUINE_PHYSICAL_CASE autonomous autonomous factor 2 IVPS 11 nfev 37037
+V1853R_GENUINE_PHYSICAL_CASE autonomous autonomous factor 4 IVPS 12 nfev 74072
+V1853R GENUINE_DENSER_11D_SOURCE__NUMERICALLY_ROBUST_ORIENTED_VALLEY__NO_MATERIAL_HOLONOMY IVPS 12
+V1853R_SENDBACK_PASS /root/elab1/hysteresis/q550_denser_physical_source_sampling_full_10d_valley_oriented_transport_convergence_v18_53r_bundle_server_sendback.zip 10
