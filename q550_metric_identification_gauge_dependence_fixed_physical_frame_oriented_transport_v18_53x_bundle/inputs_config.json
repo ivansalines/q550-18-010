@@ -1,0 +1,32 @@
+{
+  "version": "v18.53x",
+  "parent_filename": "v18_53w_authenticated_server_sendback.zip",
+  "parent_sha256": "d879e4b3d90e809552a7d6e11cc7fdeb59750f0b229b87a8f2fc4873b57120f6",
+  "u_helper_sha256": "6fc3f6bcda9ac55c3a6b6e8a8aefc4067475b10d10f5f32f2bf7ccf6e2bd2c76",
+  "n_parent_nodes": 204,
+  "n_samples": 141,
+  "halfspan": 0.35,
+  "m_x": 1.0,
+  "formal_clock_boundary": 25.6,
+  "gauge_families": [
+    "symmetric",
+    "intraplane",
+    "mixed",
+    "countermixed"
+  ],
+  "gauge_lambda_scale": 1.0,
+  "moving_path_lambdas": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "gauge_moving_frame_lambda": 4.0,
+  "moving_gauge_amplitude_rad": 0.16,
+  "parent_polygon_tolerance": 1e-07,
+  "parent_moving_polygon_tolerance": 2e-07,
+  "gauge_covariance_tolerance": 5e-11,
+  "source_replay_tolerance": 1e-07,
+  "max_principal_angle_deg": 180.0
+}

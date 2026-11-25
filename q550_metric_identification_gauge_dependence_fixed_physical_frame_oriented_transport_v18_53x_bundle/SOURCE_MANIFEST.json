@@ -1,0 +1,18 @@
+{
+  "files": {
+    "ENVIRONMENT.md": "e1d777b2823eb2fc0b659f1197f1103da6e8fc5d206a99bbe1ed05f742004007",
+    "LOCAL_PREFLIGHT_VALIDATION.md": "58c65ac0e549a6865277522b0096d02d24ee71fdf18d1f30ad5e9f8df99972ea",
+    "MATHEMATICAL_PROTOCOL.md": "46545a9dbfee88a5ab74152069a38a12985331fa4a2a6682e5b40ce07e46e74b",
+    "README.md": "0cb270f94591c766a0b4a1efbef046ddec4585efeaf925223ef974e5fab62b52",
+    "SCIENTIFIC_DECISION_RULES.md": "c96cb68d4303e11423eca6584b86522a936a2b330be941725bae99cc8bd2c0d3",
+    "inputs/u_metric_geometry_authenticated.py": "6fc3f6bcda9ac55c3a6b6e8a8aefc4067475b10d10f5f32f2bf7ccf6e2bd2c76",
+    "inputs/v18_53w_authenticated_server_sendback.zip": "d879e4b3d90e809552a7d6e11cc7fdeb59750f0b229b87a8f2fc4873b57120f6",
+    "inputs_config.json": "d067829cdf9e9a571b4e0b9075ec862483b62637634774fbb653907b3e1b0762",
+    "scripts/gauge_frame_audit.py": "74a4792ddfa07ddce2fbc62cd7452049e29703230c73880adc1e3d057cbc478c",
+    "scripts/package_sendback.py": "167aa40faac81d6bf31a702702d5efe37e5ccfc9b7da61e7552b0d2eeb63575c",
+    "scripts/run_on_server.sh": "20a0a6726e08fb1e4847b60528e6144d504a655f5c0da021fb6e2d3d9a7a980c",
+    "scripts/verify_manifest.py": "e5e9973ba588c61ad91ddf39a7883de0ad9b299d006c20a03cabd0f7417403ff",
+    "tests/test_gauge_geometry.py": "688e590f5b0886d4b8644a352b76be359dab6e8b6960b0874d6c2610db4ee32e",
+    "tests/test_packaging.py": "f287c5425c2b99e4d319ca5aa60a14ffa86c0b07f8c4faf8ec1365f7f3970259"
+  }
+}

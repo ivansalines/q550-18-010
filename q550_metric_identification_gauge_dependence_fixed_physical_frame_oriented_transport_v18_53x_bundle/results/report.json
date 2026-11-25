@@ -1,0 +1,55 @@
+{
+  "version": "v18.53x",
+  "scientific_decision": "GAUGE_DEPENDENT_CROSS_METRIC_45D_ANGLES__FIXED_PHYSICAL_FRAME_DIAGNOSTIC__NO_MATERIAL_HOLONOMY",
+  "n_parent_nodes": 204,
+  "n_gauge_rows": 816,
+  "n_fixed_physical_frame_rows": 204,
+  "n_reconstructed_moving_center_rows": 60,
+  "n_moving_gauge_rows": 24,
+  "n_new_physical_ivps": 0,
+  "ancestry": {
+    "w": {
+      "SOURCE_MANIFEST.json": 13,
+      "OUTPUT_MANIFEST.json": 7
+    },
+    "v": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 10
+    },
+    "u": {
+      "SOURCE_MANIFEST.json": 14,
+      "OUTPUT_MANIFEST.json": 8
+    },
+    "t": {
+      "SOURCE_MANIFEST.json": 13,
+      "OUTPUT_MANIFEST.json": 7
+    }
+  },
+  "max_constant_gauge_pullback_error": 1.3925025408246704e-15,
+  "max_constant_gauge_common_metric_angle_error_deg": 3.9601910552938824e-10,
+  "max_historical_fixed_center_replay_error": 0.0,
+  "max_historical_moving_center_replay_error": 1.8262762098712906e-09,
+  "max_moving_gauge_connection_error": 7.0598117107645925e-16,
+  "min_cross_metric_gauge_angle_deg": 0.0,
+  "max_cross_metric_gauge_angle_deg": 28.115470015323346,
+  "max_fixed_frame_physical_path_angle_deg": 0.6446934467729357,
+  "lambda4_group_means": {
+    "preformal": {
+      "physical_mean_deg": 0.6437844249780924,
+      "metric_mean_deg": 6.560288153117387
+    },
+    "full_formal": {
+      "physical_mean_deg": 0.1943859043067734,
+      "metric_mean_deg": 6.457884066411008
+    }
+  },
+  "limits": [
+    "Any cross-lambda 45D angle requires an identification of orthonormal metric frames; it is not intrinsically gauge invariant.",
+    "All demonstration gauge frames are induced by SO(5) rotations of mass-normalized Cartesian coordinates, not arbitrary SO(45) matrices.",
+    "The fixed-physical-frame diagnostic uses a common 5D Cartesian kinetic frame and its induced Euclidean 10D and 45D bases; this is a declared physical frame, not a unique coordinate-free material transport law.",
+    "The moving xi-dependent frame uses an explicitly imposed pure-gauge connection to test consistency; its corrected recovery is a covariance identity, not independently generated material holonomy.",
+    "The velocity-occupation metrics are model-motivated sensitivity metrics and not alternate fundamental kinetic metrics.",
+    "The parent physical trajectories are reused without new IVPs; interpolation and finite quadrature remain numerical approximations.",
+    "The window endpoints extend past xi=25.6 in the formal clock continuation; no material 11D recurrence is certified."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "8e5f14f3f1c655e44ea9ef08c32fd69d1aeea0cad31105c3bf7b9da87e9c01bc",
+    "results/fixed_physical_frame_path.csv": "7534b809461669bcd6d41ad62c81b386385e12cf9a0b50a3d88ac2cf1a8b5e20",
+    "results/gauge_fixed_frame_comparison_autonomous.png": "623769cbecb674aeae27c41b6982000447c8f6cfb914d938feda6fd1278ab163",
+    "results/gauge_fixed_frame_comparison_original.png": "4f51cd4fd961b4e82fdf4324fa6f842dbb0f5e9c36ae0edbff4ca22ad228cbf7",
+    "results/metric_identification_gauge_scan.csv": "5bb117c1015b1b42ec57953bb0db339ecad7b5c32c5fe8b9b4ab2f1f9352e17a",
+    "results/moving_center_fixed_physical_frame.csv": "d9544d2e92a105732aa58b8a95d3b02033c3c0d257dfd252c46d2dbce28ea3d1",
+    "results/moving_gauge_connection_checks.csv": "9b94c693e1db37490528328dd87654edd7d6f3956eb85928bc2c05139f03cbad",
+    "results/report.json": "a791658be51ebdbcaaf099993534fd4ed23ec51158dc9f4189d26ce21053659c",
+    "results/selected_fixed_frame_vectors.npz": "d9c25bfb0b69dd478381e9c6f9f7fe136a25376fbf34f8462439957f8f2f79ed"
+  }
+}
