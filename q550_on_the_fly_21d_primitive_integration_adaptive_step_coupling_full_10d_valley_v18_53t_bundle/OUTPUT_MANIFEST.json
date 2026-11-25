@@ -1,0 +1,11 @@
+{
+  "files": {
+    "results/SCIENTIFIC_REPORT_SERVER.md": "361f8fe8c7a6ee7d6c61a748ecc93d4f4e1d49f200468796d6188f5de95f752e",
+    "results/augmented21_primitives_and_oriented_valleys.npz": "0141326b14dc424725be1c7b731027788d3ec4875ed25d3a88c2452ae3b70a80",
+    "results/augmented21_valley_autonomous.png": "0a476558f941f0ef5669365eaaa21fdcab1047ecb3eff6924a641296def9ed97",
+    "results/augmented21_valley_original.png": "75526e82f340fba2b27805005a865c530b25338ba9ba3711f5d6960efd0999dc",
+    "results/physical_21d_vs_11d.csv": "3b6b1aee0fee2dc7f209d0823e6243688f5bdc73336f3df6f325be7df4ac680f",
+    "results/report.json": "8c37d3e8b2d8a19af352d642c3c91af56adf6f99f7bd221ff83044fa5f39eea2",
+    "results/valley_geometry_21d.csv": "faade8eb6da53ffc4187708215a9e893306ddfee3fe785a4007808406a49f601"
+  }
+}

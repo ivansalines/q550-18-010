@@ -1,0 +1,17 @@
+{
+  "files": {
+    "LOCAL_PREFLIGHT_VALIDATION.md": "069fab552d48ab6c449d46b0b0e2fc66dc57da20be232eba0a656d63d598f0f6",
+    "MATHEMATICAL_PROTOCOL.md": "ada0caa3e62cc62350d0df06261b0ba8bc0d9c3f1548b3ff0c84e7cebdf6cb69",
+    "README.md": "029e3860952370bca0b01e7e781f34fe63aa814f635d8483678e68bb0ece6c3f",
+    "SCIENTIFIC_DECISION_RULES.md": "a71705c87581fc4f10e3ade5f66878416f9b2fa7d07c9289f5cc79acd9edf492",
+    "inputs/v18_53s_authenticated_server_sendback.zip": "3bace60f8b02cfdcb1b423965fce375cc15b0d82452c2c43ee67e3c28362bb9a",
+    "inputs_config.json": "07ebb89c46da3918db152a2134b94e76106844eadf794524359aba489b39dca9",
+    "scripts/package_sendback.py": "f442fe5b54a073bf5730a48e130673d83b677b7668b33042887b8b449100d1ad",
+    "scripts/physics_21d.py": "ad19381472c15e40461dcb2d7f0039069662a2f9a801b03b2bc4ad6c969e6cf5",
+    "scripts/run_audit.py": "01c48e4642b352703dea5955372f7fa7aeabbf239633597769eba548df4e225d",
+    "scripts/run_on_server.sh": "025eb18d7d1148933db1cbd4cf87229850b7db87531cba7ab49c5db993f3e9ca",
+    "scripts/verify_manifest.py": "afc4979e84d19019e21cbdfda2ffb1d41ffef1381ee8431f6ba1137c04bf1ff3",
+    "tests/test_historical_source.py": "3ebfe417a792ceb5161359fd80693b400faaac2d97cf39ba941d49e83b623989",
+    "tests/test_synthetic.py": "202508e8513e7c7ecedd570b1c1c0e0bfe53a9c3e55135f6212c1e7a6d837c08"
+  }
+}

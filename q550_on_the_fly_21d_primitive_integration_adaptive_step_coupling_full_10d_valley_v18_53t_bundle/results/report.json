@@ -1,0 +1,43 @@
+{
+  "version": "v18.53t",
+  "scientific_decision": "AUTHENTIC_21D_ON_THE_FLY_PRIMITIVE__CONTROLLED_11D_STEP_EFFECT__NO_MATERIAL_HOLONOMY",
+  "completed_physical11_ivps": 6,
+  "completed_coupled21_ivps": 6,
+  "completed_locked10_ivps": 6,
+  "authenticated_ancestry": {
+    "s": {
+      "SOURCE_MANIFEST.json": 12,
+      "OUTPUT_MANIFEST.json": 9
+    },
+    "r": {
+      "SOURCE_MANIFEST.json": 12,
+      "OUTPUT_MANIFEST.json": 10
+    },
+    "n": {
+      "SOURCE_MANIFEST.json": 18,
+      "OUTPUT_MANIFEST.json": 13
+    },
+    "m": {
+      "SOURCE_MANIFEST.json": 20,
+      "OUTPUT_MANIFEST.json": 34
+    },
+    "ancestors": "s->r->q->p->o->n->m->l->k->j->h"
+  },
+  "sample_grid_nodes": 8961,
+  "bivector_components": 10,
+  "max_physical_state_drift": 1.2603721735747814e-13,
+  "max_coupled_locked_accumulator_difference": 1.0451338871824306e-13,
+  "max_coupled_vs_s_pchip_difference": 4.789975608550055e-09,
+  "max_dense_vs_hermite_residual_difference": 3.4764788322448597e-12,
+  "max_direct_arclength_delta_dense_vs_hermite": 1.3873791004925806e-11,
+  "warnings": [],
+  "formal_clock_continuation_beyond_25p6": true,
+  "limitations": [
+    "Accumulator is mathematically passive, but it can affect adaptive-step acceptance through the solver error norm.",
+    "The 10D Euclidean bivector residual is not the full 11D physical-state distance.",
+    "Dense output is an interpolant of the numerical ODE solution, not a mathematically exact continuum certificate.",
+    "Both the locked trajectory and augmented solve use the same authenticated original Q550 model.",
+    "The endpoints beyond xi=25.6 are a formal-model-clock continuation, not independent observation.",
+    "No global minimum, exact recurrence, material spin, or material holonomy is certified."
+  ]
+}
