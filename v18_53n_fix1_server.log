@@ -1,0 +1,11 @@
+SOURCE_MANIFEST_PASS 18 files
+SYNTHETIC_FULL_10D_MINIMUM_AND_BOUNDARY_TEST_FIX1 PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+V1853N_FIX1_PHYSICAL_CASE original shared ivps 1
+V1853N_FIX1_PHYSICAL_CASE original original ivps 3
+V1853N_FIX1_PHYSICAL_CASE original autonomous ivps 5
+V1853N_FIX1_PHYSICAL_CASE autonomous shared ivps 6
+V1853N_FIX1_PHYSICAL_CASE autonomous original ivps 8
+V1853N_FIX1_PHYSICAL_CASE autonomous autonomous ivps 10
+V1853N_FIX1 AUTHENTIC_FULL_10D_NONZERO_NEAR_RETURN_MINIMUM__NO_MATERIAL_CLOSURE IVPS 10
+SENDBACK_CREATED /root/elab1/hysteresis/q550_full_10d_residual_two_parameter_near_return_minimum_boundary_source_robustness_v18_53n_fix1_bundle_server_sendback.zip bytes 22009974 results 13

@@ -1,0 +1,76 @@
+{
+  "version": "v18.53n-fix1",
+  "scientific_decision": "AUTHENTIC_FULL_10D_NONZERO_NEAR_RETURN_MINIMUM__NO_MATERIAL_CLOSURE",
+  "actual_Q550_ivps": 10,
+  "refined_Q550_ivps": 4,
+  "objective_is_unprojected_full_10d": true,
+  "native_trace_tail_is_formal_continuation_after_xi_25p6": true,
+  "authenticated_parent_m_manifests": {
+    "SOURCE_MANIFEST.json": 20,
+    "OUTPUT_MANIFEST.json": 34
+  },
+  "trace_parameter_box": {
+    "trace_start": 12.8,
+    "trace_end": 56.0,
+    "box_start": 12.8,
+    "box_end": 54.13
+  },
+  "summary": {
+    "n_grid_rows": 13674,
+    "n_multistart_runs": 132,
+    "n_distinct_local_minima": 16,
+    "min_full_net_norm": 0.0786780691436737,
+    "best_case": {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "origin_xi": 14.327570426977106,
+      "width_xi": 12.799954323176044,
+      "end_xi": 52.72743339650523
+    },
+    "min_parent_root_replay_error": 2.7755575615628914e-17,
+    "best_full_vs_m_projected_gains": [
+      {
+        "seed": "original",
+        "kappa_rule": "shared",
+        "gain": 0.00202700268976648
+      },
+      {
+        "seed": "original",
+        "kappa_rule": "original",
+        "gain": 0.0020483883343749842
+      },
+      {
+        "seed": "original",
+        "kappa_rule": "autonomous",
+        "gain": 0.002005801030294213
+      },
+      {
+        "seed": "autonomous",
+        "kappa_rule": "shared",
+        "gain": 0.0020322591153932312
+      },
+      {
+        "seed": "autonomous",
+        "kappa_rule": "original",
+        "gain": 0.0020537112178807826
+      },
+      {
+        "seed": "autonomous",
+        "kappa_rule": "autonomous",
+        "gain": 0.002010991132429918
+      }
+    ],
+    "max_pchip_reoptimized_origin_width_scaled_shift": 0.0006704579964469901,
+    "max_quadrature_minimum_parameter_shift": 0.00014358022866227678,
+    "max_refined_minimum_parameter_shift": 3.786092813687234e-12,
+    "all_bests_in_formal_continuation": true
+  },
+  "scientific_limits": [
+    "A full 10D residual norm near zero is neither a full 11D state return nor a physical/material holonomy certificate.",
+    "The accumulator depends only on endpoints: the three interior window boundaries are algebraically irrelevant.",
+    "The model clock xi>25.6 is a formal physical-model continuation, not independent observation.",
+    "Piecewise-linear interpolation makes objective locally quadratic but is not a smooth physical Hessian certificate.",
+    "PCHIP is an interpolation sensitivity test, not an alternative physical differential equation.",
+    "No theorem of global minimization is certified by finite grids and multistart optimizations."
+  ]
+}

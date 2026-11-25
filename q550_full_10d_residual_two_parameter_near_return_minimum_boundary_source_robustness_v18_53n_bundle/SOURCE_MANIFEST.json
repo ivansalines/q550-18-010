@@ -1,0 +1,18 @@
+{
+  "files": {
+    "LOCAL_PREFLIGHT_VALIDATION.md": "e51227e9d8a8d38a9e10c661226910c539c7033c3d0779dea8f81585f5a5901a",
+    "MATHEMATICAL_PROTOCOL.md": "ae0e13c12891a198e29373165e0f753bf65bf904612d1390afec133ce67ecc43",
+    "README.md": "94b6050a32087e788d8e9c8ad2acd36857a32cc83eef5184b80b3b59e99e309b",
+    "SCIENTIFIC_DECISION_RULES.md": "a5161d88c5dc4b5dd8535a1fe7033144e3dd66b746653b56b622fb603f2156e6",
+    "inputs/v18_53m_fix1_authenticated_server_sendback.zip": "7e000c6139760df170012eff6061544814ef0cff716dc07ef93b71cc12dffb6b",
+    "inputs_config.json": "d8fb652d4f99b0cbc21e63425a789bbbccc938298f54fcd01c8a43124b67ff21",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "4fa5d1d59c50fe98499693d8ebafafc76825d291634327020032235da5605709",
+    "scripts/full_net_geometry.py": "dd55b261774d5290e82118822bb5070afa0805c5544cc77a9fbb772365f1ec24",
+    "scripts/package_sendback.py": "d505e4d063dd8d30284083840931c68b2c1a87c31c146f519188fc1ab90ac456",
+    "scripts/run_audit.py": "2f6acf5c6f3f1714e6219b85a57a3a8521afd59cc2308fb1e4113b66cdf8f625",
+    "scripts/run_on_server.sh": "f3b2986c55a895b2f79c8be4e04784dc302c672b49ea1a9437c20533695be4bd",
+    "scripts/verify_manifest.py": "704968371d7f8bd5ac7f6d7720bb4b06cbd514f3a2512b51010d3ca92b92b25d",
+    "tests/test_synthetic.py": "e439e698193b5af12f62bdb269062c89d7fb3ce9c6e6b5322d3e8fca6ce847af"
+  }
+}

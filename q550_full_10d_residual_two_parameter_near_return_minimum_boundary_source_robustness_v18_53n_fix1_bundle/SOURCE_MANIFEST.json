@@ -1,0 +1,22 @@
+{
+  "files": {
+    "FIX1_CHANGELOG.md": "d0d8b5140d28487100814425ff521cf327b60c385b276144014ba2622e1df225",
+    "LOCAL_FIX1_VALIDATION.md": "a3741321117be1c2ef5b3def9fe88123a1c9c3d28ab4f5499ee16e7cbdc1207e",
+    "LOCAL_PREFLIGHT_VALIDATION.md": "e51227e9d8a8d38a9e10c661226910c539c7033c3d0779dea8f81585f5a5901a",
+    "MATHEMATICAL_PROTOCOL.md": "ae0e13c12891a198e29373165e0f753bf65bf904612d1390afec133ce67ecc43",
+    "README.md": "0ddd8c095f2129dddc8fddbce7fa7ca8f62fa70b062e0740b26be23f09fa1aed",
+    "SCIENTIFIC_DECISION_RULES.md": "a5161d88c5dc4b5dd8535a1fe7033144e3dd66b746653b56b622fb603f2156e6",
+    "inputs/v18_53m_fix1_authenticated_server_sendback.zip": "7e000c6139760df170012eff6061544814ef0cff716dc07ef93b71cc12dffb6b",
+    "inputs_config.json": "d8fb652d4f99b0cbc21e63425a789bbbccc938298f54fcd01c8a43124b67ff21",
+    "provenance/q550_full_10d_residual_two_parameter_near_return_minimum_boundary_source_robustness_v18_53n_bundle_server_sendback.zip": "48058609d12670555e5d5ba7461a3fc9987924b0f5115e52e3c1fba0a307374a",
+    "requirements.txt": "fc427f96792059ce540ca8adc5b06cdd1692436654fc3569648ef0d16fc4577b",
+    "run_on_server.sh": "4fa5d1d59c50fe98499693d8ebafafc76825d291634327020032235da5605709",
+    "scripts/full_net_geometry.py": "0a081539d891d0ad5dd449dd293ca947412b4c9f4310104ed6a44ce40dd3048c",
+    "scripts/package_sendback.py": "d505e4d063dd8d30284083840931c68b2c1a87c31c146f519188fc1ab90ac456",
+    "scripts/run_audit.py": "28e863996934d111dfdfd7bc2bd53860998868fac4eaf549742bc4510cdc0d3a",
+    "scripts/run_on_server.sh": "f3b2986c55a895b2f79c8be4e04784dc302c672b49ea1a9437c20533695be4bd",
+    "scripts/verify_manifest.py": "704968371d7f8bd5ac7f6d7720bb4b06cbd514f3a2512b51010d3ca92b92b25d",
+    "tests/test_analyze_case_smoke.py": "c520dc845b80ae4bf3bffcccfc74c5d79fe671685c13dca403032429f43e07dc",
+    "tests/test_synthetic.py": "6eb5263bb3f84901623e8d4ffe53ca465f90ebad5529e6159031178a9dad6998"
+  }
+}

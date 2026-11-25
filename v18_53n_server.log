@@ -1,0 +1,5 @@
+SOURCE_MANIFEST_PASS 14 files
+SYNTHETIC_FULL_10D_MINIMUM_AND_BOUNDARY_TEST PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+V1853N FAILED_OR_INCOMPLETE__NO_SCIENTIFIC_CERTIFICATE IVPS 1
+SENDBACK_CREATED /root/elab1/hysteresis/q550_full_10d_residual_two_parameter_near_return_minimum_boundary_source_robustness_v18_53n_bundle_server_sendback.zip bytes 10808062 results 3

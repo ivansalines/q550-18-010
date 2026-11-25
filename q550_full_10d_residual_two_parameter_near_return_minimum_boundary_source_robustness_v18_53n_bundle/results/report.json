@@ -1,0 +1,20 @@
+{
+  "version": "v18.53n",
+  "scientific_decision": "FAILED_OR_INCOMPLETE__NO_SCIENTIFIC_CERTIFICATE",
+  "actual_Q550_ivps": 1,
+  "refined_Q550_ivps": 0,
+  "objective_is_unprojected_full_10d": true,
+  "native_trace_tail_is_formal_continuation_after_xi_25p6": true,
+  "authenticated_parent_m_manifests": {
+    "SOURCE_MANIFEST.json": 20,
+    "OUTPUT_MANIFEST.json": 34
+  },
+  "trace_parameter_box": {
+    "trace_start": 12.8,
+    "trace_end": 56.0,
+    "box_start": 12.8,
+    "box_end": 54.13
+  },
+  "error": "name 'net_j' is not defined",
+  "traceback": "Traceback (most recent call last):\n  File \"/root/elab1/hysteresis/q550_full_10d_residual_two_parameter_near_return_minimum_boundary_source_robustness_v18_53n_bundle/scripts/run_audit.py\", line 209, in main\n    primitive,best,baseline=analyze_case(seed,kn,xi,acc,ten,rate,prior_rows,data)\n                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/elab1/hysteresis/q550_full_10d_residual_two_parameter_near_return_minimum_boundary_source_robustness_v18_53n_bundle/scripts/run_audit.py\", line 99, in analyze_case\n    src_diff,src_ref=endpoint_source_diff(xi,primitive,b10,rate,bestp)\n                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/elab1/hysteresis/q550_full_10d_residual_two_parameter_near_return_minimum_boundary_source_robustness_v18_53n_bundle/scripts/full_net_geometry.py\", line 134, in endpoint_source_diff\n    _,J=net_j(p,at,slope)\n        ^^^^^\nNameError: name 'net_j' is not defined. Did you mean: 'net_jac'?\n"
+}

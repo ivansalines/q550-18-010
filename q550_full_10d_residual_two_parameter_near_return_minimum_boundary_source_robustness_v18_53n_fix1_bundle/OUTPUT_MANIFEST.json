@@ -1,0 +1,17 @@
+{
+  "files": {
+    "results/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/SCIENTIFIC_REPORT_SERVER.md": "342b41fcce214c54e9f47b2284115b3a173ea79e0119b8bc055a1d376a8a30f6",
+    "results/best_full_10d_minimum_per_case.csv": "d2fa814671c0a84e3310906f117e7a38730961da116f5a31fcf8e549ca384edd",
+    "results/decimated_quadrature_full_minimum_sensitivity.csv": "b2e63ac46efd1f8ce319d392181886e2eb6cb0e6fec1e19bd3397140dfc6dc10",
+    "results/deduplicated_local_minima.csv": "146b41302e52dbe608d6b58e244571ec47f4c032b19f498326352a1b078d2bd6",
+    "results/full_10d_minima_autonomous.png": "a3f0e7b803be95e8383a04b73a65e1525cd827943030e5132221db5879646adf",
+    "results/full_10d_minima_original.png": "49e92de7c91450628dcf212a796370966a30e6fbc469d50282cd2c7adaea8b41",
+    "results/full_10d_objective_grid.csv": "ee6c59632724a625a3cb6a2c8211d587a0aa56b8a2f05cfd4b215bae38312908",
+    "results/genuine_integrated_ivps.csv": "f90ca862aed85f6056951ad889b7b6b89c53ca5a37e13029791b3de4f543ef0c",
+    "results/multistart_minima.csv": "31dae33240e65e5aeb0c1c8d7bcd49e2eb5a01743113f96f50b0eb08bc4c3096",
+    "results/parent_m_projected_root_full_net_reconciliation.csv": "ecf31eb8ea40f1cbd4d6537759abb6d54998b053115cfd3a362996827db7132e",
+    "results/report.json": "64d418babca115b32f3487450626257dd389d720e4c9c69501d157c1709d7bdd",
+    "results/tight_integrator_full_minimum_sensitivity.csv": "6902ec0695b2ac16428b8895c98dd70844b64f030e5cd9aad17f373563bada5c"
+  }
+}
