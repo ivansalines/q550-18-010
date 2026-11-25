@@ -1,0 +1,50 @@
+{
+  "version": "v18.53l",
+  "scientific_decision": "AUTHENTIC_FIXED_MOVING_MODEL_PROJECTOR_SEPARATION__NO_UNIQUE_CONNECTION_CLAIM",
+  "new_actual_Q550_ivps": 10,
+  "new_refined_Q550_ivps": 4,
+  "physical_claim_of_unique_connection": false,
+  "model_connection": "minimal radial SO(5) kinetic-frame lift induced on exterior-square (10D) bivectors",
+  "continued_clock_beyond_xi25_6": true,
+  "parent_k_authentic": true,
+  "parent_k_pin_sha256": "59fef2c0f32b4c019c4a5c11c84ac8c339ba3d9253fed0fb4809074db337b223",
+  "parent_k_recorded_ivps": 10,
+  "original_source_parent": "SHA256_AUTHENTICATED",
+  "native_10d": "SHA256_AUTHENTICATED",
+  "summary": {
+    "n_rows": 756,
+    "n_groups": 36,
+    "n_secants": 2160,
+    "n_boundary_stencils": 1440,
+    "fixed_opposition_groups": 30,
+    "moving_opposition_groups": 30,
+    "model_pullback_opposition_groups": 30,
+    "max_k_csv_reconciliation_abs_error": 1.5543122344752192e-15,
+    "max_exact_secant_identity_error": 3.514448993229362e-16,
+    "max_ftc_integral_secant_error": 6.940412776119679e-16,
+    "max_model_u_mapping_error": 1.3152916372871827e-14,
+    "boundary_derivative_errors": {
+      "3": {
+        "global_max_scaled_error": 0.051323648133821356,
+        "fine_band_max_scaled_error": 0.0017485775712173445,
+        "global_median_scaled_error": 0.003186814719604179
+      },
+      "5": {
+        "global_max_scaled_error": 0.0771785340880955,
+        "fine_band_max_scaled_error": 6.767342784443645e-05,
+        "global_median_scaled_error": 0.00017713770265940072
+      }
+    },
+    "max_projector_drift_over_source_ratio": 0.8627222312965711,
+    "maximum_moving_fixed_plane_angle_deg": 22.081707801873797,
+    "maximum_moving_model_plane_angle_deg": 43.26477627936089
+  },
+  "scientific_limits": [
+    "The original physical Q550 model is replayed; changes in widths are POSTPROCESSING of the same six traces.",
+    "The model-induced plane uses a DECLARED minimal radial kinetic-frame SO(5) transport; it is not a unique dynamical material connection or a demonstrated physical holonomy.",
+    "Fixed-vs-moving planar opposition in bivector-coordinate space does not establish a separate hidden degree of freedom.",
+    "Nonuniform polynomial stencil mismatch reflects truncation and/or interpolation; exact secant FTC attribution is more fundamental.",
+    "The clock at xi>25.6 is a continued historical model clock, not independently measured material recurrence.",
+    "The two-parameter SVD rank-2 plane is conditioned using sigma2-sigma3 gap; near degeneracy is reported, not smoothed into a spurious axis."
+  ]
+}

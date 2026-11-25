@@ -1,0 +1,11 @@
+V1853L_SOURCE_MANIFEST_PASS 15
+V1853L_SYNTHETIC_GEOMETRY_TESTS_PASS
+AUTHENTICATED MODEL: staging 10D physical solver
+V1853L_PHYSICAL_DONE original shared ivps 1
+V1853L_PHYSICAL_DONE original original ivps 3
+V1853L_PHYSICAL_DONE original autonomous ivps 5
+V1853L_PHYSICAL_DONE autonomous shared ivps 6
+V1853L_PHYSICAL_DONE autonomous original ivps 8
+V1853L_PHYSICAL_DONE autonomous autonomous ivps 10
+V1853L AUTHENTIC_FIXED_MOVING_MODEL_PROJECTOR_SEPARATION__NO_UNIQUE_CONNECTION_CLAIM ACTUAL_IVPS 10
+V1853L_SENDBACK /root/elab1/hysteresis/q550_fixed_frame_planar_opposition_svd_projector_drift_model_connection_nonuniform_boundary_derivative_v18_53l_bundle_server_sendback.zip FILES 29

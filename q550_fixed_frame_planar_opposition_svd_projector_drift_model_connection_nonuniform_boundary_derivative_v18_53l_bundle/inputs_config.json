@@ -1,0 +1,31 @@
+{
+  "version": "v18.53l",
+  "parent_k_sha256": "59fef2c0f32b4c019c4a5c11c84ac8c339ba3d9253fed0fb4809074db337b223",
+  "parent_k_report_decision": "AUTHENTIC_FINE_WIDTH_SCAN__NO_RESOLVED_SIGN_CROSSING",
+  "parent_k_expected_rows": 756,
+  "parent_k_expected_ivps": 10,
+  "original_source_parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "native_10d_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "anchor_width_xi": 12.8,
+  "pivot_widths_xi": [
+    12.775,
+    12.8,
+    12.825
+  ],
+  "boundary_fine_band_xi": [
+    12.7,
+    12.9
+  ],
+  "projector_gap_floor": 0.003,
+  "parent_net_absolute_tolerance": 3e-10,
+  "parent_rank2_absolute_tolerance": 3e-10,
+  "refinement_scaled_tolerance": 3e-07,
+  "max_exact_secant_reconstruction_error": 1e-10,
+  "max_projector_idempotence_error": 1e-10,
+  "max_model_rotation_orthogonality_error": 2e-09,
+  "max_kinematic_mapping_error": 3e-06,
+  "fixed_opposition_cosine_threshold": -0.9,
+  "minimum_projection_norm": 1e-06,
+  "boundary_error_scales_floor": 1.0,
+  "note": "Continuing clock after xi=25.6 is model continuation, not independent historical observation."
+}

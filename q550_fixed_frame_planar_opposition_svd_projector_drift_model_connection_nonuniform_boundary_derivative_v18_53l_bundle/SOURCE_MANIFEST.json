@@ -1,0 +1,21 @@
+{
+  "version": "v18.53l",
+  "root_folder": "q550_fixed_frame_planar_opposition_svd_projector_drift_model_connection_nonuniform_boundary_derivative_v18_53l_bundle",
+  "files": {
+    "LOCAL_PREFLIGHT_VALIDATION.md": "5805e2e0726a0ec348f8522a484e3ef5d777508fdb75ae03c8813c423a6a8af4",
+    "MATHEMATICAL_PROTOCOL.md": "b05687a4bbc7c16a9ecab3255584d9eeeef55d491c47b0d5dad3e7976063836c",
+    "README.md": "114712d20c15405f3645f66935cd7821793ca462d89122f2baacfcb03f4b8308",
+    "SCIENTIFIC_DECISION_RULES.md": "46be7d8fb69247bf4cecf5a91a9147ac786512b918909b44c8e7ea051628c120",
+    "inputs/v18_53k_authenticated_server_sendback.zip": "59fef2c0f32b4c019c4a5c11c84ac8c339ba3d9253fed0fb4809074db337b223",
+    "inputs_config.json": "a684240f0341dc77eaf7ff7256d405258557a932d8133fe9c9bf1f0d0d261506",
+    "requirements.txt": "156ec9e31c34ee6ac86f1de488fdf72936fbd5c9af57abe58a8305ea1ccaa985",
+    "results/.keep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "run_on_server.sh": "91041cb0e6f051685f807d1801f5e4fe87acbc78be20e9dc99016e078825cb73",
+    "scripts/frame_projector_geometry.py": "cd3c400313d02abcdc5f477ad6b8de73014a1889421bcfaf8789c92c90d0f5e7",
+    "scripts/package_sendback.py": "49ceda6ca6b7f4551208d83965bde4d59b90c0fe410ca09bf53ba673fbea6ecb",
+    "scripts/run_audit.py": "0c1d5d79015a6b92949e764efa7cc067ee81b0b34f7e3a05ee920cbb56237af6",
+    "scripts/run_on_server.sh": "f3b2986c55a895b2f79c8be4e04784dc302c672b49ea1a9437c20533695be4bd",
+    "scripts/verify_manifest.py": "63976fa5aac04dae9b8c99eab3cf28f87d472ffbef3f0bc8d5fbc13216c1d2b4",
+    "tests/test_synthetic.py": "6ade4b9359835a4209e3c3b5a0dcdf99e466b1374ba32439df87f72aad1082ed"
+  }
+}
