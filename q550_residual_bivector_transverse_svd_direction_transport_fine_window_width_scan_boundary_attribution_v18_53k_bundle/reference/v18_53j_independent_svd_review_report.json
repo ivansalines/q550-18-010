@@ -1,0 +1,83 @@
+{
+  "version": "v18.53j independent exploratory SVD review",
+  "original_server_sendback_sha256": "de4b12b67965950474e0c22e182755cb0a2fd23011b54e871116ddbd21256c8b",
+  "manifest_checks": {
+    "SOURCE_MANIFEST.json": {
+      "checked": 44,
+      "failed": 0
+    },
+    "OUTPUT_MANIFEST.json": {
+      "checked": 61,
+      "failed": 0
+    }
+  },
+  "component_rows": 810,
+  "triplets_reconstructed": 270,
+  "max_reconstruction_abs_errors": {
+    "net": 3.3306690738754696e-16,
+    "score": 2.220446049250313e-16,
+    "norm": 4.440892098500626e-16,
+    "angle": 2.8421709430404007e-13
+  },
+  "baseline_original_seed_shared_kappa": {
+    "seed": "original",
+    "kappa_rule": "shared",
+    "scan_family": "origin_width",
+    "scan_id": "origin=12.8|width=12.8",
+    "xi_start": "12.8",
+    "xi_end": "51.2",
+    "width_xi": "12.8",
+    "origin_shift_xi": "0.0",
+    "near_closure_score": 0.937047611009578,
+    "residual_net_norm": 0.19835277907909715,
+    "rank2_net_norm": 0.009005908455022612,
+    "rank3_net_norm": 0.19814822376519267,
+    "rank3_share_of_net_squared": 0.9979385230804224,
+    "singular_value1": 1.2862160969080993,
+    "singular_value2": 1.281344979043144,
+    "singular_value3": 0.1144018651145586,
+    "gram_min_eigen_fraction": 0.0039548689107046136
+  },
+  "best_sampled_original_seed_shared_kappa": {
+    "seed": "original",
+    "kappa_rule": "shared",
+    "scan_family": "origin_width",
+    "scan_id": "origin=14.4|width=12.8",
+    "xi_start": "14.4",
+    "xi_end": "52.800000000000004",
+    "width_xi": "12.8",
+    "origin_shift_xi": "1.5999999999999996",
+    "near_closure_score": 0.9743268633410955,
+    "residual_net_norm": 0.0812530563471968,
+    "rank2_net_norm": 0.006903172288563762,
+    "rank3_net_norm": 0.08095928222331977,
+    "rank3_share_of_net_squared": 0.9927819811290487,
+    "singular_value1": 1.3012918492943144,
+    "singular_value2": 1.2819515518873241,
+    "singular_value3": 0.04674208327893773,
+    "gram_min_eigen_fraction": 0.0006543450989459753
+  },
+  "all_four_origin_offsets_w12_8": {
+    "0.0": {
+      "rank3_share_of_net_squared": 0.9979385230804224,
+      "rank2_net_norm": 0.009005908455022612,
+      "rank3_net_norm": 0.19814822376519267
+    },
+    "0.8": {
+      "rank3_share_of_net_squared": 0.9839764209409866,
+      "rank2_net_norm": 0.023567707021720972,
+      "rank3_net_norm": 0.18468427237419535
+    },
+    "1.6": {
+      "rank3_share_of_net_squared": 0.9927819811290487,
+      "rank2_net_norm": 0.006903172288563762,
+      "rank3_net_norm": 0.08095928222331977
+    },
+    "2.4": {
+      "rank3_share_of_net_squared": 0.9948969493707616,
+      "rank2_net_norm": 0.014038643672685893,
+      "rank3_net_norm": 0.19601949318961137
+    }
+  },
+  "interpretation": "Post-hoc Euclidean 10D bivector-space SVD; not a physical transverse-axis claim, holonomy proof, or independent new IVP."
+}

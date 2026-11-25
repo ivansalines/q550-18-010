@@ -1,0 +1,115 @@
+{
+  "version": "v18.53i",
+  "scientific_decision": "AUTHENTIC_DUAL_KAPPA_PARAMETER_SENSITIVITY_AND_EXTENDED_MODEL_CLOCK_IVPS__SAMPLED_GEOMETRY_PERSISTENT",
+  "parent_status": "SHA256_AUTHENTICATED",
+  "native_status": "SHA256_AUTHENTICATED",
+  "actual_completed_Q550_ivps": 26,
+  "historical_window": [
+    12.8,
+    25.6
+  ],
+  "model_continuation_endpoint_xi": 51.2,
+  "continued_history_beyond_xi25_6_is_not_archived_history": true,
+  "no_full_ramp_or_noether_claim": true,
+  "kappa_parameter_grid": [
+    [
+      "autonomous",
+      0.16659961041764054
+    ],
+    [
+      "original",
+      0.16666666666666666
+    ],
+    [
+      "shared",
+      0.1666331385421536
+    ],
+    [
+      "center_minus_0.25_gap",
+      0.16661637447989708
+    ],
+    [
+      "center_plus_0.25_gap",
+      0.16664990260441015
+    ],
+    [
+      "center_minus_1_gap",
+      0.1665660822931275
+    ],
+    [
+      "center_plus_1_gap",
+      0.16670019479117973
+    ],
+    [
+      "center_minus_3_gap",
+      0.16643196979507527
+    ],
+    [
+      "center_plus_3_gap",
+      0.16683430728923196
+    ],
+    [
+      "center_minus_10_gap",
+      0.16596257605189246
+    ],
+    [
+      "center_plus_10_gap",
+      0.16730370103241476
+    ]
+  ],
+  "authenticated_v1853h_fix1_reference": "OUTPUT_MANIFEST_AND_REPORT_SHA256",
+  "engine_provenance": {
+    "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+    "source_omega": 0.844357915384206,
+    "model_parameters": {
+      "phi0": 0.0,
+      "e_reserve": 0.01,
+      "gamma_rho": 0.3,
+      "barrier_B": 0.3,
+      "mu_x": 0.05,
+      "gamma_x": 0.3,
+      "m_x": 1.0
+    },
+    "historical_seed_kappas": {
+      "original": 0.16666666666666666,
+      "autonomous": 0.16659961041764054
+    },
+    "native_fixed_kappa": 0.1666331385421536,
+    "external_phase_source": "authenticated v18.51s make_context/theta + cubic_clock_sign"
+  },
+  "clock_continuation": {
+    "original": {
+      "theta_start": -9.837654285725517,
+      "theta_end": -42.260998236479026,
+      "clock_sign_start": -1.0,
+      "clock_sign_end": -1.0,
+      "beyond_historical_endpoint_is_model_extrapolation": true
+    },
+    "autonomous": {
+      "theta_start": -9.83763325546736,
+      "theta_end": -42.26097720622088,
+      "clock_sign_start": -1.0,
+      "clock_sign_end": -1.0,
+      "beyond_historical_endpoint_is_model_extrapolation": true
+    }
+  },
+  "summary": {
+    "number_parameter_values": 11,
+    "number_seeds": 2,
+    "number_integrations": 26,
+    "number_parameter_plane_comparisons": 120,
+    "number_horizon_windows": 132,
+    "number_projector_derivatives": 48,
+    "number_time_transport_comparisons": 12,
+    "weak_geometry_wider_kappa_cases": 0,
+    "max_charge_drift": 1.021405182655144e-14,
+    "max_authentic_rhs_error": 2.0660556598883772e-15,
+    "max_numeric_refinement_error": 1.1401990462900358e-13,
+    "max_historical_shared_replay_error": 9.059419880941277e-14,
+    "max_historical_53h_residual_replay_error": 9.992007221626409e-16,
+    "max_quadrature_defect": 0.00011407152297471188,
+    "min_principal_gap": 0.8274307408896822,
+    "source_history_expires_xi": 25.6,
+    "continued_clock_end_xi": 51.2
+  }
+}

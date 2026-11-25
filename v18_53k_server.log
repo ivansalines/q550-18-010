@@ -1,0 +1,11 @@
+V1853K_SOURCE_SHA256_PASS 48
+V1853K_SYNTHETIC_PASS: skew-isometry, O(10) invariance, SVD gauge, artificial bias, sign crossing, FTC
+AUTHENTICATED MODEL: staging 10D physical solver
+V18_53K_DONE original shared total_ivps 1
+V18_53K_DONE original original total_ivps 3
+V18_53K_DONE original autonomous total_ivps 5
+V18_53K_DONE autonomous shared total_ivps 6
+V18_53K_DONE autonomous original total_ivps 8
+V18_53K_DONE autonomous autonomous total_ivps 10
+V18_53K AUTHENTIC_FINE_WIDTH_SCAN__NO_RESOLVED_SIGN_CROSSING IVPS 10
+V1853K_SENDBACK /root/elab1/hysteresis/q550_residual_bivector_transverse_svd_direction_transport_fine_window_width_scan_boundary_attribution_v18_53k_bundle_server_sendback.zip FILES 66
