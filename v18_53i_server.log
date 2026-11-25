@@ -1,0 +1,29 @@
+SOURCE_SHA256_PASS 34
+SYNTHETIC_PASS geometry/principal_planes/frame_invariance/six_forces/J_identity/dual_IVP/refinement/material_clock_regression
+V18_53I_SYNTHETIC_PASS bivector_projectors/dual_kappa_grid/central_difference/degeneracy/window_additivity
+AUTHENTICATED MODEL: staging 10D physical solver
+PARENT_AND_NATIVE_AUTHENTICATED
+IVP_DONE original autonomous k 0.166599610418 source 2.06e-15 ivp_count 2
+IVP_DONE original original k 0.166666666667 source 1.55e-15 ivp_count 4
+IVP_DONE original shared k 0.166633138542 source 1.55e-15 ivp_count 5
+IVP_DONE original center_minus_0.25_gap k 0.166616374480 source 1.55e-15 ivp_count 6
+IVP_DONE original center_plus_0.25_gap k 0.166649902604 source 2.07e-15 ivp_count 7
+IVP_DONE original center_minus_1_gap k 0.166566082293 source 1.55e-15 ivp_count 8
+IVP_DONE original center_plus_1_gap k 0.166700194791 source 1.55e-15 ivp_count 9
+IVP_DONE original center_minus_3_gap k 0.166431969795 source 1.55e-15 ivp_count 10
+IVP_DONE original center_plus_3_gap k 0.166834307289 source 2.07e-15 ivp_count 11
+IVP_DONE original center_minus_10_gap k 0.165962576052 source 1.55e-15 ivp_count 12
+IVP_DONE original center_plus_10_gap k 0.167303701032 source 1.55e-15 ivp_count 13
+IVP_DONE autonomous autonomous k 0.166599610418 source 1.55e-15 ivp_count 15
+IVP_DONE autonomous original k 0.166666666667 source 1.12e-15 ivp_count 17
+IVP_DONE autonomous shared k 0.166633138542 source 1.55e-15 ivp_count 18
+IVP_DONE autonomous center_minus_0.25_gap k 0.166616374480 source 2.07e-15 ivp_count 19
+IVP_DONE autonomous center_plus_0.25_gap k 0.166649902604 source 1.03e-15 ivp_count 20
+IVP_DONE autonomous center_minus_1_gap k 0.166566082293 source 1.55e-15 ivp_count 21
+IVP_DONE autonomous center_plus_1_gap k 0.166700194791 source 1.55e-15 ivp_count 22
+IVP_DONE autonomous center_minus_3_gap k 0.166431969795 source 2.06e-15 ivp_count 23
+IVP_DONE autonomous center_plus_3_gap k 0.166834307289 source 1.03e-15 ivp_count 24
+IVP_DONE autonomous center_minus_10_gap k 0.165962576052 source 1.55e-15 ivp_count 25
+IVP_DONE autonomous center_plus_10_gap k 0.167303701032 source 1.55e-15 ivp_count 26
+V18_53I_SCIENTIFIC_DECISION AUTHENTIC_DUAL_KAPPA_PARAMETER_SENSITIVITY_AND_EXTENDED_MODEL_CLOCK_IVPS__SAMPLED_GEOMETRY_PERSISTENT IVPs 26
+SENDBACK /root/elab1/hysteresis/q550_residual_bivector_kappa0_sensitivity_principal_plane_transport_long_horizon_persistence_v18_53i_bundle_server_sendback.zip FILES 50

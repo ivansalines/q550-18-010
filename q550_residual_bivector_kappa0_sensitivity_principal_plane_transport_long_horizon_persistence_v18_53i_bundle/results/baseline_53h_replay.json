@@ -1,0 +1,82 @@
+{
+  "source_reconciliation": [
+    {
+      "seed": "original",
+      "source_g_reference_bivector_error": 0.0,
+      "material_clock_rel_err": 8.751040983611407e-11
+    },
+    {
+      "seed": "autonomous",
+      "source_g_reference_bivector_error": 0.0,
+      "material_clock_rel_err": 8.755464561515452e-11
+    }
+  ],
+  "residual_reconciliation": [
+    {
+      "seed": "original",
+      "kappa_rule": "autonomous",
+      "baseline_sigma1_abs_error": 6.661338147750939e-16,
+      "baseline_cancellation_abs_error": 1.1102230246251565e-16
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "original",
+      "baseline_sigma1_abs_error": 0.0,
+      "baseline_cancellation_abs_error": 0.0
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "shared",
+      "baseline_sigma1_abs_error": 3.3306690738754696e-16,
+      "baseline_cancellation_abs_error": 0.0
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "autonomous",
+      "baseline_sigma1_abs_error": 0.0,
+      "baseline_cancellation_abs_error": 0.0
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "baseline_sigma1_abs_error": 1.1102230246251565e-16,
+      "baseline_cancellation_abs_error": 0.0
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "shared",
+      "baseline_sigma1_abs_error": 9.992007221626409e-16,
+      "baseline_cancellation_abs_error": 2.220446049250313e-16
+    }
+  ],
+  "refinements": [
+    {
+      "seed": "original",
+      "kappa_rule": "autonomous",
+      "max_scaled_error": 1.1401990462900358e-13,
+      "nfev_normal": 16472,
+      "nfev_refined": 16472
+    },
+    {
+      "seed": "original",
+      "kappa_rule": "original",
+      "max_scaled_error": 1.0436096431476471e-13,
+      "nfev_normal": 16472,
+      "nfev_refined": 16472
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "autonomous",
+      "max_scaled_error": 5.928590951498336e-14,
+      "nfev_normal": 16472,
+      "nfev_refined": 16472
+    },
+    {
+      "seed": "autonomous",
+      "kappa_rule": "original",
+      "max_scaled_error": 9.370282327836321e-14,
+      "nfev_normal": 16472,
+      "nfev_refined": 16472
+    }
+  ]
+}

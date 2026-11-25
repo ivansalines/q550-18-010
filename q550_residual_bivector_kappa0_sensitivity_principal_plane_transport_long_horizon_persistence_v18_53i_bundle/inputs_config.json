@@ -1,0 +1,106 @@
+{
+  "version": "v18.53i",
+  "fixed_kappa": 0.1666331385421536,
+  "kappas": {
+    "autonomous": 0.16659961041764054,
+    "shared": 0.1666331385421536,
+    "original": 0.16666666666666666
+  },
+  "params": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "native_10d_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+  "parent_v1851s_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "legacy_parent_v1851s_name": "q550_parameter_sensitivity_transport_transverse_posture_attribution_v18_51s_bundle",
+  "legacy_nested_v1851r_name": "q550_long_horizon_paired_kappa0_transverse_transport_return_section_search_v18_51r_bundle",
+  "observer_slope": -0.308,
+  "observer_angles_degrees": [
+    -70,
+    -35,
+    -17.04,
+    0,
+    17.04,
+    35,
+    70
+  ],
+  "native_stride": 64,
+  "source_probe_count_per_series": 9,
+  "sampled_series_expected": 20,
+  "kappa_relative_difference_tolerance": 1e-12,
+  "source_rel_tolerance": 2e-10,
+  "baseline_integral_abs_tolerance": 3e-10,
+  "charge_drift_abs_tolerance": 5e-11,
+  "cancel_score_threshold": 0.9,
+  "cancel_cosine_threshold": -0.9,
+  "source_sha256": {
+    "v18_53f_report": "39c07d9315ffbf886f1791b78bf208c29f1d1188c76c65a8980c28b19d4769f6",
+    "v18_53f_summary": "d6c7bdae34ed4bf1372e47c852518584d78b81930a1f599b5ecdd2fb37c57c55",
+    "v18_53f_output_manifest": "ad6c2d01600cc63ccb523e8bb889103ec7b222dc0eaba6477efd2e2659547fc4",
+    "v18_52n_report": "93eb61581f130608d78b70972cf4ec205fecb99e1fb68f8e13efa1b1a6e5c0f9",
+    "v18_53f_source": "bbcc24668fda4562330a29c6778deca9fc57bd80a94a7d1e14b11ef73dd16c60",
+    "historical_kinetic": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a"
+  },
+  "integrator_max_step_xi": 0.035,
+  "integrator_rtol": 3e-09,
+  "integrator_atol": 3e-11,
+  "refined_rtol": 3e-11,
+  "refined_atol": 3e-13,
+  "shared_replay_max_scaled_error": 0.0002,
+  "integrator_refinement_max_scaled_error": 2e-06,
+  "source_rhs_rel_tolerance": 2e-10,
+  "source_probe_count_per_trajectory": 9,
+  "initial_charge_max_drift": 5e-09,
+  "principal_gap_warning_relative": 0.003,
+  "window_count": 4,
+  "reference_sha": {
+    "v18_53g_report.json": "85ac7c7a264334645840fc6edb5a3792dc380adbd50ee578b0fe65a47f03b14e",
+    "v18_53g_persistence_metrics.json": "793444cdaf3e0ec9245fade0515d558462b6fcae14514ce139e548388de800b9",
+    "v18_53g_coordinate_free_bivector_persistence.csv": "48ba8cdd12ca31a5eb9b0f1608d6439e70adc02bcfd67ec4d388575eab1841c5",
+    "v18_53g_observer_kappa_torque_persistence.csv": "5aa0c4070617e5d635bc76e6ffa14566a318fc970fa7a9fe9bb5e9151b882c39",
+    "v18_53g_OUTPUT_MANIFEST.json": "47fbe7a50c9b9cd53e24ea28ca4d756065be550c668ee22bec11d17c3f5228e3"
+  },
+  "material_clock_max_rate_rel_error": 1e-08,
+  "long_horizon": {
+    "start_xi": 12.8,
+    "historical_endpoint_xi": 25.6,
+    "checkpoints_xi": [
+      25.6,
+      38.4,
+      51.2
+    ],
+    "extension_grid_step_xi": 0.025,
+    "kappa_span_multipliers": [
+      0,
+      0.25,
+      1,
+      3,
+      10
+    ],
+    "baseline_53h_cancellation_abs_tolerance": 2e-07,
+    "baseline_53h_sigmas_abs_tolerance": 2e-06,
+    "integrator_refinement_scaled_max": 3e-07,
+    "native_replay_scaled_max": 0.0002,
+    "finite_difference_projector_gap_warn": 0.003,
+    "strong_geometry_cosine_threshold": 0.99,
+    "strong_plane_max_angle_deg": 10.0,
+    "residual_quadrature_relative_tolerance": 0.002,
+    "source_field_rel_tolerance": 2e-10,
+    "charge_abs_drift_tolerance": 5e-09,
+    "output_trace_sample_stride": 24,
+    "q550_integrations_expected": 26,
+    "material_clock_rate_rel_tolerance": 1e-08
+  },
+  "v1853h_references_sha256": {
+    "v18_53h_OUTPUT_MANIFEST.json": "dfbc84c184268e0a7d7a06453765149416923bd601b332817461bdcb8565c4fa",
+    "v18_53h_authenticated_report.json": "94ca0403bce2ce4afa77464afeea332a262784d9c30e7f24f1b26f242e092873",
+    "v18_53h_paired_kappa_principal_planes.json": "18b88771e5322985287f5cd794be195de95b89b8614da4b09fff42ff28ae0da0",
+    "v18_53h_bivector_principal_window_geometry.csv": "72dbbe310d7cd08f138aef0d5b13727fa1466d1c032fa988b2169d1c0276f85b",
+    "v18_53h_dynamically_integrated_dual_kappa_orbits.csv": "9e51e8df0ec843ed972071972c8d6bab5491d46f2a9f8ed45348f7b1605af90e"
+  }
+}
