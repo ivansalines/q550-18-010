@@ -1,0 +1,50 @@
+{
+  "version": "v18.53e",
+  "scientific_decision": "AUTHENTIC_FIXED_ENDPOINT_OBSERVER_GEOMETRY_AND_ABSOLUTE_KINETIC_HINGE__NO_FULL_NOETHER_HINGE_CHARGE",
+  "v18_53d_parent_status": "AUTHENTIC_FOLD_KINEMATICS_AND_RELATIVE_5D_OBSERVER_AUDIT__CANONICAL_HINGE_MOMENTUM_NOT_CERTIFIED",
+  "relative_5d": {
+    "source_sha256": "d051ec17dbbee0bc29bae57f045e9ead9bd6316834d25d9e5dd31b083236a195",
+    "n_relative_series": 8,
+    "n_fixed_endpoint_anchors": 24,
+    "n_observer_measurements": 144,
+    "n_pre_registered_false_closures": 0,
+    "n_data_optimized_false_closures": 8,
+    "absolute_orbit_closure_tested": false,
+    "endpoint_pair_is_fixed_across_inclinations": true,
+    "observer_slope_is_a_predeclared_hypothesis_not_a_fit": true
+  },
+  "absolute_10d_kinetic": {
+    "source_sha256": "92f54032256777febbffc9fd37c8889cab0a92a5913e802ba053c14b80b3cf12",
+    "n_native_series": 20,
+    "max_kinetic_embedding_error": 0.0,
+    "max_J_rot_charge_range": 3.1308289294429414e-14,
+    "max_J_hinge_kinetic_range": 0.12288081431931647,
+    "reference_original": {
+      "series": "original__reference__Y_tau",
+      "n_samples": 1025,
+      "J_rot_charge_mean": -1.441016445824767,
+      "J_rot_charge_range": 1.2434497875801753e-14,
+      "J_hinge_kinetic_min": -0.05401983857522923,
+      "J_hinge_kinetic_max": 0.06874145135341794,
+      "J_hinge_kinetic_range": 0.12276128992864718,
+      "J_hinge_kinetic_initial": 0.027074475799675916,
+      "J_hinge_kinetic_final": 0.022756026795989828,
+      "J_hinge_kinetic_endpoint_change": -0.004318449003686088,
+      "finite_difference_hinge_torque_abs_max": 0.061450331779906,
+      "kinetic_momentum_assumption": "P=V from declared flat 5D T; full driven Lagrangian not authenticated"
+    },
+    "kinetic_candidate_evaluated": true,
+    "full_Q550_canonical_generator_authenticated": false,
+    "Noether_hinge_conservation_certificate": false,
+    "full_10d_integrations_performed": 0
+  },
+  "fixed_endpoints_across_observers": true,
+  "hinge_geometry_observer_hypothesis_not_physical_symmetry": true,
+  "canonical_hinge_generator_full_Q550": "NOT_CERTIFIED",
+  "kinetic_flat_Lagrangian_hinge_candidate": "EVALUATED_FROM_AUTHENTIC_NATIVE_Q_AND_V",
+  "rotor_counterrotation_charge": "J1-J2 IS CONSERVED",
+  "separate_dual_kappa_fold_and_shared_kappa_traces": true,
+  "global_orbit_closure_certificate": false,
+  "relative_orbit_closure_certificate": false,
+  "missing_inputs": []
+}

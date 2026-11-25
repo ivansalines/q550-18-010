@@ -1,0 +1,30 @@
+{
+  "version": "v18.53f",
+  "root_folder": "q550_hinge_momentum_torque_decomposition_observer_transport_hidden_advance_attribution_v18_53f_bundle",
+  "files": {
+    "MATHEMATICAL_PROTOCOL.md": "e2b9a644b05b46a0a8e2ac93cf1db339c9b1441931343cd0f569323b7b1839d1",
+    "README.md": "387c3fa33e408775cc00d6f5482363c09249c37b42a6daaba13b8a96bd68acf1",
+    "SCIENTIFIC_DECISION_RULES.md": "2ae5634952ccc87e6f1222b7b044a6186bf5c364140b9f3bd59f785ec6cc60a8",
+    "SOURCE_PROVENANCE.md": "7ba941787ef71c9b16753ae972cfe825cd9b56d0c19cb554461bc3a20132dcb5",
+    "inputs_config.json": "2f7a6e5878a39a3a407afa7b7683c3ed7be4e0835ebf98d9dc1fe8844bf82ca0",
+    "reference/kinetic_metric_v18_49h.py": "29bef2c91899a9da46bc8c9159b89c70362f505e0adead3f814c487a9a17bb1a",
+    "reference/parent_v18_51t_run_audit.py": "6c17696f8dba739d865c431deabc512231766b7ae91842ed5662f4b7aee6c49c",
+    "reference/test_support_q550_oriented_coupled_bulge_cone_audit_v1.py": "9df019b6244b31fb53524e272b90e413587a7955f0f657d9c872cff0a07e9048",
+    "reference/v18_52n_authenticated_report.json": "93eb61581f130608d78b70972cf4ec205fecb99e1fb68f8e13efa1b1a6e5c0f9",
+    "reference/v18_52v_r1_run_audit.py": "dd1d3d441d191f3791c0524b1a6ae54cd596c5a7e395a43289e8604f22cd81b6",
+    "reference/v18_53e_OUTPUT_MANIFEST.json": "507871046f0740524d4d2ccbe84be399e2bec2ec14c9fe4b68b8d4b4c40cf17f",
+    "reference/v18_53e_authenticated_report.json": "6a012787618027ff4ac23e895bf7936b2f5148aa6c688d0aebbb78e9baf42e77",
+    "reference/v18_53e_fixed_endpoint_observer_projection.csv": "5b92a3d2dcc588feea0c378585e93ee45702e5986b47473d4472df3d6c94e002",
+    "reference/v18_53e_fixed_endpoint_pair_summary.json": "927c9bcab5b21b16ed72fa80f67eb23f92cf8b05592ad36b6715d518a35b3444",
+    "reference/v18_53e_run_audit.py": "f0766131650d742fdb1e367ec6d1eaeed702415c82cc01a8cce11035d957dc01",
+    "requirements.txt": "e3db653ec84887a6cd1a2a8ff6229a9aa005a37b191c5db68702a74405a430d3",
+    "run_on_server.sh": "a7934c10e93891476a0064994be064662fa293033054f83e5a5033ff7cd4792d",
+    "scripts/energy_math.py": "23b49ac82e9acd11002cb45696858e6091113221646d2737cd6e2eeca2e2b4a2",
+    "scripts/package_sendback.py": "9bd7486d0d64e1c0710c3539fabb2c59941be062e413ab23fd885393acf28f59",
+    "scripts/phase_energy.py": "fabf92d8a886526d97be2166dfce7feed540cbcc47e83a7dc89d29cd865a33bb",
+    "scripts/run_audit.py": "bbcc24668fda4562330a29c6778deca9fc57bd80a94a7d1e14b11ef73dd16c60",
+    "scripts/torque_math.py": "fab1ccca5481f71dde3b4dacc42636de8d7497bd1292aeba56ac84017b65e928",
+    "scripts/verify_manifest.py": "4f2406ff6b644959a97d2d44a34959a60b084b5f1d53469e633a6c7cb5afafd2",
+    "tests/test_synthetic.py": "49dd0475afb1fa89e7a09dd9e3e52c82980498d0f1d001399f3f9a25db07dbbd"
+  }
+}

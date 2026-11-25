@@ -1,0 +1,5 @@
+SOURCE_MANIFEST_PASS 24
+SYNTHETIC_PASS: 80 physical force states, 64 historical source RHS probes, charge, observer transport, in-plane invariance, advancing helix
+AUTHENTICATED MODEL: staging 10D physical solver
+V18_53F_STATUS AUTHENTIC_ORIGINAL_HINGE_TORQUE_AND_OBSERVER_TRANSPORT_LEDGER__HINGE_NOT_NOETHER_CHARGE
+SENDBACK /root/elab1/hysteresis/q550_hinge_momentum_torque_decomposition_observer_transport_hidden_advance_attribution_v18_53f_bundle_server_sendback.zip FILES 37
