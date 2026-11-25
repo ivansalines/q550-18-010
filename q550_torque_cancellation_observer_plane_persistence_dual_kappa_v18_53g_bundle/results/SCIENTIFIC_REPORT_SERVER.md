@@ -1,0 +1,624 @@
+# Q550 v18.53g — Torque-Cancellation Persistence
+
+## Classification
+`AUTHENTIC_FIXED_STATE_DUAL_KAPPA_PERSISTENCE_MAPPED_WITH_OBSERVER_OR_INVARIANT_FAILURES__NOT_NEW_ORBITS`
+
+## Source status
+Native 10D: SHA256_AUTHENTICATED; original v18.51s parent: SHA256_AUTHENTICATED
+
+## Scope and scientific boundary
+The historical original and autonomous series are native to SHARED κ₀. All evaluations at historical original/autonomous κ₀ are fixed-state fixed-external-phase counterfactuals, not self-consistent trajectories.
+Projected cancellation can depend on the chosen observer plane. An additional coordinate-free integrated 5D bivector test is used and is not implied by a high single-plane score.
+Temporal pointwise cancellation and signed integrated cancellation are separately reported.
+No global Noether hinge charge or true orbital closure is certified.
+
+## Results
+{
+  "n_native_series": 20,
+  "n_projection_rows": 420,
+  "n_invariant_rows": 60,
+  "original_autonomous_projected_strong_count": 40,
+  "original_autonomous_projected_total": 280,
+  "original_autonomous_bivector_strong_count": 0,
+  "max_source_field_relative_error": 2.065188298150389e-15,
+  "max_previous_baseline_integral_abs_error": 1.942890293094024e-16,
+  "max_native_charge_drift": 3.1308289294429414e-14,
+  "persist_all_predeclared_planes_both_kappas": false,
+  "persist_coordinate_free_bivector_both_kappas": false,
+  "persistence_fails_sample": [
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -70,
+      "score": 0.746460280199418,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -35,
+      "score": 0.8369602580191955,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -17.04,
+      "score": 0.8893978795563057,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 17.04,
+      "score": 0.891900069177834,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 35,
+      "score": 0.06479939652356181,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 70,
+      "score": 0.534550243686797,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -70,
+      "score": 0.7462720147893206,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -35,
+      "score": 0.8367644037551647,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -17.04,
+      "score": 0.8891991361131305,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 17.04,
+      "score": 0.8920989314778027,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 35,
+      "score": 0.06482463287506135,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 70,
+      "score": 0.5343926398883849,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -70,
+      "score": 0.7464602801989482,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -35,
+      "score": 0.836960258018805,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -17.04,
+      "score": 0.8893978795559189,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 17.04,
+      "score": 0.8919000691785475,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 35,
+      "score": 0.06479939653045541,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 70,
+      "score": 0.5345502436857741,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -70,
+      "score": 0.7462720147888509,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -35,
+      "score": 0.8367644037547741,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -17.04,
+      "score": 0.8891991361127436,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 17.04,
+      "score": 0.8920989314785159,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 35,
+      "score": 0.06482463288195661,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 70,
+      "score": 0.5343926398873623,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -70,
+      "score": 0.7469441239610566,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -35,
+      "score": 0.8373533717700692,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -17.04,
+      "score": 0.8897905278229042,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 17.04,
+      "score": 0.8910960935335973,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 35,
+      "score": 0.0563651306159344,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 70,
+      "score": 0.5356909320556731,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -70,
+      "score": 0.7467558092161224,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -35,
+      "score": 0.8371574917302128,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -17.04,
+      "score": 0.8895917669193155,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 17.04,
+      "score": 0.8912949207608392,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 35,
+      "score": 0.05638717792307835,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 70,
+      "score": 0.5355331148455493,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -70,
+      "score": 0.7469441239608445,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -35,
+      "score": 0.837353371770017,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -17.04,
+      "score": 0.8897905278229336,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 17.04,
+      "score": 0.8910960935333123,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 35,
+      "score": 0.056365130615950276,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": 70,
+      "score": 0.5356909320549954,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -70,
+      "score": 0.7467558092159101,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -35,
+      "score": 0.8371574917301605,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": -17.04,
+      "score": 0.8895917669193446,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 17.04,
+      "score": 0.8912949207605539,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 35,
+      "score": 0.05638717792309511,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "angle_deg": 70,
+      "score": 0.5355331148448721,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_3.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -70,
+      "score": 0.7479119171148116,
+      "pair_opposite_sign": true
+    },
+    {
+      "series": "autonomous_negative_3.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "angle_deg": -35,
+      "score": 0.8381431581170988,
+      "pair_opposite_sign": true
+    }
+  ],
+  "bivector_fails_sample": [
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951863175399787,
+      "cosine": -0.9170237018169543
+    },
+    {
+      "series": "autonomous__reference__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.795206853656078,
+      "cosine": -0.9170237018169546
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951863175399796,
+      "cosine": -0.9170237018169549
+    },
+    {
+      "series": "autonomous__reference_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952068536560789,
+      "cosine": -0.917023701816955
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951849133207796,
+      "cosine": -0.9170227282305475
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952054512695436,
+      "cosine": -0.9170227282305476
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951849133207781,
+      "cosine": -0.9170227282305465
+    },
+    {
+      "series": "autonomous_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952054512695422,
+      "cosine": -0.9170227282305465
+    },
+    {
+      "series": "autonomous_negative_3.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951821165614701,
+      "cosine": -0.9170207911919769
+    },
+    {
+      "series": "autonomous_negative_3.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952026581827353,
+      "cosine": -0.9170207911919769
+    },
+    {
+      "series": "autonomous_negative_3.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951821165614741,
+      "cosine": -0.9170207911919801
+    },
+    {
+      "series": "autonomous_negative_3.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952026581827389,
+      "cosine": -0.91702079119198
+    },
+    {
+      "series": "autonomous_positive_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951877256783416,
+      "cosine": -0.9170246788012028
+    },
+    {
+      "series": "autonomous_positive_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952082599641526,
+      "cosine": -0.9170246788012026
+    },
+    {
+      "series": "autonomous_positive_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951877256783387,
+      "cosine": -0.9170246788012005
+    },
+    {
+      "series": "autonomous_positive_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952082599641496,
+      "cosine": -0.9170246788012004
+    },
+    {
+      "series": "autonomous_positive_3.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951905537897702,
+      "cosine": -0.9170266430215701
+    },
+    {
+      "series": "autonomous_positive_3.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.795211084422091,
+      "cosine": -0.9170266430215703
+    },
+    {
+      "series": "autonomous_positive_3.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951905537897777,
+      "cosine": -0.9170266430215762
+    },
+    {
+      "series": "autonomous_positive_3.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952110844220984,
+      "cosine": -0.9170266430215762
+    },
+    {
+      "series": "original__reference__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.795189132544342,
+      "cosine": -0.9170261444417963
+    },
+    {
+      "series": "original__reference__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952096704824704,
+      "cosine": -0.9170261444417966
+    },
+    {
+      "series": "original__reference_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951891325443448,
+      "cosine": -0.9170261444417988
+    },
+    {
+      "series": "original__reference_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.795209670482473,
+      "cosine": -0.9170261444417991
+    },
+    {
+      "series": "original_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951877279832077,
+      "cosine": -0.9170251708775834
+    },
+    {
+      "series": "original_negative_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952082677570389,
+      "cosine": -0.9170251708775834
+    },
+    {
+      "series": "original_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951877279832147,
+      "cosine": -0.9170251708775891
+    },
+    {
+      "series": "original_negative_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952082677570459,
+      "cosine": -0.9170251708775892
+    },
+    {
+      "series": "original_negative_3.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.795184930464774,
+      "cosine": -0.9170232338260946
+    },
+    {
+      "series": "original_negative_3.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952054739172225,
+      "cosine": -0.9170232338260947
+    },
+    {
+      "series": "original_negative_3.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951849304647587,
+      "cosine": -0.9170232338260823
+    },
+    {
+      "series": "original_negative_3.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952054739172072,
+      "cosine": -0.9170232338260824
+    },
+    {
+      "series": "original_positive_1.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951905409997866,
+      "cosine": -0.9170271213849301
+    },
+    {
+      "series": "original_positive_1.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952110771046017,
+      "cosine": -0.9170271213849301
+    },
+    {
+      "series": "original_positive_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.795190540999793,
+      "cosine": -0.9170271213849353
+    },
+    {
+      "series": "original_positive_1.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952110771046081,
+      "cosine": -0.917027121384935
+    },
+    {
+      "series": "original_positive_3.0e-04__kick__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951933696716464,
+      "cosine": -0.917029085466956
+    },
+    {
+      "series": "original_positive_3.0e-04__kick__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.795213902116962,
+      "cosine": -0.9170290854669559
+    },
+    {
+      "series": "original_positive_3.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "autonomous",
+      "score": 0.7951933696716702,
+      "cosine": -0.9170290854669748
+    },
+    {
+      "series": "original_positive_3.0e-04__kick_refined__Y_tau",
+      "kappa_rule": "original",
+      "score": 0.7952139021169857,
+      "cosine": -0.917029085466975
+    }
+  ],
+  "counterfactual_kappa_not_new_trajectory": true,
+  "no_global_hinge_Noether_claim": true
+}

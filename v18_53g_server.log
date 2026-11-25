@@ -1,0 +1,6 @@
+SOURCE_MANIFEST_PASS 22
+SYNTHETIC_PASS: 37 source states x 3 kappa, 7 angles, bivector frame invariance, false scalar-cancellation falsifier
+SYNTHETIC_PIPELINE_PASS: 42 full observer/kappa rows, 6 coordinate-free bivectors, source and genealogy checks
+AUTHENTICATED MODEL: staging 10D physical solver
+V18_53G_STATUS AUTHENTIC_FIXED_STATE_DUAL_KAPPA_PERSISTENCE_MAPPED_WITH_OBSERVER_OR_INVARIANT_FAILURES__NOT_NEW_ORBITS
+SENDBACK /root/elab1/hysteresis/q550_torque_cancellation_observer_plane_persistence_dual_kappa_v18_53g_bundle_server_sendback.zip FILES 33

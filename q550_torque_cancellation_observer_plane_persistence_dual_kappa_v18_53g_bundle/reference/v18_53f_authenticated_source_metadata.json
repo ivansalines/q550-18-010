@@ -1,0 +1,19 @@
+{
+  "parent_sha256": "553775d6f46c613b6be384fb39abef81a5ab429a3188f691c125200a185d2c8b",
+  "source_omega": 0.844357915384206,
+  "model_parameters": {
+    "phi0": 0.0,
+    "e_reserve": 0.01,
+    "gamma_rho": 0.3,
+    "barrier_B": 0.3,
+    "mu_x": 0.05,
+    "gamma_x": 0.3,
+    "m_x": 1.0
+  },
+  "historical_seed_kappas": {
+    "original": 0.16666666666666666,
+    "autonomous": 0.16659961041764054
+  },
+  "native_fixed_kappa": 0.1666331385421536,
+  "external_phase_source": "authenticated v18.51s make_context/theta + cubic_clock_sign"
+}
